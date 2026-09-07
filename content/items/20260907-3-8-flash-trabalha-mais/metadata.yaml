@@ -1,0 +1,18 @@
+id: "20260907-3-8-flash-trabalha-mais"
+title: "Quando uma IA trabalha mais, ela deixa de ser só rápida"
+status: "ready_for_design"
+owner: "codex"
+priority: "normal"
+created_at: "2026-09-07"
+updated_at: "2026-09-07"
+source:
+  type: "conversation"
+  urls: []
+target:
+  platform: "instagram"
+  format: "carousel"
+  ratio: "4:5"
+  slide_count: 8
+handoff:
+  ready_for_design_at: "2026-09-07"
+  notes: "Direção visual: contraste entre velocidade e profundidade. Evitar estética genérica de IA (robôs, cérebros luminosos, código decorativo). Priorizar hierarquia tipográfica forte, sensação editorial/profissional e um sistema visual que faça a narrativa avançar slide a slide."
