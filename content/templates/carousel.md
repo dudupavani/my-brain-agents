@@ -6,9 +6,7 @@ Cada slide deve conter somente o texto que deve aparecer na arte. Identifique o 
 
 ## Slide 1 — Hook
 
-Título:
-
-Apoio opcional:
+Escreva uma única frase forte, precisa e fiel à fonte. Ela será o texto dominante no topo da primeira arte; não acrescente uma segunda frase de apoio.
 
 ## Slides de desenvolvimento
 

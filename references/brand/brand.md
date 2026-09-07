@@ -27,4 +27,4 @@ Este arquivo reúne apenas regras já aprovadas ou fatos conhecidos. Campos aind
 ## Limites editoriais
 
 - Afirmações que exigem fonte: benchmarks, desempenho, números, capacidades de modelos, datas de lançamento, disponibilidade, resultados profissionais e qualquer promessa verificável.
-- Promessas ou temas que não devem ser usados: substituição irrestrita de especialistas, resultados garantidos, venda prematura dos produtos próprios como eixo editorial e notícias de IA sem uma leitura prática própria.
+- Promessas ou temas que não devem ser usados: substituição irrestrita de especialistas, resultados garantidos e venda prematura dos produtos próprios como eixo editorial. Notícias de IA podem ser sínteses factuais, desde que não virem propaganda de ferramenta ou inventem uma leitura própria.

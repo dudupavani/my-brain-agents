@@ -29,6 +29,8 @@ A quantidade de slides é determinada pelo conteúdo. Não existe quantidade fix
 
 Carrosséis são entregues para o feed do Instagram, sempre em 1080 × 1350 pixels (4:5). Formatos de Stories, como 1080 × 1920, não são aceitos como entrega final.
 
+Antes de pesquisar, selecionar ou escrever uma pauta, o agente editorial deve ler `references/editorial/content-rules.md`. Para transformar URL, descoberta, vídeo/post ou ideia em pacote de carrossel, deve seguir `.agents/skills/news-to-carousel/SKILL.md`.
+
 ## Estados permitidos
 
 | Estado | Significado | Próxima pessoa |

@@ -8,6 +8,10 @@ created_at: "YYYY-MM-DD"
 updated_at: "YYYY-MM-DD"
 source:
   type: "conversation"
+  primary_url: ""
+  publisher: ""
+  published_at: ""
+  accessed_at: ""
   urls: []
 target:
   platform: "instagram"

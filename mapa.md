@@ -5,10 +5,11 @@
 | `content/items/<id>/` | Um conteúdo completo, da entrega do Hermes ao carrossel final | Hermes e Codex, em etapas diferentes |
 | `content/templates/` | Modelos obrigatórios para novos pacotes | Você mantém; agentes só copiam |
 | `references/brand/` | Contexto da marca: posicionamento, voz e restrições | Você |
-| `references/editorial/` | Sistema editorial: decisões, fontes, notícias e critérios de escrita | Você e Hermes |
+| `references/editorial/` | Sistema editorial amplo e regras específicas para pautas, fatos, fontes e mídia | Você e agentes |
 | `.agents/skills/instagram-carousel/assets/templates/` | As três imagens JPEG que definem a referência visual dos carrosséis | Você |
 | `agents/hermes/` | Instruções de entrega e decisão para o Hermes | Você e Hermes |
 | `.agents/skills/instagram-carousel/` | Skill de produção visual do Codex | Codex |
+| `.agents/skills/news-to-carousel/` | Skill compartilhada para transformar pautas em pacote pronto para design | Você e agentes |
 | `AGENTS.md` | Protocolo de colaboração, estados e regras de sincronização | Você e Codex |
 
 ## Anatomia de um pacote de conteúdo
@@ -18,6 +19,7 @@ content/items/<id>/
 ├── metadata.yaml       # Identidade, estado e responsável atual
 ├── brief.md            # Contexto, objetivo e fontes
 ├── carousel.md         # Copy final, organizada por slide
+├── media.md             # Opcional: mídia com origem, papel e slides indicados
 └── deliverables/       # Criado pelo Codex
     ├── slide-01.png
     ├── slide-02.png

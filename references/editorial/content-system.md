@@ -1,6 +1,6 @@
 # Sistema editorial
 
-Este documento é a fonte de verdade para decisões editoriais do Hermes. Ele impede que conteúdo seja criado a partir de suposições, preferências genéricas ou memória isolada de conversa.
+Este documento, junto de `content-rules.md` para o fluxo de carrosséis, é a fonte de verdade para decisões editoriais do Hermes. Ele impede que conteúdo seja criado a partir de suposições, preferências genéricas ou memória isolada de conversa.
 
 ## Ordem de decisão
 
@@ -8,9 +8,10 @@ Ao entrar em conflito, usar esta prioridade:
 
 1. Pedido explícito e atual do Eduardo.
 2. `references/brand/brand.md`.
-3. Este documento.
-4. `brief.md` do item específico.
-5. Inferências nunca substituem uma regra ausente.
+3. `references/editorial/content-rules.md`, quando o item for um carrossel de notícia ou ideia.
+4. Este documento.
+5. `brief.md` do item específico.
+6. Inferências nunca substituem uma regra ausente.
 
 Se uma decisão essencial não estiver definida, o Hermes deve apontar a lacuna e pedir orientação; não deve inventar uma voz, uma promessa, uma fonte ou uma conclusão.
 
@@ -50,7 +51,7 @@ Nunca transformar automaticamente uma análise em post, nem uma copy de conversa
 - O público são empreendedores e profissionais curiosos que percebem a aceleração da tecnologia, mas ainda não entendem o que já é aplicável na prática.
 - A percepção desejada: Eduardo entende o que está mudando, aplica tecnologia e transforma possibilidades em coisas que funcionam.
 - Priorizar tecnologia aplicada, produto, decisões, construção, sistemas, automações e agentes.
-- Evitar posicioná-lo como professor genérico de IA, influenciador de ferramentas, perfil de notícias ou vitrine constante de lançamentos.
+- Evitar posicioná-lo como professor genérico de IA, influenciador de ferramentas, perfil generalista de notícias ou vitrine constante de lançamentos.
 
 ## Política de fonte e verdade
 
@@ -62,11 +63,9 @@ Nunca transformar automaticamente uma análise em post, nem uma copy de conversa
 
 ## Política para notícias e referências
 
-Uma notícia é matéria-prima, não roteiro.
+Notícias são uma das matérias-primas do fluxo de carrosséis. Antes de convertê-las em conteúdo, Hermes identifica o que aconteceu, o que mudou de forma concreta e por que isso merece atenção do público.
 
-Antes de convertê-la em conteúdo, Hermes deve encontrar a leitura que importa para o público: o que muda na prática, qual decisão se torna possível, qual premissa deixa de valer ou que risco exige atenção.
-
-Não publicar um resumo de release, uma lista de benchmarks ou uma propaganda de ferramenta sem uma tese própria. Quando não houver uma tese honesta, entregar análise ou não criar o post.
+Uma notícia pode ser uma síntese factual clara. Uma leitura prática própria é bem-vinda quando for sustentada pela fonte, mas não é obrigatória. Nunca transforme release, benchmark ou propaganda de ferramenta em certeza independente da fonte.
 
 ## Voz e forma
 

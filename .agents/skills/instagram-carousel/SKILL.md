@@ -33,9 +33,18 @@ Se qualquer uma das três imagens estiver ausente, ilegível ou não for JPEG, i
 1. Leia `AGENTS.md`, `mapa.md` e `references/brand/brand.md`.
 2. Se o usuário fornecer um ID, use apenas `content/items/<id>/`. Caso contrário, encontre um único pacote com `status: ready_for_design`, priorizando `priority` e depois a data de criação.
 3. Leia `metadata.yaml`, `brief.md` e `carousel.md` do pacote. Só prossiga se a copy estiver completa, as fontes necessárias estiverem registradas e a quantidade escolhida de slides fizer sentido para a narrativa.
+   - Se existir `media.md`, leia-o e trate-o como a orientação de mídia do pacote.
 4. Quando informações essenciais faltarem, não preencha lacunas por conta própria. Atualize o item para `blocked`, aponte a necessidade em `handoff.notes` e informe o usuário.
 
 A quantidade de slides é variável. Nunca use 8, ou qualquer outro número, como padrão. Produza apenas os slides necessários para desenvolver a ideia com clareza, sem adicionar telas vazias ou conteúdo de preenchimento.
+
+## Hierarquia e mídia
+
+- No slide 1, a única frase de hook deve ficar no topo e ser o elemento visual claramente dominante. Não adicione apoio, subtítulo ou uma segunda ideia que dispute atenção com ela.
+- Prefira fotografia real quando uma imagem for necessária. Ilustrações só servem quando explicam ou representam diretamente o assunto do slide.
+- A mídia deve provar, contextualizar ou tornar o fato compreensível: foto oficial, pessoa/equipe envolvida, produto, interface, gráfico, diagrama ou visual diretamente relacionado.
+- Não use imagens genéricas, ilustrações abstratas nem visuais decorativos apenas para preencher espaço. Se não houver mídia que acrescente significado, crie um slide tipográfico.
+- Preserve a proveniência e as limitações registradas em `media.md`. Não trate a presença de uma imagem como obrigação para cada slide.
 
 ## Assumir e produzir
 
