@@ -12,9 +12,9 @@ Crie uma entrega visual original, legível e fiel à copy aprovada. O repositór
 Antes de criar qualquer slide, abra e analise as três imagens abaixo:
 
 ```text
-assets/templates/reference-01.jpeg
-assets/templates/reference-02.jpeg
-assets/templates/reference-03.jpeg
+assets/templates/reference-01.jpg
+assets/templates/reference-02.jpg
+assets/templates/reference-03.jpg
 ```
 
 Essas três imagens são a fonte visual da skill. Use-as como um sistema de referência: observe a hierarquia, composição, contraste, tipografia, tratamento de imagem, ritmo e uso de cor que elas compartilham ou complementam. Crie uma execução nova; não reproduza uma referência isolada nem copie layouts, textos, logotipos ou imagens.

@@ -3,9 +3,9 @@
 Adicione exatamente estes três arquivos JPEG nesta pasta:
 
 ```text
-reference-01.jpeg
-reference-02.jpeg
-reference-03.jpeg
+reference-01.jpg
+reference-02.jpg
+reference-03.jpg
 ```
 
 Eles são obrigatórios para a skill `instagram-carousel`. O Codex deve abrir os três antes de desenhar qualquer carrossel e criar uma interpretação original do conjunto.
