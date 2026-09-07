@@ -7,7 +7,7 @@ Este repositório é a memória compartilhada entre o Hermes, o Codex e você. E
 ```text
 Você conversa com Hermes
         ↓
-Hermes cria um pacote em content/items/<id>
+Quando você pede para preparar para o Codex, Hermes cria um pacote em content/items/<id>
         ↓  status: ready_for_design
 Codex cria o carrossel no mesmo pacote
         ↓  status: in_review
@@ -18,9 +18,9 @@ Cada conteúdo vive em uma única pasta. O estado em `metadata.yaml` informa com
 
 ## Começo de uso
 
-1. Preencha [references/brand/brand.md](references/brand/brand.md) com sua identidade e seus limites editoriais.
+1. Mantenha [references/brand/brand.md](references/brand/brand.md) e o [sistema editorial](references/editorial/content-system.md) como fonte de verdade da identidade, voz, limites e decisões de conteúdo.
 2. Coloque exatamente três imagens JPEG de referência em [`.agents/skills/instagram-carousel/assets/templates/`](.agents/skills/instagram-carousel/assets/templates/), com os nomes indicados no arquivo dessa pasta.
-3. Dê ao Hermes as instruções de [agents/hermes/HANDOFF.md](agents/hermes/HANDOFF.md).
+3. Hermes deve seguir [agents/hermes/CONTENT.md](agents/hermes/CONTENT.md) em todo trabalho editorial e [agents/hermes/HANDOFF.md](agents/hermes/HANDOFF.md) quando preparar um item para o Codex.
 4. Quando um pacote estiver com `status: ready_for_design`, peça ao Codex para criar o carrossel ou mencione `$instagram-carousel`.
 
 ## Conectar ao GitHub

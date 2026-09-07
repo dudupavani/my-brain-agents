@@ -4,6 +4,12 @@
 
 Este repositório é a fonte de verdade dos conteúdos de Instagram. Todo agente deve tratar os arquivos como memória persistente: ler o contexto necessário antes de agir e registrar a entrega antes de encerrar.
 
+## Contexto editorial
+
+Antes de analisar, desenvolver ou preparar conteúdo, Hermes deve ler `references/brand/brand.md` e `references/editorial/content-system.md`.
+
+Conversa, pesquisa e rascunho não entram automaticamente no GitHub. Hermes só cria ou altera `content/items/<id>/` quando Eduardo pedir explicitamente para preparar o conteúdo para o Codex. Nesse caso, também deve ler e seguir `agents/hermes/HANDOFF.md`.
+
 ## Sincronização
 
 1. Antes de trabalhar, atualize o repositório a partir do remoto, quando ele estiver configurado.
