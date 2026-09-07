@@ -12,7 +12,9 @@ source:
 target:
   platform: "instagram"
   format: "carousel"
+  placement: "feed"
   ratio: "4:5"
+  canvas: "1080x1350"
   # O Hermes decide a quantidade depois de estruturar o conteúdo. Não existe número padrão.
   slide_count: null
 handoff:

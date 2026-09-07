@@ -12,7 +12,7 @@ Use esta lista antes de marcar o pacote como `in_review`.
 ## Design
 
 - As três referências em `assets/templates/` foram abertas antes do design e guiaram a direção visual.
-- Cada arquivo tem 1080 × 1350 pixels e está nomeado na ordem de leitura.
+- Cada arquivo final tem exatamente 1080 × 1350 pixels (4:5, feed) — não apenas um formato vertical — e está nomeado na ordem de leitura.
 - A informação principal de cada slide é entendida em tela pequena, sem exigir zoom.
 - Há hierarquia evidente: um foco por slide, contraste suficiente e espaço de respiro.
 - A sequência tem unidade visual, mas não transforma todos os slides em cópias idênticas.

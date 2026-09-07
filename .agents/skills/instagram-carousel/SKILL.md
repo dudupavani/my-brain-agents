@@ -7,6 +7,13 @@ description: "Transforme um pacote de conteúdo pronto em um carrossel final par
 
 Crie uma entrega visual original, legível e fiel à copy aprovada. O repositório é a memória compartilhada do fluxo: não dependa de contexto que não esteja registrado nele.
 
+## Formato obrigatório
+
+Este fluxo produz carrosséis para o **feed do Instagram**, não Stories. Todo slide final deve ter exatamente **1080 × 1350 pixels**, em retrato **4:5**.
+
+- Nunca entregue 1080 × 1920, 9:16, ou outro formato vertical de Stories.
+- Uma prévia gerada em outro tamanho não é uma entrega final. Antes de salvar, recorte ou redimensione sem distorcer e confirme as dimensões reais do arquivo.
+
 ## Referências de design obrigatórias
 
 Antes de criar qualquer slide, abra e analise as três imagens abaixo:
@@ -35,7 +42,7 @@ A quantidade de slides é variável. Nunca use 8, ou qualquer outro número, com
 1. Antes de criar a arte, atualize `metadata.yaml` para `status: in_production`, `owner: codex` e a data atual. Se a sincronização remota estiver autorizada, registre a assunção em um commit focado.
 2. Preserve a copy final. Não altere palavras, números, promessas ou fontes sem pedido do usuário; erros objetivos devem ser sinalizados antes de mudar o conteúdo.
 3. Aplique a análise das três referências JPEG obrigatórias para criar uma composição própria, sem reproduzir uma arte existente.
-4. Produza um slide por arquivo PNG, em 1080 × 1350 (4:5), na pasta `content/items/<id>/deliverables/`. Nomeie em ordem: `slide-01.png`, `slide-02.png` e assim por diante.
+4. Produza um slide por arquivo PNG, exatamente em 1080 × 1350 (4:5), na pasta `content/items/<id>/deliverables/`. Confirme as dimensões antes de nomear em ordem: `slide-01.png`, `slide-02.png` e assim por diante.
 5. Crie `deliverables/caption.md` com a legenda final extraída de `carousel.md`, e `deliverables/design-notes.md` confirmando a consulta às três referências, as decisões visuais e quaisquer limitações materiais.
 
 Ao criar ou revisar a entrega, siga [a lista de qualidade](references/quality-checklist.md).

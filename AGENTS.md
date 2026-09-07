@@ -21,6 +21,8 @@ Cada conteúdo existe em `content/items/<id>/`. Não mova a pasta para represent
 
 A quantidade de slides é determinada pelo conteúdo. Não existe quantidade fixa nem número padrão herdado do modelo. Hermes deve escolher a quantidade necessária para a narrativa, registrar o total em `target.slide_count` e garantir que a copy tenha exatamente esse número de slides.
 
+Carrosséis são entregues para o feed do Instagram, sempre em 1080 × 1350 pixels (4:5). Formatos de Stories, como 1080 × 1920, não são aceitos como entrega final.
+
 ## Estados permitidos
 
 | Estado | Significado | Próxima pessoa |
