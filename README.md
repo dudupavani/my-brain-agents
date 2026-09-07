@@ -19,7 +19,7 @@ Cada conteúdo vive em uma única pasta. O estado em `metadata.yaml` informa com
 ## Começo de uso
 
 1. Preencha [references/brand/brand.md](references/brand/brand.md) com sua identidade e seus limites editoriais.
-2. Coloque referências visuais em `references/design/assets/` e registre-as em [references/design/index.md](references/design/index.md).
+2. Coloque exatamente três imagens JPEG de referência em [`.agents/skills/instagram-carousel/assets/templates/`](.agents/skills/instagram-carousel/assets/templates/), com os nomes indicados no arquivo dessa pasta.
 3. Dê ao Hermes as instruções de [agents/hermes/HANDOFF.md](agents/hermes/HANDOFF.md).
 4. Quando um pacote estiver com `status: ready_for_design`, peça ao Codex para criar o carrossel ou mencione `$instagram-carousel`.
 
