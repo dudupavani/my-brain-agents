@@ -19,6 +19,8 @@ Cada conteúdo existe em `content/items/<id>/`. Não mova a pasta para represent
 - Codex só começa a partir de `ready_for_design`. Ele cria ou atualiza `deliverables/` e conduz `in_production` até `in_review`.
 - Você aprova, solicita ajustes, publica e pode alterar qualquer estado.
 
+A quantidade de slides é determinada pelo conteúdo. Não existe quantidade fixa nem número padrão herdado do modelo. Hermes deve escolher a quantidade necessária para a narrativa, registrar o total em `target.slide_count` e garantir que a copy tenha exatamente esse número de slides.
+
 ## Estados permitidos
 
 | Estado | Significado | Próxima pessoa |

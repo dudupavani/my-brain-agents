@@ -25,8 +25,10 @@ Se qualquer uma das três imagens estiver ausente, ilegível ou não for JPEG, i
 
 1. Leia `AGENTS.md`, `mapa.md` e `references/brand/brand.md`.
 2. Se o usuário fornecer um ID, use apenas `content/items/<id>/`. Caso contrário, encontre um único pacote com `status: ready_for_design`, priorizando `priority` e depois a data de criação.
-3. Leia `metadata.yaml`, `brief.md` e `carousel.md` do pacote. Só prossiga se a copy estiver completa, as fontes necessárias estiverem registradas e o número de slides fizer sentido para a narrativa.
+3. Leia `metadata.yaml`, `brief.md` e `carousel.md` do pacote. Só prossiga se a copy estiver completa, as fontes necessárias estiverem registradas e a quantidade escolhida de slides fizer sentido para a narrativa.
 4. Quando informações essenciais faltarem, não preencha lacunas por conta própria. Atualize o item para `blocked`, aponte a necessidade em `handoff.notes` e informe o usuário.
+
+A quantidade de slides é variável. Nunca use 8, ou qualquer outro número, como padrão. Produza apenas os slides necessários para desenvolver a ideia com clareza, sem adicionar telas vazias ou conteúdo de preenchimento.
 
 ## Assumir e produzir
 

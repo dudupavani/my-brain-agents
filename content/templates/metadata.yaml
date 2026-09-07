@@ -13,7 +13,8 @@ target:
   platform: "instagram"
   format: "carousel"
   ratio: "4:5"
-  slide_count: 8
+  # O Hermes decide a quantidade depois de estruturar o conteúdo. Não existe número padrão.
+  slide_count: null
 handoff:
   ready_for_design_at: ""
   notes: ""

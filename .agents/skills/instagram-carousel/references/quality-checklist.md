@@ -5,6 +5,7 @@ Use esta lista antes de marcar o pacote como `in_review`.
 ## Conteúdo
 
 - A sequência de slides é a mesma definida em `carousel.md`.
+- A quantidade foi escolhida para este conteúdo, não herdada de um modelo, e `metadata.yaml` corresponde ao total real.
 - O hook abre a narrativa e o CTA encerra a sequência.
 - Textos, números, nomes e fontes não foram inventados, abreviados de modo enganoso ou alterados sem autorização.
 

@@ -1,5 +1,7 @@
 # Copy final do carrossel
 
+Não existe quantidade fixa de slides. Defina a quantidade necessária para comunicar a ideia com clareza, sem preencher espaço nem cortar contexto importante. Crie uma seção para cada slide real e atualize `target.slide_count` com o total escolhido.
+
 Cada slide deve conter somente o texto que deve aparecer na arte. Identifique o papel de cada um para preservar a narrativa.
 
 ## Slide 1 — Hook
@@ -8,31 +10,11 @@ Título:
 
 Apoio opcional:
 
-## Slide 2 — Contexto
+## Slides de desenvolvimento
 
-Texto:
+Adicione aqui uma seção separada para cada slide necessário. A quantidade depende do conteúdo.
 
-## Slide 3
-
-Texto:
-
-## Slide 4
-
-Texto:
-
-## Slide 5
-
-Texto:
-
-## Slide 6
-
-Texto:
-
-## Slide 7
-
-Texto:
-
-## Slide 8 — CTA
+## Slide final — CTA
 
 Texto:
 
