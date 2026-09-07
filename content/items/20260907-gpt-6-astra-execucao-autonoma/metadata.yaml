@@ -1,0 +1,18 @@
+id: "20260907-gpt-6-astra-execucao-autonoma"
+title: "GPT-6 Astra: o salto da IA que executa"
+status: "ready_for_design"
+owner: "codex"
+priority: "normal"
+created_at: "2026-09-07"
+updated_at: "2026-09-07"
+source:
+  type: "conversation"
+  urls: []
+target:
+  platform: "instagram"
+  format: "carousel"
+  ratio: "4:5"
+  slide_count: 6
+handoff:
+  ready_for_design_at: "2026-09-07"
+  notes: "Criar 6 slides 4:5 com direção editorial de tecnologia aplicada: contraste entre interface de resposta e sistemas que executam trabalho. Sem logos de marcas ou estética genérica de robôs/código. Preservar a atribuição 'segundo o anúncio' onde ela aparece na copy e dar destaque legível aos benchmarks no slide 3."
