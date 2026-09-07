@@ -1,7 +1,7 @@
 id: "20260907-ia-design-processo"
 title: "A IA não é ruim em design. Ela é previsível."
-status: "ready_for_design"
-owner: "codex"
+status: "in_review"
+owner: "user"
 priority: "normal"
 created_at: "2026-09-07"
 updated_at: "2026-09-07"
@@ -22,4 +22,4 @@ target:
   slide_count: 7
 handoff:
   ready_for_design_at: "2026-09-07"
-  notes: "Carrossel tipográfico/editorial de 7 slides. A tensão visual deve ser entre escolhas previsíveis e direção criativa: evitar layout genérico de produto, robôs, cérebros luminosos, gradientes decorativos e imagens de banco. Sem mídia da fonte: usar composição, tipografia e ritmo para tornar a ideia legível."
+  notes: "Entrega visual concluída: 7 slides PNG em 1080x1350 e legenda prontos para revisão."
