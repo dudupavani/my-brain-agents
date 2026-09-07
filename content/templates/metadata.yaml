@@ -1,0 +1,19 @@
+# Copie este arquivo para content/items/<id>/metadata.yaml e preencha os campos.
+id: "20260907-exemplo"
+title: ""
+status: "draft"
+owner: "hermes"
+priority: "normal"
+created_at: "YYYY-MM-DD"
+updated_at: "YYYY-MM-DD"
+source:
+  type: "conversation"
+  urls: []
+target:
+  platform: "instagram"
+  format: "carousel"
+  ratio: "4:5"
+  slide_count: 8
+handoff:
+  ready_for_design_at: ""
+  notes: ""

@@ -1,0 +1,28 @@
+# Mapa da memória compartilhada
+
+| Local | Conteúdo | Quem escreve |
+| --- | --- | --- |
+| `content/items/<id>/` | Um conteúdo completo, da entrega do Hermes ao carrossel final | Hermes e Codex, em etapas diferentes |
+| `content/templates/` | Modelos obrigatórios para novos pacotes | Você mantém; agentes só copiam |
+| `references/brand/` | Contexto da marca: posicionamento, voz e restrições | Você |
+| `references/design/` | Índice e arquivos de referências visuais | Você |
+| `agents/hermes/` | Instruções de entrega para o Hermes | Você e Codex |
+| `.agents/skills/instagram-carousel/` | Skill de produção visual do Codex | Codex |
+| `AGENTS.md` | Protocolo de colaboração, estados e regras de sincronização | Você e Codex |
+
+## Anatomia de um pacote de conteúdo
+
+```text
+content/items/<id>/
+├── metadata.yaml       # Identidade, estado e responsável atual
+├── brief.md            # Contexto, objetivo e fontes
+├── carousel.md         # Copy final, organizada por slide
+└── deliverables/       # Criado pelo Codex
+    ├── slide-01.png
+    ├── slide-02.png
+    ├── ...
+    ├── caption.md
+    └── design-notes.md
+```
+
+`metadata.yaml` é a fonte de verdade do estado. O histórico detalhado permanece no Git; não crie registros paralelos de atividade.
