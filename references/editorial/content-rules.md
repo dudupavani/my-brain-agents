@@ -45,4 +45,4 @@ O agente extrai o necessário da entrada e registra no pacote. O usuário não d
 
 ## Autonomia e passagem de etapa
 
-Depois de receber uma entrada utilizável, o agente deve criar o pacote, registrar as decisões e entregá-lo ao Codex em `ready_for_design` sem uma etapa de aprovação intermediária. Só interrompa o fluxo diante de bloqueio factual, técnico ou de uma escolha que mude materialmente o conteúdo.
+Quando Eduardo pedir um conteúdo final a partir de uma entrada utilizável, o agente deve criar o pacote e avançar até `ready_for_design` sem aprovação editorial intermediária. Essa é uma etapa interna do agente `personal-content`, não uma entrega obrigatória para outro agente. Só interrompa diante de bloqueio factual, técnico ou de uma escolha que mude materialmente o conteúdo.

@@ -1,93 +1,61 @@
 # Sistema editorial
 
-Este documento, junto de `content-rules.md` para o fluxo de carrosséis, é a fonte de verdade para decisões editoriais do Hermes. Ele impede que conteúdo seja criado a partir de suposições, preferências genéricas ou memória isolada de conversa.
+Este documento é a fonte de verdade do agente `personal-content` para decisões editoriais gerais. Ele complementa `content-rules.md` nos carrosséis de notícia e ideia.
 
 ## Ordem de decisão
 
-Ao entrar em conflito, usar esta prioridade:
+Em caso de conflito:
 
-1. Pedido explícito e atual do Eduardo.
-2. `references/brand/brand.md`.
-3. `references/editorial/content-rules.md`, quando o item for um carrossel de notícia ou ideia.
-4. Este documento.
-5. `brief.md` do item específico.
-6. Inferências nunca substituem uma regra ausente.
+1. pedido explícito e atual do Eduardo;
+2. `references/brand/brand.md`;
+3. `references/editorial/content-rules.md`, quando aplicável;
+4. este documento;
+5. `brief.md` do item;
+6. inferências nunca substituem uma regra ausente.
 
-Se uma decisão essencial não estiver definida, o Hermes deve apontar a lacuna e pedir orientação; não deve inventar uma voz, uma promessa, uma fonte ou uma conclusão.
+## Papel do agente
 
-## Papel do Hermes
+O agente `personal-content` conversa, pesquisa, desenvolve ideias, escreve e organiza conteúdo pessoal. Ele pode usar diferentes modelos ou runtimes e capacidades especializadas por skill.
 
-Hermes conversa, investiga temas, desenvolve ideias e cria a copy editorial de Instagram.
-
-Hermes não cria o design dos carrosséis, não altera `deliverables/` e não move um item para estados pertencentes ao Codex ou ao Eduardo.
+Não existe uma transferência obrigatória para um agente separado chamado Codex. `ready_for_design` é uma etapa do trabalho. A capacidade visual só deve ser acionada mediante pedido explícito enquanto continuar em validação.
 
 ## Quando registrar no GitHub
 
-Conversa, pesquisa, rascunho e desenvolvimento de ideia ficam apenas na conversa.
-
-Só criar ou alterar `content/items/<id>/` quando Eduardo pedir explicitamente para preparar o conteúdo para o Codex. A instrução pode usar esta formulação:
-
-```text
-Prepare este conteúdo para o Codex.
-```
-
-Nesse caso, Hermes deve seguir `agents/hermes/HANDOFF.md`, criar o pacote completo, revisar, marcar `ready_for_design`, commitar e enviar ao remoto autorizado.
-
-## Classificar o pedido antes de escrever
-
-| Pedido do Eduardo | Entrega do Hermes | GitHub |
-| --- | --- | --- |
-| "Analise este conteúdo" | Diagnóstico, interpretação, oportunidades e riscos | Não registrar |
-| "Desenvolva a ideia" | Tese, ângulo, estrutura e perguntas necessárias | Não registrar |
-| "Crie uma copy" | Copy na conversa para revisão | Não registrar |
-| "Prepare para o Codex" | Pacote completo, final e rastreável | Criar/atualizar o item |
-
-Nunca transformar automaticamente uma análise em post, nem uma copy de conversa em pacote para o Codex.
+- Conversa, análise exploratória e brainstorm permanecem na conversa.
+- Uma solicitação clara de conteúdo final cria ou atualiza `content/items/<id>/` sem exigir uma frase específica.
+- Se Eduardo pedir para guardar uma pesquisa ou rascunho, registre-o com estado coerente.
+- Se faltar fonte ou uma decisão essencial, use `blocked` e explique a necessidade.
 
 ## Posição editorial conhecida
 
-- Eduardo atua em produto, design e tecnologia; constrói produtos próprios, automações e agentes de IA.
+- Eduardo atua em produto, design e tecnologia e constrói produtos, automações e agentes de IA.
 - O conteúdo deve construir autoridade antes de vender produtos.
-- O público são empreendedores e profissionais curiosos que percebem a aceleração da tecnologia, mas ainda não entendem o que já é aplicável na prática.
-- A percepção desejada: Eduardo entende o que está mudando, aplica tecnologia e transforma possibilidades em coisas que funcionam.
-- Priorizar tecnologia aplicada, produto, decisões, construção, sistemas, automações e agentes.
-- Evitar posicioná-lo como professor genérico de IA, influenciador de ferramentas, perfil generalista de notícias ou vitrine constante de lançamentos.
+- O público inclui empreendedores e profissionais curiosos que percebem a aceleração tecnológica, mas ainda não entendem o que já é aplicável.
+- A percepção desejada é que Eduardo entende o que está mudando, aplica tecnologia e transforma possibilidades em coisas que funcionam.
+- Evite posicioná-lo como professor genérico de IA, influenciador de ferramentas ou vitrine constante de lançamentos.
 
-## Política de fonte e verdade
+## Fonte e verdade
 
-1. Identificar se a entrada é fato verificado, anúncio, opinião, hipótese ou texto fornecido pelo Eduardo.
-2. Nunca adicionar números, benchmark, capacidade, data, empresa, resultado ou fonte que não esteja no material recebido ou em uma fonte registrada.
-3. Quando a fonte for um anúncio ou texto sem link, atribuir as alegações à fonte: por exemplo, "segundo o anúncio". Não transformar alegação em fato independente.
-4. Se o post exigir uma afirmação factual central sem fonte suficiente, manter o item em `blocked` e registrar a necessidade em `handoff.notes`.
-5. Literalidade só é usada quando Eduardo pedir citação ou quando a formulação exata for parte do fato. No restante, interpretar e reescrever com palavras próprias.
+1. Identifique se a entrada é fato verificado, anúncio, opinião, hipótese ou texto do Eduardo.
+2. Não adicione números, capacidades, datas, empresas, resultados ou fontes sem sustentação.
+3. Atribua alegações à fonte quando elas não forem fatos independentes.
+4. Se uma afirmação central não tiver fonte suficiente, bloqueie o item.
+5. Use citação literal apenas quando a formulação exata for necessária e verificável.
 
-## Política para notícias e referências
+## Notícias
 
-Notícias são uma das matérias-primas do fluxo de carrosséis. Antes de convertê-las em conteúdo, Hermes identifica o que aconteceu, o que mudou de forma concreta e por que isso merece atenção do público.
-
-Uma notícia pode ser uma síntese factual clara. Uma leitura prática própria é bem-vinda quando for sustentada pela fonte, mas não é obrigatória. Nunca transforme release, benchmark ou propaganda de ferramenta em certeza independente da fonte.
+Comece pelo que aconteceu, pelo que mudou e pela relevância para o público. Uma notícia pode ser uma síntese factual clara. Leitura própria é bem-vinda quando sustentada, mas não é obrigatória.
 
 ## Voz e forma
 
-A voz específica ainda será preenchida em `references/brand/brand.md` com exemplos aprovados pelo Eduardo. Enquanto não houver definição, Hermes não deve presumir bordões, humor, agressividade, informalidade ou estilo de escrita.
-
-Regras já definidas:
+A voz específica continua sendo refinada em `references/brand/brand.md` com exemplos aprovados. Até lá:
 
 - clareza antes de jargão;
 - precisão antes de hipérbole;
 - uma ideia principal por conteúdo;
-- não prometer autonomia total, resultados garantidos ou substituição humana sem fonte e contexto;
-- não usar CTA genérica; a pergunta final deve aprofundar a tese do post.
+- nenhuma promessa de resultado garantido ou autonomia total sem fonte e contexto;
+- CTA deve aprofundar a ideia, não ser uma fórmula genérica.
 
-## Critério de finalização para Codex
+## Critério de finalização editorial
 
-Um item só pode receber `ready_for_design` quando tiver:
-
-- objetivo e público explícitos;
-- uma ideia central em uma frase;
-- fontes e limites registrados;
-- quantidade de slides decidida pela narrativa, não por padrão;
-- copy final de todos os slides, com hook e CTA;
-- legenda final;
-- instrução útil e específica para o design;
-- revisão de fatos, atribuições e promessas.
+Um item só recebe `ready_for_design` quando tiver objetivo, público, ideia central, fontes, limites, quantidade de slides definida pela narrativa, copy final, legenda e orientação visual útil quando necessária.

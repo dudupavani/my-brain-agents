@@ -1,7 +1,15 @@
-# Domínio de produtos
+# Product Brain
 
-Este é o espaço canônico para materiais, decisões, pesquisas e artefatos relacionados aos produtos do Eduardo.
+Conhecimento durável dos produtos e softwares do Eduardo. O agente de produtos é o responsável principal por este domínio.
 
-O agente de produtos é o responsável principal por este domínio. Não misture aqui conteúdo editorial do Instagram; quando uma decisão de produto também gerar uma pauta, o conteúdo editorial continua em `content/` e deve manter sua própria fonte e contexto.
+Entram aqui:
 
-Crie subpastas somente quando houver uma necessidade real. A estrutura deve crescer a partir do trabalho, sem antecipar uma taxonomia grande.
+- benchmarks e pesquisas de concorrentes;
+- decisões e hipóteses de produto;
+- especificações e materiais de descoberta;
+- aprendizados reutilizáveis;
+- links para código, ClickUp, protótipos e outras fontes canônicas.
+
+Não entram aqui conversas brutas, memória privada do Hermes, conteúdo editorial pronto ou cópias do código-fonte.
+
+Subpastas devem nascer de um trabalho real. `benchmarks/` já existe porque é uma entrega recorrente comprovada.

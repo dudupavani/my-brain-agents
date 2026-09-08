@@ -2,7 +2,7 @@
 id: "20260907-exemplo"
 title: ""
 status: "draft"
-owner: "hermes"
+owner: "personal-content"
 priority: "normal"
 created_at: "YYYY-MM-DD"
 updated_at: "YYYY-MM-DD"
@@ -19,7 +19,7 @@ target:
   placement: "feed"
   ratio: "4:5"
   canvas: "1080x1350"
-  # O Hermes decide a quantidade depois de estruturar o conteúdo. Não existe número padrão.
+  # O agente personal-content decide a quantidade pela narrativa. Não existe número padrão.
   slide_count: null
 handoff:
   ready_for_design_at: ""

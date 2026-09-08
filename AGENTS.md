@@ -1,90 +1,77 @@
-# Protocolo da memória global
+# Contexto do projeto — Eduardo Agent Brain
 
-## Propósito
+## Missão
 
-Este repositório é a memória persistente e a fonte de verdade do sistema de agentes do Eduardo. Ele centraliza materiais, decisões, referências, instruções, skills e entregas em um único lugar.
+Este repositório é o cérebro compartilhado e versionado da operação de agentes do Eduardo. Ele guarda conhecimento durável, decisões, materiais, skills compartilhadas e entregas que precisam continuar acessíveis fora de uma conversa ou ferramenta específica.
 
-Os agentes são perfis independentes no Hermes. Não existe um agente orquestrador: cada perfil deve identificar o próprio escopo, ler as regras do domínio correspondente e salvar o resultado no local correto.
+Ele complementa, mas não substitui, a estrutura nativa de cada profile do Hermes. Identidade, personalidade, memória privada, sessões, credenciais e skills particulares permanecem no próprio profile.
 
-O GitHub é o meio de sincronização. A memória é formada pelos arquivos, pela arquitetura e pelo histórico versionado do repositório.
+O Hermes já é um runtime operacional e não é configurado por este repositório. Não altere profiles, `SOUL.md`, memória, credenciais, VPS ou configuração do Hermes como parte da manutenção deste cérebro.
 
-## Como localizar o trabalho
+Esta é a arquitetura operacional v1. Ela deve evoluir com evidência de uso; não trate decisões adiadas como se já estivessem definidas.
 
-Antes de agir, todo agente deve:
+## Modelo mental obrigatório
 
-1. Ler este arquivo.
-2. Consultar `architecture/registry.yaml` para identificar o próprio contrato, domínio e caminhos permitidos.
-3. Ler o contrato do agente em `agents/` e as regras do domínio antes de criar ou alterar arquivos.
-4. Trabalhar somente dentro do escopo identificado.
-5. Registrar a entrega no repositório quando ela for uma decisão, material ou artefato persistente.
+- **Agente**: um profile do Hermes com identidade e memória próprias.
+- **Modelo ou runtime**: Codex, Claude, Grok ou outro mecanismo usado pelo agente. O modelo não define a identidade nem o domínio do agente.
+- **Cérebro**: uma visão lógica dos caminhos do GitHub que um agente consulta e mantém.
+- **Domínio**: o lugar canônico de um assunto ou tipo de entrega.
+- **Skill**: um procedimento reutilizável; não é memória factual nem um agente.
+- **ClickUp**: sistema de acompanhamento do trabalho; não é a fonte canônica do conteúdo das entregas.
 
-Se o pedido não tiver um domínio claro, o agente deve pedir esclarecimento antes de salvar em um local arbitrário.
+Os dois agentes ativos são:
 
-O mapa de navegação está em `mapa.md`. As regras de roteamento estão em `architecture/routing.md`.
+- `products`: conversa com Eduardo sobre seus produtos e softwares, realiza pesquisas, benchmarks e mantém conhecimento de produto.
+- `personal-content`: cria o conteúdo pessoal do Eduardo e mantém o fluxo editorial.
 
-## O agente pessoal e suas capacidades
+Não existe um masterbrain na v1. Eduardo conversa diretamente com cada profile. Uma futura orquestração permanece possível, mas ainda não foi decidida.
 
-O perfil `personal-content` é um assistente pessoal generalista. Ele pode criar, organizar e manter diferentes tipos de conteúdo e materiais. Instagram não define o escopo do agente: é apenas uma das capacidades disponíveis por meio de skills.
+O Codex Desktop, quando Eduardo pedir trabalho sobre este repositório, atua como arquiteto e mantenedor da infraestrutura. Ele não deve se presumir um terceiro agente do Hermes nem assumir automaticamente a produção visual.
 
-Ao trabalhar com conteúdo editorial para Instagram, ele deve ler `references/brand/brand.md` e `references/editorial/content-system.md` e seguir o contrato da capacidade em `agents/hermes/CONTENT.md`.
+## Antes de agir
 
-Conversa, pesquisa e rascunho não entram automaticamente no GitHub. O agente só cria ou altera `content/items/<id>/` quando Eduardo pedir explicitamente para preparar o conteúdo para o Codex. Nesse caso, também deve ler e seguir `agents/hermes/HANDOFF.md`.
+1. Leia este arquivo.
+2. Leia `architecture/system.md`, `architecture/decisions.md` e `architecture/registry.yaml` quando a tarefa envolver estrutura, roteamento ou limites.
+3. Leia `mapa.md` para localizar o caminho canônico.
+4. Identifique seu agente pelo profile/SOUL do Hermes ou pelo pedido explícito do Eduardo. Não invente uma identidade.
+5. Leia o contrato correspondente em `agents/`.
+6. Ao entrar em um domínio, siga o `AGENTS.md` mais próximo e carregue apenas as referências e skills relevantes.
 
-## Sincronização
+Se a identidade não estiver disponível e ela mudar materialmente o que pode ser alterado, peça esclarecimento. Uma solicitação explícita do Eduardo para manter a arquitetura autoriza o Codex Desktop a trabalhar em `architecture/`, `agents/`, `mapa.md`, `AGENTS.md`, `README.md` e contratos compartilhados relacionados.
 
-1. Antes de trabalhar, atualize o repositório a partir do remoto, quando ele estiver configurado.
-2. Trabalhe somente no pacote que você recebeu ou que está inequivocamente disponível pelo seu `status`.
-3. Antes de encerrar, revise os arquivos alterados, faça um commit focado e envie-o ao remoto, quando houver acesso autorizado.
-4. Nunca force alterações nem sobrescreva trabalho recente de outro agente. Em caso de conflito, compare as versões e peça decisão humana se não houver uma solução óbvia.
+## Persistência e roteamento
 
-## Pacotes da capacidade de carrossel para Instagram
+- Conversa casual, raciocínio temporário e rascunho descartável não entram automaticamente no GitHub.
+- Pesquisa concluída, benchmark, decisão, material reutilizável, regra aprovada, skill compartilhada e entrega final devem ser registrados no domínio canônico.
+- Organize pelo assunto e pela responsabilidade, não pelo agente que digitou o arquivo.
+- Use `inbox/<agente>/` apenas para uma passagem real entre agentes. O artefato canônico permanece em seu domínio de origem.
+- Quando o mesmo material aparecer no ClickUp e no GitHub, o GitHub é a fonte do conteúdo; o ClickUp é a fonte do acompanhamento da tarefa.
+- Código-fonte de um software permanece no repositório daquele software. Este cérebro guarda contexto, pesquisa, decisões e links canônicos sobre o produto.
 
-Cada conteúdo existe em `content/items/<id>/`. Não mova a pasta para representar o avanço do trabalho.
+## Sincronização e autoria
 
-- Hermes cria `metadata.yaml`, `brief.md` e `carousel.md`. Ele pode mudar `draft` para `ready_for_design` quando a copy estiver final.
-- Codex só começa a partir de `ready_for_design`. Ele cria ou atualiza `deliverables/` e conduz `in_production` até `in_review`.
-- Você aprova, solicita ajustes, publica e pode alterar qualquer estado.
+1. Atualize o repositório antes de trabalhar, quando houver remoto configurado.
+2. Preserve alterações locais ou de outro agente; nunca force sincronização nem sobrescreva trabalho recente.
+3. Cada efeito persistente deve ter um responsável claro. Um agente só escreve nos caminhos permitidos em `architecture/registry.yaml`.
+4. Revise os arquivos alterados, faça um commit focado e envie ao remoto quando houver acesso autorizado.
+5. Em conflito não resolvível com segurança, interrompa a escrita e peça decisão ao Eduardo.
 
-A quantidade de slides é determinada pelo conteúdo. Não existe quantidade fixa nem número padrão herdado do modelo. Hermes deve escolher a quantidade necessária para a narrativa, registrar o total em `target.slide_count` e garantir que a copy tenha exatamente esse número de slides.
+## Qualidade global
 
-Carrosséis são entregues para o feed do Instagram, sempre em 1080 × 1350 pixels (4:5). Formatos de Stories, como 1080 × 1920, não são aceitos como entrega final.
+- Não invente fatos, fontes, decisões, permissões, resultados ou elementos da marca.
+- Não duplique a mesma verdade em múltiplos caminhos; prefira links para a fonte canônica.
+- Não salve transcrições ou dumps integrais quando uma síntese verificável for suficiente.
+- Não promova uma tentativa pontual para regra ou skill sem recorrência e clareza.
+- Não apague nem reescreva entregas relevantes sem preservar a rastreabilidade no Git.
+- Tokens, credenciais, `.env`, dados pessoais sensíveis e segredos nunca entram no repositório.
 
-Antes de pesquisar, selecionar ou escrever uma pauta, o agente editorial deve ler `references/editorial/content-rules.md`. Para transformar URL, descoberta, vídeo/post ou ideia em pacote de carrossel, deve seguir `.agents/skills/news-to-carousel/SKILL.md`.
+## Commits
 
-## Estados dos pacotes de conteúdo
-
-| Estado | Significado | Próxima pessoa |
-| --- | --- | --- |
-| `draft` | Conteúdo ainda em elaboração | Hermes |
-| `ready_for_design` | Copy final e pronta para virar carrossel | Codex |
-| `in_production` | Design em andamento | Codex |
-| `in_review` | Carrossel final disponível para sua revisão | Você |
-| `approved` | Aprovado, aguardando publicação | Você |
-| `published` | Já publicado | Nenhuma |
-| `blocked` | Falta contexto, fonte, decisão ou acesso | Responsável indicado em `handoff.notes` |
-
-Atualize `status`, `owner` e `updated_at` juntos. Use `handoff.notes` para registrar somente a próxima ação necessária quando o item estiver bloqueado ou passar para outra pessoa.
-
-## Regras globais de qualidade
-
-- Não invente fatos, fontes, resultados ou elementos da marca.
-- Não reescreva a copy final de outro agente sem registrar o motivo e sem preservar a intenção.
-- Não copie uma referência visual; extraia princípios e crie uma execução original.
-- Não apague entregas de outro agente. Prefira uma nova versão ou peça decisão.
-- Dados sensíveis, tokens, credenciais e arquivos `.env` nunca entram no repositório.
-
-## Skills
-
-As skills do projeto ficam em `.agents/skills/` e são a fonte viva de instruções operacionais para os agentes. Quando uma skill for atualizada, ela deve ser atualizada no mesmo local, sem criar versões paralelas ou cópias numeradas.
-
-Uma skill só deve ser criada ou promovida para o repositório quando representar um procedimento recorrente, útil e suficientemente claro. Rascunhos de conversa, tentativas pontuais e instruções ainda não validadas permanecem fora da memória persistente.
-
-## Convenção de commits
-
-Use mensagens curtas e rastreáveis:
+Use mensagens curtas e rastreáveis, por exemplo:
 
 ```text
-content(<id>): add carousel copy
-design(<id>): add carousel deliverables
-chore: update shared workflow
+knowledge(products): add competitor benchmark
+content(<id>): add carousel package
+skill: refine benchmark workflow
+architecture: evolve shared brain routing
 ```

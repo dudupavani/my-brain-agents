@@ -5,16 +5,18 @@ description: "Transforme uma URL, descoberta, vídeo/post ou ideia em um pacote 
 
 # News To Carousel
 
-Use esta skill para transformar uma pauta em um pacote editorial completo. Ela prepara a etapa do Codex; não desenha slides finais.
+Use esta skill para transformar uma pauta em um pacote editorial completo. Ela conclui a etapa editorial; não desenha slides finais.
 
 ## Contexto obrigatório
 
 Antes de decidir a pauta ou escrever, leia:
 
 1. `AGENTS.md`
-2. `references/brand/brand.md`
-3. `references/editorial/content-rules.md`
-4. `content/templates/metadata.yaml`, `brief.md` e `carousel.md`
+2. `agents/personal-content/README.md`
+3. `content/AGENTS.md`
+4. `references/brand/brand.md`
+5. `references/editorial/content-rules.md`
+6. `content/templates/metadata.yaml`, `brief.md` e `carousel.md`
 
 Se estiver retomando um item existente, leia também todos os arquivos daquele pacote antes de alterá-lo.
 
@@ -26,7 +28,7 @@ A entrada pode ser uma URL de notícia, uma descoberta de pesquisa ou scraping, 
 
 - Não peça ao usuário para preencher um briefing, escolher número de slides ou buscar imagens.
 - Extraia e registre essas decisões no pacote.
-- Quando o usuário pedir para preparar a entrada para o Codex, avance de forma autônoma até `ready_for_design`. Uma URL enviada apenas para análise ou conversa não vira pacote no GitHub por conta própria.
+- Quando o usuário pedir um conteúdo final, avance de forma autônoma até `ready_for_design`. Uma URL enviada apenas para análise ou conversa não vira pacote no GitHub por conta própria.
 - Use `blocked` somente quando a fonte estiver inacessível, for contraditória, não tiver informação suficiente para sustentar a copy ou exigir uma decisão que altere materialmente o conteúdo.
 
 ## Selecionar e apurar
@@ -46,11 +48,11 @@ A entrada pode ser uma URL de notícia, uma descoberta de pesquisa ou scraping, 
 5. O primeiro slide tem uma única frase de hook. Ela deve ser precisa, interessar sem exagerar e não prometer além do que a fonte sustenta.
 6. Crie `media.md` somente quando houver mídia útil para a narrativa. Registre por item: qual é o ativo, sua URL ou caminho, a origem, o papel editorial e os slides em que ele faz sentido. Não use mídia decorativa nem transfira essa decisão ao usuário.
 
-## Passar para o design
+## Concluir a etapa editorial
 
 1. Revise fatos, nomes, números, sequência e links.
-2. Atualize para `status: ready_for_design`, `owner: codex`, `updated_at` e `handoff.ready_for_design_at`.
-3. Em `handoff.notes`, registre somente orientações que o Codex realmente precisa para produzir, inclusive limitações da mídia ou da fonte.
+2. Atualize para `status: ready_for_design`, `owner: personal-content`, `updated_at` e `handoff.ready_for_design_at`.
+3. Em `handoff.notes`, registre somente orientações necessárias para a etapa visual, inclusive limitações da mídia ou da fonte.
 4. Faça um commit focado e envie ao remoto quando houver acesso autorizado.
 
-Não crie arquivos em `deliverables/`, não produza as artes finais e não altere um item já em produção do Codex.
+Não crie arquivos em `deliverables/` nem produza as artes finais nesta skill. O mesmo profile pode carregar a skill visual em seguida quando Eduardo pedir explicitamente essa produção.

@@ -1,44 +1,60 @@
-# Mapa da memória global
+# Mapa do cérebro compartilhado
 
-O repositório é organizado por domínio de memória, não por conversa. Os agentes são consumidores e mantenedores de áreas específicas; suas responsabilidades e caminhos estão em `architecture/registry.yaml`.
+Use este mapa para descobrir onde ler e onde registrar uma entrega. A identidade e a memória privada de cada agente permanecem no profile do Hermes; este mapa cobre somente o conhecimento versionado no GitHub.
 
-| Local | Conteúdo | Quem escreve |
-| --- | --- | --- |
-| `architecture/` | Registro de agentes, domínios e regras de roteamento | Você e Codex |
-| `shared/` | Contextos e decisões que podem ser usados por mais de um agente | Você e agentes autorizados |
-| `domains/personal/` | Materiais pessoais que não pertencem a um domínio especializado | Agente pessoal |
-| `domains/products/` | Materiais, decisões e artefatos de produtos | Agente de produtos |
-| `content/items/<id>/` | Um conteúdo completo de Instagram, da entrega do Hermes ao carrossel final | Hermes e Codex, em etapas diferentes |
-| `content/templates/` | Modelos obrigatórios para novos pacotes | Você mantém; agentes só copiam |
-| `references/brand/` | Contexto da marca: posicionamento, voz e restrições | Você |
-| `references/editorial/` | Sistema editorial amplo e regras específicas para pautas, fatos, fontes e mídia | Você e agentes |
-| `.agents/skills/instagram-carousel/assets/templates/` | As três imagens JPEG que definem a referência visual dos carrosséis | Você |
-| `agents/` | Contratos e instruções específicas dos perfis de agente | Você e agentes |
-| `agents/personal/` | Contrato do perfil `personal-content` | Você e Hermes |
-| `agents/hermes/` | Regras da capacidade editorial e do handoff de carrosséis | Você e Hermes |
-| `.agents/skills/instagram-carousel/` | Skill de produção visual do Codex | Codex |
-| `.agents/skills/news-to-carousel/` | Skill compartilhada para transformar pautas em pacote pronto para design | Você e agentes |
-| `.agents/skills/` | Skills vivas, atualizadas no mesmo local quando evoluem | Você e agentes |
-| `AGENTS.md` | Protocolo global, escopos e regras de sincronização | Você e Codex |
+## Cérebros lógicos ativos
 
-## Anatomia de um pacote de conteúdo
+### Produtos
+
+- Contrato: `agents/products/README.md`
+- Conhecimento canônico: `domains/products/`
+- Benchmarks: `domains/products/benchmarks/`
+- Entradas recebidas de outro agente: `inbox/products/`
+- Skills: `.agents/skills/` conforme a tarefa
+
+### Conteúdo pessoal
+
+- Contrato: `agents/personal-content/README.md`
+- Produção e histórico editorial: `content/`
+- Marca e estratégia editorial: `references/brand/` e `references/editorial/`
+- Entradas recebidas de outro agente: `inbox/personal-content/`
+- Skills atuais: `.agents/skills/news-to-carousel/` e `.agents/skills/instagram-carousel/`
+
+### Interseção compartilhada
+
+- Contexto deliberadamente útil aos dois agentes: `shared/`
+- Passagens entre agentes: `inbox/`
+- Procedimentos portáteis entre Hermes, Codex, Claude e outros: `.agents/skills/`
+
+## Estrutura
 
 ```text
-content/items/<id>/
-├── metadata.yaml       # Identidade, estado e responsável atual
-├── brief.md            # Contexto, objetivo e fontes
-├── carousel.md         # Copy final, organizada por slide
-├── media.md             # Opcional: mídia com origem, papel e slides indicados
-└── deliverables/       # Criado pelo Codex
-    ├── slide-01.png
-    ├── slide-02.png
-    ├── ...
-    ├── caption.md
-    └── design-notes.md
+AGENTS.md                   contexto obrigatório do projeto
+README.md                   apresentação humana
+mapa.md                     navegação e roteamento rápido
+architecture/               desenho, decisões e permissões
+agents/                     contratos dos profiles, não suas memórias privadas
+domains/products/           cérebro lógico de produtos
+content/                    cérebro lógico de conteúdo pessoal
+references/                 marca e regras editoriais
+shared/                     conhecimento realmente compartilhado
+inbox/                      passagens pequenas entre agentes
+.agents/skills/             procedimentos reutilizáveis do projeto
 ```
 
-`metadata.yaml` é a fonte de verdade do estado. O histórico detalhado permanece no Git; não crie registros paralelos de atividade.
+## Destinos comuns
 
-## Regra de expansão
+| Entrega | Destino canônico |
+| --- | --- |
+| Benchmark de concorrente | `domains/products/benchmarks/<id>/` |
+| Pesquisa, decisão ou material de produto | `domains/products/` |
+| Código-fonte de software | Repositório próprio do software; registre aqui apenas contexto e link |
+| Ideia enviada de produtos para conteúdo | `inbox/personal-content/` com link para a origem |
+| Ideia enviada de conteúdo para produtos | `inbox/products/` com link para a origem |
+| Pacote de conteúdo pessoal | `content/items/<id>/` |
+| Identidade e regras editoriais | `references/brand/` e `references/editorial/` |
+| Procedimento recorrente e compartilhável | `.agents/skills/<nome>/` |
+| Preferência ou memória privada do agente | Profile do Hermes, não este repositório |
+| Tarefa, prazo e acompanhamento | ClickUp; linke a entrega canônica do GitHub |
 
-Para adicionar um novo agente ou domínio, primeiro registre-o em `architecture/registry.yaml`, depois crie seu contrato e seu espaço de memória. Não crie pastas genéricas antes de existir uma responsabilidade clara para elas.
+Não crie um novo domínio, cérebro ou repositório apenas porque existe um novo agente. Crie quando existir uma responsabilidade durável ou uma fronteira real de acesso.

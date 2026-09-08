@@ -1,59 +1,41 @@
-# Memória Global dos Agentes
+# Eduardo Agent Brain
 
-Este repositório é a memória persistente e a fonte de verdade dos agentes do Eduardo. Ele centraliza materiais, decisões, referências, instruções, skills e entregas em um único lugar, com histórico rastreável no GitHub.
+Base de conhecimento compartilhada e versionada para os agentes do Eduardo. O repositório permite que trabalhos produzidos no Hermes continuem acessíveis ao Codex, Claude Code e outros runtimes sem depender da memória de uma conversa ou de um aplicativo específico.
 
-Os agentes são perfis independentes no Hermes. Cada perfil tem um escopo e um domínio próprios, mas todos consultam e mantêm esta mesma memória. O repositório não possui um agente orquestrador: a arquitetura e as regras de roteamento cumprem esse papel.
-
-Consulte [mapa.md](mapa.md) para navegar pela estrutura, [architecture/registry.yaml](architecture/registry.yaml) para descobrir os agentes e domínios e [AGENTS.md](AGENTS.md) para o protocolo obrigatório.
-
-## Princípios
-
-- Centralizar a memória em um único repositório.
-- Separar agentes, domínios de conhecimento e skills.
-- Salvar cada informação no domínio ao qual ela pertence.
-- Manter as skills como fonte viva, atualizando-as no mesmo local.
-- Evoluir a arquitetura gradualmente, sem criar estruturas que ainda não tenham uso.
-
-## Agentes atuais
-
-| Perfil no Hermes | Responsabilidade atual | Memória principal |
-| --- | --- | --- |
-| `personal-content` | Assistente pessoal generalista que aciona skills conforme o pedido | `domains/personal/`, `shared/` e domínios especializados |
-| Agente de produtos | Materiais, decisões e trabalho relacionados a produtos | `domains/products/` |
-
-Criar carrosséis para Instagram é uma capacidade do `personal-content`, implementada pelas skills em `.agents/skills/`. O conteúdo produzido por essa capacidade permanece em `content/`.
-
-## Fluxo atual do Instagram
+## O que pertence a cada camada
 
 ```text
-Você conversa com o `personal-content`
-        ↓
-Quando pede para preparar para o Codex, o agente cria um pacote em content/items/<id>
-        ↓  status: ready_for_design
-Codex cria o carrossel no mesmo pacote
-        ↓  status: in_review
-Você revisa, aprova e publica
+Profiles do Hermes
+  identidade, personalidade, memória privada, sessões e capacidades locais
+                         ↓
+Este repositório GitHub
+  conhecimento, decisões, pesquisas, entregas e skills compartilháveis
+                         ↓
+ClickUp e outros sistemas
+  tarefas, acompanhamento, aprovações e publicação
 ```
 
-Cada conteúdo vive em uma única pasta. O estado em `metadata.yaml` informa com clareza qual é o próximo trabalho, sem mover arquivos de lugar ou depender da memória de uma conversa.
+O GitHub é a fonte canônica do conteúdo das entregas. ClickUp pode guardar a tarefa, o responsável, o prazo e um link para o material no GitHub.
 
-## Começo de uso
+## Agentes ativos na v1
 
-1. Mantenha [references/brand/brand.md](references/brand/brand.md) e o [sistema editorial](references/editorial/content-system.md) como fonte de verdade da identidade, voz, limites e decisões de conteúdo.
-2. Coloque exatamente três imagens JPEG de referência em [`.agents/skills/instagram-carousel/assets/templates/`](.agents/skills/instagram-carousel/assets/templates/), com os nomes indicados no arquivo dessa pasta.
-3. Hermes deve seguir [agents/hermes/CONTENT.md](agents/hermes/CONTENT.md) em todo trabalho editorial e [agents/hermes/HANDOFF.md](agents/hermes/HANDOFF.md) quando preparar um item para o Codex.
-4. Quando um pacote estiver com `status: ready_for_design`, peça ao Codex para criar o carrossel ou mencione `$instagram-carousel`.
+| Agente lógico | Função | Cérebro no repositório |
+| --- | --- | --- |
+| `products` | Construir e pensar produtos e softwares; pesquisar e fazer benchmarks | `domains/products/`, `shared/`, skills relevantes |
+| `personal-content` | Criar e manter o conteúdo pessoal do Eduardo | `content/`, `references/`, `shared/`, skills relevantes |
 
-## Conectar ao GitHub
+Os nomes reais dos profiles são configurados no Hermes. Codex, Claude ou outro modelo podem ser usados por qualquer profile; eles não viram agentes diferentes por causa disso.
 
-O repositório local já está preparado. Para habilitar a sincronização entre ambientes, crie um repositório privado vazio no seu GitHub e conecte-o a este diretório:
+## Como navegar
 
-```bash
-git remote add origin URL_DO_SEU_REPOSITORIO
-git branch -M main
-git add .
-git commit -m "chore: initialize shared content brain"
-git push -u origin main
-```
+- [mapa.md](mapa.md): onde encontrar e salvar cada coisa.
+- [architecture/system.md](architecture/system.md): desenho completo da arquitetura.
+- [architecture/decisions.md](architecture/decisions.md): o que já foi decidido, o que é provisório e o que está adiado.
+- [architecture/registry.yaml](architecture/registry.yaml): contratos e permissões em formato estruturado.
+- [AGENTS.md](AGENTS.md): contexto obrigatório para qualquer agente ou runtime.
 
-Depois disso, cada agente deve atualizar a cópia local antes de iniciar um item e enviar somente o trabalho concluído. GitHub é a memória compartilhada; a sincronização acontece por `pull` e `push`, não de modo instantâneo.
+## Princípio de evolução
+
+A v1 usa um único repositório porque os dois agentes pertencem ao Eduardo e ainda não existe uma fronteira real de permissão entre eles. Um domínio só deve virar outro repositório quando houver uma separação concreta de empresa, sócios, equipe, confidencialidade, credenciais ou ciclo de vida.
+
+Arquitetura futura, masterbrain, memória semântica compartilhada, sincronização automática com ClickUp e publicação automática são possibilidades, não funcionalidades presumidas nesta versão.

@@ -1,19 +1,18 @@
 # Contratos dos agentes
 
-Esta pasta descreve os perfis de agente que operam sobre a memória global. Cada perfil no Hermes é independente; os arquivos aqui não criam um orquestrador.
+Esta pasta registra como cada profile do Hermes colabora com o cérebro compartilhado. Ela não contém a memória privada, personalidade ou credenciais dos agentes.
 
-Um contrato de agente deve registrar, de forma curta:
+Cada contrato define:
 
-- finalidade e limites do perfil;
-- domínio ou domínios que ele pode manter;
-- arquivos que deve ler antes de agir;
-- caminhos que pode criar ou alterar;
-- formato da entrega para os demais agentes.
+- finalidade e limites;
+- contexto que deve ser lido;
+- caminhos de leitura e escrita;
+- tipos de entrega persistente;
+- passagens permitidas para outro agente.
 
-O agente não deve guardar materiais nesta pasta. Use os caminhos de memória registrados em `architecture/registry.yaml`.
+Agentes ativos:
 
-Os contratos atuais estão em:
+- `agents/products/`: produtos, softwares, pesquisas e benchmarks;
+- `agents/personal-content/`: conteúdo pessoal do Eduardo.
 
-- `agents/personal/`: contrato do perfil pessoal `personal-content`;
-- `agents/hermes/`: regras específicas da capacidade editorial e do handoff de carrosséis;
-- `agents/products/`: contrato inicial do agente de produtos.
+O nome real do profile pode ser diferente do identificador lógico usado no repositório. A correspondência deve ser configurada no Hermes e, quando necessário, registrada em `architecture/registry.yaml`.

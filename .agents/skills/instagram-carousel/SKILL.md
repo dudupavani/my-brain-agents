@@ -7,6 +7,8 @@ description: "Transforme um pacote de conteúdo pronto em um carrossel final par
 
 Crie uma entrega visual original, legível e fiel à copy aprovada. O repositório é a memória compartilhada do fluxo: não dependa de contexto que não esteja registrado nele.
 
+Esta capacidade permanece experimental. Use-a somente quando Eduardo pedir explicitamente a produção visual; não a acione automaticamente ao encontrar um pacote pronto.
+
 ## Formato obrigatório
 
 Este fluxo produz carrosséis para o **feed do Instagram**, não Stories. Todo slide final deve ter exatamente **1080 × 1350 pixels**, em retrato **4:5**.
@@ -30,7 +32,7 @@ Se qualquer uma das três imagens estiver ausente, ilegível ou não for JPEG, i
 
 ## Encontrar o trabalho certo
 
-1. Leia `AGENTS.md`, `mapa.md` e `references/brand/brand.md`.
+1. Leia `AGENTS.md`, `agents/personal-content/README.md`, `content/AGENTS.md`, `mapa.md` e `references/brand/brand.md`.
 2. Se o usuário fornecer um ID, use apenas `content/items/<id>/`. Caso contrário, encontre um único pacote com `status: ready_for_design`, priorizando `priority` e depois a data de criação.
 3. Leia `metadata.yaml`, `brief.md` e `carousel.md` do pacote. Só prossiga se a copy estiver completa, as fontes necessárias estiverem registradas e a quantidade escolhida de slides fizer sentido para a narrativa.
    - Se existir `media.md`, leia-o e trate-o como a orientação de mídia do pacote.
@@ -46,9 +48,15 @@ A quantidade de slides é variável. Nunca use 8, ou qualquer outro número, com
 - Não use imagens genéricas, ilustrações abstratas nem visuais decorativos apenas para preencher espaço. Se não houver mídia que acrescente significado, crie um slide tipográfico.
 - Preserve a proveniência e as limitações registradas em `media.md`. Não trate a presença de uma imagem como obrigação para cada slide.
 
+## Método visual
+
+- Use um modelo de imagem para criar ou editar a arte raster tomando os três JPEGs como referência visual.
+- Não use SVG, wireframes, cartões vazios, caixas de placeholder ou formas genéricas como entrega final.
+- O texto da copy deve aparecer completo, correto e legível. Se o método usado não preservar o texto, a entrega não está pronta para revisão.
+
 ## Assumir e produzir
 
-1. Antes de criar a arte, atualize `metadata.yaml` para `status: in_production`, `owner: codex` e a data atual. Se a sincronização remota estiver autorizada, registre a assunção em um commit focado.
+1. Antes de criar a arte, atualize `metadata.yaml` para `status: in_production`, `owner: personal-content` e a data atual. Se a sincronização remota estiver autorizada, registre o início em um commit focado.
 2. Preserve a copy final. Não altere palavras, números, promessas ou fontes sem pedido do usuário; erros objetivos devem ser sinalizados antes de mudar o conteúdo.
 3. Aplique a análise das três referências JPEG obrigatórias para criar uma composição própria, sem reproduzir uma arte existente.
 4. Produza um slide por arquivo PNG, exatamente em 1080 × 1350 (4:5), na pasta `content/items/<id>/deliverables/`. Confirme as dimensões antes de nomear em ordem: `slide-01.png`, `slide-02.png` e assim por diante.
@@ -59,7 +67,7 @@ Ao criar ou revisar a entrega, siga [a lista de qualidade](references/quality-ch
 ## Encerrar a entrega
 
 1. Confirme que todos os slides previstos existem, estão ordenados e apresentam exatamente a copy aprovada.
-2. Atualize `metadata.yaml` para `status: in_review`, `owner: user`, `updated_at` e uma nota curta de entrega em `handoff.notes`.
+2. Atualize `metadata.yaml` para `status: in_review`, `owner: eduardo`, `updated_at` e uma nota curta de entrega em `handoff.notes`.
 3. Revise o conjunto de arquivos alterados. Quando houver um remoto autorizado, faça um commit focado, por exemplo `design(<id>): add carousel deliverables`, e envie-o ao GitHub.
 
 Nunca altere `approved` ou `published`: esses estados pertencem ao usuário.

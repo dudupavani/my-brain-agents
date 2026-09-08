@@ -1,5 +1,8 @@
-# Memória compartilhada
+# Contexto compartilhado
 
-Use este espaço apenas para informações deliberadamente úteis a mais de um agente.
+Este diretório contém somente conhecimento deliberadamente útil aos dois cérebros lógicos.
 
-Uma informação que pertence claramente a um único domínio deve permanecer naquele domínio. Cada arquivo compartilhado deve deixar claro seu propósito, sua origem e, quando necessário, quem é responsável por mantê-lo.
+- Não copie aqui algo que já possui domínio canônico.
+- Prefira um link para a origem em vez de duplicação.
+- Cada material deve informar propósito, origem e responsável pela manutenção.
+- Não use este espaço como memória privada de nenhum profile do Hermes.
