@@ -11,8 +11,9 @@ Este arquivo reúne apenas regras já aprovadas ou fatos conhecidos. Campos aind
 
 ## Voz
 
-- Tom predominante: ainda a definir com exemplos aprovados pelo Eduardo.
-- Palavras e construções recorrentes: ainda a definir; não presumir bordões ou maneirismos.
+- Referência de voz: [voice.md](voice.md).
+- O documento define tom, abordagem e critérios de qualidade; ele não substitui posicionamento, público, promessa ou territórios definidos em `references/editorial/content-strategy.md`.
+- Palavras e construções recorrentes: ainda a refinar com exemplos aprovados pelo Eduardo; não presumir bordões ou maneirismos.
 - O que evitar: jargão sem explicação, hipérbole, promessa de autonomia total, tom de professor genérico de IA, conteúdo que pareça propaganda de ferramenta ou vitrine constante de lançamentos.
 - Exemplos de frases que soam como a marca: ainda a definir com Eduardo.
 
