@@ -28,6 +28,28 @@ Não existe um masterbrain na v1. Eduardo conversa diretamente com cada profile.
 
 O Codex Desktop, quando Eduardo pedir trabalho sobre este repositório, atua como arquiteto e mantenedor da infraestrutura. Ele não deve se presumir um terceiro agente do Hermes nem assumir automaticamente a produção visual.
 
+## Estado atual que novos chats devem assumir
+
+- A arquitetura v1 já foi implementada. Não redesenhe o sistema do zero sem uma necessidade real ou pedido do Eduardo.
+- O Hermes já funciona, já acessa o GitHub e permanece fora do escopo técnico deste repositório.
+- Há um único repositório com dois cérebros lógicos, `products` e `personal-content`; não existe masterbrain.
+- O fluxo de carrossel foi consolidado em `.agents/skills/instagram-carousel/`. A antiga divisão editorial `news-to-carousel` não existe mais.
+- Quando Eduardo disser “crie” ou “faça um carrossel” a partir de um conteúdo, o agente `personal-content` deve conduzir seleção editorial, hook, copy, direção visual, assets, renderização e QA até `in_review`, sem aprovação intermediária.
+- Se o pedido for somente por estrutura, roteiro ou copy, encerre em `ready_for_design` e não produza imagens.
+- A quantidade de slides é definida pelo conteúdo. A entrega final é sempre PNG de 1080 × 1350 pixels, retrato 4:5 para o feed.
+- As três referências JPEG em `.agents/skills/instagram-carousel/assets/templates/` são obrigatórias. Os placeholders nelas nunca aparecem na entrega.
+- O gerador de imagem cria somente fotografias, ilustrações ou outros assets relevantes. A copy exata é aplicada por renderer determinístico; não use a saída bruta do gerador, SVG, wireframe ou placeholder como slide final.
+- Pacotes antigos em `content/items/` são experimentos preservados e não definem regras automaticamente.
+- Identidade verbal, refinamento visual e escolha do renderer continuam evoluindo por testes reais; não invente definições ainda ausentes em `references/brand/brand.md`.
+
+## Como colaborar com Eduardo
+
+- Trabalhe para reduzir operação manual: não peça formulário, quantidade de slides, seleção de trechos ou busca de imagens que o agente possa resolver com segurança.
+- Explique decisões em português claro, sem pressupor conhecimento técnico.
+- Faça uma pergunta por vez somente quando a resposta mudar materialmente o trabalho; caso contrário, avance com uma suposição segura e explícita.
+- Evite overengineering. Implemente primeiro a menor solução robusta para os agentes e casos que existem hoje.
+- Não diga que algo funciona apenas porque foi documentado. Diferencie arquitetura, capacidade disponível e comportamento efetivamente testado.
+
 ## Antes de agir
 
 1. Leia este arquivo.
