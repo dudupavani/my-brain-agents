@@ -33,6 +33,8 @@ Cada conteúdo deve provocar pelo menos uma destas reações:
 
 Produtos, agentes, automações, desafios, decisões e descobertas reais.
 
+Ao mostrar algo construído, apresentar tanto o processo e as decisões relevantes quanto o resultado e o que ele tornou possível; o peso de cada um depende da história.
+
 Exemplo: passar dois dias calculando custos de modelos, créditos, margem e preço para conseguir lançar um produto.
 
 ### 2. O que a tecnologia já permite
