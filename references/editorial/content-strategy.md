@@ -59,17 +59,7 @@ Não há limitação prévia de tipo, forma ou ponto de partida do conteúdo: ex
 
 ## Formato
 
-O principal formato deve continuar sendo a fala direta para a câmera, de maneira natural.
-
-Foi assim que os melhores vídeos surgiram e foi isso que fez pessoas procurarem uma conversa pessoalmente. Trocar esse formato apenas por cansaço visual significaria abandonar algo que já demonstrou funcionar.
-
-A variação deve acontecer dentro do formato:
-
-1. Falar em algum momento real do dia.
-2. Falar no estúdio.
-3. Falar enquanto pequenas imagens comprovam o que está sendo contado.
-4. Fazer uma demonstração curta de tela com narração.
-5. Usar Stories para mostrar algo enquanto está acontecendo.
+O formato não é uma decisão estratégica fixa. Fala direta para a câmera, cenas do dia, estúdio, imagens de apoio, demonstrações de tela e Stories podem ser usados quando servirem melhor à história, à compreensão e à credibilidade do conteúdo.
 
 A tela só aparece quando, sem ela, a pessoa não consegue compreender ou acreditar no que está sendo contado. Nem toda reflexão precisa se transformar em uma aula com slides.
 
