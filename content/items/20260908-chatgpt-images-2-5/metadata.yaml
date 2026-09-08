@@ -1,0 +1,25 @@
+id: "20260908-chatgpt-images-2-5"
+title: "O ChatGPT agora aceita um rascunho como direção para criar imagens"
+status: "in_review"
+owner: "eduardo"
+priority: "normal"
+created_at: "2026-09-08"
+updated_at: "2026-09-08"
+source:
+  type: "official_product_announcement"
+  primary_url: "https://openai.com/index/introducing-chatgpt-images-2-5/"
+  publisher: "OpenAI"
+  published_at: "2026-09-08"
+  accessed_at: "2026-09-08"
+  urls:
+    - "https://openai.com/index/introducing-chatgpt-images-2-5/"
+target:
+  platform: "instagram"
+  format: "carousel"
+  placement: "feed"
+  ratio: "4:5"
+  canvas: "1080x1350"
+  slide_count: 5
+handoff:
+  ready_for_design_at: ""
+  notes: "Carrossel final com 5 PNGs; revisar narrativa, copy e sistema visual inicial."
