@@ -8,10 +8,11 @@ Em caso de conflito:
 
 1. pedido explícito e atual do Eduardo;
 2. `references/brand/brand.md`;
-3. `references/editorial/content-rules.md`, quando aplicável;
-4. este documento;
-5. `brief.md` do item;
-6. inferências nunca substituem uma regra ausente.
+3. `references/editorial/content-strategy.md`;
+4. `references/editorial/content-rules.md`, quando aplicável;
+5. este documento;
+6. `brief.md` do item;
+7. inferências nunca substituem uma regra ausente.
 
 ## Papel do agente
 
