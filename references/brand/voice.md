@@ -54,9 +54,9 @@ Fazer com que as pessoas certas percebam:
 
 ---
 
-## Referências de tom aprovadas
+## Corpus de tom
 
-Os artigos abaixo são referências iniciais de tom, mesmo quando o tema não for o foco atual do perfil:
+Estes artigos foram indicados por Eduardo como textos com o tom que ele busca. Eles servem para calibrar a escrita durante a criação e revisão, sem exigir uma escolha, ranking ou reprodução literal de qualquer um:
 
 - [Quando é hora de mudar na carreira antes de ser tarde](https://eduardopavani.com/blog/quando-e-hora-de-mudar-na-carreira-antes-de-ser-tarde)
 - [Seu backlog não é um jardim de inovações](https://eduardopavani.com/blog/backlog-nao-e-jardim-de-inovacoes)
