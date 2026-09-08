@@ -9,6 +9,7 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 - Nomes, números, datas, capacidades, promessas e citações possuem sustentação verificável.
 - O carrossel seleciona o essencial; não tenta reproduzir o artigo inteiro nem acrescenta contexto inventado.
 - A quantidade de slides foi decidida para este conteúdo e coincide com `target.slide_count`.
+- A narrativa seleciona e reorganiza apenas o que a fonte sustenta: não há fato, relação causal ou conclusão inventados para ligar os slides.
 - O hook é uma única frase, interessante, precisa e fiel à fonte.
 - Cada slide desenvolve um ponto principal; o CTA só existe quando acrescenta valor.
 
@@ -30,6 +31,7 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 - Todos os slides são PNG raster de exatamente 1080 × 1350 pixels, retrato 4:5 para o feed.
 - Não há SVG, wireframe, placeholder, arquivo temporário, corte, sobreposição ou texto fora da área segura.
 - Hierarquia, contraste, alinhamento, margens, entrelinha e tamanho funcionam em tela pequena.
+- A copy foi revisada no PNG final: cada slide está conciso o bastante para leitura confortável e nenhum texto foi comprimido ou reduzido excessivamente para caber.
 - O conjunto tem unidade visual sem transformar todos os slides em cópias do mesmo layout.
 
 ## Pacote final
