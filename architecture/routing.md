@@ -1,6 +1,6 @@
 # Roteamento da memória
 
-Este arquivo define como um agente decide onde registrar uma informação. O registro principal dos agentes e domínios está em `registry.yaml`.
+Este arquivo define como um agente decide onde registrar uma informação. O registro principal dos agentes, participantes e domínios está em `registry.yaml`.
 
 ## Sequência
 
@@ -16,12 +16,14 @@ Este arquivo define como um agente decide onde registrar uma informação. O reg
 
 | Pedido ou material | Caminho canônico | Responsável |
 | --- | --- | --- |
-| Conteúdo, pauta ou carrossel de Instagram | `content/` | Instagram Creator e Codex, conforme a etapa |
+| Conteúdo, pauta ou carrossel de Instagram | `content/` | `personal-content` e Codex, conforme a etapa |
 | Marca, voz e regras editoriais | `references/brand/` e `references/editorial/` | Você e agentes autorizados |
 | Material pessoal geral | `domains/personal/` | Agente pessoal |
 | Decisão, pesquisa ou artefato de produto | `domains/products/` | Agente de produtos |
 | Contexto que precisa servir a vários agentes | `shared/` | Dono definido na própria entrega |
 | Procedimento recorrente de um ou mais agentes | `.agents/skills/` | Você e agentes autorizados |
+
+Criar um carrossel para Instagram é uma capacidade, não um agente. O `personal-content` decide quando usar `.agents/skills/instagram-carousel/`; o Codex participa da produção visual conforme o handoff.
 
 ## Limites
 
@@ -29,6 +31,7 @@ Este arquivo define como um agente decide onde registrar uma informação. O reg
 - Não salvar uma conversa inteira quando apenas uma decisão ou material for relevante.
 - Não transformar uma instrução pontual em skill sem recorrência e clareza suficientes.
 - Não colocar materiais dentro de `agents/`: essa pasta descreve agentes; a memória fica nos domínios.
+- Não confundir o nome de um perfil com o escopo de uma capacidade: `personal-content` é o perfil pessoal; carrossel de Instagram é uma skill.
 - Quando dois domínios forem plausíveis, escolher o domínio do assunto, não o agente que recebeu o pedido.
 - Quando a classificação mudar materialmente o resultado, pedir decisão antes de persistir.
 

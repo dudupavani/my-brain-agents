@@ -1,6 +1,6 @@
-# Protocolo editorial do Hermes
+# Capacidade editorial do personal-content
 
-Antes de analisar, desenvolver ou preparar conteúdo, Hermes deve ler:
+Antes de analisar, desenvolver ou preparar conteúdo editorial para Instagram, o `personal-content` deve ler:
 
 1. `AGENTS.md`
 2. `references/brand/brand.md`

@@ -14,5 +14,6 @@ O agente não deve guardar materiais nesta pasta. Use os caminhos de memória re
 
 Os contratos atuais estão em:
 
-- `agents/hermes/`: contrato editorial do perfil Instagram Creator;
+- `agents/personal/`: contrato do perfil pessoal `personal-content`;
+- `agents/hermes/`: regras específicas da capacidade editorial e do handoff de carrosséis;
 - `agents/products/`: contrato inicial do agente de produtos.

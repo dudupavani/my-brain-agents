@@ -8,18 +8,26 @@ repository:
   routing_rules: architecture/routing.md
 
 agents:
-  instagram_creator:
-    profile: "Instagram Creator"
+  personal_content:
+    profile: "personal-content"
     platform: "Hermes"
-    scope: "Conteúdo, referências e produção editorial para Instagram"
+    scope: "Assistente pessoal generalista que aciona skills conforme o pedido"
     contract:
+      - agents/personal/README.md
       - agents/hermes/CONTENT.md
       - agents/hermes/HANDOFF.md
-    memory_paths:
+    read_paths:
+      - shared/
+      - domains/
       - content/
       - references/brand/
       - references/editorial/
-    skill_paths:
+      - .agents/skills/
+    write_paths:
+      - domains/personal/
+      - content/
+      - .agents/skills/
+    capability_paths:
       - .agents/skills/instagram-carousel/
       - .agents/skills/news-to-carousel/
 
@@ -29,9 +37,23 @@ agents:
     scope: "Materiais, decisões e trabalho relacionados a produtos"
     contract:
       - agents/products/README.md
-    memory_paths:
+    read_paths:
+      - shared/
       - domains/products/
-    skill_paths: []
+      - .agents/skills/
+    write_paths:
+      - domains/products/
+      - .agents/skills/
+    capability_paths: []
+
+participants:
+  codex:
+    role: "Colaborador de produção visual do domínio Instagram"
+    read_paths:
+      - content/
+      - .agents/skills/instagram-carousel/
+    write_paths:
+      - content/items/*/deliverables/
 
 domains:
   shared:
@@ -40,7 +62,7 @@ domains:
 
   personal:
     path: domains/personal/
-    owner: instagram_creator
+    owner: personal_content
     purpose: "Materiais pessoais que não pertencem a um domínio especializado"
 
   products:
@@ -50,8 +72,8 @@ domains:
 
   instagram:
     path: content/
-    owner: instagram_creator
-    purpose: "Conteúdo e entregas de Instagram"
+    owner: personal_content
+    purpose: "Conteúdo e entregas produzidos pela capacidade de carrossel para Instagram"
 
 skills:
   path: .agents/skills/

@@ -18,15 +18,15 @@ Consulte [mapa.md](mapa.md) para navegar pela estrutura, [architecture/registry.
 
 | Perfil no Hermes | Responsabilidade atual | Memória principal |
 | --- | --- | --- |
-| Instagram Creator | Conteúdo e produção editorial para Instagram | `content/` e `references/` |
+| `personal-content` | Assistente pessoal generalista que aciona skills conforme o pedido | `domains/personal/`, `shared/` e domínios especializados |
 | Agente de produtos | Materiais, decisões e trabalho relacionados a produtos | `domains/products/` |
 
-O agente pessoal, atualmente chamado Instagram Creator, pode usar `domains/personal/` para materiais pessoais que não pertencem ao domínio editorial.
+Criar carrosséis para Instagram é uma capacidade do `personal-content`, implementada pelas skills em `.agents/skills/`. O conteúdo produzido por essa capacidade permanece em `content/`.
 
 ## Fluxo atual do Instagram
 
 ```text
-Você conversa com o Instagram Creator
+Você conversa com o `personal-content`
         ↓
 Quando pede para preparar para o Codex, o agente cria um pacote em content/items/<id>
         ↓  status: ready_for_design

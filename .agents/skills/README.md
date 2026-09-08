@@ -1,6 +1,6 @@
 # Skills do projeto
 
-As skills desta pasta são a fonte viva de instruções operacionais dos agentes.
+As skills desta pasta são a fonte viva de instruções operacionais dos agentes. Uma skill representa uma capacidade reutilizável; não é um agente nem um lugar para guardar memória.
 
 - Atualizações substituem o conteúdo anterior no mesmo caminho.
 - Não criar versões numeradas ou cópias paralelas.

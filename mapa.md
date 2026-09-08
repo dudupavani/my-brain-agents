@@ -14,7 +14,8 @@ O repositório é organizado por domínio de memória, não por conversa. Os age
 | `references/editorial/` | Sistema editorial amplo e regras específicas para pautas, fatos, fontes e mídia | Você e agentes |
 | `.agents/skills/instagram-carousel/assets/templates/` | As três imagens JPEG que definem a referência visual dos carrosséis | Você |
 | `agents/` | Contratos e instruções específicas dos perfis de agente | Você e agentes |
-| `agents/hermes/` | Contrato editorial atual do perfil Instagram Creator | Você e Hermes |
+| `agents/personal/` | Contrato do perfil `personal-content` | Você e Hermes |
+| `agents/hermes/` | Regras da capacidade editorial e do handoff de carrosséis | Você e Hermes |
 | `.agents/skills/instagram-carousel/` | Skill de produção visual do Codex | Codex |
 | `.agents/skills/news-to-carousel/` | Skill compartilhada para transformar pautas em pacote pronto para design | Você e agentes |
 | `.agents/skills/` | Skills vivas, atualizadas no mesmo local quando evoluem | Você e agentes |

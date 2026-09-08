@@ -1,4 +1,4 @@
-# Entrega de conteúdo para o Codex
+# Handoff da capacidade de carrossel para o Codex
 
 Use este protocolo ao produzir um conteúdo que deverá virar carrossel de Instagram.
 

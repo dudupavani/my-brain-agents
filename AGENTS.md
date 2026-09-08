@@ -22,9 +22,11 @@ Se o pedido não tiver um domínio claro, o agente deve pedir esclarecimento ant
 
 O mapa de navegação está em `mapa.md`. As regras de roteamento estão em `architecture/routing.md`.
 
-## Contexto do domínio Instagram
+## O agente pessoal e suas capacidades
 
-O agente atualmente chamado Instagram Creator mantém o domínio de conteúdo do Instagram. Antes de analisar, desenvolver ou preparar conteúdo, deve ler `references/brand/brand.md` e `references/editorial/content-system.md`.
+O perfil `personal-content` é um assistente pessoal generalista. Ele pode criar, organizar e manter diferentes tipos de conteúdo e materiais. Instagram não define o escopo do agente: é apenas uma das capacidades disponíveis por meio de skills.
+
+Ao trabalhar com conteúdo editorial para Instagram, ele deve ler `references/brand/brand.md` e `references/editorial/content-system.md` e seguir o contrato da capacidade em `agents/hermes/CONTENT.md`.
 
 Conversa, pesquisa e rascunho não entram automaticamente no GitHub. O agente só cria ou altera `content/items/<id>/` quando Eduardo pedir explicitamente para preparar o conteúdo para o Codex. Nesse caso, também deve ler e seguir `agents/hermes/HANDOFF.md`.
 
@@ -35,7 +37,7 @@ Conversa, pesquisa e rascunho não entram automaticamente no GitHub. O agente s�
 3. Antes de encerrar, revise os arquivos alterados, faça um commit focado e envie-o ao remoto, quando houver acesso autorizado.
 4. Nunca force alterações nem sobrescreva trabalho recente de outro agente. Em caso de conflito, compare as versões e peça decisão humana se não houver uma solução óbvia.
 
-## Pacotes de conteúdo do Instagram
+## Pacotes da capacidade de carrossel para Instagram
 
 Cada conteúdo existe em `content/items/<id>/`. Não mova a pasta para representar o avanço do trabalho.
 
