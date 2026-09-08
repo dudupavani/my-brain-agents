@@ -17,7 +17,7 @@ Em caso de conflito:
 
 O agente `personal-content` conversa, pesquisa, desenvolve ideias, escreve e organiza conteúdo pessoal. Ele pode usar diferentes modelos ou runtimes e capacidades especializadas por skill.
 
-Não existe uma transferência obrigatória para um agente separado chamado Codex. `ready_for_design` é uma etapa do trabalho. A capacidade visual só deve ser acionada mediante pedido explícito enquanto continuar em validação.
+Não existe uma transferência obrigatória para um agente separado chamado Codex. `ready_for_design` é um checkpoint interno. Quando Eduardo pedir um carrossel completo, a skill `instagram-carousel` conduz o mesmo profile da seleção editorial aos PNGs finais.
 
 ## Quando registrar no GitHub
 
@@ -58,4 +58,4 @@ A voz específica continua sendo refinada em `references/brand/brand.md` com exe
 
 ## Critério de finalização editorial
 
-Um item só recebe `ready_for_design` quando tiver objetivo, público, ideia central, fontes, limites, quantidade de slides definida pela narrativa, copy final, legenda e orientação visual útil quando necessária.
+Um item só recebe `ready_for_design` quando tiver objetivo, público, ideia central, seleção editorial, fontes, limites, quantidade de slides definida pela narrativa, copy final e legenda. Antes da renderização, `visual.md` deve registrar a direção do conjunto, o plano de mídia e o renderer.

@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Qual transformação, aprendizado ou ação este conteúdo deve gerar?
+O que o leitor precisa entender depois de consumir este carrossel?
 
 ## Público
 
@@ -10,7 +10,13 @@ Para quem é o conteúdo e qual é o nível de familiaridade dessa pessoa com o 
 
 ## Ideia central
 
-Escreva em uma frase a promessa do carrossel.
+Escreva em uma frase o recorte principal do carrossel.
+
+## Seleção editorial
+
+- Pontos essenciais que entram:
+- Pontos descartados por irrelevância:
+- Pontos descartados por falta de sustentação:
 
 ## Contexto e limites
 
@@ -24,4 +30,4 @@ Inclua nuances que não podem se perder, termos que devem ou não devem ser usad
 
 ## Direção criativa, se houver
 
-Registre apenas uma intenção útil para o design: atmosfera, metáfora, objetos ou referências a priorizar. O padrão geral vem de `references/`.
+Registre apenas uma intenção útil para o design. A especificação detalhada será criada em `visual.md`.

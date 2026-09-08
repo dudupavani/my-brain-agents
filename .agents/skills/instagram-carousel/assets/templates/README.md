@@ -1,13 +1,11 @@
-# Três referências de design
+# Referências visuais obrigatórias
 
-Adicione exatamente estes três arquivos JPEG nesta pasta:
+Os três JPEGs desta pasta são referências de composição, hierarquia, cor e ritmo para a skill `instagram-carousel`:
 
-```text
-reference-01.jpg
-reference-02.jpg
-reference-03.jpg
-```
+- `reference-01.jpg`: capa com mídia relevante e hook dominante;
+- `reference-02.jpg`: slide conduzido por texto;
+- `reference-03.jpg`: slide de texto com mídia relevante.
 
-Eles são obrigatórios para a skill `instagram-carousel`. O Codex deve abrir os três antes de desenhar qualquer carrossel e criar uma interpretação original do conjunto.
+As caixas cinzas e os textos “Aqui vai...” são marcações do modelo, nunca elementos da entrega. Eles devem ser substituídos por conteúdo real ou removidos.
 
-Use imagens que representem a direção visual que você quer repetir nos próximos carrosséis. Não precisam ser cópias do mesmo layout; juntas, devem revelar seu padrão de cor, composição, tipografia e atmosfera.
+As referências não são arquivos para copiar literalmente. A skill deve abrir as três, extrair seus princípios e criar uma composição original adequada ao conteúdo.

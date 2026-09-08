@@ -12,9 +12,11 @@ Escreva uma única frase forte, precisa e fiel à fonte. Ela será o texto domin
 
 Adicione aqui uma seção separada para cada slide necessário. A quantidade depende do conteúdo.
 
-## Slide final — CTA
+## Slide final — Fechamento
 
 Texto:
+
+Use CTA somente quando ele aprofundar naturalmente a ideia. Uma conclusão ou fechamento factual também são válidos.
 
 ## Legenda proposta
 

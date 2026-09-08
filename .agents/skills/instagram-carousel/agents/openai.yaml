@@ -1,3 +1,4 @@
 interface:
-  display_name: "Instagram Carousel"
-  short_description: "Help with Instagram Carousel tasks"
+  display_name: "Criador de Carrossel do Instagram"
+  short_description: "Cria carrosséis completos a partir de conteúdo"
+  default_prompt: "Use $instagram-carousel para transformar este conteúdo em um carrossel final para o Instagram."

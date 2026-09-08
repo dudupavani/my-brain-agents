@@ -41,8 +41,8 @@ O agente extrai o necessário da entrada e registra no pacote. O usuário não d
 - Mídia precisa provar, explicar ou contextualizar a notícia. Uma imagem sem relação semântica com o assunto não deve ser usada.
 - Fotografia real é preferível quando uma foto acrescenta significado. Ilustrações só são apropriadas quando representam diretamente o tema.
 - A ausência de mídia útil não bloqueia a pauta: o carrossel pode ter slides tipográficos.
-- O agente escolhe e registra a mídia em `media.md` quando necessário, com origem e papel editorial. Isso não é uma tarefa para o usuário.
+- O agente escolhe a mídia e registra origem, papel editorial e uso por slide em `visual.md`. Isso não é uma tarefa para o usuário.
 
 ## Autonomia e passagem de etapa
 
-Quando Eduardo pedir um conteúdo final a partir de uma entrada utilizável, o agente deve criar o pacote e avançar até `ready_for_design` sem aprovação editorial intermediária. Essa é uma etapa interna do agente `personal-content`, não uma entrega obrigatória para outro agente. Só interrompa diante de bloqueio factual, técnico ou de uma escolha que mude materialmente o conteúdo.
+Quando Eduardo pedir somente estrutura, roteiro ou copy a partir de uma entrada utilizável, o agente deve avançar até `ready_for_design`. Quando pedir um carrossel, deve usar a skill `instagram-carousel` e seguir até `in_review`, incluindo imagens e PNGs finais. Não peça aprovação intermediária; só interrompa diante de bloqueio factual, técnico ou de uma escolha que mude materialmente o conteúdo.

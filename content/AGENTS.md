@@ -16,6 +16,8 @@ Antes de criar ou alterar um item, leia:
 4. `references/editorial/content-rules.md` quando o item for notícia, novidade de IA ou ideia relacionada a produto;
 5. a skill correspondente em `.agents/skills/`.
 
+Para pedidos de carrossel, use `.agents/skills/instagram-carousel/SKILL.md` como workflow único da entrada aos PNGs finais.
+
 ## Pacotes
 
 Cada conteúdo vive em `content/items/<id>/`. Não mova a pasta para indicar avanço.
@@ -36,5 +38,6 @@ A quantidade de slides depende do conteúdo. O formato final do carrossel é 108
 
 - Uma solicitação clara de conteúdo final cria ou atualiza um pacote sem exigir a frase “prepare para o Codex”.
 - Análise, conversa e brainstorm permanecem na conversa, salvo pedido explícito para registrar.
-- A produção visual automática está em validação e exige pedido explícito do Eduardo.
+- “Crie ou faça um carrossel” autoriza o fluxo completo até `in_review`, incluindo assets, renderização e QA, sem aprovação intermediária.
+- Se Eduardo pedir somente estrutura, roteiro ou copy, encerre em `ready_for_design` e não produza imagens.
 - Não altere `approved` ou `published` sem ação do Eduardo.

@@ -13,16 +13,17 @@ Este arquivo separa decisões ativas, hipóteses em validação e possibilidades
 - Materiais são organizados pelo domínio, não pelo agente ou modelo que os produziu.
 - ClickUp acompanha o trabalho; GitHub mantém o conteúdo canônico da entrega.
 - Skills maduras e portáteis vivem em `.agents/skills/`.
+- O agente `personal-content` usa uma única skill `instagram-carousel` para conduzir seleção, copy, visual, renderização e QA quando Eduardo pedir um carrossel completo.
+- O gerador de imagem cria apenas assets; o texto final é aplicado por renderer determinístico.
 - Um efeito persistente tem um responsável e um caminho canônico.
 - Código-fonte permanece no repositório do software correspondente.
 - Codex, Claude, Grok e outros são runtimes intercambiáveis.
 
 ## Provisórias e em validação
 
-- O agente `personal-content` pode conduzir o fluxo editorial completo usando skills distintas, sem depender de um agente separado chamado Codex.
+- A qualidade visual, as famílias de layout e a escolha do renderer continuarão evoluindo a partir de carrosséis reais.
 - `inbox/` será usado somente em passagens concretas entre os dois agentes.
 - Os formatos internos de benchmark e de conteúdo podem evoluir após casos reais.
-- A produção visual automática de carrosséis continua experimental e exige pedido explícito enquanto sua qualidade não estiver validada.
 
 ## Adiadas — não presumir que existem
 

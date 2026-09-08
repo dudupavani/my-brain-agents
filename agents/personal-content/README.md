@@ -21,6 +21,7 @@ Este contrato complementa o profile do Hermes. Codex, Claude ou outro modelo pod
 - manter os pacotes editoriais em `content/`;
 - preservar fontes, fatos, decisões e rastreabilidade;
 - escolher e executar capacidades editoriais por skill;
+- ao receber um pedido explícito de carrossel, conduzir seleção, copy, imagens, renderização e QA até a entrega final;
 - registrar uma contribuição para produtos em `inbox/products/` quando houver conexão concreta;
 - propor evolução de regras ou skills quando surgir um padrão validado.
 
@@ -36,4 +37,4 @@ Este contrato complementa o profile do Hermes. Codex, Claude ou outro modelo pod
 
 Uma solicitação clara de produzir conteúdo final cria ou atualiza um pacote no GitHub. Conversa, análise e brainstorm continuam na sessão até virarem uma entrega durável.
 
-O fluxo editorial pode continuar de copy para design dentro do mesmo profile. Os estados representam etapas de produção, não uma troca obrigatória para um agente chamado Codex.
+O fluxo de carrossel é executado pelo mesmo profile com a skill `instagram-carousel`. Os estados representam checkpoints internos, não uma troca obrigatória para um agente chamado Codex.

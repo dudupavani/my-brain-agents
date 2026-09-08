@@ -1,73 +1,95 @@
 ---
 name: instagram-carousel
-description: "Transforme um pacote de conteúdo pronto em um carrossel final para Instagram, usando a marca e as três referências JPEG internas da skill. Use quando um item estiver em ready_for_design; não use para pesquisa ou criação editorial ainda sem copy final."
+description: "Transforme conteúdo, URL ou pacote existente em um carrossel final para o feed do Instagram: selecione os pontos essenciais, escreva a copy, planeje e gere imagens relevantes, renderize o texto com precisão e entregue PNGs 1080 × 1350. Use quando Eduardo pedir para criar ou fazer um carrossel; não use para mera análise, brainstorm ou publicação."
 ---
 
 # Instagram Carousel
 
-Crie uma entrega visual original, legível e fiel à copy aprovada. O repositório é a memória compartilhada do fluxo: não dependa de contexto que não esteja registrado nele.
+Conduza o carrossel de ponta a ponta dentro do agente `personal-content`. O usuário fornece o conteúdo ou indica sua origem; a skill resolve o restante sem briefing manual nem aprovação entre etapas.
 
-Esta capacidade permanece experimental. Use-a somente quando Eduardo pedir explicitamente a produção visual; não a acione automaticamente ao encontrar um pacote pronto.
+## Contexto obrigatório
 
-## Formato obrigatório
+Antes de trabalhar, leia:
 
-Este fluxo produz carrosséis para o **feed do Instagram**, não Stories. Todo slide final deve ter exatamente **1080 × 1350 pixels**, em retrato **4:5**.
+1. `AGENTS.md` e `agents/personal-content/README.md`;
+2. `content/AGENTS.md`;
+3. `references/brand/brand.md`;
+4. `references/editorial/content-system.md`;
+5. `references/editorial/content-rules.md` quando a entrada envolver notícia, novidade de IA, fonte externa ou ideia relacionada a produto;
+6. os modelos em `content/templates/`.
 
-- Nunca entregue 1080 × 1920, 9:16, ou outro formato vertical de Stories.
-- Uma prévia gerada em outro tamanho não é uma entrega final. Antes de salvar, recorte ou redimensione sem distorcer e confirme as dimensões reais do arquivo.
+Se houver item existente, leia todos os seus arquivos antes de alterá-lo. Campos ainda indefinidos nas referências não autorizam invenções.
 
-## Referências de design obrigatórias
+## Resolver a entrada
 
-Antes de criar qualquer slide, abra e analise as três imagens abaixo:
+Use, nesta ordem, o que estiver inequivocamente indicado no pedido:
 
-```text
-assets/templates/reference-01.jpg
-assets/templates/reference-02.jpg
-assets/templates/reference-03.jpg
-```
+1. item ou caminho informado pelo usuário;
+2. conteúdo ou URL fornecido na conversa atual;
+3. um único item compatível já existente em `content/items/`.
 
-Essas três imagens são a fonte visual da skill. Use-as como um sistema de referência: observe a hierarquia, composição, contraste, tipografia, tratamento de imagem, ritmo e uso de cor que elas compartilham ou complementam. Crie uma execução nova; não reproduza uma referência isolada nem copie layouts, textos, logotipos ou imagens.
+Se houver mais de um conteúdo possível e a escolha mudar materialmente o resultado, pergunte qual usar. Uma solicitação para analisar, resumir ou conversar sobre algo não autoriza criar um carrossel.
 
-Se qualquer uma das três imagens estiver ausente, ilegível ou não for JPEG, interrompa a produção e informe o usuário. Não substitua referências, não procure alternativas e não inicie o design sem o conjunto completo.
+Quando o pedido for para criar o carrossel completo, avance até os PNGs finais no mesmo trabalho. Só interrompa por falta de fonte essencial, ambiguidade material, ausência das referências obrigatórias ou indisponibilidade de uma capacidade técnica indispensável. Não configure ferramentas, instale dependências nem publique o conteúdo por conta própria.
 
-## Encontrar o trabalho certo
+## 1. Apurar e selecionar
 
-1. Leia `AGENTS.md`, `agents/personal-content/README.md`, `content/AGENTS.md`, `mapa.md` e `references/brand/brand.md`.
-2. Se o usuário fornecer um ID, use apenas `content/items/<id>/`. Caso contrário, encontre um único pacote com `status: ready_for_design`, priorizando `priority` e depois a data de criação.
-3. Leia `metadata.yaml`, `brief.md` e `carousel.md` do pacote. Só prossiga se a copy estiver completa, as fontes necessárias estiverem registradas e a quantidade escolhida de slides fizer sentido para a narrativa.
-   - Se existir `media.md`, leia-o e trate-o como a orientação de mídia do pacote.
-4. Quando informações essenciais faltarem, não preencha lacunas por conta própria. Atualize o item para `blocked`, aponte a necessidade em `handoff.notes` e informe o usuário.
+1. Crie ou retome `content/items/<id>/` e use `status: draft` durante a apuração.
+2. Se a entrada for URL, extraia a fonte, procure a origem primária quando necessário e confira fatos, nomes, números e datas.
+3. Identifique uma única ideia central coerente com os objetivos editoriais do Eduardo.
+4. Selecione apenas os fatos e pontos necessários para essa ideia. Não tente comprimir o artigo inteiro nem preserve trechos só porque estavam na fonte.
+5. Registre em `brief.md` o que foi selecionado, o que foi descartado por irrelevância ou falta de sustentação e as fontes usadas.
 
-A quantidade de slides é variável. Nunca use 8, ou qualquer outro número, como padrão. Produza apenas os slides necessários para desenvolver a ideia com clareza, sem adicionar telas vazias ou conteúdo de preenchimento.
+Não transforme notícia em opinião obrigatoriamente. Diferencie fato verificado, declaração atribuída, interpretação e hipótese.
 
-## Hierarquia e mídia
+## 2. Escrever a narrativa do carrossel
 
-- No slide 1, a única frase de hook deve ficar no topo e ser o elemento visual claramente dominante. Não adicione apoio, subtítulo ou uma segunda ideia que dispute atenção com ela.
-- Prefira fotografia real quando uma imagem for necessária. Ilustrações só servem quando explicam ou representam diretamente o assunto do slide.
-- A mídia deve provar, contextualizar ou tornar o fato compreensível: foto oficial, pessoa/equipe envolvida, produto, interface, gráfico, diagrama ou visual diretamente relacionado.
-- Não use imagens genéricas, ilustrações abstratas nem visuais decorativos apenas para preencher espaço. Se não houver mídia que acrescente significado, crie um slide tipográfico.
-- Preserve a proveniência e as limitações registradas em `media.md`. Não trate a presença de uma imagem como obrigação para cada slide.
+1. Defina a quantidade de slides pela narrativa e pela legibilidade. Não existe número fixo, mínimo editorial ou padrão de oito slides.
+2. Escreva em `carousel.md` somente a copy exata que aparecerá na arte.
+3. O slide 1 contém uma única frase de hook: provocativa o bastante para interromper a rolagem, mas precisa e sustentada pela fonte. Ela é o primeiro texto e o elemento tipográfico dominante.
+4. Cada slide seguinte cumpre uma função clara e desenvolve apenas um ponto principal. Remova repetição, contexto lateral e explicação que exija reduzir excessivamente a tipografia.
+5. Use CTA somente quando ele aprofundar naturalmente o conteúdo. Um fechamento factual ou uma conclusão também são válidos.
+6. Escreva a legenda final e faça uma revisão editorial comparando a copy com a fonte e com a marca.
 
-## Método visual
+Atualize `target.slide_count` para o total real. Quando a copy estiver fechada, registre internamente `ready_for_design`; não peça aprovação intermediária se o pedido foi pelo carrossel completo.
 
-- Use um modelo de imagem para criar ou editar a arte raster tomando os três JPEGs como referência visual.
-- Não use SVG, wireframes, cartões vazios, caixas de placeholder ou formas genéricas como entrega final.
-- O texto da copy deve aparecer completo, correto e legível. Se o método usado não preservar o texto, a entrega não está pronta para revisão.
+## 3. Planejar o visual
 
-## Assumir e produzir
+Antes desta etapa, leia [o sistema visual e contrato de renderização](references/visual-system.md) e abra as três referências JPEG em `assets/templates/`.
 
-1. Antes de criar a arte, atualize `metadata.yaml` para `status: in_production`, `owner: personal-content` e a data atual. Se a sincronização remota estiver autorizada, registre o início em um commit focado.
-2. Preserve a copy final. Não altere palavras, números, promessas ou fontes sem pedido do usuário; erros objetivos devem ser sinalizados antes de mudar o conteúdo.
-3. Aplique a análise das três referências JPEG obrigatórias para criar uma composição própria, sem reproduzir uma arte existente.
-4. Produza um slide por arquivo PNG, exatamente em 1080 × 1350 (4:5), na pasta `content/items/<id>/deliverables/`. Confirme as dimensões antes de nomear em ordem: `slide-01.png`, `slide-02.png` e assim por diante.
-5. Crie `deliverables/caption.md` com a legenda final extraída de `carousel.md`, e `deliverables/design-notes.md` confirmando a consulta às três referências, as decisões visuais e quaisquer limitações materiais.
+O conjunto obrigatório é `reference-01.jpg`, `reference-02.jpg` e `reference-03.jpg`. Se qualquer arquivo estiver ausente, ilegível ou não for JPEG, use `blocked`; não improvise outra referência.
 
-Ao criar ou revisar a entrega, siga [a lista de qualidade](references/quality-checklist.md).
+1. Crie `visual.md` a partir do modelo do projeto.
+2. Escolha para cada slide a família de layout que melhor serve à mensagem, sem repetir mecanicamente o mesmo molde.
+3. Defina se o slide exige fotografia, ilustração, gráfico, interface ou nenhuma mídia. Toda imagem deve provar, explicar ou contextualizar o conteúdo.
+4. Prefira mídia primária ou fotografia real quando forem relevantes. Não use imagens genéricas para preencher espaço.
+5. Atualize o item para `in_production` antes de produzir os arquivos finais.
 
-## Encerrar a entrega
+## 4. Produzir os assets de imagem
 
-1. Confirme que todos os slides previstos existem, estão ordenados e apresentam exatamente a copy aprovada.
-2. Atualize `metadata.yaml` para `status: in_review`, `owner: eduardo`, `updated_at` e uma nota curta de entrega em `handoff.notes`.
-3. Revise o conjunto de arquivos alterados. Quando houver um remoto autorizado, faça um commit focado, por exemplo `design(<id>): add carousel deliverables`, e envie-o ao GitHub.
+- Use mídia oficial ou da própria fonte quando ela for adequada, sua proveniência estiver registrada e o uso estiver autorizado ou claramente permitido.
+- Quando for necessário criar uma imagem original e houver uma ferramenta de geração disponível — `image_generate` no Hermes — gere somente o asset visual, sem a copy do slide, sem letras legíveis e sem caixas reservadas para texto.
+- Não peça ao gerador de imagem para montar o slide final. Ele não decide conteúdo, narrativa, tipografia nem layout.
+- Salve os assets usados em `deliverables/assets/` com nomes descritivos e registre origem, geração e finalidade em `visual.md`.
+- Se uma imagem for indispensável e nenhuma fonte ou ferramenta adequada estiver disponível, use `blocked`. Não substitua por ilustração genérica ou placeholder.
 
-Nunca altere `approved` ou `published`: esses estados pertencem ao usuário.
+## 5. Renderizar os slides
+
+1. Componha os slides com um renderer determinístico que preserve a copy exatamente, como HTML/CSS capturado em PNG ou outro compositor raster já disponível no ambiente.
+2. O renderer combina texto aprovado, asset, tipografia, cor, espaçamento e layout. O modelo de imagem nunca escreve o texto final.
+3. Não instale dependências silenciosamente. Se não houver um renderer capaz de produzir o resultado com precisão, bloqueie a entrega e informe a capacidade ausente.
+4. Nunca use SVG, wireframe, cartões vazios ou placeholders como entrega.
+5. Gere `slide-01.png`, `slide-02.png` e assim por diante em `deliverables/`, todos com exatamente 1080 × 1350 pixels, retrato 4:5 para o feed.
+6. Gere `deliverables/caption.md` e `deliverables/design-notes.md`. Registre neste último as referências consultadas, o renderer, a tipografia, as mídias e eventuais limitações.
+
+## 6. Validar e entregar
+
+Leia e aplique [a lista de qualidade](references/quality-checklist.md).
+
+- Compare visualmente cada PNG com `carousel.md`; nenhum texto pode faltar, mudar ou ser inventado.
+- Confirme dimensões, ordem, quantidade, legibilidade, relação semântica das imagens e ausência de elementos temporários.
+- Corrija os problemas encontrados antes de encerrar.
+- Atualize `metadata.yaml` para `status: in_review`, `owner: eduardo`, `updated_at` e uma nota curta com a próxima ação.
+- Faça um commit focado e envie ao remoto quando houver autorização.
+
+Nunca altere `approved` ou `published`. Esses estados e a publicação pertencem ao Eduardo.

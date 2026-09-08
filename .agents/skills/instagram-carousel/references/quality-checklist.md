@@ -1,28 +1,40 @@
 # Lista de qualidade do carrossel
 
-Use esta lista antes de marcar o pacote como `in_review`.
+Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 
-## Conteúdo
+## Fonte e edição
 
-- A sequência de slides é a mesma definida em `carousel.md`.
-- A quantidade foi escolhida para este conteúdo, não herdada de um modelo, e `metadata.yaml` corresponde ao total real.
-- O hook abre a narrativa e o CTA encerra a sequência. No primeiro slide, o hook é uma única frase e ocupa a posição visual dominante no topo.
-- Textos, números, nomes e fontes não foram inventados, abreviados de modo enganoso ou alterados sem autorização.
+- A ideia central está coerente com o material fornecido e com os objetivos editoriais do Eduardo.
+- `brief.md` distingue fatos, declarações atribuídas, interpretações e pontos descartados.
+- Nomes, números, datas, capacidades, promessas e citações possuem sustentação verificável.
+- O carrossel seleciona o essencial; não tenta reproduzir o artigo inteiro nem acrescenta contexto inventado.
+- A quantidade de slides foi decidida para este conteúdo e coincide com `target.slide_count`.
+- O hook é uma única frase, interessante, precisa e fiel à fonte.
+- Cada slide desenvolve um ponto principal; o CTA só existe quando acrescenta valor.
 
-## Design
+## Direção visual e mídia
 
-- As três referências em `assets/templates/` foram abertas antes do design e guiaram a direção visual.
-- Cada arquivo final tem exatamente 1080 × 1350 pixels (4:5, feed) — não apenas um formato vertical — e está nomeado na ordem de leitura.
-- A informação principal de cada slide é entendida em tela pequena, sem exigir zoom.
-- Há hierarquia evidente: um foco por slide, contraste suficiente e espaço de respiro.
-- A sequência tem unidade visual, mas não transforma todos os slides em cópias idênticas.
-- A mídia, quando usada, é relevante para o fato: prova, explica ou contextualiza o assunto. Fotografias reais têm preferência; ilustrações só aparecem quando representam diretamente o tema.
-- Nenhuma imagem é genérica ou apenas decorativa. Um slide tipográfico é preferível a uma imagem sem significado.
-- A arte é original e não usa logos, pessoas, imagens ou elementos sem direito de uso.
+- As três referências JPEG foram abertas e `visual.md` registra como seus princípios foram aplicados.
+- A capa trata o hook como primeiro texto e elemento tipográfico dominante.
+- Cada imagem prova, explica ou contextualiza o slide em que aparece.
+- Fotografia real ou mídia primária foi priorizada quando relevante.
+- A origem e a condição de uso de cada mídia externa estão registradas.
+- Assets gerados não contêm a copy, letras falsas, títulos ou layout de post.
+- Não há mídia genérica, repetida, puramente decorativa ou sem relação com o assunto.
+- Nenhum texto, caixa cinza, seta, cartão ou marcação dos arquivos de referência vazou para a entrega.
 
-## Entrega
+## Renderização
 
-- `caption.md` contém a legenda final e `design-notes.md` registra o uso das três referências JPEG.
-- Não há arquivos temporários, rascunhos ambíguos ou versões conflitantes na pasta de entrega.
-- `metadata.yaml` indica `in_review`, `owner: eduardo` e a próxima ação com clareza.
-- A entrega final não contém SVG, wireframe, cartão vazio ou placeholder visual.
+- O texto dos PNGs corresponde exatamente a `carousel.md`, inclusive acentos, números e pontuação.
+- O texto foi aplicado por renderer determinístico, não desenhado pelo gerador de imagem.
+- Todos os slides são PNG raster de exatamente 1080 × 1350 pixels, retrato 4:5 para o feed.
+- Não há SVG, wireframe, placeholder, arquivo temporário, corte, sobreposição ou texto fora da área segura.
+- Hierarquia, contraste, alinhamento, margens, entrelinha e tamanho funcionam em tela pequena.
+- O conjunto tem unidade visual sem transformar todos os slides em cópias do mesmo layout.
+
+## Pacote final
+
+- Há um PNG para cada slide, nomeado e ordenado corretamente.
+- `caption.md` contém a legenda final.
+- `design-notes.md` registra referências, renderer, tipografia, assets e limitações.
+- `metadata.yaml` está em `in_review`, com `owner: eduardo` e próxima ação clara.
