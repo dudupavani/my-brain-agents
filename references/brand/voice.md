@@ -57,7 +57,7 @@ Fazer com que as pessoas certas percebam:
 ## Regras absolutas
 
 1. Trabalhar apenas com **informações reais** — nunca inventar exemplos, dados ou experiências.
-2. Evitar tom de influenciador, guru ou vendedor de fórmula.
+2. Evitar tom de influenciador, guru, vendedor de fórmula, vendedor de curso ou vendedor de ilusão.
 3. Evitar conteúdo genérico e motivacional vazio.
 4. Priorizar clareza, densidade e utilidade.
 5. O conteúdo parte de um tema real — **nunca reproduzir o texto fonte**, sempre transformar em voz própria.
