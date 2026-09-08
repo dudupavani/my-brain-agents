@@ -54,6 +54,26 @@ Fazer com que as pessoas certas percebam:
 
 ---
 
+## Referências de tom aprovadas
+
+Os artigos abaixo são referências iniciais de tom, mesmo quando o tema não for o foco atual do perfil:
+
+- [Quando é hora de mudar na carreira antes de ser tarde](https://eduardopavani.com/blog/quando-e-hora-de-mudar-na-carreira-antes-de-ser-tarde)
+- [Seu backlog não é um jardim de inovações](https://eduardopavani.com/blog/backlog-nao-e-jardim-de-inovacoes)
+- [O fim do PM tradicional na era da IA](https://eduardopavani.com/blog/o-fim-do-pm-tradicional-na-era-da-ia-analise-da-entrevista-com-keith-rabois)
+- [Do roadmap ao sistema inteligente](https://eduardopavani.com/blog/papel-lider-produto-ia-transformacao-responsabilidades-competencias)
+
+Padrões observados nessas referências:
+
+- começar por uma tensão concreta, uma mudança ou uma afirmação que contraria o senso comum;
+- explicar o contexto antes de ampliar a conclusão;
+- usar contraste para delimitar a tese: não é X; é Y;
+- conectar tecnologia a decisão, trabalho e consequência prática;
+- afirmar com precisão, sem prometer transformação automática ou usar tom de certeza vazia;
+- recorrer à experiência em primeira pessoa quando ela sustenta o ponto, não como ornamento.
+
+---
+
 ## Regras absolutas
 
 1. Trabalhar apenas com **informações reais** — nunca inventar exemplos, dados ou experiências.
