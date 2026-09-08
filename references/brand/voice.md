@@ -22,8 +22,7 @@ Fazer com que as pessoas certas percebam:
 - Experiência prática
 - Credibilidade profissional
 
-**Resultado esperado:** fortalecer posicionamento para oportunidades de carreira,
-consultoria e networking qualificado.
+**Resultado esperado:** fazer o público acompanhar o que Eduardo está construindo e fortalecer seu posicionamento para oportunidades ligadas a seus produtos, carreira, consultoria e networking qualificado.
 
 ---
 
