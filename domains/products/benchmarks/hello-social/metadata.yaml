@@ -1,0 +1,15 @@
+id: hello-social
+title: "Benchmark competitivo — hello, social"
+product: pomake
+owner: products
+status: migrated
+source:
+  system: clickup
+  document_id: 8cktn70-1259
+  page_ids: [8cktn70-1459]
+  urls:
+    - https://app.clickup.com/9013351648/v/dc/8cktn70-1259/8cktn70-1459
+original_analysis_dates:
+  - 2026-09-01
+migration_date: 2026-09-08
+source_limitations: "Sem login, geração, conexão de redes ou compra; funções e resultados foram registrados de declarações e fluxos expostos publicamente, sem revalidação nesta migração."

@@ -1,0 +1,16 @@
+id: instagem
+title: "Benchmark competitivo — InstaGem.ai"
+product: pomake
+owner: products
+status: migrated
+source:
+  system: clickup
+  document_id: 8cktn70-919
+  page_ids: [8cktn70-939]
+  urls:
+    - https://app.clickup.com/9013351648/v/dc/8cktn70-919/8cktn70-939
+original_analysis_dates:
+  - 2026-08-08
+  - 2026-08-30
+migration_date: 2026-09-08
+source_limitations: "Registro migrado de análise de página pública; preços, planos, funcionalidades e alegações podem mudar e não foram revalidados nesta migração."

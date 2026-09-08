@@ -1,0 +1,14 @@
+id: instafactory
+title: "Benchmark competitivo — InstaFactory AI"
+product: pomake
+owner: products
+status: migrated
+source:
+  system: clickup
+  document_id: 8cktn70-959
+  page_ids: [8cktn70-999]
+  urls:
+    - https://app.clickup.com/9013351648/v/dc/8cktn70-959/8cktn70-999
+original_analysis_dates: []
+migration_date: 2026-09-08
+source_limitations: "Landing page pública e informações públicas carregadas por ela; sem dashboard autenticado. Recursos, preços, métricas e integrações são declarações do site e não foram revalidados nesta migração."
