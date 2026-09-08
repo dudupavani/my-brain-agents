@@ -10,6 +10,10 @@ O posicionamento será de alguém que está na linha de frente, experimentando, 
 
 ## Percepção desejada
 
+> “Um cara que tem muito conhecimento em resolver problemas com tecnologia.”
+
+Essa é a percepção central. A formulação abaixo descreve como ela pode se manifestar:
+
 > “Esse cara está muito à frente. Ele entende o que está acontecendo, sabe aplicar e consegue transformar possibilidades em coisas funcionando.”
 
 ## Público
