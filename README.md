@@ -1,13 +1,34 @@
-# Instagram Creator
+# Memória Global dos Agentes
 
-Este repositório é a memória compartilhada entre o Hermes, o Codex e você. Ele guarda o conteúdo aprovado, as referências que definem a marca e os carrosséis finais — não apenas conversas soltas.
+Este repositório é a memória persistente e a fonte de verdade dos agentes do Eduardo. Ele centraliza materiais, decisões, referências, instruções, skills e entregas em um único lugar, com histórico rastreável no GitHub.
 
-## Fluxo inicial
+Os agentes são perfis independentes no Hermes. Cada perfil tem um escopo e um domínio próprios, mas todos consultam e mantêm esta mesma memória. O repositório não possui um agente orquestrador: a arquitetura e as regras de roteamento cumprem esse papel.
+
+Consulte [mapa.md](mapa.md) para navegar pela estrutura, [architecture/registry.yaml](architecture/registry.yaml) para descobrir os agentes e domínios e [AGENTS.md](AGENTS.md) para o protocolo obrigatório.
+
+## Princípios
+
+- Centralizar a memória em um único repositório.
+- Separar agentes, domínios de conhecimento e skills.
+- Salvar cada informação no domínio ao qual ela pertence.
+- Manter as skills como fonte viva, atualizando-as no mesmo local.
+- Evoluir a arquitetura gradualmente, sem criar estruturas que ainda não tenham uso.
+
+## Agentes atuais
+
+| Perfil no Hermes | Responsabilidade atual | Memória principal |
+| --- | --- | --- |
+| Instagram Creator | Conteúdo e produção editorial para Instagram | `content/` e `references/` |
+| Agente de produtos | Materiais, decisões e trabalho relacionados a produtos | `domains/products/` |
+
+O agente pessoal, atualmente chamado Instagram Creator, pode usar `domains/personal/` para materiais pessoais que não pertencem ao domínio editorial.
+
+## Fluxo atual do Instagram
 
 ```text
-Você conversa com Hermes
+Você conversa com o Instagram Creator
         ↓
-Quando você pede para preparar para o Codex, Hermes cria um pacote em content/items/<id>
+Quando pede para preparar para o Codex, o agente cria um pacote em content/items/<id>
         ↓  status: ready_for_design
 Codex cria o carrossel no mesmo pacote
         ↓  status: in_review
@@ -36,5 +57,3 @@ git push -u origin main
 ```
 
 Depois disso, cada agente deve atualizar a cópia local antes de iniciar um item e enviar somente o trabalho concluído. GitHub é a memória compartilhada; a sincronização acontece por `pull` e `push`, não de modo instantâneo.
-
-Leia [mapa.md](mapa.md) para navegar pela estrutura e [AGENTS.md](AGENTS.md) para o protocolo que os agentes seguem.

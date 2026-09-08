@@ -1,14 +1,32 @@
-# Protocolo da memória compartilhada
+# Protocolo da memória global
 
-## Missão
+## Propósito
 
-Este repositório é a fonte de verdade dos conteúdos de Instagram. Todo agente deve tratar os arquivos como memória persistente: ler o contexto necessário antes de agir e registrar a entrega antes de encerrar.
+Este repositório é a memória persistente e a fonte de verdade do sistema de agentes do Eduardo. Ele centraliza materiais, decisões, referências, instruções, skills e entregas em um único lugar.
 
-## Contexto editorial
+Os agentes são perfis independentes no Hermes. Não existe um agente orquestrador: cada perfil deve identificar o próprio escopo, ler as regras do domínio correspondente e salvar o resultado no local correto.
 
-Antes de analisar, desenvolver ou preparar conteúdo, Hermes deve ler `references/brand/brand.md` e `references/editorial/content-system.md`.
+O GitHub é o meio de sincronização. A memória é formada pelos arquivos, pela arquitetura e pelo histórico versionado do repositório.
 
-Conversa, pesquisa e rascunho não entram automaticamente no GitHub. Hermes só cria ou altera `content/items/<id>/` quando Eduardo pedir explicitamente para preparar o conteúdo para o Codex. Nesse caso, também deve ler e seguir `agents/hermes/HANDOFF.md`.
+## Como localizar o trabalho
+
+Antes de agir, todo agente deve:
+
+1. Ler este arquivo.
+2. Consultar `architecture/registry.yaml` para identificar o próprio contrato, domínio e caminhos permitidos.
+3. Ler o contrato do agente em `agents/` e as regras do domínio antes de criar ou alterar arquivos.
+4. Trabalhar somente dentro do escopo identificado.
+5. Registrar a entrega no repositório quando ela for uma decisão, material ou artefato persistente.
+
+Se o pedido não tiver um domínio claro, o agente deve pedir esclarecimento antes de salvar em um local arbitrário.
+
+O mapa de navegação está em `mapa.md`. As regras de roteamento estão em `architecture/routing.md`.
+
+## Contexto do domínio Instagram
+
+O agente atualmente chamado Instagram Creator mantém o domínio de conteúdo do Instagram. Antes de analisar, desenvolver ou preparar conteúdo, deve ler `references/brand/brand.md` e `references/editorial/content-system.md`.
+
+Conversa, pesquisa e rascunho não entram automaticamente no GitHub. O agente só cria ou altera `content/items/<id>/` quando Eduardo pedir explicitamente para preparar o conteúdo para o Codex. Nesse caso, também deve ler e seguir `agents/hermes/HANDOFF.md`.
 
 ## Sincronização
 
@@ -17,7 +35,7 @@ Conversa, pesquisa e rascunho não entram automaticamente no GitHub. Hermes só 
 3. Antes de encerrar, revise os arquivos alterados, faça um commit focado e envie-o ao remoto, quando houver acesso autorizado.
 4. Nunca force alterações nem sobrescreva trabalho recente de outro agente. Em caso de conflito, compare as versões e peça decisão humana se não houver uma solução óbvia.
 
-## Pacotes e responsabilidade
+## Pacotes de conteúdo do Instagram
 
 Cada conteúdo existe em `content/items/<id>/`. Não mova a pasta para representar o avanço do trabalho.
 
@@ -31,7 +49,7 @@ Carrosséis são entregues para o feed do Instagram, sempre em 1080 × 1350 pixe
 
 Antes de pesquisar, selecionar ou escrever uma pauta, o agente editorial deve ler `references/editorial/content-rules.md`. Para transformar URL, descoberta, vídeo/post ou ideia em pacote de carrossel, deve seguir `.agents/skills/news-to-carousel/SKILL.md`.
 
-## Estados permitidos
+## Estados dos pacotes de conteúdo
 
 | Estado | Significado | Próxima pessoa |
 | --- | --- | --- |
@@ -45,13 +63,19 @@ Antes de pesquisar, selecionar ou escrever uma pauta, o agente editorial deve le
 
 Atualize `status`, `owner` e `updated_at` juntos. Use `handoff.notes` para registrar somente a próxima ação necessária quando o item estiver bloqueado ou passar para outra pessoa.
 
-## Regras de qualidade
+## Regras globais de qualidade
 
 - Não invente fatos, fontes, resultados ou elementos da marca.
 - Não reescreva a copy final de outro agente sem registrar o motivo e sem preservar a intenção.
 - Não copie uma referência visual; extraia princípios e crie uma execução original.
 - Não apague entregas de outro agente. Prefira uma nova versão ou peça decisão.
 - Dados sensíveis, tokens, credenciais e arquivos `.env` nunca entram no repositório.
+
+## Skills
+
+As skills do projeto ficam em `.agents/skills/` e são a fonte viva de instruções operacionais para os agentes. Quando uma skill for atualizada, ela deve ser atualizada no mesmo local, sem criar versões paralelas ou cópias numeradas.
+
+Uma skill só deve ser criada ou promovida para o repositório quando representar um procedimento recorrente, útil e suficientemente claro. Rascunhos de conversa, tentativas pontuais e instruções ainda não validadas permanecem fora da memória persistente.
 
 ## Convenção de commits
 

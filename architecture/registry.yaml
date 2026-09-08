@@ -1,0 +1,59 @@
+version: 1
+
+repository:
+  role: global_memory
+  platform: github
+  agent_runtime: hermes
+  orchestrator: none
+  routing_rules: architecture/routing.md
+
+agents:
+  instagram_creator:
+    profile: "Instagram Creator"
+    platform: "Hermes"
+    scope: "Conteúdo, referências e produção editorial para Instagram"
+    contract:
+      - agents/hermes/CONTENT.md
+      - agents/hermes/HANDOFF.md
+    memory_paths:
+      - content/
+      - references/brand/
+      - references/editorial/
+    skill_paths:
+      - .agents/skills/instagram-carousel/
+      - .agents/skills/news-to-carousel/
+
+  products:
+    profile: "Agente de produtos"
+    platform: "Hermes"
+    scope: "Materiais, decisões e trabalho relacionados a produtos"
+    contract:
+      - agents/products/README.md
+    memory_paths:
+      - domains/products/
+    skill_paths: []
+
+domains:
+  shared:
+    path: shared/
+    purpose: "Informação deliberadamente útil para mais de um agente"
+
+  personal:
+    path: domains/personal/
+    owner: instagram_creator
+    purpose: "Materiais pessoais que não pertencem a um domínio especializado"
+
+  products:
+    path: domains/products/
+    owner: products
+    purpose: "Memória de produtos"
+
+  instagram:
+    path: content/
+    owner: instagram_creator
+    purpose: "Conteúdo e entregas de Instagram"
+
+skills:
+  path: .agents/skills/
+  policy: live_source
+  versioning: update_in_place
