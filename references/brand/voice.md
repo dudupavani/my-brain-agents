@@ -29,10 +29,8 @@ consultoria e networking qualificado.
 
 ## Público-alvo
 
-- Lideranças de produto, design e tecnologia
-- Heads, managers, founders e CEOs de tecnologia
-- Recrutadores e decisores
-- Profissionais seniores com foco em estratégia e aplicação prática
+- Empreendedores e profissionais curiosos que acompanham a aceleração tecnológica, mas ainda não enxergam com clareza o que já é aplicável na prática.
+- O tamanho e o setor da empresa não definem esse público; a mentalidade define.
 
 ---
 
