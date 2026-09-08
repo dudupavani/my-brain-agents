@@ -55,6 +55,8 @@ Os três territórios fazem parte do conteúdo de forma complementar; não há u
 
 Dicas técnicas podem aparecer, mas não precisam ser um território próprio. Elas entram quando ajudam a contar uma dessas histórias.
 
+Não há limitação prévia de tipo, forma ou ponto de partida do conteúdo: experiências concretas, construções em andamento, observações, opiniões e leituras de movimentos podem coexistir, desde que preservem os critérios de verdade e coerência da marca.
+
 ## Formato
 
 O principal formato deve continuar sendo a fala direta para a câmera, de maneira natural.
