@@ -49,6 +49,8 @@ Exemplo: distribuir assinaturas de inteligência artificial sem capacitação e 
 
 O primeiro território demonstra. O segundo surpreende. O terceiro constrói autoridade intelectual.
 
+Os três territórios fazem parte do conteúdo de forma complementar; não há uma hierarquia ou frequência fixa entre eles.
+
 Dicas técnicas podem aparecer, mas não precisam ser um território próprio. Elas entram quando ajudam a contar uma dessas histórias.
 
 ## Formato
