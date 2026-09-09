@@ -10,8 +10,10 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 - O carrossel seleciona o essencial; não tenta reproduzir o artigo inteiro nem acrescenta contexto inventado.
 - A quantidade de slides foi decidida para este conteúdo e coincide com `target.slide_count`.
 - A narrativa seleciona e reorganiza apenas o que a fonte sustenta: não há fato, relação causal ou conclusão inventados para ligar os slides.
+- O primeiro slide apresenta o assunto e o hook: o leitor identifica o tema mesmo chegando pelo Instagram sem contexto.
 - O hook é uma única frase, interessante, precisa e fiel à fonte.
-- O hook identifica o assunto central em isolamento — produto, empresa, pessoa, evento ou categoria inequívoca — sem depender da legenda ou dos slides seguintes para explicar do que o post trata.
+- O assunto central aparece no próprio hook ou em uma etiqueta prevista pelo template; não há texto improvisado fora do contrato visual.
+- A copy retoma o assunto central ou uma referência inequívoca quando necessário; não depende de pronomes ou de “o produto” sem antecedente claro.
 - Cada slide desenvolve um ponto principal; o CTA só existe quando acrescenta valor.
 
 ## Direção visual e mídia
