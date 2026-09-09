@@ -9,11 +9,14 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 - Nomes, números, datas, capacidades, promessas e citações possuem sustentação verificável.
 - O carrossel seleciona o essencial; não tenta reproduzir o artigo inteiro nem acrescenta contexto inventado.
 - A quantidade de slides foi decidida para este conteúdo e coincide com `target.slide_count`.
+- A linha editorial está registrada antes do design: promessa, tensão, progressão, consequência, takeaway e papel de cada slide.
+- A sequência pode ser resumida em uma frase e cada slide responde a uma pergunta ou cria a ponte necessária para o próximo.
 - A narrativa seleciona e reorganiza apenas o que a fonte sustenta: não há fato, relação causal ou conclusão inventados para ligar os slides.
 - O primeiro slide apresenta o assunto e o hook: o leitor identifica o tema mesmo chegando pelo Instagram sem contexto.
 - O hook é uma única frase, interessante, precisa e fiel à fonte.
 - O assunto central aparece no próprio hook ou em uma etiqueta prevista pelo template; não há texto improvisado fora do contrato visual.
 - A copy retoma o assunto central ou uma referência inequívoca quando necessário; não depende de pronomes ou de “o produto” sem antecedente claro.
+- Não há títulos soltos: todo slide só com título tem imagem ou composição que carrega a explicação; nos demais, o texto de apoio desenvolve o ponto.
 - Cada slide desenvolve um ponto principal; o CTA só existe quando acrescenta valor.
 
 ## Direção visual e mídia

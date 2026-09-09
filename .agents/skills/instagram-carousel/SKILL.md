@@ -44,14 +44,27 @@ Não transforme notícia em opinião obrigatoriamente. Diferencie fato verificad
 
 ## 2. Escrever a narrativa do carrossel
 
+### Gate editorial: história antes do design
+
+Antes de escolher templates, imagens ou quantidade final de slides, construa a linha editorial em `brief.md`:
+
+- a promessa: o que o leitor vai entender ao terminar;
+- a tensão: qual problema, mudança ou pergunta move o conteúdo;
+- a progressão: como a história sai do hook e chega à conclusão;
+- a consequência: por que o assunto importa para esse público;
+- o takeaway: qual ideia deve permanecer depois do último slide.
+
+Para cada slide, registre o papel narrativo, a pergunta que ele responde e a ponte para o próximo. Só avance para a copy final quando a sequência puder ser resumida em uma frase e cada slide for necessário para a compreensão. Se a sequência parecer uma coleção de afirmações independentes, volte para a linha editorial; não tente consertar o problema apenas com layout ou imagens.
+
 1. Defina a quantidade de slides pela narrativa e pela legibilidade. Não existe número fixo, mínimo editorial ou padrão de oito slides.
 2. Antes de redigir, decomponha a ideia central em passos narrativos: hook, contexto indispensável, desenvolvimento, consequência e fechamento, usando apenas o que a fonte sustenta. O carrossel pode omitir o que for secundário, mas nunca inventar fatos, transições causais ou uma conclusão ausente do material.
-3. Escreva em `carousel.md` somente a copy exata que aparecerá na arte. Cada slide deve comunicar um passo necessário da mesma história e um único ponto principal; não usar o slide como depósito de parágrafos resumidos.
-4. Não use limite fixo de caracteres. O critério é a composição: o texto precisa caber com tipografia expressiva e leitura confortável em tela pequena. Se não couber sem enfraquecer a hierarquia, simplifique a copy ou distribua a narrativa em outro slide; nunca reduza a tipografia até caber.
-5. O slide 1 precisa apresentar o assunto e o hook. O hook deve ser provocativo o bastante para interromper a rolagem, mas preciso e sustentado pela fonte. O assunto central — produto, empresa, pessoa, evento ou categoria inequívoca — deve aparecer de forma explícita para um leitor que chegou pelo Instagram sem contexto. Quando o template tiver um campo de identificação, use uma etiqueta curta (por exemplo, “GROK BOT”) e mantenha o hook em uma única frase; quando não tiver, incorpore o assunto no próprio hook (por exemplo, “O Grok Bot está sendo desenhado como um colega de trabalho”). Um hook genérico que só faça sentido depois de ler a legenda ou passar para o slide 2 é inválido. Não invente uma segunda linha ou campo fora do contrato do template.
-6. A copy do conjunto deve continuar referenciando o assunto central de modo natural. Não apresente o tema apenas na legenda e depois use “isso”, “essa ideia” ou “o produto” sem antecedente claro; retome o nome ou uma referência inequívoca quando isso evitar ambiguidade.
-7. Use CTA somente quando ele aprofundar naturalmente o conteúdo. Um fechamento factual ou uma conclusão também são válidos.
-8. Escreva a legenda final e faça uma revisão editorial comparando a copy com a fonte e com a marca.
+3. Escreva em `carousel.md` somente a copy exata que aparecerá na arte. Cada slide deve comunicar um passo necessário da mesma história e um único ponto principal; não usar o slide como depósito de parágrafos resumidos nem como lista sem enquadramento.
+4. Um slide só com título é permitido apenas quando a imagem ou a composição carregar a explicação. Caso contrário, use texto de apoio ou outro template; não deixe títulos soltos para preencher a sequência.
+5. Não use limite fixo de caracteres. O critério é a composição: o texto precisa caber com tipografia expressiva e leitura confortável em tela pequena. Se não couber sem enfraquecer a hierarquia, simplifique a copy ou distribua a narrativa em outro slide; nunca reduza a tipografia até caber.
+6. O slide 1 precisa apresentar o assunto e o hook. O hook deve ser provocativo o bastante para interromper a rolagem, mas preciso e sustentado pela fonte. O assunto central — produto, empresa, pessoa, evento ou categoria inequívoca — deve aparecer de forma explícita para um leitor que chegou pelo Instagram sem contexto. Quando o template tiver um campo de identificação, use uma etiqueta curta (por exemplo, “GROK BOT”) e mantenha o hook em uma única frase; quando não tiver, incorpore o assunto no próprio hook (por exemplo, “O Grok Bot está sendo desenhado como um colega de trabalho”). Um hook genérico que só faça sentido depois de ler a legenda ou passar para o slide 2 é inválido. Não invente uma segunda linha ou campo fora do contrato do template.
+7. A copy do conjunto deve continuar referenciando o assunto central de modo natural. Não apresente o tema apenas na legenda e depois use “isso”, “essa ideia” ou “o produto” sem antecedente claro; retome o nome ou uma referência inequívoca quando isso evitar ambiguidade.
+8. Use CTA somente quando ele aprofundar naturalmente o conteúdo. Um fechamento factual ou uma conclusão também são válidos.
+9. Escreva a legenda final e faça uma revisão editorial comparando a copy com a fonte e com a marca.
 
 Atualize `target.slide_count` para o total real. Quando a copy estiver fechada, registre internamente `ready_for_design`; não peça aprovação intermediária se o pedido foi pelo carrossel completo.
 

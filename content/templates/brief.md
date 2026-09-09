@@ -12,6 +12,20 @@ Para quem é o conteúdo e qual é o nível de familiaridade dessa pessoa com o 
 
 Escreva em uma frase o recorte principal do carrossel.
 
+## Linha editorial
+
+- Promessa: o que o leitor vai entender ao terminar?
+- Tensão: qual problema, mudança ou pergunta move o conteúdo?
+- Progressão: como a história sai do hook e chega à conclusão?
+- Consequência: por que isso importa para este público?
+- Takeaway: qual ideia deve permanecer depois do último slide?
+
+### Mapa narrativo
+
+| Slide | Papel narrativo | Pergunta respondida | Ponte para o próximo |
+| --- | --- | --- | --- |
+| 1 |  |  |  |
+
 ## Seleção editorial
 
 - Pontos essenciais que entram:
