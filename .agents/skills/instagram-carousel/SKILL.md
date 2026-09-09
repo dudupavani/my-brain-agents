@@ -56,40 +56,36 @@ Atualize `target.slide_count` para o total real. Quando a copy estiver fechada, 
 
 ## 3. Atribuir os templates aos slides
 
-Antes desta etapa, leia [o contrato de uso das referências](references/visual-system.md) e carregue diretamente os três JPEGs em `assets/templates/`.
-
-O conjunto obrigatório é `reference-01.jpg`, `reference-02.jpg` e `reference-03.jpg`. Se qualquer arquivo estiver ausente, ilegível ou não for JPEG, use `blocked`; não improvise outra referência.
+Antes desta etapa, leia [o sistema visual determinístico](references/visual-system.md) e [a seleção de templates](references/template-selection.md). Os JSONs em `assets/templates/` definem o layout; não há reconstrução visual por modelo de imagem, HTML/CSS ou composição manual.
 
 1. Crie `visual.md` a partir do modelo do projeto.
-2. Para cada slide, escolha uma referência e registre o caminho exato do JPEG, a copy exata e os elementos variáveis que substituirão os placeholders.
-3. Passe a própria imagem da referência para a capacidade de criação do slide. Não substitua a imagem por uma descrição, resumo, análise de estilo ou prompt estruturado sobre ela.
-4. A referência escolhida é a base visual do slide: preserve composição, hierarquia, tipografia, cores, espaçamento, proporções e posição relativa dos elementos. Substitua somente os placeholders pelo conteúdo real.
-5. Permita apenas adaptações necessárias para acomodar a copy ou a mídia do slide, como quebra de linha, recorte e remoção de um placeholder. Não invente uma nova composição nem uma nova linguagem visual.
-6. Defina se o slide exige fotografia, ilustração, gráfico, interface ou nenhuma mídia. Toda mídia deve provar, explicar ou contextualizar o conteúdo.
-7. Atualize o item para `in_production` antes de produzir os arquivos finais.
+2. Para cada slide, meça a copy e escolha um `templateId` compatível com o uso, campos obrigatórios, limites de linhas, texto e mídia do JSON. Registre a escolha, a copy e a origem do asset.
+3. Monte `deliverables/render-input.json` com o contrato `carousel`, `width`, `height`, `slides`, `templateId` e `content`. O conteúdo contém texto e caminhos de mídia; nunca posições, cores, tamanhos ou regras visuais.
+4. Se a copy não couber nos limites declarados, tente outro template. Se nenhum servir, interrompa para revisão editorial; não reduza indefinidamente a fonte, mova a mídia, corte ou reescreva o texto.
+5. Defina se o slide exige fotografia, ilustração, gráfico, interface ou nenhuma mídia. Toda mídia deve provar, explicar ou contextualizar o conteúdo.
+6. Atualize o item para `in_production` antes de produzir os arquivos finais.
 
 ## 4. Produzir a mídia e os slides
 
 - Use mídia oficial ou da própria fonte quando ela for adequada, sua proveniência estiver registrada e o uso estiver autorizado ou claramente permitido.
-- Quando for necessário criar uma imagem original e houver uma ferramenta de geração disponível — `image_generate` no Hermes — gere somente o asset visual, sem a copy do slide, sem letras legíveis e sem caixas reservadas para texto. Em seguida, passe esse asset e o JPEG de referência à capacidade de criação do slide.
-- A capacidade de criação deve receber, para cada slide, a imagem da referência, a copy exata e os assets reais. Não peça que ela reconstrua o layout a partir de uma análise textual da referência.
+- Quando for necessário criar uma imagem original e houver uma ferramenta de geração disponível — `image_generate` no Hermes — gere somente o asset visual, sem a copy do slide, sem letras legíveis e sem caixas reservadas para texto. O asset ocupa somente um slot de imagem do template.
 - Salve os assets usados em `deliverables/assets/` com nomes descritivos e registre origem, geração e finalidade em `visual.md`.
 - Se uma imagem for indispensável e nenhuma fonte ou ferramenta adequada estiver disponível, use `blocked`. Não substitua por ilustração genérica ou placeholder.
 
 ## 5. Renderizar os slides
 
-1. Use a capacidade de criação/renderização que aceite a referência JPEG diretamente e preserve a copy exatamente. HTML/CSS capturado em PNG ou outro compositor raster já disponível no ambiente também são opções válidas quando suportarem esse fluxo.
-2. O renderer combina texto aprovado, asset, tipografia, cor, espaçamento e layout. O modelo de imagem nunca escreve o texto final.
-3. Não instale dependências silenciosamente. Se não houver um renderer capaz de produzir o resultado com precisão, bloqueie a entrega e informe a capacidade ausente.
-4. Nunca use SVG, wireframe, cartões vazios ou placeholders como entrega.
-5. Gere `slide-01.png`, `slide-02.png` e assim por diante em `deliverables/`, todos com exatamente 1080 × 1350 pixels, retrato 4:5 para o feed.
-6. Gere `deliverables/caption.md` e `deliverables/design-notes.md`. Registre neste último as referências consultadas, o renderer, a tipografia, as mídias e eventuais limitações.
+1. Use `scripts/render_carousel.py --content <render-input.json> --output-dir <deliverables/>`. O Pillow lê o template e o `assets/design-system.json`; o modelo de imagem nunca escreve texto nem reconstrói o layout.
+2. Não instale dependências silenciosamente. Se a fonte configurada, o template, a mídia ou o renderer estiverem indisponíveis, bloqueie a entrega e informe a ausência.
+3. Nunca use SVG, wireframe, cartões vazios ou placeholders como entrega.
+4. Gere `slide-01.png`, `slide-02.png` e assim por diante em `deliverables/`, todos com exatamente 1080 × 1350 pixels, retrato 4:5 para o feed.
+5. Gere `deliverables/caption.md` e `deliverables/design-notes.md`. Registre neste último os `templateId`s, renderer, token de fonte, mídias e eventuais limitações.
 
 ## 6. Validar e entregar
 
 Leia e aplique [a lista de qualidade](references/quality-checklist.md).
 
 - Compare visualmente cada PNG com `carousel.md`; nenhum texto pode faltar, mudar ou ser inventado.
+- Execute `scripts/validate_carousel.py --content <render-input.json> --output-dir <deliverables/>` e corrija qualquer falha estrutural.
 - Confirme dimensões, ordem, quantidade, legibilidade, relação semântica das imagens e ausência de elementos temporários.
 - Corrija os problemas encontrados antes de encerrar.
 - Atualize `metadata.yaml` para `status: in_review`, `owner: eduardo`, `updated_at` e uma nota curta com a próxima ação.

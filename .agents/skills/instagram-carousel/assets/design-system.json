@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0.0",
+  "fonts": {
+    "primary": {
+      "family": "Arial Bold",
+      "regularFile": "fonts/Arial Bold.ttf",
+      "boldFile": "fonts/Arial Bold.ttf",
+      "usage": "Equivalência visual temporária; a substituição futura deve alterar somente estes caminhos."
+    }
+  }
+}

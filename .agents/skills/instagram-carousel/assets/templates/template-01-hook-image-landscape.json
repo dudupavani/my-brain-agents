@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "1.0.0",
+  "templateId": "template-01-hook-image-landscape",
+  "name": "Hook principal com imagem horizontal",
+  "intendedUse": [
+    "capa de carrossel",
+    "slide de abertura com hook curto",
+    "slide de destaque com uma imagem"
+  ],
+  "reference": {
+    "sourceFile": "reference-01.jpg",
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "measurementMethod": "pixel-analysis",
+    "notes": "As medidas geométricas foram extraídas da imagem. A família tipográfica é uma equivalência visual porque arquivos JPG não armazenam a fonte usada."
+  },
+  "canvas": {
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "colorMode": "RGB",
+    "exportFormat": "PNG"
+  },
+  "background": {
+    "baseColor": "#18171C",
+    "layers": [
+      {
+        "type": "elliptical-radial-gradient",
+        "role": "warm-glow",
+        "centerPx": {
+          "x": -70,
+          "y": 1320
+        },
+        "radiusPx": {
+          "x": 820,
+          "y": 980
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#9A845F",
+            "opacity": 0.95
+          },
+          {
+            "offset": 0.55,
+            "color": "#625641",
+            "opacity": 0.68
+          },
+          {
+            "offset": 1,
+            "color": "#18171C",
+            "opacity": 0
+          }
+        ]
+      }
+    ],
+    "measuredPixelSamples": [
+      {
+        "x": 0,
+        "y": 0,
+        "color": "#18171C"
+      },
+      {
+        "x": 0,
+        "y": 600,
+        "color": "#33302B"
+      },
+      {
+        "x": 0,
+        "y": 1349,
+        "color": "#907C5B"
+      },
+      {
+        "x": 540,
+        "y": 1349,
+        "color": "#5C513F"
+      },
+      {
+        "x": 1079,
+        "y": 1349,
+        "color": "#18171C"
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "required": true,
+      "zIndex": 10,
+      "anchor": "top-left",
+      "positionPx": {
+        "x": 109,
+        "y": 115
+      },
+      "textAreaPx": {
+        "width": 862,
+        "height": 448
+      },
+      "measuredInkBoundsPx": {
+        "left": 109,
+        "top": 133,
+        "right": 950,
+        "bottom": 563
+      },
+      "typography": {
+        "fontToken": "primary",
+        "fontFamily": "Arial",
+        "fontStyle": "Bold",
+        "fontWeight": 700,
+        "fontSizePx": 94,
+        "minimumFontSizePx": 88,
+        "lineHeightPx": 111,
+        "letterSpacingPx": 0,
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "antialias": true
+      },
+      "wrapping": {
+        "strategy": "word-wrap",
+        "maximumLines": 4,
+        "preserveExplicitLineBreaks": false,
+        "allowHyphenation": false,
+        "allowWidowLine": false,
+        "overflowAction": "reject-content-or-select-another-template"
+      },
+      "contentConstraints": {
+        "recommendedCharacters": {
+          "minimum": 35,
+          "maximum": 70
+        },
+        "recommendedWords": {
+          "minimum": 7,
+          "maximum": 15
+        },
+        "maximumLines": 4,
+        "instruction": "Não reduzir excessivamente a fonte e não mover a área de imagem. Se o hook não couber em quatro linhas com pelo menos 88 px, encurtar o hook ou escolher outro template."
+      },
+      "referenceContent": {
+        "text": "Aqui vai o texto do hook principal, ele pode vir no máximo até aqui",
+        "lineBreaks": [
+          "Aqui vai o texto do",
+          "hook principal, ele",
+          "pode vir no",
+          "máximo até aqui"
+        ]
+      }
+    },
+    {
+      "id": "image",
+      "contentKey": "imagePath",
+      "type": "image",
+      "required": true,
+      "zIndex": 20,
+      "framePx": {
+        "x": 68,
+        "y": 616,
+        "width": 944,
+        "height": 656
+      },
+      "cornerRadiusPx": 80,
+      "fit": "cover",
+      "cropAnchor": "center",
+      "allowDistortion": false,
+      "border": null,
+      "shadow": null,
+      "productionRule": "Substituir completamente o placeholder pela fotografia. Não renderizar a cor vermelha nem o texto do placeholder no post final.",
+      "referencePlaceholder": {
+        "fill": "#FF0000",
+        "label": "Placeholder da imagem",
+        "labelColor": "#FFFFFF"
+      }
+    }
+  ],
+  "spacing": {
+    "outerMarginsPx": {
+      "topToHeadlineInk": 133,
+      "leftToHeadline": 109,
+      "leftToImage": 68,
+      "rightToImage": 68,
+      "bottomToImage": 78
+    },
+    "headlineInkToImagePx": 53
+  },
+  "renderOrder": [
+    "background.baseColor",
+    "background.layers",
+    "headline",
+    "image"
+  ],
+  "validationRules": [
+    "O arquivo final deve medir exatamente 1080x1350 px.",
+    "O headline deve ocupar no máximo quatro linhas.",
+    "A imagem deve permanecer em x=68, y=616, largura=944 e altura=656.",
+    "A imagem deve usar recorte cover sem distorção.",
+    "Os cantos da imagem devem usar raio de 80 px.",
+    "Não renderizar o placeholder vermelho no arquivo final.",
+    "Não mover a imagem para acomodar texto excedente; selecionar outro template."
+  ],
+  "confidence": {
+    "canvasAndGeometry": "high",
+    "colors": "high",
+    "fontFamily": "medium",
+    "fontSizeAndLineSpacing": "high"
+  }
+}

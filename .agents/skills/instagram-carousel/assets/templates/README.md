@@ -1,11 +1,9 @@
-# Templates visuais obrigatórios
+# Templates determinísticos
 
-Os três JPEGs desta pasta são os templates visuais usados diretamente pela skill `instagram-carousel`:
+Os JSONs nesta pasta definem o layout dos slides e são a única fonte de posições, cores, tipografia, gradientes, limites de conteúdo e regras de validação para o renderer.
 
-- `reference-01.jpg`: capa com mídia relevante e hook dominante;
-- `reference-02.jpg`: slide conduzido por texto;
-- `reference-03.jpg`: slide de texto com mídia relevante.
+- `template-01-hook-image-landscape.json`: capa com hook curto e uma imagem horizontal.
 
-As caixas cinzas e os textos “Aqui vai...” são placeholders. Ao criar um slide, passe o JPEG correspondente junto com a copy e substitua somente esses placeholders por conteúdo real; remova-os quando não houver conteúdo para ocupar a área.
+Os JPEGs `reference-*.jpg` são referências históricas e visuais de medição. Eles não são enviados a um modelo nem usados como base de reconstrução do layout. Os placeholders presentes neles nunca podem aparecer em um PNG de produção.
 
-Não transforme os JPEGs em uma descrição estruturada de estilo. A imagem original deve acompanhar cada slide no momento da criação. Preserve a composição, a hierarquia, a tipografia, as cores, o espaçamento e as proporções do template. Adapte apenas o conteúdo variável necessário para o slide.
+Para incluir um template futuro, copie seu JSON para esta pasta e mantenha um `templateId` único. A seleção e a renderização seguem os dados declarados, sem lógica condicionada ao nome do template.
