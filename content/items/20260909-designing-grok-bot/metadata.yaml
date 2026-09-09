@@ -1,6 +1,6 @@
 id: "20260909-designing-grok-bot"
 title: "Como a xAI desenhou o Grok Bot para agentes persistentes"
-status: "in_review"
+status: "approved"
 owner: "eduardo"
 priority: "normal"
 created_at: "2026-09-09"
@@ -22,4 +22,4 @@ target:
   slide_count: 8
 handoff:
   ready_for_design_at: "2026-09-09"
-  notes: "PNG final renderizado e validado; próxima ação: revisão editorial do Eduardo."
+  notes: "Teste do processo aprovado pelo Eduardo; PNGs renderizados e validados."
