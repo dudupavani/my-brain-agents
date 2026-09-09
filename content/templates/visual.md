@@ -4,12 +4,8 @@ Este arquivo registra como a copy aprovada será mostrada. Ele não altera o tex
 
 ## Direção do conjunto
 
-- Referências consultadas:
-- Princípios visuais extraídos:
-- Tipografia e pesos:
-- Cores:
-- Renderer escolhido:
-- Tratamento de fotografia ou ilustração:
+- Capacidade de criação/renderização escolhida:
+- Regra de uso: passar o JPEG original diretamente em cada slide e substituir somente os placeholders.
 
 ## Plano por slide
 
@@ -17,16 +13,15 @@ Crie uma seção para cada slide real.
 
 ### Slide 1
 
-- Família de layout: capa com mídia, texto ou texto com mídia
-- Hierarquia:
-- Mídia: fonte, caminho ou `nenhuma`
-- Papel editorial da mídia:
-- Composição e recorte:
-- Contraste e legibilidade:
+- Referência direta: caminho para `reference-01.jpg`, `reference-02.jpg` ou `reference-03.jpg`
+- Copy exata do slide:
+- Placeholders a substituir:
+- Mídia ou asset real: fonte, caminho ou `nenhuma`
+- Adaptação permitida: quebra de linha, recorte ou remoção de placeholder necessária ao conteúdo
 
 ## Assets gerados
 
-Para cada asset, registre o caminho, a ferramenta usada, o prompt ou origem e os slides em que aparece.
+Para cada asset, registre o caminho, a ferramenta usada, a origem e os slides em que aparece. Não registre um prompt que substitua a referência visual.
 
 ## Limitações
 

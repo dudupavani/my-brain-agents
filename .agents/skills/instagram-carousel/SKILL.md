@@ -53,29 +53,31 @@ Não transforme notícia em opinião obrigatoriamente. Diferencie fato verificad
 
 Atualize `target.slide_count` para o total real. Quando a copy estiver fechada, registre internamente `ready_for_design`; não peça aprovação intermediária se o pedido foi pelo carrossel completo.
 
-## 3. Planejar o visual
+## 3. Atribuir os templates aos slides
 
-Antes desta etapa, leia [o sistema visual e contrato de renderização](references/visual-system.md) e abra as três referências JPEG em `assets/templates/`.
+Antes desta etapa, leia [o contrato de uso das referências](references/visual-system.md) e carregue diretamente os três JPEGs em `assets/templates/`.
 
 O conjunto obrigatório é `reference-01.jpg`, `reference-02.jpg` e `reference-03.jpg`. Se qualquer arquivo estiver ausente, ilegível ou não for JPEG, use `blocked`; não improvise outra referência.
 
 1. Crie `visual.md` a partir do modelo do projeto.
-2. Escolha para cada slide a família de layout que melhor serve à mensagem, sem repetir mecanicamente o mesmo molde.
-3. Defina se o slide exige fotografia, ilustração, gráfico, interface ou nenhuma mídia. Toda imagem deve provar, explicar ou contextualizar o conteúdo.
-4. Prefira mídia primária ou fotografia real quando forem relevantes. Não use imagens genéricas para preencher espaço.
-5. Atualize o item para `in_production` antes de produzir os arquivos finais.
+2. Para cada slide, escolha uma referência e registre o caminho exato do JPEG, a copy exata e os elementos variáveis que substituirão os placeholders.
+3. Passe a própria imagem da referência para a capacidade de criação do slide. Não substitua a imagem por uma descrição, resumo, análise de estilo ou prompt estruturado sobre ela.
+4. A referência escolhida é a base visual do slide: preserve composição, hierarquia, tipografia, cores, espaçamento, proporções e posição relativa dos elementos. Substitua somente os placeholders pelo conteúdo real.
+5. Permita apenas adaptações necessárias para acomodar a copy ou a mídia do slide, como quebra de linha, recorte e remoção de um placeholder. Não invente uma nova composição nem uma nova linguagem visual.
+6. Defina se o slide exige fotografia, ilustração, gráfico, interface ou nenhuma mídia. Toda mídia deve provar, explicar ou contextualizar o conteúdo.
+7. Atualize o item para `in_production` antes de produzir os arquivos finais.
 
-## 4. Produzir os assets de imagem
+## 4. Produzir a mídia e os slides
 
 - Use mídia oficial ou da própria fonte quando ela for adequada, sua proveniência estiver registrada e o uso estiver autorizado ou claramente permitido.
-- Quando for necessário criar uma imagem original e houver uma ferramenta de geração disponível — `image_generate` no Hermes — gere somente o asset visual, sem a copy do slide, sem letras legíveis e sem caixas reservadas para texto.
-- Não peça ao gerador de imagem para montar o slide final. Ele não decide conteúdo, narrativa, tipografia nem layout.
+- Quando for necessário criar uma imagem original e houver uma ferramenta de geração disponível — `image_generate` no Hermes — gere somente o asset visual, sem a copy do slide, sem letras legíveis e sem caixas reservadas para texto. Em seguida, passe esse asset e o JPEG de referência à capacidade de criação do slide.
+- A capacidade de criação deve receber, para cada slide, a imagem da referência, a copy exata e os assets reais. Não peça que ela reconstrua o layout a partir de uma análise textual da referência.
 - Salve os assets usados em `deliverables/assets/` com nomes descritivos e registre origem, geração e finalidade em `visual.md`.
 - Se uma imagem for indispensável e nenhuma fonte ou ferramenta adequada estiver disponível, use `blocked`. Não substitua por ilustração genérica ou placeholder.
 
 ## 5. Renderizar os slides
 
-1. Componha os slides com um renderer determinístico que preserve a copy exatamente, como HTML/CSS capturado em PNG ou outro compositor raster já disponível no ambiente.
+1. Use a capacidade de criação/renderização que aceite a referência JPEG diretamente e preserve a copy exatamente. HTML/CSS capturado em PNG ou outro compositor raster já disponível no ambiente também são opções válidas quando suportarem esse fluxo.
 2. O renderer combina texto aprovado, asset, tipografia, cor, espaçamento e layout. O modelo de imagem nunca escreve o texto final.
 3. Não instale dependências silenciosamente. Se não houver um renderer capaz de produzir o resultado com precisão, bloqueie a entrega e informe a capacidade ausente.
 4. Nunca use SVG, wireframe, cartões vazios ou placeholders como entrega.
