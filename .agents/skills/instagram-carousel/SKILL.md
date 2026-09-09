@@ -60,15 +60,18 @@ Atualize `target.slide_count` para o total real. Quando a copy estiver fechada, 
 Antes desta etapa, leia [o sistema visual determinístico](references/visual-system.md) e [a seleção de templates](references/template-selection.md). Os JSONs em `assets/templates/` definem o layout; não há reconstrução visual por modelo de imagem, HTML/CSS ou composição manual.
 
 1. Crie `visual.md` a partir do modelo do projeto.
-2. Para cada slide, use `assets/templates/template-registry.json` e o `contentModel` para escolher um `templateId` compatível com o uso, campos obrigatórios, limites de linhas, texto e mídia. Registre a escolha, a copy e a origem do asset.
-3. Monte `deliverables/render-input.json` com o contrato `carousel`, `width`, `height`, `slides`, `templateId` e `content`. O conteúdo contém texto e caminhos de mídia; nunca posições, cores, tamanhos ou regras visuais.
-4. Se a copy não couber nos limites declarados, tente outro template. Se nenhum servir, interrompa para revisão editorial; não reduza indefinidamente a fonte, mova a mídia, corte ou reescreva o texto.
-5. Defina se o slide exige fotografia, ilustração, gráfico, interface ou nenhuma mídia. Toda mídia deve provar, explicar ou contextualizar o conteúdo.
-6. Atualize o item para `in_production` antes de produzir os arquivos finais.
+2. Faça uma auditoria visual dos assets disponíveis na fonte antes de escolher qualquer imagem. Para uma URL, inspecione todas as imagens oficiais relevantes da página — não apenas a primeira, a mais fácil de baixar ou a que tiver melhor proporção — e registre no `visual.md` o que cada candidata representa e por que foi selecionada ou descartada.
+3. Para cada slide, use `assets/templates/template-registry.json` e o `contentModel` para escolher um `templateId` compatível com o uso, campos obrigatórios, limites de linhas, texto e mídia. Registre a escolha, a copy e a origem do asset.
+4. Escolha imagens pela relação semântica com o ponto do slide: a imagem precisa mostrar o produto, a pessoa, a interface, o evento ou a consequência que a copy está explicando. Não use wallpaper, avatar ou imagem abstrata apenas porque é bonita, oficial ou combina com as cores. Se nenhuma imagem provar ou contextualizar o ponto, use um template tipográfico; não preencha o slot por obrigação.
+5. Monte `deliverables/render-input.json` com o contrato `carousel`, `width`, `height`, `slides`, `templateId` e `content`. O conteúdo contém texto e caminhos de mídia; nunca posições, cores, tamanhos ou regras visuais.
+6. Se a copy não couber nos limites declarados, tente outro template. Se nenhum servir, interrompa para revisão editorial; não reduza indefinidamente a fonte, mova a mídia, corte ou reescreva o texto.
+7. Defina se o slide exige fotografia, ilustração, gráfico, interface ou nenhuma mídia. Toda mídia deve provar, explicar ou contextualizar o conteúdo.
+8. Atualize o item para `in_production` antes de produzir os arquivos finais.
 
 ## 4. Produzir a mídia e os slides
 
 - Use mídia oficial ou da própria fonte quando ela for adequada, sua proveniência estiver registrada e o uso estiver autorizado ou claramente permitido.
+- Em artigos com muitas imagens, prefira a imagem que mostra diretamente o assunto do slide. A beleza, a resolução, o recorte ou a proximidade visual com o template não são critérios suficientes.
 - Quando for necessário criar uma imagem original e houver uma ferramenta de geração disponível — `image_generate` no Hermes — gere somente o asset visual, sem a copy do slide, sem letras legíveis e sem caixas reservadas para texto. O asset ocupa somente um slot de imagem do template.
 - Salve os assets usados em `deliverables/assets/` com nomes descritivos e registre origem, geração e finalidade em `visual.md`.
 - Se uma imagem for indispensável e nenhuma fonte ou ferramenta adequada estiver disponível, use `blocked`. Não substitua por ilustração genérica ou placeholder.

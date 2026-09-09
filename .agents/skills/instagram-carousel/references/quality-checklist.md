@@ -19,10 +19,12 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 ## Direção visual e mídia
 
 - Cada slide registra em `visual.md` o `templateId` JSON escolhido, a copy e a mídia usada.
+- `visual.md` registra a auditoria das imagens candidatas da fonte, incluindo o motivo da seleção ou do descarte.
 - O slide final mantém a composição, a hierarquia, a tipografia, as cores, o espaçamento e as proporções do template escolhido.
 - A capa trata o hook como primeiro texto e elemento tipográfico dominante.
 - Cada imagem prova, explica ou contextualiza o slide em que aparece.
 - Fotografia real ou mídia primária foi priorizada quando relevante.
+- Nenhuma imagem foi escolhida apenas por beleza, proporção, paleta ou facilidade de download.
 - A origem e a condição de uso de cada mídia externa estão registradas.
 - Assets gerados não contêm a copy, letras falsas, títulos ou layout de post.
 - Não há mídia genérica, repetida, puramente decorativa ou sem relação com o assunto.
