@@ -2,64 +2,48 @@
 
 ## Direção do conjunto
 
-- Referências consultadas: `reference-01.jpg`, `reference-02.jpg`, `reference-03.jpg` da skill `instagram-carousel`.
-- Princípios visuais extraídos: alto contraste; tipografia sans-serif grande; áreas generosas; azul intenso e carvão; um foco tipográfico por slide; cantos arredondados usados como estrutura, não como placeholder.
-- Tipografia e pesos: DejaVu Sans Bold para títulos e DejaVu Sans para desenvolvimento.
-- Cores: azul `#1C5DFF`, azul claro `#6E93FF`, carvão `#252633`, branco `#F8F8F5` e cinza azulado `#3A3C50`.
-- Renderer escolhido: Pillow/Python, composição raster determinística.
-- Tratamento de fotografia ou ilustração: nenhuma. A pauta é explicada melhor por tipografia e diagramas abstratos de fluxo; não há mídia primária indispensável para a tese.
+- Templates consultados e usados diretamente: `reference-01.jpg`, `reference-02.jpg`, `reference-03.jpg`.
+- Renderer: Pillow/Python, abrindo o JPEG do template como base de cada slide e substituindo exclusivamente seus placeholders.
+- Tipografia, cores, espaçamento e elementos fixos: preservados dos JPEGs escolhidos.
+- Mídias oficiais: imagens de demonstração do anúncio da OpenAI, baixadas do próprio artigo e usadas para substituir as áreas de imagem dos templates.
 
 ## Plano por slide
 
 ### Slide 1
-
-- Família de layout: texto com diagrama abstrato.
-- Hierarquia: hook grande em branco; “ChatGPT” em azul claro.
-- Mídia: nenhuma.
-- Papel editorial da mídia: formas abstratas representam o trajeto rascunho → imagem, sem simular uma interface nem inserir texto falso.
-- Composição e recorte: texto no terço superior; trajetória visual de pontos e linhas na metade inferior.
-- Contraste e legibilidade: fundo carvão, texto branco e azul claro.
+- Template: `reference-01.jpg`.
+- Placeholder de imagem: substituído por `deliverables/assets/openai-sketch.png`.
+- Placeholder de hook: substituído pela copy do slide 1.
+- Elementos fixos preservados: fundo, gradação, seta e composição capa.
 
 ### Slide 2
-
-- Família de layout: texto.
-- Hierarquia: “Mais controle.” domina; anúncio e explicação curtos sustentam a ideia.
-- Mídia: nenhuma.
-- Papel editorial da mídia: não aplicável.
-- Composição e recorte: painel azul arredondado sobre fundo carvão.
-- Contraste e legibilidade: branco sobre azul e carvão.
+- Template: `reference-02.jpg`.
+- Placeholder de texto superior: substituído pela primeira frase do slide 2.
+- Placeholder de texto inferior: substituído pela segunda frase do slide 2.
+- Elementos fixos preservados: painel azul, gradação inferior e seta.
 
 ### Slide 3
-
-- Família de layout: texto com diagrama abstrato.
-- Hierarquia: “Rascunho → imagem” domina; explicação curta abaixo.
-- Mídia: nenhuma.
-- Papel editorial da mídia: seta e blocos representam a relação descrita no anúncio, sem alegar uma tela específica.
-- Composição e recorte: fluxo central e texto em duas zonas.
-- Contraste e legibilidade: azul intenso, branco e azul claro.
+- Template: `reference-03.jpg`.
+- Placeholder de texto superior: substituído pela copy do slide 3.
+- Placeholder de imagem: substituído por `deliverables/assets/openai-sketch.png`.
+- Elementos fixos preservados: fundo, proporção texto/imagem e cantos arredondados.
 
 ### Slide 4
-
-- Família de layout: texto.
-- Hierarquia: três capacidades em blocos distintos, com “sem refazer tudo” como conclusão.
-- Mídia: nenhuma.
-- Papel editorial da mídia: não aplicável.
-- Composição e recorte: três cartões tipográficos com variação de azul.
-- Contraste e legibilidade: texto branco, painéis azuis e fundo carvão.
+- Template: `reference-02.jpg`.
+- Placeholders de texto: substituídos pelas três capacidades do slide 4.
+- Elementos fixos preservados: painel azul, gradação inferior e seta.
 
 ### Slide 5
+- Template: `reference-03.jpg`.
+- Placeholder de texto superior: substituído pela copy do slide 5.
+- Placeholder de imagem: substituído por `deliverables/assets/openai-editing.png`.
+- Elementos fixos preservados: fundo, proporção texto/imagem e cantos arredondados.
 
-- Família de layout: texto.
-- Hierarquia: contraste “não é só…” / “é…”; conclusão grande.
-- Mídia: nenhuma.
-- Papel editorial da mídia: não aplicável.
-- Composição e recorte: faixa azul inferior como encerramento e texto amplo no alto.
-- Contraste e legibilidade: branco sobre carvão; azul claro destaca a tese.
+## Assets
 
-## Assets gerados
-
-Nenhum. Os slides são tipográficos e o renderer produz apenas formas geométricas abstratas necessárias para a hierarquia visual.
+- `openai-sketch.png`: imagem oficial de demonstração do recurso Sketch no anúncio da OpenAI; slides 1 e 3.
+- `openai-editing.png`: imagem oficial de demonstração de edição no anúncio da OpenAI; slide 5.
+- `openai-templates.png`: imagem oficial de demonstração de templates, mantida como referência de origem e não usada no corte final.
 
 ## Limitações
 
-A entrega não reproduz nem usa mídia oficial da OpenAI; as capacidades são descritas em copy atribuída ao anúncio oficial. O sistema visual ainda está em sua primeira aplicação real e será avaliado por Eduardo após a renderização.
+Os JPEGs do repositório são usados como templates de composição; as imagens da OpenAI são mídia editorial oficial do anúncio. Nenhum placeholder do template deve permanecer no resultado.

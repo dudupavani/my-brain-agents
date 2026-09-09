@@ -2,21 +2,19 @@
 
 ## Slide 1 — Hook
 
-Agora você pode desenhar dentro do ChatGPT para guiar uma imagem.
+Agora você pode desenhar no ChatGPT para guiar uma imagem.
 
 ## Slide 2 — O que mudou
 
-A OpenAI lançou o ChatGPT Images 2.5.
+O ChatGPT agora aceita rascunhos como referência visual.
 
-A promessa é simples: mais controle para criar, editar e refinar imagens.
+A OpenAI anunciou o ChatGPT Images 2.5 com novos controles de criação e edição.
 
 ## Slide 3 — O ponto prático
 
-Com o Sketch, você faz um rascunho e usa esse desenho como referência para a imagem final.
+Com o Sketch, você faz um desenho simples e usa esse rascunho como referência para a imagem final.
 
-A ideia deixa de começar só por uma descrição escrita.
-
-## Slide 4 — O que entra no processo
+## Slide 4 — O processo muda
 
 Templates para começar.
 
@@ -28,7 +26,7 @@ Edições mais precisas sem refazer tudo.
 
 O salto não é só gerar uma imagem melhor.
 
-É conseguir transformar uma intenção visual em um processo mais controlável.
+É conseguir conduzir uma intenção visual até um resultado mais próximo do que você imaginou.
 
 ## Legenda proposta
 
