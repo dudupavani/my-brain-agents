@@ -7,13 +7,6 @@
     "slide de abertura com hook curto",
     "slide de destaque com uma imagem"
   ],
-  "reference": {
-    "sourceFile": "reference-01.jpg",
-    "widthPx": 1080,
-    "heightPx": 1350,
-    "measurementMethod": "pixel-analysis",
-    "notes": "As medidas geométricas foram extraídas da imagem. A família tipográfica é uma equivalência visual porque arquivos JPG não armazenam a fonte usada."
-  },
   "canvas": {
     "widthPx": 1080,
     "heightPx": 1350,
