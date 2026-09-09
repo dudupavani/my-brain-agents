@@ -1,0 +1,15 @@
+id: jasper
+title: "Benchmark competitivo — Jasper AI"
+product: pomake
+owner: products
+status: migrated
+source:
+  system: clickup
+  document_id: 8cktn70-1039
+  page_ids: [8cktn70-1179, 8cktn70-1199]
+  urls:
+    - https://app.clickup.com/9013351648/v/dc/8cktn70-1039/8cktn70-1179
+    - https://app.clickup.com/9013351648/v/dc/8cktn70-1039/8cktn70-1199
+original_analysis_dates: []
+migration_date: 2026-09-08
+source_limitations: "Páginas públicas; sem login nem teste autenticado. Recursos, números, resultados, preços e alegações são declarações da empresa e não foram revalidados nesta migração."

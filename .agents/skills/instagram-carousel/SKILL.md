@@ -45,11 +45,12 @@ Não transforme notícia em opinião obrigatoriamente. Diferencie fato verificad
 ## 2. Escrever a narrativa do carrossel
 
 1. Defina a quantidade de slides pela narrativa e pela legibilidade. Não existe número fixo, mínimo editorial ou padrão de oito slides.
-2. Escreva em `carousel.md` somente a copy exata que aparecerá na arte.
-3. O slide 1 contém uma única frase de hook: provocativa o bastante para interromper a rolagem, mas precisa e sustentada pela fonte. Ela é o primeiro texto e o elemento tipográfico dominante.
-4. Cada slide seguinte cumpre uma função clara e desenvolve apenas um ponto principal. Remova repetição, contexto lateral e explicação que exija reduzir excessivamente a tipografia.
-5. Use CTA somente quando ele aprofundar naturalmente o conteúdo. Um fechamento factual ou uma conclusão também são válidos.
-6. Escreva a legenda final e faça uma revisão editorial comparando a copy com a fonte e com a marca.
+2. Antes de redigir, decomponha a ideia central em passos narrativos: hook, contexto indispensável, desenvolvimento, consequência e fechamento, usando apenas o que a fonte sustenta. O carrossel pode omitir o que for secundário, mas nunca inventar fatos, transições causais ou uma conclusão ausente do material.
+3. Escreva em `carousel.md` somente a copy exata que aparecerá na arte. Cada slide deve comunicar um passo necessário da mesma história e um único ponto principal; não usar o slide como depósito de parágrafos resumidos.
+4. Não use limite fixo de caracteres. O critério é a composição: o texto precisa caber com tipografia expressiva e leitura confortável em tela pequena. Se não couber sem enfraquecer a hierarquia, simplifique a copy ou distribua a narrativa em outro slide; nunca reduza a tipografia até caber.
+5. O slide 1 contém uma única frase de hook: provocativa o bastante para interromper a rolagem, mas precisa e sustentada pela fonte. Ela é o primeiro texto e o elemento tipográfico dominante.
+6. Use CTA somente quando ele aprofundar naturalmente o conteúdo. Um fechamento factual ou uma conclusão também são válidos.
+7. Escreva a legenda final e faça uma revisão editorial comparando a copy com a fonte e com a marca.
 
 Atualize `target.slide_count` para o total real. Quando a copy estiver fechada, registre internamente `ready_for_design`; não peça aprovação intermediária se o pedido foi pelo carrossel completo.
 

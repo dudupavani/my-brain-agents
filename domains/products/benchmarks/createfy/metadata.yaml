@@ -1,0 +1,14 @@
+id: createfy
+title: "Benchmark competitivo — Createfy"
+product: pomake
+owner: products
+status: migrated
+source:
+  system: clickup
+  document_id: 8cktn70-999
+  page_ids: [8cktn70-1079]
+  urls:
+    - https://app.clickup.com/9013351648/v/dc/8cktn70-999/8cktn70-1079
+original_analysis_dates: []
+migration_date: 2026-09-08
+source_limitations: "Páginas e informações públicas carregadas pela aplicação; sem login nem teste dos fluxos autenticados. Declarações, preços, números e resultados não foram revalidados nesta migração."
