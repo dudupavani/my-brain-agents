@@ -6,7 +6,7 @@ Cada slide deve conter somente o texto que deve aparecer na arte. Identifique o 
 
 ## Slide 1 — Hook
 
-Escreva uma única frase forte, precisa e fiel à fonte. Ela será o texto dominante no topo da primeira arte; não acrescente uma segunda frase de apoio.
+Escreva uma única frase forte, precisa e fiel à fonte. A frase deve combinar o interesse editorial com a identificação explícita do assunto central — produto, empresa, pessoa, evento ou categoria inequívoca. O leitor precisa saber do que o post trata sem depender da legenda ou dos slides seguintes. Ela será o texto dominante no topo da primeira arte; não acrescente uma segunda frase de apoio.
 
 ## Slides de desenvolvimento
 

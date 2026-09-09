@@ -11,6 +11,7 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 - A quantidade de slides foi decidida para este conteúdo e coincide com `target.slide_count`.
 - A narrativa seleciona e reorganiza apenas o que a fonte sustenta: não há fato, relação causal ou conclusão inventados para ligar os slides.
 - O hook é uma única frase, interessante, precisa e fiel à fonte.
+- O hook identifica o assunto central em isolamento — produto, empresa, pessoa, evento ou categoria inequívoca — sem depender da legenda ou dos slides seguintes para explicar do que o post trata.
 - Cada slide desenvolve um ponto principal; o CTA só existe quando acrescenta valor.
 
 ## Direção visual e mídia
