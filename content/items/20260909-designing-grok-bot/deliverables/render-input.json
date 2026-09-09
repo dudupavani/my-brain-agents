@@ -1,0 +1,61 @@
+{
+  "carousel": {
+    "width": 1080,
+    "height": 1350,
+    "slides": [
+      {
+        "templateId": "template-01-hook-image-landscape",
+        "content": {
+          "headline": "O próximo passo dos agentes não é um chat melhor",
+          "imagePath": "content/items/20260909-designing-grok-bot/deliverables/assets/grok-bot-wallpaper-light-noon.png"
+        }
+      },
+      {
+        "templateId": "template-02-hook-support-panel",
+        "content": {
+          "headline": "A unidade principal deixa de ser a conversa",
+          "supportingText": "Na visão da xAI, chats são descartáveis. O que permanece é o Bot: com nome, memória, ferramentas e responsabilidade que continua quando a sessão termina."
+        }
+      },
+      {
+        "templateId": "template-04-longform-text",
+        "content": {
+          "bodyText": "Para simplificar essa relação, o produto se organiza em cinco objetos: Bots, Chats, Prompts, Ferramentas e Artefatos. O resto pode ficar escondido até ser necessário."
+        }
+      },
+      {
+        "templateId": "template-03-image-support-text",
+        "content": {
+          "imagePath": "content/items/20260909-designing-grok-bot/deliverables/assets/grok-bot-avatar-base-1.png",
+          "supportingText": "O avatar mostra quem é o Bot e se ele está trabalhando ou esperando."
+        }
+      },
+      {
+        "templateId": "template-05-centered-title-tall-image",
+        "content": {
+          "headline": "Computador do Bot",
+          "imagePath": "content/items/20260909-designing-grok-bot/deliverables/assets/grok-bot-wallpaper-gray.png"
+        }
+      },
+      {
+        "templateId": "template-04-longform-text",
+        "content": {
+          "bodyText": "A forma da resposta também importa: prosa quando basta, cards e widgets quando a informação pede estrutura."
+        }
+      },
+      {
+        "templateId": "template-02-hook-support-panel",
+        "content": {
+          "headline": "Autonomia precisa de sinais claros",
+          "supportingText": "O design mostra três níveis de acesso ao computador: status para saber que está ativo, preview para acompanhar o trabalho e takeover quando o Bot precisa de ajuda."
+        }
+      },
+      {
+        "templateId": "template-04-longform-text",
+        "content": {
+          "bodyText": "Routines dão ao Bot uma responsabilidade contínua: executar em horários ou eventos e trazer o resultado para a conversa quando houver algo para revisar ou decidir."
+        }
+      }
+    ]
+  }
+}
