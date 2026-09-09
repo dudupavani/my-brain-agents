@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "templateId": "template-05-centered-title-tall-image",
+  "name": "Título centralizado com imagem vertical sangrada",
+  "designSystemRef": "design-system.json",
+  "reference": {
+    "sourceFile": "reference-05.jpg",
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "measurementMethod": "pixel-analysis",
+    "fontNote": "A família é uma equivalência visual; o JPG não inclui metadados de fonte."
+  },
+  "background": {
+    "baseColor": "#18171C",
+    "layers": [
+      {
+        "type": "elliptical-radial-gradient",
+        "role": "warm-bottom-right-glow",
+        "centerPx": { "x": 910, "y": 1420 },
+        "radiusPx": { "x": 1010, "y": 960 },
+        "stops": [
+          { "offset": 0, "color": "#7B6B50", "opacity": 0.9 },
+          { "offset": 0.63, "color": "#514633", "opacity": 0.62 },
+          { "offset": 1, "color": "#18171C", "opacity": 0 }
+        ]
+      }
+    ]
+  },
+  "contentModel": {
+    "requiredFields": ["headline", "imagePath"],
+    "headline": {
+      "recommendedCharacters": { "minimum": 20, "maximum": 38 },
+      "maximumLines": 2,
+      "instruction": "Usar um título curto e direto. Este template não é compatível com hooks longos."
+    }
+  },
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "zIndex": 20,
+      "contentKey": "headline",
+      "positionPx": { "x": 68, "y": 113 },
+      "textAreaPx": { "width": 944, "height": 202 },
+      "measuredInkBoundsPx": { "left": 188, "top": 130, "right": 886, "bottom": 315 },
+      "typography": {
+        "fontToken": "primaryBold",
+        "fontSizePx": 90,
+        "minimumFontSizePx": 86,
+        "lineHeightPx": 111,
+        "letterSpacingPx": 0,
+        "color": "#FFFFFF",
+        "alignment": "center"
+      },
+      "wrapping": {
+        "strategy": "word-wrap",
+        "maximumLines": 2,
+        "allowHyphenation": false,
+        "overflowAction": "select-another-template-or-request-shorter-copy"
+      },
+      "referenceLineBreaks": ["Aqui vai o texto", "desta referencia"]
+    },
+    {
+      "id": "image",
+      "type": "image",
+      "zIndex": 10,
+      "contentKey": "imagePath",
+      "framePx": { "x": 68, "y": 424, "width": 944, "height": 1006 },
+      "visibleFramePx": { "x": 68, "y": 424, "width": 944, "height": 926 },
+      "clipToCanvas": true,
+      "bottomBleedPx": 80,
+      "cornerRadiusPx": 80,
+      "fit": "cover",
+      "cropAnchor": "center",
+      "allowDistortion": false,
+      "productionRule": "A imagem continua 80 px abaixo do canvas. Por isso os cantos inferiores não aparecem e somente os cantos superiores arredondados ficam visíveis.",
+      "referencePlaceholder": { "fill": "#FF0000", "label": "Placeholder da imagem" }
+    }
+  ],
+  "renderOrder": ["background", "image", "headline"],
+  "validationRules": [
+    "Renderizar um canvas de 1080x1350 px.",
+    "O headline deve ser centralizado e ter no máximo duas linhas.",
+    "A imagem deve começar em x=68, y=424 e ter largura=944.",
+    "A imagem deve sangrar 80 px além da parte inferior do canvas; não deixar cantos inferiores visíveis.",
+    "A imagem deve usar cover sem distorção."
+  ],
+  "confidence": { "geometry": "high", "colors": "high", "fontFamily": "medium", "fontMetrics": "high" }
+}

@@ -2,11 +2,19 @@
   "schemaVersion": "1.0.0",
   "templateId": "template-01-hook-image-landscape",
   "name": "Hook principal com imagem horizontal",
+  "designSystemRef": "design-system.json",
   "intendedUse": [
     "capa de carrossel",
     "slide de abertura com hook curto",
     "slide de destaque com uma imagem"
   ],
+  "reference": {
+    "sourceFile": "reference-01.jpg",
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "measurementMethod": "pixel-analysis",
+    "notes": "As medidas geométricas foram extraídas da imagem. A família tipográfica é uma equivalência visual porque arquivos JPG não armazenam a fonte usada."
+  },
   "canvas": {
     "widthPx": 1080,
     "heightPx": 1350,
@@ -74,12 +82,21 @@
       }
     ]
   },
+  "contentModel": {
+    "requiredFields": ["headline", "imagePath"],
+    "headline": {
+      "recommendedCharacters": { "minimum": 35, "maximum": 70 },
+      "recommendedWords": { "minimum": 7, "maximum": 15 },
+      "maximumLines": 4
+    }
+  },
   "elements": [
     {
       "id": "headline",
       "type": "text",
       "required": true,
       "zIndex": 10,
+      "contentKey": "headline",
       "anchor": "top-left",
       "positionPx": {
         "x": 109,
@@ -96,10 +113,11 @@
         "bottom": 563
       },
       "typography": {
-        "fontToken": "primary",
+        "fontToken": "primaryBold",
         "fontFamily": "Arial",
         "fontStyle": "Bold",
         "fontWeight": 700,
+        "fontFilePreferred": "Arial Bold.ttf",
         "fontSizePx": 94,
         "minimumFontSizePx": 88,
         "lineHeightPx": 111,
@@ -141,10 +159,10 @@
     },
     {
       "id": "image",
-      "contentKey": "imagePath",
       "type": "image",
       "required": true,
       "zIndex": 20,
+      "contentKey": "imagePath",
       "framePx": {
         "x": 68,
         "y": 616,

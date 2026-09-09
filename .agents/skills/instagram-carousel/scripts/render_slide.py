@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import copy
 import json
 import math
 from pathlib import Path
@@ -45,6 +46,28 @@ def rgb(value: str) -> tuple[int, int, int]:
         raise CarouselError(f"Cor inválida: {value}") from error
 
 
+def hydrate_template(template: dict[str, Any], design_system: dict[str, Any]) -> dict[str, Any]:
+    """Aplica somente o canvas global quando o template o omite."""
+    hydrated = copy.deepcopy(template)
+    hydrated.setdefault("canvas", copy.deepcopy(required(design_system, "canvas", "design-system")))
+    return hydrated
+
+
+def validate_design_system(design_system: dict[str, Any]) -> None:
+    canvas = required(design_system, "canvas", "design-system")
+    width = required(canvas, "widthPx", "canvas do design-system")
+    height = required(canvas, "heightPx", "canvas do design-system")
+    if not isinstance(width, int) or not isinstance(height, int) or width <= 0 or height <= 0:
+        raise CarouselError("Canvas inválido no design-system")
+    fonts = required(design_system, "fonts", "design-system")
+    for token in ("primaryRegular", "primaryBold"):
+        required(required(fonts, token, "design-system"), "assetPath", f"fonte {token}")
+
+
+def _background_order(template: dict[str, Any]) -> set[str]:
+    return {"background"} if "background" in template["renderOrder"] else {"background.baseColor", "background.layers"}
+
+
 def validate_template(template: dict[str, Any]) -> None:
     template_id = required(template, "templateId", "template")
     if not isinstance(template_id, str) or not template_id:
@@ -65,16 +88,22 @@ def validate_template(template: dict[str, Any]) -> None:
     if not isinstance(elements, list) or not elements:
         raise CarouselError(f"elements deve conter ao menos um elemento em {template_id}")
     ids: set[str] = set()
+    elements_by_id: dict[str, dict[str, Any]] = {}
     for element in elements:
         element_id = required(element, "id", f"elemento de {template_id}")
         if element_id in ids:
             raise CarouselError(f"Elemento duplicado em {template_id}: {element_id}")
         ids.add(element_id)
+        elements_by_id[element_id] = element
         element_type = required(element, "type", element_id)
         if element_type not in ELEMENT_RENDERERS:
             raise CarouselError(f"Tipo de elemento ainda não suportado: {element_type}")
         required(element, "zIndex", element_id)
+        z_index = required(element, "zIndex", element_id)
+        if not isinstance(z_index, int):
+            raise CarouselError(f"zIndex deve ser inteiro em {element_id}")
         if element_type == "text":
+            required(element, "contentKey", element_id)
             required(element, "positionPx", element_id)
             required(element, "textAreaPx", element_id)
             typography = required(element, "typography", element_id)
@@ -84,29 +113,46 @@ def validate_template(template: dict[str, Any]) -> None:
             required(typography, "lineHeightPx", f"tipografia de {element_id}")
             rgb(required(typography, "color", f"tipografia de {element_id}"))
             required(element, "wrapping", element_id)
-        if element_type == "image":
+        elif element_type == "image":
+            required(element, "contentKey", element_id)
             required(element, "framePx", element_id)
             required(element, "fit", element_id)
             required(element, "cropAnchor", element_id)
+            if "visibleFramePx" in element:
+                required(element, "clipToCanvas", element_id)
+                required(element, "bottomBleedPx", element_id)
+        elif element_type == "shape":
+            if element.get("shape") != "rounded-rectangle":
+                raise CarouselError(f"Forma ainda não suportada em {element_id}: {element.get('shape')}")
+            required(element, "framePx", element_id)
+            rgb(required(element, "fill", element_id))
+
+    content_model = template.get("contentModel", {})
+    required_fields = content_model.get("requiredFields", [])
+    if not isinstance(required_fields, list):
+        raise CarouselError(f"contentModel.requiredFields deve ser uma lista em {template_id}")
+    content_keys = {content_key(element) for element in elements if element["type"] in {"text", "image"}}
+    unknown_fields = set(required_fields) - content_keys
+    if unknown_fields:
+        raise CarouselError(f"contentModel referencia campos sem elemento em {template_id}: {', '.join(sorted(unknown_fields))}")
 
     render_order = required(template, "renderOrder", template_id)
     if not isinstance(render_order, list) or not render_order:
         raise CarouselError(f"renderOrder inválido em {template_id}")
-    expected_order_items = {"background.baseColor", "background.layers", *ids}
+    expected_order_items = _background_order(template) | ids
     if set(render_order) != expected_order_items or len(render_order) != len(expected_order_items):
         raise CarouselError(f"renderOrder deve conter cada camada e elemento uma única vez em {template_id}")
+    z_indexes = [elements_by_id[item]["zIndex"] for item in render_order if item in elements_by_id]
+    if z_indexes != sorted(z_indexes):
+        raise CarouselError(f"renderOrder e zIndex estão em conflito em {template_id}")
 
 
 def resolve_font(typography: dict[str, Any], design_system: dict[str, Any], assets_root: Path) -> ImageFont.FreeTypeFont:
     token = required(typography, "fontToken", "tipografia")
     fonts = required(design_system, "fonts", "design-system")
-    if token not in fonts:
-        raise CarouselError(f"Token de fonte não definido no design-system: {token}")
-    definition = fonts[token]
-    style = str(typography.get("fontStyle", "Regular")).lower()
-    file_key = "boldFile" if "bold" in style or typography.get("fontWeight", 400) >= 600 else "regularFile"
-    relative_file = required(definition, file_key, f"fonte {token}")
-    font_path = assets_root / relative_file
+    definition = required(fonts, token, "design-system")
+    asset_path = Path(required(definition, "assetPath", f"fonte {token}"))
+    font_path = assets_root.parent / asset_path if asset_path.parts and asset_path.parts[0] == "assets" else assets_root / asset_path
     if not font_path.is_file():
         raise CarouselError(f"Arquivo de fonte ausente para o token '{token}': {font_path}")
     size = required(typography, "_resolvedFontSizePx", "tipografia")
@@ -182,6 +228,12 @@ def draw_tracked_text(draw: ImageDraw.ImageDraw, position: tuple[int, int], text
         x += font.getlength(character) + tracking
 
 
+def tracked_text_width(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont, tracking: float) -> float:
+    if tracking == 0:
+        return draw.textlength(text, font=font)
+    return sum(font.getlength(character) for character in text) + max(0, len(text) - 1) * tracking
+
+
 def render_text(image: Image.Image, element: dict[str, Any], value: Any, design_system: dict[str, Any], assets_root: Path) -> dict[str, Any]:
     if not isinstance(value, str) or not value.strip():
         raise CarouselError(f"O conteúdo de texto '{element['id']}' deve ser uma string não vazia")
@@ -204,7 +256,7 @@ def render_text(image: Image.Image, element: dict[str, Any], value: Any, design_
     alignment = typography.get("alignment", "left")
     tracking = typography.get("letterSpacingPx", 0)
     for line in lines:
-        line_width = draw.textlength(line, font=font)
+        line_width = tracked_text_width(draw, line, font, tracking)
         x = position["x"]
         if alignment == "center":
             x += (area["width"] - line_width) / 2
@@ -240,16 +292,33 @@ def render_image(image: Image.Image, element: dict[str, Any], value: Any, _desig
     if element["fit"] != "cover" or element.get("allowDistortion", False):
         raise CarouselError(f"O renderer só aceita imagem com fit 'cover' e sem distorção: {element['id']}")
     frame = element["framePx"]
+    visible = element.get("visibleFramePx", frame)
+    if element.get("clipToCanvas", False):
+        bleed = element.get("bottomBleedPx", 0)
+        if frame["x"] != visible["x"] or frame["y"] != visible["y"] or frame["width"] != visible["width"] or frame["height"] - visible["height"] != bleed:
+            raise CarouselError(f"visibleFramePx e bottomBleedPx inconsistentes em {element['id']}")
     with Image.open(source_path) as source:
         media = cover_crop(source.convert("RGB"), frame, element["cropAnchor"])
     radius = element.get("cornerRadiusPx", 0)
     mask = Image.new("L", media.size, 0)
     ImageDraw.Draw(mask).rounded_rectangle((0, 0, media.width, media.height), radius=radius, fill=255)
     image.paste(media, (frame["x"], frame["y"]), mask)
-    return {"id": element["id"], "framePx": frame, "cornerRadiusPx": radius, "fit": "cover"}
+    return {"id": element["id"], "framePx": frame, "visibleFramePx": visible, "cornerRadiusPx": radius, "fit": "cover"}
 
 
-ELEMENT_RENDERERS = {"text": render_text, "image": render_image}
+def render_shape(image: Image.Image, element: dict[str, Any], _value: Any, _design_system: dict[str, Any], _assets_root: Path) -> dict[str, Any]:
+    frame = element["framePx"]
+    if element["shape"] != "rounded-rectangle":
+        raise CarouselError(f"Forma ainda não suportada: {element['shape']}")
+    ImageDraw.Draw(image).rounded_rectangle(
+        (frame["x"], frame["y"], frame["x"] + frame["width"] - 1, frame["y"] + frame["height"] - 1),
+        radius=element.get("cornerRadiusPx", 0),
+        fill=element["fill"],
+    )
+    return {"id": element["id"], "framePx": frame, "shape": "rounded-rectangle"}
+
+
+ELEMENT_RENDERERS = {"text": render_text, "image": render_image, "shape": render_shape}
 
 
 def interpolate_stops(stops: list[dict[str, Any]], resolution: int = 65536) -> list[tuple[int, int, int, int]]:
@@ -295,13 +364,32 @@ def render_gradient(canvas: Image.Image, layer: dict[str, Any]) -> None:
     canvas.alpha_composite(overlay)
 
 
+def render_background(image: Image.Image, background: dict[str, Any]) -> None:
+    ImageDraw.Draw(image).rectangle((0, 0, image.width, image.height), fill=rgb(background["baseColor"]) + (255,))
+    for layer in background["layers"]:
+        render_gradient(image, layer)
+
+
+def required_content_keys(template: dict[str, Any]) -> set[str]:
+    keys = set(template.get("contentModel", {}).get("requiredFields", []))
+    keys.update(content_key(element) for element in template["elements"] if element.get("required", False))
+    return keys
+
+
 def render_slide(template: dict[str, Any], content: dict[str, Any], design_system: dict[str, Any], assets_root: Path) -> tuple[Image.Image, list[dict[str, Any]]]:
+    validate_design_system(design_system)
     validate_template(template)
+    missing = required_content_keys(template) - set(content)
+    if missing:
+        raise CarouselError(f"Conteúdo obrigatório ausente em {template['templateId']}: {', '.join(sorted(missing))}")
     canvas = template["canvas"]
     image = Image.new("RGBA", (canvas["widthPx"], canvas["heightPx"]), (0, 0, 0, 0))
     elements = {element["id"]: element for element in template["elements"]}
     rendered: list[dict[str, Any]] = []
     for item in template["renderOrder"]:
+        if item == "background":
+            render_background(image, template["background"])
+            continue
         if item == "background.baseColor":
             ImageDraw.Draw(image).rectangle((0, 0, image.width, image.height), fill=rgb(template["background"]["baseColor"]) + (255,))
             continue
@@ -309,12 +397,11 @@ def render_slide(template: dict[str, Any], content: dict[str, Any], design_syste
             for layer in template["background"]["layers"]:
                 render_gradient(image, layer)
             continue
-        if item not in elements:
-            raise CarouselError(f"renderOrder referencia elemento inexistente: {item}")
         element = elements[item]
+        if element["type"] == "shape":
+            rendered.append(render_shape(image, element, None, design_system, assets_root))
+            continue
         key = content_key(element)
-        if element.get("required", False) and key not in content:
-            raise CarouselError(f"Conteúdo obrigatório ausente: {key}")
         if key not in content:
             continue
         renderer = ELEMENT_RENDERERS[element["type"]]

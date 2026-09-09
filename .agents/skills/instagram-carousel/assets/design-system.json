@@ -1,11 +1,44 @@
 {
   "schemaVersion": "1.0.0",
+  "systemId": "dark-warm-editorial",
+  "canvas": {
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "colorMode": "RGB",
+    "exportFormat": "PNG"
+  },
+  "colors": {
+    "canvasBase": "#18171C",
+    "foreground": "#FFFFFF",
+    "panel": "#18171C",
+    "placeholderOnly": "#FF0000"
+  },
   "fonts": {
-    "primary": {
-      "family": "Arial Bold",
-      "regularFile": "fonts/Arial Bold.ttf",
-      "boldFile": "fonts/Arial Bold.ttf",
-      "usage": "Equivalência visual temporária; a substituição futura deve alterar somente estes caminhos."
-    }
+    "primaryRegular": {
+      "family": "Arial",
+      "style": "Regular",
+      "weight": 400,
+      "assetPath": "assets/fonts/Arial.ttf"
+    },
+    "primaryBold": {
+      "family": "Arial",
+      "style": "Bold",
+      "weight": 700,
+      "assetPath": "assets/fonts/Arial Bold.ttf"
+    },
+    "implementationNote": "Arial é a equivalência visual adotada para estas referências. Quando a fonte original for fornecida, substitua somente estes dois caminhos e mantenha os tamanhos e as caixas de texto sob revisão visual."
+  },
+  "imageDefaults": {
+    "fit": "cover",
+    "cropAnchor": "center",
+    "allowDistortion": false,
+    "cornerRadiusPx": 80,
+    "resampling": "lanczos"
+  },
+  "rules": {
+    "doNotRenderReferencePlaceholder": true,
+    "doNotMoveFixedLayoutElementsForOverflow": true,
+    "overflowPolicy": "select another compatible template or request shorter content",
+    "fontFallbackPolicy": "fail with a clear error when the declared font asset is unavailable; do not silently substitute"
   }
 }

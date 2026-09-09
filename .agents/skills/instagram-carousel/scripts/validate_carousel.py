@@ -7,14 +7,14 @@ import argparse
 import json
 from pathlib import Path
 
-from render_carousel import ASSETS_ROOT, CarouselError, DESIGN_SYSTEM_PATH, load_carousel, load_json, template_registry
+from render_carousel import ASSETS_ROOT, CarouselError, design_system, load_carousel, template_registry
 from render_slide import validate_rendered_slide
 
 
 def validate_carousel(content_path: Path, output_dir: Path) -> list[dict]:
-    carousel = load_carousel(content_path)
-    registry = template_registry()
-    design_system = load_json(DESIGN_SYSTEM_PATH)
+    system = design_system()
+    carousel = load_carousel(content_path, system)
+    registry = template_registry(system)
     results = []
     for number, slide in enumerate(carousel["slides"], start=1):
         template_id = slide.get("templateId")
@@ -25,7 +25,7 @@ def validate_carousel(content_path: Path, output_dir: Path) -> list[dict]:
                 output_dir / f"slide-{number:02d}.png",
                 registry[template_id],
                 slide.get("content", {}),
-                design_system,
+                system,
                 ASSETS_ROOT,
             )
         )

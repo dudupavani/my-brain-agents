@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0.0",
+  "templateId": "template-04-longform-text",
+  "name": "Texto corrido em fundo editorial",
+  "designSystemRef": "design-system.json",
+  "reference": {
+    "sourceFile": "reference-04.jpg",
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "measurementMethod": "pixel-analysis",
+    "fontNote": "A família é uma equivalência visual; o JPG não inclui metadados de fonte."
+  },
+  "background": {
+    "baseColor": "#18171C",
+    "layers": [
+      {
+        "type": "elliptical-radial-gradient",
+        "role": "warm-bottom-right-glow",
+        "centerPx": { "x": 910, "y": 1420 },
+        "radiusPx": { "x": 1010, "y": 960 },
+        "stops": [
+          { "offset": 0, "color": "#7B6B50", "opacity": 0.9 },
+          { "offset": 0.63, "color": "#514633", "opacity": 0.62 },
+          { "offset": 1, "color": "#18171C", "opacity": 0 }
+        ]
+      }
+    ]
+  },
+  "contentModel": {
+    "requiredFields": ["bodyText"],
+    "bodyText": {
+      "recommendedCharacters": { "minimum": 100, "maximum": 190 },
+      "maximumLines": 8,
+      "instruction": "Use uma única ideia explicada em texto corrido; não incluir título, CTA ou imagem neste template."
+    }
+  },
+  "elements": [
+    {
+      "id": "bodyText",
+      "type": "text",
+      "zIndex": 20,
+      "contentKey": "bodyText",
+      "positionPx": { "x": 120, "y": 243 },
+      "textAreaPx": { "width": 840, "height": 773 },
+      "measuredInkBoundsPx": { "left": 120, "top": 259, "right": 904, "bottom": 1016 },
+      "typography": {
+        "fontToken": "primaryRegular",
+        "fontSizePx": 85,
+        "minimumFontSizePx": 80,
+        "lineHeightPx": 96,
+        "letterSpacingPx": 0,
+        "color": "#FFFFFF",
+        "alignment": "left"
+      },
+      "wrapping": {
+        "strategy": "word-wrap",
+        "maximumLines": 8,
+        "allowHyphenation": false,
+        "overflowAction": "request-shorter-copy"
+      },
+      "referenceLineBreaks": [
+        "Placeholder de texto",
+        "para esta referência",
+        "placeholder de texto",
+        "para esta referência",
+        "placeholder de texto",
+        "para esta referência",
+        "placeholder de texto",
+        "para esta referência"
+      ]
+    }
+  ],
+  "renderOrder": ["background", "bodyText"],
+  "validationRules": [
+    "Renderizar um canvas de 1080x1350 px.",
+    "O texto deve ficar entre x=120 e x=960 e ocupar no máximo oito linhas.",
+    "Não reduzir a fonte abaixo de 80 px; se necessário, pedir texto menor.",
+    "Não inserir imagem, título ou elementos decorativos não declarados."
+  ],
+  "confidence": { "geometry": "high", "colors": "high", "fontFamily": "medium", "fontMetrics": "high" }
+}

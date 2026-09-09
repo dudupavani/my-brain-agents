@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "templateId": "template-02-hook-support-panel",
+  "name": "Hook e texto de apoio em painel arredondado",
+  "designSystemRef": "design-system.json",
+  "reference": {
+    "sourceFile": "reference-02.jpg",
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "measurementMethod": "pixel-analysis",
+    "fontNote": "A família é uma equivalência visual; o JPG não inclui metadados de fonte."
+  },
+  "background": {
+    "baseColor": "#18171C",
+    "layers": [
+      {
+        "type": "elliptical-radial-gradient",
+        "role": "warm-ambient-glow",
+        "centerPx": { "x": 680, "y": 80 },
+        "radiusPx": { "x": 1050, "y": 1050 },
+        "stops": [
+          { "offset": 0, "color": "#6A5D47", "opacity": 0.9 },
+          { "offset": 0.62, "color": "#3C362D", "opacity": 0.75 },
+          { "offset": 1, "color": "#18171C", "opacity": 0 }
+        ]
+      }
+    ]
+  },
+  "contentModel": {
+    "requiredFields": ["headline", "supportingText"],
+    "headline": {
+      "recommendedCharacters": { "minimum": 35, "maximum": 75 },
+      "maximumLines": 4
+    },
+    "supportingText": {
+      "recommendedCharacters": { "minimum": 120, "maximum": 190 },
+      "maximumLines": 5
+    }
+  },
+  "elements": [
+    {
+      "id": "panel",
+      "type": "shape",
+      "zIndex": 10,
+      "framePx": { "x": 54, "y": 65, "width": 972, "height": 1220 },
+      "shape": "rounded-rectangle",
+      "cornerRadiusPx": 90,
+      "fill": "#18171C",
+      "border": null,
+      "shadow": null
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "zIndex": 20,
+      "contentKey": "headline",
+      "positionPx": { "x": 116, "y": 185 },
+      "textAreaPx": { "width": 848, "height": 440 },
+      "measuredInkBoundsPx": { "left": 117, "top": 202, "right": 959, "bottom": 625 },
+      "typography": {
+        "fontToken": "primaryBold",
+        "fontSizePx": 88,
+        "minimumFontSizePx": 84,
+        "lineHeightPx": 111,
+        "letterSpacingPx": 0,
+        "color": "#FFFFFF",
+        "alignment": "left"
+      },
+      "wrapping": {
+        "strategy": "word-wrap",
+        "maximumLines": 4,
+        "allowHyphenation": false,
+        "overflowAction": "select-another-template-or-request-shorter-copy"
+      },
+      "referenceLineBreaks": [
+        "Aqui vai o texto do",
+        "hook principal, ele",
+        "pode vir no máximo",
+        "até aqui"
+      ]
+    },
+    {
+      "id": "supportingText",
+      "type": "text",
+      "zIndex": 20,
+      "contentKey": "supportingText",
+      "positionPx": { "x": 116, "y": 737 },
+      "textAreaPx": { "width": 848, "height": 425 },
+      "measuredInkBoundsPx": { "left": 116, "top": 746, "right": 953, "bottom": 1129 },
+      "typography": {
+        "fontToken": "primaryRegular",
+        "fontSizePx": 47,
+        "minimumFontSizePx": 45,
+        "lineHeightPx": 85,
+        "letterSpacingPx": 0,
+        "color": "#FFFFFF",
+        "alignment": "left"
+      },
+      "wrapping": {
+        "strategy": "word-wrap",
+        "maximumLines": 5,
+        "allowHyphenation": false,
+        "overflowAction": "select-another-template-or-request-shorter-copy"
+      }
+    }
+  ],
+  "renderOrder": ["background", "panel", "headline", "supportingText"],
+  "validationRules": [
+    "Renderizar um canvas de 1080x1350 px.",
+    "O painel deve ficar em x=54, y=65, largura=972, altura=1220 e raio=90 px.",
+    "O headline deve ter até quatro linhas; o texto de apoio deve ter até cinco.",
+    "Nunca desenhar texto fora do painel."
+  ],
+  "confidence": { "geometry": "high", "colors": "high", "fontFamily": "medium", "fontMetrics": "high" }
+}

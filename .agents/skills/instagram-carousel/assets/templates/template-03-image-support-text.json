@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "templateId": "template-03-image-support-text",
+  "name": "Imagem superior com texto de apoio",
+  "designSystemRef": "design-system.json",
+  "reference": {
+    "sourceFile": "reference-03.jpg",
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "measurementMethod": "pixel-analysis",
+    "fontNote": "A família é uma equivalência visual; o JPG não inclui metadados de fonte."
+  },
+  "background": { "baseColor": "#18171C", "layers": [] },
+  "contentModel": {
+    "requiredFields": ["imagePath", "supportingText"],
+    "supportingText": {
+      "recommendedCharacters": { "minimum": 90, "maximum": 140 },
+      "maximumLines": 5
+    }
+  },
+  "elements": [
+    {
+      "id": "image",
+      "type": "image",
+      "zIndex": 10,
+      "contentKey": "imagePath",
+      "framePx": { "x": 68, "y": 69, "width": 944, "height": 656 },
+      "cornerRadiusPx": 80,
+      "fit": "cover",
+      "cropAnchor": "center",
+      "allowDistortion": false,
+      "productionRule": "Substituir completamente o placeholder vermelho pela imagem; nunca renderizar o placeholder em produção.",
+      "referencePlaceholder": { "fill": "#FF0000", "label": "Placeholder da imagem" }
+    },
+    {
+      "id": "supportingText",
+      "type": "text",
+      "zIndex": 20,
+      "contentKey": "supportingText",
+      "positionPx": { "x": 117, "y": 807 },
+      "textAreaPx": { "width": 846, "height": 424 },
+      "measuredInkBoundsPx": { "left": 116, "top": 821, "right": 945, "bottom": 1231 },
+      "typography": {
+        "fontToken": "primaryRegular",
+        "fontSizePx": 76,
+        "minimumFontSizePx": 72,
+        "lineHeightPx": 85,
+        "letterSpacingPx": 0,
+        "color": "#FFFFFF",
+        "alignment": "left"
+      },
+      "wrapping": {
+        "strategy": "word-wrap",
+        "maximumLines": 5,
+        "allowHyphenation": false,
+        "overflowAction": "select-another-template-or-request-shorter-copy"
+      },
+      "referenceLineBreaks": [
+        "Aqui vai o texto de apoio",
+        "aqui vai o texto de apoio",
+        "aqui vai o texto de apoio",
+        "aqui vai o texto de apoio",
+        "aqui vai o texto de apoio"
+      ]
+    }
+  ],
+  "renderOrder": ["background", "image", "supportingText"],
+  "validationRules": [
+    "Renderizar um canvas de 1080x1350 px.",
+    "A imagem deve ficar em x=68, y=69, largura=944, altura=656 e raio=80 px.",
+    "O texto deve ter até cinco linhas e não pode mover a imagem.",
+    "A imagem deve usar cover sem distorção."
+  ],
+  "confidence": { "geometry": "high", "colors": "high", "fontFamily": "medium", "fontMetrics": "high" }
+}

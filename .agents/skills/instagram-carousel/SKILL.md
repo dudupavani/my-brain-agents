@@ -59,7 +59,7 @@ Atualize `target.slide_count` para o total real. Quando a copy estiver fechada, 
 Antes desta etapa, leia [o sistema visual determinístico](references/visual-system.md) e [a seleção de templates](references/template-selection.md). Os JSONs em `assets/templates/` definem o layout; não há reconstrução visual por modelo de imagem, HTML/CSS ou composição manual.
 
 1. Crie `visual.md` a partir do modelo do projeto.
-2. Para cada slide, meça a copy e escolha um `templateId` compatível com o uso, campos obrigatórios, limites de linhas, texto e mídia do JSON. Registre a escolha, a copy e a origem do asset.
+2. Para cada slide, use `assets/templates/template-registry.json` e o `contentModel` para escolher um `templateId` compatível com o uso, campos obrigatórios, limites de linhas, texto e mídia. Registre a escolha, a copy e a origem do asset.
 3. Monte `deliverables/render-input.json` com o contrato `carousel`, `width`, `height`, `slides`, `templateId` e `content`. O conteúdo contém texto e caminhos de mídia; nunca posições, cores, tamanhos ou regras visuais.
 4. Se a copy não couber nos limites declarados, tente outro template. Se nenhum servir, interrompa para revisão editorial; não reduza indefinidamente a fonte, mova a mídia, corte ou reescreva o texto.
 5. Defina se o slide exige fotografia, ilustração, gráfico, interface ou nenhuma mídia. Toda mídia deve provar, explicar ou contextualizar o conteúdo.

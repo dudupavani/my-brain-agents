@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "designSystemRef": "design-system.json",
+  "templates": [
+    {
+      "templateId": "template-01-hook-image-landscape",
+      "file": "template-01-hook-image-landscape.json",
+      "useWhen": "Há um hook curto, em até quatro linhas, e uma imagem horizontal ou ampla."
+    },
+    {
+      "templateId": "template-02-hook-support-panel",
+      "file": "template-02-hook-support-panel.json",
+      "useWhen": "Há um hook e uma explicação de apoio; o slide deve ter aparência de cartão editorial."
+    },
+    {
+      "templateId": "template-03-image-support-text",
+      "file": "template-03-image-support-text.json",
+      "useWhen": "A imagem é o destaque superior e há um único bloco de texto explicativo abaixo."
+    },
+    {
+      "templateId": "template-04-longform-text",
+      "file": "template-04-longform-text.json",
+      "useWhen": "O slide é apenas texto corrido e não depende de imagem."
+    },
+    {
+      "templateId": "template-05-centered-title-tall-image",
+      "file": "template-05-centered-title-tall-image.json",
+      "useWhen": "Há um título bem curto e uma fotografia vertical que pode ocupar todo o rodapé."
+    }
+  ],
+  "selectionRule": "Filtre primeiro pelos campos disponíveis, depois pelos limites de linhas e caracteres de cada template. Nunca reduza uma fonte abaixo do mínimo declarado para forçar compatibilidade."
+}
