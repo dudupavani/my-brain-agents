@@ -11,6 +11,7 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 - A quantidade de slides foi decidida para este conteúdo e coincide com `target.slide_count`.
 - A linha editorial está registrada antes do design: promessa, tensão, progressão, consequência, takeaway e papel de cada slide.
 - A sequência pode ser resumida em uma frase e cada slide responde a uma pergunta ou cria a ponte necessária para o próximo.
+- A forma de cada slide acompanha seu papel narrativo; o conjunto não força título, apoio ou imagem onde a copy não precisa deles.
 - A narrativa seleciona e reorganiza apenas o que a fonte sustenta: não há fato, relação causal ou conclusão inventados para ligar os slides.
 - O primeiro slide apresenta o assunto e o hook: o leitor identifica o tema mesmo chegando pelo Instagram sem contexto.
 - O hook é uma única frase, interessante, precisa e fiel à fonte.
@@ -44,6 +45,7 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 - Hierarquia, contraste, alinhamento, margens, entrelinha e tamanho permanecem fiéis ao template e funcionam em tela pequena.
 - A copy foi revisada no PNG final: cada slide está conciso o bastante para leitura confortável e nenhum texto foi comprimido ou reduzido excessivamente para caber.
 - O conjunto tem unidade visual sem transformar todos os slides em cópias do mesmo layout.
+- A variedade de composições é intencional e acompanha a narrativa, não uma repetição mecânica do mesmo template.
 
 ## Pacote final
 

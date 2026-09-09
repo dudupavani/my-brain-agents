@@ -22,9 +22,9 @@ Escreva em uma frase o recorte principal do carrossel.
 
 ### Mapa narrativo
 
-| Slide | Papel narrativo | Pergunta respondida | Ponte para o próximo |
-| --- | --- | --- | --- |
-| 1 |  |  |  |
+| Slide | Papel narrativo | Pergunta respondida | Ponte para o próximo | Forma visual necessária |
+| --- | --- | --- | --- | --- |
+| 1 |  |  |  |  |
 
 ## Seleção editorial
 
