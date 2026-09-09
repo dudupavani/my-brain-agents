@@ -6,6 +6,7 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 
 - A ideia central está coerente com o material fornecido e com os objetivos editoriais do Eduardo.
 - `brief.md` distingue fatos, declarações atribuídas, interpretações e pontos descartados.
+- `brief.md` registra o ângulo escolhido, por que ele importa para o público e quais ângulos concorrentes foram descartados.
 - Nomes, números, datas, capacidades, promessas e citações possuem sustentação verificável.
 - O carrossel seleciona o essencial; não tenta reproduzir o artigo inteiro nem acrescenta contexto inventado.
 - A quantidade de slides foi decidida para este conteúdo e coincide com `target.slide_count`.
@@ -17,8 +18,10 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 - O hook é uma única frase, interessante, precisa e fiel à fonte.
 - O assunto central aparece no próprio hook ou em uma etiqueta prevista pelo template; não há texto improvisado fora do contrato visual.
 - A copy retoma o assunto central ou uma referência inequívoca quando necessário; não depende de pronomes ou de “o produto” sem antecedente claro.
+- A história é compreensível sem a legenda: o contexto essencial não foi empurrado para `caption.md`.
 - Não há títulos soltos: todo slide só com título tem imagem ou composição que carrega a explicação; nos demais, o texto de apoio desenvolve o ponto.
 - Cada slide desenvolve um ponto principal; o CTA só existe quando acrescenta valor.
+- O fechamento entrega o takeaway preparado pela narrativa; não introduz uma tese nova no último slide.
 
 ## Direção visual e mídia
 

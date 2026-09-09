@@ -4,6 +4,8 @@ Não existe quantidade fixa de slides. Defina a quantidade necessária para comu
 
 Cada slide deve conter somente o texto que deve aparecer na arte. Identifique o papel de cada um para preservar a narrativa.
 
+A legenda pode aprofundar o conteúdo, mas não deve ser necessária para entender o assunto, o recorte e a conclusão dos slides.
+
 ## Slide 1 — Assunto + hook
 
 Antes de escrever a frase, deixe claro qual é o assunto do post. Se o template tiver um campo de identificação, use uma etiqueta curta, como “GROK BOT”, e escreva abaixo uma única frase forte, precisa e fiel à fonte. Se não houver esse campo, incorpore o assunto na própria frase. O leitor precisa saber do que o post trata sem depender da legenda ou dos slides seguintes; não acrescente texto fora do contrato do template.

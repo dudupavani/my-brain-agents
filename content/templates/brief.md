@@ -12,6 +12,15 @@ Para quem é o conteúdo e qual é o nível de familiaridade dessa pessoa com o 
 
 Escreva em uma frase o recorte principal do carrossel.
 
+## Ângulo editorial
+
+- O que aconteceu ou qual ideia está em jogo:
+- O que mudou ou está sendo demonstrado:
+- Por que este recorte importa para o público:
+- Ângulo escolhido:
+- Ângulos possíveis descartados:
+- O que este carrossel não afirma:
+
 ## Linha editorial
 
 - Promessa: o que o leitor vai entender ao terminar?
@@ -31,6 +40,12 @@ Escreva em uma frase o recorte principal do carrossel.
 - Pontos essenciais que entram:
 - Pontos descartados por irrelevância:
 - Pontos descartados por falta de sustentação:
+
+## Fatos, declarações e interpretação
+
+| Tipo | Afirmação | Fonte ou base | Como será sinalizada na copy |
+| --- | --- | --- | --- |
+| fato / declaração / interpretação |  |  |  |
 
 ## Contexto e limites
 

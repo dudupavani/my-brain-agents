@@ -38,7 +38,9 @@ Quando o pedido for para criar o carrossel completo, avance até os PNGs finais 
 2. Se a entrada for URL, extraia a fonte, procure a origem primária quando necessário e confira fatos, nomes, números e datas.
 3. Identifique uma única ideia central coerente com os objetivos editoriais do Eduardo.
 4. Selecione apenas os fatos e pontos necessários para essa ideia. Não tente comprimir o artigo inteiro nem preserve trechos só porque estavam na fonte.
-5. Registre em `brief.md` o que foi selecionado, o que foi descartado por irrelevância ou falta de sustentação e as fontes usadas.
+5. Escolha um ângulo editorial explícito: o que aconteceu ou qual ideia está em jogo, o que mudou, por que isso importa para este público e qual leitura o carrossel pretende deixar. Se houver mais de um ângulo possível, escolha um e registre os demais como descartados; não misture teses concorrentes na mesma sequência.
+6. Registre em `brief.md` o que foi selecionado, o que foi descartado por irrelevância ou falta de sustentação e as fontes usadas.
+7. Separe no brief fatos verificáveis, declarações atribuídas à fonte e interpretações editoriais. Uma interpretação pode entrar, mas deve ser reconhecível como interpretação e não pode virar fato por causa da redação.
 
 Não transforme notícia em opinião obrigatoriamente. Diferencie fato verificado, declaração atribuída, interpretação e hipótese.
 
@@ -56,6 +58,8 @@ Antes de escolher templates, imagens ou quantidade final de slides, construa a l
 
 Para cada slide, registre o papel narrativo, a pergunta que ele responde e a ponte para o próximo. Só avance para a copy final quando a sequência puder ser resumida em uma frase e cada slide for necessário para a compreensão. Se a sequência parecer uma coleção de afirmações independentes, volte para a linha editorial; não tente consertar o problema apenas com layout ou imagens.
 
+A legenda pode aprofundar a história, mas não pode carregar o contexto essencial que torna os slides compreensíveis. Leia a sequência sem a legenda e verifique se alguém que não viu a fonte entende o assunto, a mudança e a conclusão.
+
 1. Defina a quantidade de slides pela narrativa e pela legibilidade. Não existe número fixo, mínimo editorial ou padrão de oito slides.
 2. Antes de redigir, decomponha a ideia central em passos narrativos: hook, contexto indispensável, desenvolvimento, consequência e fechamento, usando apenas o que a fonte sustenta. O carrossel pode omitir o que for secundário, mas nunca inventar fatos, transições causais ou uma conclusão ausente do material.
 3. Escreva em `carousel.md` somente a copy exata que aparecerá na arte. Cada slide deve comunicar um passo necessário da mesma história e um único ponto principal; não usar o slide como depósito de parágrafos resumidos nem como lista sem enquadramento.
@@ -64,7 +68,7 @@ Para cada slide, registre o papel narrativo, a pergunta que ele responde e a pon
 6. O slide 1 precisa apresentar o assunto e o hook. O hook deve ser provocativo o bastante para interromper a rolagem, mas preciso e sustentado pela fonte. O assunto central — produto, empresa, pessoa, evento ou categoria inequívoca — deve aparecer de forma explícita para um leitor que chegou pelo Instagram sem contexto. Quando o template tiver um campo de identificação, use uma etiqueta curta (por exemplo, “GROK BOT”) e mantenha o hook em uma única frase; quando não tiver, incorpore o assunto no próprio hook (por exemplo, “O Grok Bot está sendo desenhado como um colega de trabalho”). Um hook genérico que só faça sentido depois de ler a legenda ou passar para o slide 2 é inválido. Não invente uma segunda linha ou campo fora do contrato do template.
 7. A copy do conjunto deve continuar referenciando o assunto central de modo natural. Não apresente o tema apenas na legenda e depois use “isso”, “essa ideia” ou “o produto” sem antecedente claro; retome o nome ou uma referência inequívoca quando isso evitar ambiguidade.
 8. Use CTA somente quando ele aprofundar naturalmente o conteúdo. Um fechamento factual ou uma conclusão também são válidos.
-9. Escreva a legenda final e faça uma revisão editorial comparando a copy com a fonte e com a marca.
+9. Escreva a legenda final e faça uma revisão editorial comparando a copy com a fonte e com a marca. A legenda deve ampliar o carrossel, não corrigir uma narrativa incompleta.
 
 Atualize `target.slide_count` para o total real. Quando a copy estiver fechada, registre internamente `ready_for_design`; não peça aprovação intermediária se o pedido foi pelo carrossel completo.
 
@@ -105,6 +109,7 @@ O registry é um repertório de composições, não uma gramática fixa para tod
 Leia e aplique [a lista de qualidade](references/quality-checklist.md).
 
 - Compare visualmente cada PNG com `carousel.md`; nenhum texto pode faltar, mudar ou ser inventado.
+- Faça uma leitura editorial dos slides sem abrir `caption.md`: confirme que o assunto, o recorte, a progressão e o takeaway estão compreensíveis para alguém que não viu a fonte.
 - Execute `scripts/validate_carousel.py --content <render-input.json> --output-dir <deliverables/>` e corrija qualquer falha estrutural.
 - Confirme dimensões, ordem, quantidade, legibilidade, relação semântica das imagens e ausência de elementos temporários.
 - Corrija os problemas encontrados antes de encerrar.
