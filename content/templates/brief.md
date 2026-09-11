@@ -12,6 +12,7 @@ Para quem é o conteúdo e qual é o nível de familiaridade dessa pessoa com o 
 
 Preencha esta seção quando o usuário fornecer uma URL, artigo, vídeo, documento ou post para virar carrossel. A fonte é o conteúdo a ser adaptado, não inspiração para uma nova tese.
 
+- Síntese fiel do conteúdo lido:
 - Assunto específico da fonte:
 - Promessa editorial (título, premissa ou pergunta que ela responde):
 - Formato editorial central (lista, framework, estudo de caso, comparação, lançamento, tutorial, argumento ou outro):

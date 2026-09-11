@@ -5,6 +5,7 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 ## Fonte e edição
 
 - Quando existe URL, artigo, vídeo, documento ou post fornecido para virar carrossel, a entrega adapta essa fonte; ela não usa o material apenas como inspiração para criar outro conteúdo.
+- O conteúdo utilizável da fonte foi lido e interpretado antes da seleção editorial; o assunto não foi inferido apenas do título, snippet, imagem ou conhecimento prévio.
 - `brief.md` identifica o assunto específico, a promessa editorial, o formato central e o núcleo inegociável da fonte.
 - Cada elemento que define a fonte está mapeado no brief para um ou mais slides, inclusive quando foi agrupado ou resumido.
 - O carrossel preserva de modo reconhecível a estrutura central da fonte: lista, framework, estudo de caso, comparação, lançamento, tutorial, argumento ou equivalente.
