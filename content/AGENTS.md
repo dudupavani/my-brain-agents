@@ -32,7 +32,7 @@ Cada conteúdo vive em `content/items/<id>/`. Não mova a pasta para indicar ava
 
 Nos novos itens, use `owner: personal-content` até `in_review`. A partir de `in_review`, use `owner: eduardo`. Pacotes experimentais antigos podem manter proprietários legados até serem retomados.
 
-A quantidade de slides depende do conteúdo. O formato final do carrossel é 1080 × 1350 pixels, em retrato 4:5, para o feed.
+A quantidade de slides para o feed é 6 ou 7, salvo autorização explícita do Eduardo. O formato final do carrossel é 1080 × 1350 pixels, em retrato 4:5, para o feed.
 
 ## Persistência
 

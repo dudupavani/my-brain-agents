@@ -56,6 +56,14 @@ Escreva em uma frase a síntese fiel do conteúdo original que orientará o carr
 - Detalhes secundários omitidos, com justificativa:
 - Pontos descartados por falta de sustentação:
 
+## Auditoria antes do design
+
+- A copy cabe em 6 ou 7 slides:
+- Tópicos obrigatórios da fonte cobertos ou agrupados:
+- Linguagem direta, sem metacomentários sobre a fonte:
+- Narrativa relida inteira e comparada novamente com a fonte:
+- Ajustes feitos após essa leitura:
+
 ## Fatos, declarações e interpretação
 
 | Tipo | Afirmação | Fonte ou base | Como será sinalizada na copy |

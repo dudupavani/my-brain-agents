@@ -10,15 +10,17 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 - Cada elemento que define a fonte está mapeado no brief para um ou mais slides, inclusive quando foi agrupado ou resumido.
 - O carrossel preserva de modo reconhecível a estrutura central da fonte: lista, framework, estudo de caso, comparação, lançamento, tutorial, argumento ou equivalente.
 - O ângulo editorial organiza como a fonte será contada; ele não substitui o assunto por uma tese genérica, uma opinião paralela ou uma reflexão que serviria para outra fonte semelhante.
+- A copy final fala diretamente com o público e não usa metacomentários como “o artigo mostra”, “segundo a fonte” ou “neste estudo” dentro dos slides.
 - A ideia central está coerente com o material fornecido e com os objetivos editoriais do Eduardo.
 - `brief.md` distingue fatos, declarações atribuídas, interpretações e pontos descartados.
 - `brief.md` registra o ângulo escolhido, por que ele importa para o público e formas alternativas de apresentar a mesma fonte — nunca elementos do seu núcleo como descartados.
 - Nomes, números, datas, capacidades, promessas e citações possuem sustentação verificável.
-- O carrossel seleciona o essencial sem reproduzir cada detalhe, apagar a promessa ou acrescentar contexto inventado.
-- A quantidade de slides foi decidida para este conteúdo e coincide com `target.slide_count`.
+- O carrossel seleciona os tópicos obrigatórios e omite somente detalhes secundários, sem reproduzir cada capítulo, apagar a promessa ou acrescentar contexto inventado.
+- A quantidade de slides é 6 ou 7 e coincide com `target.slide_count`; tópicos relacionados foram agrupados quando necessário.
 - A linha editorial está registrada antes do design: promessa, tensão, progressão, consequência, takeaway e papel de cada slide.
 - A sequência pode ser resumida em uma frase e cada slide responde a uma pergunta ou cria a ponte necessária para o próximo.
 - A narrativa não funcionaria igualmente para outra fonte do mesmo tema: seus slides carregam os elementos que tornam esta fonte específica reconhecível.
+- Cada slide tem uma ideia principal, linguagem concreta e texto curto o bastante para leitura rápida no feed.
 - A forma de cada slide acompanha seu papel narrativo; o conjunto não força título, apoio ou imagem onde a copy não precisa deles.
 - A narrativa seleciona e reorganiza apenas o que a fonte sustenta: não há fato, relação causal ou conclusão inventados para ligar os slides.
 - O primeiro slide apresenta o assunto e o hook: o leitor identifica o tema mesmo chegando pelo Instagram sem contexto.
@@ -29,6 +31,7 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 - Não há títulos soltos: todo slide só com título tem imagem ou composição que carrega a explicação; nos demais, o texto de apoio desenvolve o ponto.
 - Cada slide desenvolve um ponto principal; o CTA só existe quando acrescenta valor.
 - O fechamento entrega o takeaway preparado pela narrativa; não introduz uma tese nova no último slide.
+- A sequência inteira foi relida depois da copy final e comparada novamente com a fonte e com o mapa de tópicos obrigatórios.
 
 ## Direção visual e mídia
 

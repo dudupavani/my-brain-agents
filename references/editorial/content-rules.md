@@ -42,8 +42,11 @@ Antes de escrever a copy, identifique o formato central da fonte e mantenha-o re
 - Comece pelo que aconteceu e pelo que mudou de forma concreta.
 - Escolha o recorte que melhor passa pelo filtro editorial atual, sem distorcer a notícia.
 - Para uma notícia, clareza vem antes de uma tese. Só inclua consequências ou leitura própria quando elas forem sustentadas pela fonte ou solicitadas pelo usuário.
+- Para o feed, limite o carrossel a 6 ou 7 slides. Agrupe tópicos relacionados e corte detalhes secundários; não aumente a quantidade para carregar o artigo inteiro.
+- Escreva diretamente para o público: uma ideia por slide, frases curtas, linguagem concreta e sem “o artigo mostra”, “segundo a fonte” ou outros metacomentários na arte.
+- Depois de fechar a copy, releia a sequência inteira e compare-a novamente com a fonte. Confirme que todos os tópicos obrigatórios estão cobertos ou agrupados e que nenhuma transição, conclusão ou tese foi inventada.
 - O hook do primeiro slide é uma única frase: desperta interesse sem sensacionalismo e sem ir além do que os fatos permitem.
-- A quantidade de slides é definida pela narrativa. Não há número padrão.
+- A quantidade de slides é 6 ou 7, salvo autorização explícita do Eduardo.
 
 ## Mídia
 

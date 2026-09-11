@@ -47,6 +47,8 @@ Não existe uma transferência obrigatória para um agente separado chamado Code
 
 Comece pelo que aconteceu, pelo que mudou e pela relevância para o público. Uma notícia pode ser uma síntese factual clara. Leitura própria é bem-vinda quando sustentada, mas não é obrigatória.
 
+Para carrosséis do feed, a entrega editorial deve caber em 6 ou 7 slides, salvo autorização explícita do Eduardo. Agrupe tópicos relacionados e corte detalhes secundários para respeitar o limite sem distorcer o núcleo da fonte.
+
 ## Voz e forma
 
 A voz específica continua sendo refinada em `references/brand/brand.md` com exemplos aprovados. Até lá:
