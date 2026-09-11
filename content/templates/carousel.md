@@ -4,6 +4,8 @@ Não existe quantidade fixa de slides. Defina a quantidade necessária para comu
 
 Cada slide deve conter somente o texto que deve aparecer na arte. Identifique o papel de cada um para preservar a narrativa.
 
+A copy é uma adaptação fiel da fonte registrada em `brief.md`: deve preservar seu assunto, sua promessa editorial e seu núcleo. Não use os slides para substituir o conteúdo por uma tese nova.
+
 A legenda pode aprofundar o conteúdo, mas não deve ser necessária para entender o assunto, o recorte e a conclusão dos slides.
 
 ## Slide 1 — Assunto + hook

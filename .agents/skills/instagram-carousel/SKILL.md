@@ -32,15 +32,23 @@ Se houver mais de um conteúdo possível e a escolha mudar materialmente o resul
 
 Quando o pedido for para criar o carrossel completo, avance até os PNGs finais no mesmo trabalho. Só interrompa por falta de fonte essencial, ambiguidade material, ausência das referências obrigatórias ou indisponibilidade de uma capacidade técnica indispensável. Não configure ferramentas, instale dependências nem publique o conteúdo por conta própria.
 
+### Regra inegociável: adaptar, não criar outro conteúdo
+
+Quando Eduardo fornecer uma URL, artigo, vídeo, documento ou post para virar carrossel, esse material é o objeto do conteúdo. O trabalho é adaptar o conteúdo original para slides, não usá-lo como repertório, inspiração ou evidência para criar uma tese nova.
+
+Preserve o assunto específico, a promessa editorial e a estrutura que torna a fonte reconhecível. Um ângulo pode organizar, resumir, agrupar e tornar a explicação mais interessante; não pode trocar o núcleo por uma reflexão genérica, uma opinião paralela ou uma ideia que serviria para qualquer fonte do mesmo tema. Só trate uma fonte como inspiração quando Eduardo pedir isso explicitamente.
+
 ## 1. Apurar e selecionar
 
 1. Crie ou retome `content/items/<id>/` e use `status: draft` durante a apuração.
 2. Se a entrada for URL, extraia a fonte, procure a origem primária quando necessário e confira fatos, nomes, números e datas.
-3. Identifique uma única ideia central coerente com os objetivos editoriais do Eduardo.
-4. Selecione apenas os fatos e pontos necessários para essa ideia. Não tente comprimir o artigo inteiro nem preserve trechos só porque estavam na fonte.
-5. Escolha um ângulo editorial explícito: o que aconteceu ou qual ideia está em jogo, o que mudou, por que isso importa para este público e qual leitura o carrossel pretende deixar. Se houver mais de um ângulo possível, escolha um e registre os demais como descartados; não misture teses concorrentes na mesma sequência.
-6. Registre em `brief.md` o que foi selecionado, o que foi descartado por irrelevância ou falta de sustentação e as fontes usadas.
-7. Separe no brief fatos verificáveis, declarações atribuídas à fonte e interpretações editoriais. Uma interpretação pode entrar, mas deve ser reconhecível como interpretação e não pode virar fato por causa da redação.
+3. Antes de definir o recorte, registre em `brief.md` qual é o assunto específico da fonte, sua promessa editorial, seu formato central e os elementos que não podem desaparecer sem mudar o assunto. O formato pode ser lista, framework, estudo de caso, comparação, lançamento, tutorial, argumento ou outro equivalente.
+4. Marque o núcleo inegociável da fonte e mapeie como ele aparecerá nos slides. Se a fonte for uma lista de casos, preserve a visão geral da lista ou apresente casos nomeados; se for estudo de caso, preserve problema, solução e resultado; se for comparação, preserve os elementos comparados; se for lançamento, preserve o que foi lançado, o que mudou e por que importa; se for tutorial, preserve o processo que o torna útil. É permitido resumir, agrupar e omitir detalhes secundários, nunca remover o que define o conteúdo original.
+5. Identifique uma única ideia central que sintetize fielmente esse objeto para o público do Eduardo. Ela deve continuar específica o bastante para que a fonte seja reconhecível, e não substituir seu assunto por uma tese aplicável a qualquer material semelhante.
+6. Escolha um ângulo editorial explícito: como contar o conteúdo original, o que aconteceu ou qual ideia está em jogo, o que mudou e por que isso importa para este público. O ângulo organiza a história; não troca a história. Se houver mais de uma forma de apresentar a mesma fonte, escolha uma e registre as alternativas de apresentação, sem descartar elementos do núcleo.
+7. Selecione os fatos e pontos necessários para comunicar a fonte com clareza. Não tente comprimir cada detalhe, mas não descarte a promessa, a estrutura ou os exemplos que definem seu assunto. Registre somente omissões secundárias ou sem sustentação.
+8. Registre em `brief.md` a fonte, o núcleo preservado, a cobertura prevista e o que foi omitido legitimamente.
+9. Separe no brief fatos verificáveis, declarações atribuídas à fonte e interpretações editoriais. Uma interpretação pode entrar, mas deve ser reconhecível como interpretação e não pode virar fato por causa da redação.
 
 Não transforme notícia em opinião obrigatoriamente. Diferencie fato verificado, declaração atribuída, interpretação e hipótese.
 
@@ -56,12 +64,12 @@ Antes de escolher templates, imagens ou quantidade final de slides, construa a l
 - a consequência: por que o assunto importa para esse público;
 - o takeaway: qual ideia deve permanecer depois do último slide.
 
-Para cada slide, registre o papel narrativo, a pergunta que ele responde e a ponte para o próximo. Só avance para a copy final quando a sequência puder ser resumida em uma frase e cada slide for necessário para a compreensão. Se a sequência parecer uma coleção de afirmações independentes, volte para a linha editorial; não tente consertar o problema apenas com layout ou imagens.
+Para cada slide, registre o papel narrativo, a pergunta que ele responde, a ponte para o próximo e qual elemento do núcleo da fonte ele preserva. Só avance para a copy final quando a sequência puder ser resumida em uma frase, cada slide for necessário para a compreensão e a soma dos slides mantiver a promessa e a estrutura da fonte. Se a sequência parecer uma coleção de afirmações independentes, volte para a linha editorial; não tente consertar o problema apenas com layout ou imagens. Se a mesma narrativa pudesse servir para outra fonte do mesmo tema, ela está genérica demais e deve ser reescrita.
 
 A legenda pode aprofundar a história, mas não pode carregar o contexto essencial que torna os slides compreensíveis. Leia a sequência sem a legenda e verifique se alguém que não viu a fonte entende o assunto, a mudança e a conclusão.
 
 1. Defina a quantidade de slides pela narrativa e pela legibilidade. Não existe número fixo, mínimo editorial ou padrão de oito slides.
-2. Antes de redigir, decomponha a ideia central em passos narrativos: hook, contexto indispensável, desenvolvimento, consequência e fechamento, usando apenas o que a fonte sustenta. O carrossel pode omitir o que for secundário, mas nunca inventar fatos, transições causais ou uma conclusão ausente do material.
+2. Antes de redigir, decomponha a ideia central em passos narrativos: hook, contexto indispensável, desenvolvimento, consequência e fechamento, usando o mapa do núcleo da fonte. O carrossel pode omitir o que for secundário, mas nunca inventar fatos, transições causais ou uma conclusão ausente do material — nem substituir a estrutura original por uma tese independente.
 3. Escreva em `carousel.md` somente a copy exata que aparecerá na arte. Cada slide deve comunicar um passo necessário da mesma história e um único ponto principal; não usar o slide como depósito de parágrafos resumidos nem como lista sem enquadramento.
 4. Um slide só com título é permitido apenas quando a imagem ou a composição carregar a explicação. Caso contrário, use texto de apoio ou outro template; não deixe títulos soltos para preencher a sequência.
 5. Não use limite fixo de caracteres. O critério é a composição: o texto precisa caber com tipografia expressiva e leitura confortável em tela pequena. Se não couber sem enfraquecer a hierarquia, simplifique a copy ou distribua a narrativa em outro slide; nunca reduza a tipografia até caber.
@@ -109,7 +117,8 @@ O registry é um repertório de composições, não uma gramática fixa para tod
 Leia e aplique [a lista de qualidade](references/quality-checklist.md).
 
 - Compare visualmente cada PNG com `carousel.md`; nenhum texto pode faltar, mudar ou ser inventado.
-- Faça uma leitura editorial dos slides sem abrir `caption.md`: confirme que o assunto, o recorte, a progressão e o takeaway estão compreensíveis para alguém que não viu a fonte.
+- Faça uma leitura editorial dos slides sem abrir `caption.md`: confirme que o assunto, a promessa da fonte, sua estrutura central, o recorte, a progressão e o takeaway estão compreensíveis para alguém que não viu a fonte.
+- Compare a sequência final com o mapa do núcleo em `brief.md`. Não aprove um carrossel que seja factual e bem escrito, mas que tenha mudado de assunto, apagado a promessa editorial ou convertido a fonte em uma tese genérica.
 - Execute `scripts/validate_carousel.py --content <render-input.json> --output-dir <deliverables/>` e corrija qualquer falha estrutural.
 - Confirme dimensões, ordem, quantidade, legibilidade, relação semântica das imagens e ausência de elementos temporários.
 - Corrija os problemas encontrados antes de encerrar.

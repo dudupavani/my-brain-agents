@@ -8,9 +8,23 @@ O que o leitor precisa entender depois de consumir este carrossel?
 
 Para quem é o conteúdo e qual é o nível de familiaridade dessa pessoa com o tema?
 
+## Objeto e núcleo da fonte
+
+Preencha esta seção quando o usuário fornecer uma URL, artigo, vídeo, documento ou post para virar carrossel. A fonte é o conteúdo a ser adaptado, não inspiração para uma nova tese.
+
+- Assunto específico da fonte:
+- Promessa editorial (título, premissa ou pergunta que ela responde):
+- Formato editorial central (lista, framework, estudo de caso, comparação, lançamento, tutorial, argumento ou outro):
+
+| Elemento que define a fonte | Evidência na fonte | Como será preservado ou agrupado | Slide(s) previsto(s) |
+| --- | --- | --- | --- |
+|  |  |  |  |
+
+Não registre aqui elementos como descartados. Omitir detalhes secundários é permitido; remover o que define o assunto não é.
+
 ## Ideia central
 
-Escreva em uma frase o recorte principal do carrossel.
+Escreva em uma frase a síntese fiel do conteúdo original que orientará o carrossel. Ela não pode ser uma tese independente que serviria para outra fonte semelhante.
 
 ## Ângulo editorial
 
@@ -18,7 +32,7 @@ Escreva em uma frase o recorte principal do carrossel.
 - O que mudou ou está sendo demonstrado:
 - Por que este recorte importa para o público:
 - Ângulo escolhido:
-- Ângulos possíveis descartados:
+- Formas de apresentação consideradas e descartadas (nunca elementos do núcleo):
 - O que este carrossel não afirma:
 
 ## Linha editorial
@@ -31,14 +45,14 @@ Escreva em uma frase o recorte principal do carrossel.
 
 ### Mapa narrativo
 
-| Slide | Papel narrativo | Pergunta respondida | Ponte para o próximo | Forma visual necessária |
-| --- | --- | --- | --- | --- |
-| 1 |  |  |  |  |
+| Slide | Papel narrativo | Pergunta respondida | Elemento da fonte preservado | Ponte para o próximo | Forma visual necessária |
+| --- | --- | --- | --- | --- | --- |
+| 1 |  |  |  |  |  |
 
 ## Seleção editorial
 
-- Pontos essenciais que entram:
-- Pontos descartados por irrelevância:
+- Pontos essenciais que entram e sua relação com o núcleo:
+- Detalhes secundários omitidos, com justificativa:
 - Pontos descartados por falta de sustentação:
 
 ## Fatos, declarações e interpretação

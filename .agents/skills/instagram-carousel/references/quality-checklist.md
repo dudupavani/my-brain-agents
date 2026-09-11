@@ -4,14 +4,20 @@ Use esta lista depois de renderizar e antes de marcar o item como `in_review`.
 
 ## Fonte e edição
 
+- Quando existe URL, artigo, vídeo, documento ou post fornecido para virar carrossel, a entrega adapta essa fonte; ela não usa o material apenas como inspiração para criar outro conteúdo.
+- `brief.md` identifica o assunto específico, a promessa editorial, o formato central e o núcleo inegociável da fonte.
+- Cada elemento que define a fonte está mapeado no brief para um ou mais slides, inclusive quando foi agrupado ou resumido.
+- O carrossel preserva de modo reconhecível a estrutura central da fonte: lista, framework, estudo de caso, comparação, lançamento, tutorial, argumento ou equivalente.
+- O ângulo editorial organiza como a fonte será contada; ele não substitui o assunto por uma tese genérica, uma opinião paralela ou uma reflexão que serviria para outra fonte semelhante.
 - A ideia central está coerente com o material fornecido e com os objetivos editoriais do Eduardo.
 - `brief.md` distingue fatos, declarações atribuídas, interpretações e pontos descartados.
-- `brief.md` registra o ângulo escolhido, por que ele importa para o público e quais ângulos concorrentes foram descartados.
+- `brief.md` registra o ângulo escolhido, por que ele importa para o público e formas alternativas de apresentar a mesma fonte — nunca elementos do seu núcleo como descartados.
 - Nomes, números, datas, capacidades, promessas e citações possuem sustentação verificável.
-- O carrossel seleciona o essencial; não tenta reproduzir o artigo inteiro nem acrescenta contexto inventado.
+- O carrossel seleciona o essencial sem reproduzir cada detalhe, apagar a promessa ou acrescentar contexto inventado.
 - A quantidade de slides foi decidida para este conteúdo e coincide com `target.slide_count`.
 - A linha editorial está registrada antes do design: promessa, tensão, progressão, consequência, takeaway e papel de cada slide.
 - A sequência pode ser resumida em uma frase e cada slide responde a uma pergunta ou cria a ponte necessária para o próximo.
+- A narrativa não funcionaria igualmente para outra fonte do mesmo tema: seus slides carregam os elementos que tornam esta fonte específica reconhecível.
 - A forma de cada slide acompanha seu papel narrativo; o conjunto não força título, apoio ou imagem onde a copy não precisa deles.
 - A narrativa seleciona e reorganiza apenas o que a fonte sustenta: não há fato, relação causal ou conclusão inventados para ligar os slides.
 - O primeiro slide apresenta o assunto e o hook: o leitor identifica o tema mesmo chegando pelo Instagram sem contexto.

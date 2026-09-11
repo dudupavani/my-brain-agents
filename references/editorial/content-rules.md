@@ -19,6 +19,14 @@ O papel do conteúdo é tornar a notícia compreensível e relevante. Uma pauta 
 
 O agente extrai o necessário da entrada e registra no pacote. O usuário não deve preencher um formulário, escolher quantidade de slides ou buscar mídia para cada post.
 
+## Fidelidade ao conteúdo fornecido
+
+Quando Eduardo fornecer uma URL, artigo, vídeo, documento ou post para virar carrossel, esse material é o conteúdo a ser adaptado. Não o use como inspiração, repertório ou evidência para criar outro post.
+
+Preserve o assunto específico, a promessa editorial e a estrutura que torna a fonte reconhecível. O carrossel pode resumir, agrupar e omitir detalhes secundários, mas não pode remover o núcleo que define a fonte nem substituí-lo por uma tese genérica ou opinião paralela. O ângulo editorial decide como contar a história original; não troca sua história.
+
+Antes de escrever a copy, identifique o formato central da fonte e mantenha-o reconhecível: uma lista preserva a visão geral ou itens nomeados; um estudo de caso preserva problema, solução e resultado; uma comparação preserva os elementos comparados; um lançamento preserva o que mudou; e um tutorial preserva o processo. Só use uma fonte como inspiração quando Eduardo pedir isso explicitamente.
+
 ## Fatos, fontes e linguagem
 
 - Registre a fonte principal, URLs, publicador quando identificável e datas relevantes.
