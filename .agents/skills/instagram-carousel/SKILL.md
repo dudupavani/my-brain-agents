@@ -42,10 +42,10 @@ Preserve o assunto específico, a promessa editorial e a estrutura que torna a f
 
 1. Crie ou retome `content/items/<id>/` e use `status: draft` durante a apuração.
 2. Leia e interprete o conteúdo utilizável antes de escolher assunto, recorte, narrativa, copy ou imagens. Para uma URL, extraia o corpo do material, procure a origem primária quando necessário e confira fatos, nomes, números e datas. Não infira o assunto apenas pelo título, snippet, imagem de capa, resumo externo ou conhecimento prévio. Se o conteúdo estiver inacessível ou incompleto a ponto de impedir essa compreensão, use `blocked`.
-3. Registre em `brief.md` um mapa fiel da fonte: síntese do conteúdo, assunto específico, promessa editorial, formato central, argumento principal, tópicos importantes, exemplos que sustentam esses tópicos e limites do que a fonte afirma.
+3. Registre em `brief.md` um mapa fiel da fonte: síntese do conteúdo, assunto específico, promessa editorial, formato central, tópicos importantes. Nunca invente informação que não estiver no conteúdo principal enviado.
 4. Separe os tópicos em núcleo obrigatório, apoio útil e detalhe secundário. Um tópico é obrigatório quando sua ausência faria o leitor deixar de reconhecer o assunto ou não receber a promessa da fonte. Nunca trate como detalhe um elemento que define uma lista, framework, estudo de caso, comparação, lançamento, tutorial ou argumento.
-5. Mapeie cada tópico obrigatório para a forma como será preservado nos slides. Em fontes com muitos itens, agrupe itens relacionados em uma formulação curta ou lista legível; não invente categorias que mudem seu sentido e não prometa cobertura exaustiva quando estiver mostrando apenas exemplos.
-6. Identifique uma ideia central que sintetize fielmente a fonte para o público do Eduardo. Escolha um ângulo que defina como contar essa ideia; o ângulo não pode trocar o assunto por uma tese genérica, uma opinião paralela ou uma reflexão que serviria para outra fonte.
+5. Mapeie cada tópico obrigatório para a forma como será preservado nos slides. Em fontes com muitos itens, agrupe itens relacionados em uma formulação curta ou em formato de lista.
+6. Identifique uma ideia central que sintetize fielmente a fonte para o público do Eduardo. Escolha um ângulo que defina como contar essa ideia; o ângulo não pode trocar o assunto por uma tese genérica, uma opinião paralela ou uma reflexão que serviria para outra fonte. Você não pode inventar informação que não esteja na fonte.
 7. Registre fatos verificáveis, declarações atribuídas e interpretações editoriais separadamente. Não transforme notícia em opinião obrigatoriamente.
 
 ## 2. Condensar para a comunicação do Instagram
@@ -64,13 +64,13 @@ Antes de qualquer design, escreva a linha editorial em `brief.md`:
 
 Para cada slide, registre o papel narrativo, a pergunta respondida, o tópico da fonte preservado e a ponte para o próximo. A sequência precisa ser compreensível sem legenda, resumível em uma frase e específica desta fonte. Se a mesma narrativa servir para outro conteúdo do mesmo tema, ela está genérica demais.
 
-1. Faça o slide 1 apresentar o assunto e a tensão em uma única frase curta. O assunto deve aparecer no hook ou em uma etiqueta prevista pelo template.
+1. Faça o slide 1 apresentar claramente o assunto e a tensão central do post. Esse é o slide que irá preender a atenção do público que irá ler. Pode utilizar no hook o assunto do conteúdo ou o título do conteúdo original em formato de de hook.
 2. Escreva cada slide para leitura rápida: uma ideia principal, frases curtas, linguagem concreta e sem introduções, justificativas ou metacomentários desnecessários.
 3. Não escreva “o artigo mostra”, “segundo a fonte”, “neste estudo” ou equivalentes dentro dos slides. A fonte orienta a copy, mas a comunicação fala diretamente com o público. Atribuições só aparecem quando forem indispensáveis para não apresentar uma alegação da fonte como fato universal, e podem ficar na legenda.
-4. Cada slide deve avançar a mesma história. Não use slides para reproduzir capítulos do artigo, empilhar estatísticas ou preencher uma lista sem contexto.
+4. Cada slide deve avançar a mesma história.
 5. Um slide só com título é válido apenas se a composição ou a imagem carregar a explicação. Não acrescente apoio artificial para preencher um template.
-6. Escreva em `carousel.md` somente a copy exata que aparecerá na arte. Não use limites fixos de caracteres, mas corte qualquer palavra que não aumente compreensão, tensão ou consequência.
-7. Depois de fechar a copy, leia todos os slides em sequência e compare-os novamente com o mapa da fonte. Reprove e reescreva se houver tópico obrigatório ausente, mudança de assunto, transição inventada, conclusão não sustentada, linguagem meta ou excesso que impeça leitura rápida.
+6. Escreva em `carousel.md` somente a copy exata que aparecerá na arte. Não use limites fixos de caracteres.
+7. Depois de fechar a copy, leia todos os slides em sequência e compare-os diretamente com o conteúdo original da fonte, usando o mapa em brief.md apenas como apoio. Reprove e reescreva se houver tópico obrigatório ausente, mudança de assunto, transição inventada, conclusão não sustentada, linguagem meta ou excesso que impeça leitura rápida.
 8. Escreva a legenda para ampliar o conteúdo, não para explicar o que os slides deveriam ter dito. Use CTA somente se ele aprofundar naturalmente o assunto.
 
 Atualize `target.slide_count` para 6 ou 7. Quando a copy passar pela leitura social e pela comparação final com a fonte, registre internamente `ready_for_design`; não peça aprovação intermediária se o pedido foi pelo carrossel completo.
