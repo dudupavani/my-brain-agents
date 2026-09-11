@@ -1,0 +1,24 @@
+id: "20260911-ia-em-operacoes-de-varejo"
+title: "IA em operações de varejo: 10 casos de uso para equipes de loja"
+status: "ready_for_design"
+owner: "personal-content"
+priority: "normal"
+created_at: "2026-09-11"
+updated_at: "2026-09-11"
+source:
+  type: "article"
+  primary_url: "https://yoobic.com/blog/ai-in-retail-operations/"
+  publisher: "YOOBIC"
+  accessed_at: "2026-09-11"
+  urls:
+    - "https://yoobic.com/blog/ai-in-retail-operations/"
+target:
+  platform: "instagram"
+  format: "carousel"
+  placement: "feed"
+  ratio: "4:5"
+  canvas: "1080x1350"
+  slide_count: 17
+handoff:
+  ready_for_design_at: "2026-09-11"
+  notes: "Copy final adaptada fielmente ao artigo; etapa visual não iniciada."
