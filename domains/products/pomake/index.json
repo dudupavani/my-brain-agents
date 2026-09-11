@@ -1,5 +1,4 @@
 {
-  "$schema": "./schemas/index.schema.json",
   "indexVersion": 1,
   "designs": []
 }

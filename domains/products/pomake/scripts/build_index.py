@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Build the deterministic Pomake design/post index.
-
-The index is derived from archived source JSONs, operational design.json
-files, and per-PNG manifests. It is safe to rebuild; it does not alter any
-design or image artifact.
-"""
+"""Rebuild the deterministic Pomake index from versioned design.json files."""
 
 from __future__ import annotations
 
@@ -28,65 +23,46 @@ def relative(root: Path, path: Path) -> str:
 def build_index(root: Path) -> dict[str, object]:
     designs: list[dict[str, object]] = []
     designs_dir = root / "designs"
-    generated_dir = root / "generated"
-
     if not designs_dir.is_dir():
-        return {"$schema": "./schemas/index.schema.json", "indexVersion": 1, "designs": []}
+        return {"indexVersion": 1, "designs": []}
 
-    for design_dir in sorted(path for path in designs_dir.iterdir() if path.is_dir()):
-        design_id = design_dir.name
-        source_path = design_dir / "design.source.json"
-        operational_path = design_dir / "design.json"
-        source_versions: list[dict[str, str]] = []
-
-        source = read_json(source_path)
-        source_version = source.get("designVersionId")
-        if not isinstance(source_version, str):
-            raise ValueError(f"{source_path}: designVersionId ausente ou inválido")
-        source_versions.append(
-            {"designVersionId": source_version, "path": relative(root, source_path)}
-        )
-
+    for design_dir in sorted(path for path in designs_dir.iterdir() if path.is_dir() and path.name != "conflicts"):
+        versions: list[dict[str, object]] = []
         versions_dir = design_dir / "versions"
-        if versions_dir.is_dir():
-            for version_path in sorted(versions_dir.glob("version-*.source.json")):
-                version = read_json(version_path)
-                version_id = version.get("designVersionId")
-                if not isinstance(version_id, str):
-                    raise ValueError(f"{version_path}: designVersionId ausente ou inválido")
-                source_versions.append(
-                    {"designVersionId": version_id, "path": relative(root, version_path)}
-                )
+        if not versions_dir.is_dir():
+            continue
+        for version_dir in sorted(path for path in versions_dir.iterdir() if path.is_dir() and path.name != "conflicts"):
+            source_path = version_dir / "design.source.json"
+            operational_path = version_dir / "design.json"
+            source = read_json(source_path)
+            operational = read_json(operational_path)
+            version_id = source.get("designVersionId")
+            if not isinstance(version_id, str):
+                raise ValueError(f"{source_path}: designVersionId ausente ou inválido")
+            assets = operational.get("generatedAssets")
+            if not isinstance(assets, list):
+                raise ValueError(f"{operational_path}: generatedAssets precisa ser uma lista")
+            posts: list[dict[str, str]] = []
+            for record in assets:
+                if not isinstance(record, dict):
+                    raise ValueError(f"{operational_path}: registro inválido")
+                generation_id = record.get("generationId")
+                record_version = record.get("designVersionId")
+                path_value = record.get("path")
+                if not all(isinstance(item, str) for item in (generation_id, record_version, path_value)):
+                    raise ValueError(f"{operational_path}: registro incompleto")
+                posts.append({"generationId": generation_id, "designVersionId": record_version, "pngPath": path_value})
+            versions.append(
+                {
+                    "designVersionId": version_id,
+                    "designSourcePath": relative(root, source_path),
+                    "designJsonPath": relative(root, operational_path),
+                    "posts": posts,
+                }
+            )
+        designs.append({"designId": design_dir.name, "versions": versions})
 
-        posts: list[dict[str, str]] = []
-        design_generated_dir = generated_dir / design_id
-        if design_generated_dir.is_dir():
-            for manifest_path in sorted(design_generated_dir.glob("*.manifest.json")):
-                manifest = read_json(manifest_path)
-                required = ("generationId", "designVersionId", "assetPath")
-                missing = [field for field in required if not isinstance(manifest.get(field), str)]
-                if missing:
-                    raise ValueError(f"{manifest_path}: campos inválidos: {', '.join(missing)}")
-                posts.append(
-                    {
-                        "generationId": manifest["generationId"],
-                        "designVersionId": manifest["designVersionId"],
-                        "pngPath": manifest["assetPath"],
-                        "manifestPath": relative(root, manifest_path),
-                    }
-                )
-
-        designs.append(
-            {
-                "designId": design_id,
-                "designSourcePath": relative(root, source_path),
-                "designOperationalPath": relative(root, operational_path),
-                "sourceVersions": source_versions,
-                "posts": posts,
-            }
-        )
-
-    return {"$schema": "./schemas/index.schema.json", "indexVersion": 1, "designs": designs}
+    return {"indexVersion": 1, "designs": designs}
 
 
 def main() -> int:
