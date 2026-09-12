@@ -1,0 +1,2855 @@
+{
+  "schemaVersion": "1.0.0",
+  "designId": {
+    "value": "design-6549e683e252f6cb",
+    "origin": "inferred",
+    "confidence": "high",
+    "note": "Deterministic binding identifier derived from the measured source SHA-256 fingerprint."
+  },
+  "designVersionId": {
+    "value": "version-c1d204649370036e",
+    "origin": "inferred",
+    "confidence": "high",
+    "note": "Deterministic identifier derived from the canonical extracted JSON, excluding mutable generatedAssets."
+  },
+  "assetBinding": {
+    "directoryTemplate": {
+      "value": "generated/{designId}/",
+      "origin": "inferred",
+      "confidence": "high",
+      "note": "Generated assets are grouped in a directory named by the designId."
+    },
+    "filenameTemplate": {
+      "value": "{designId}--{generationId}.png",
+      "origin": "inferred",
+      "confidence": "high",
+      "note": "The PNG filename carries both the source design ID and the per-generation ID."
+    },
+    "pngMetadataKeys": {
+      "value": [
+        "designId",
+        "designVersionId",
+        "generationId",
+        "sourceDesignPath"
+      ],
+      "origin": "inferred",
+      "confidence": "medium",
+      "note": "The generator should embed these textual metadata keys when the PNG writer supports them."
+    },
+    "registrationRule": {
+      "value": "Append one generatedAssets entry containing designVersionId, generationId and path after each successful PNG write.",
+      "origin": "inferred",
+      "confidence": "high",
+      "note": "The JSON manifest is the reverse lookup from a design version to its generated files."
+    }
+  },
+  "source": {
+    "value": {
+      "filename": "codex-clipboard-b8244a37-5614-4ef2-a61f-e2e54be366eb.png",
+      "sha256": "6549e683e252f6cb4462499441768c01a198342bdd395b32b80b1cd1b9fc3adf",
+      "designId": "design-6549e683e252f6cb",
+      "format": "png"
+    },
+    "origin": "measured",
+    "confidence": "high"
+  },
+  "canvas": {
+    "widthPx": {
+      "value": 2160,
+      "origin": "measured",
+      "confidence": "high"
+    },
+    "heightPx": {
+      "value": 2160,
+      "origin": "measured",
+      "confidence": "high"
+    },
+    "aspectRatio": {
+      "value": 1.0,
+      "origin": "measured",
+      "confidence": "high"
+    }
+  },
+  "colors": [
+    {
+      "value": {
+        "hex": "#1C1917",
+        "coverage": 0.4056
+      },
+      "origin": "measured",
+      "confidence": "high",
+      "note": "Quantized dominant color from source pixels."
+    },
+    {
+      "value": {
+        "hex": "#402A20",
+        "coverage": 0.1671
+      },
+      "origin": "measured",
+      "confidence": "high",
+      "note": "Quantized dominant color from source pixels."
+    },
+    {
+      "value": {
+        "hex": "#C5AA76",
+        "coverage": 0.1592
+      },
+      "origin": "measured",
+      "confidence": "high",
+      "note": "Quantized dominant color from source pixels."
+    },
+    {
+      "value": {
+        "hex": "#E8E6E5",
+        "coverage": 0.1285
+      },
+      "origin": "measured",
+      "confidence": "high",
+      "note": "Quantized dominant color from source pixels."
+    },
+    {
+      "value": {
+        "hex": "#6A5646",
+        "coverage": 0.1139
+      },
+      "origin": "measured",
+      "confidence": "high",
+      "note": "Quantized dominant color from source pixels."
+    },
+    {
+      "value": {
+        "hex": "#1C1B1C",
+        "coverage": 0.012
+      },
+      "origin": "measured",
+      "confidence": "high",
+      "note": "Quantized dominant color from source pixels."
+    },
+    {
+      "value": {
+        "hex": "#1C0E0B",
+        "coverage": 0.0073
+      },
+      "origin": "measured",
+      "confidence": "high",
+      "note": "Quantized dominant color from source pixels."
+    },
+    {
+      "value": {
+        "hex": "#0F0706",
+        "coverage": 0.0065
+      },
+      "origin": "measured",
+      "confidence": "high",
+      "note": "Quantized dominant color from source pixels."
+    }
+  ],
+  "background": {
+    "baseColor": {
+      "value": "#1C1917",
+      "origin": "measured",
+      "confidence": "medium",
+      "note": "Dominant color; background may contain additional layers."
+    },
+    "samples": {
+      "value": [
+        {
+          "xPx": 0,
+          "yPx": 0,
+          "color": "#1C1917"
+        },
+        {
+          "xPx": 2159,
+          "yPx": 0,
+          "color": "#1C1917"
+        },
+        {
+          "xPx": 0,
+          "yPx": 2159,
+          "color": "#44403B"
+        },
+        {
+          "xPx": 2159,
+          "yPx": 2159,
+          "color": "#44403B"
+        },
+        {
+          "xPx": 1080,
+          "yPx": 1080,
+          "color": "#704836"
+        }
+      ],
+      "origin": "measured",
+      "confidence": "high"
+    },
+    "gradients": {
+      "value": [],
+      "origin": "inferred",
+      "confidence": "low",
+      "note": "Approximate gradient reading supplied by visual analysis; original stops and blend modes are unknown."
+    }
+  },
+  "layout": {
+    "margins": {
+      "value": {
+        "primaryTextLeft": 153,
+        "topBannerTop": 120,
+        "rightmostCardRight": 86,
+        "bottomSurface": 0
+      },
+      "origin": "measured",
+      "confidence": "medium",
+      "note": "Measured from source element bounds."
+    },
+    "alignments": {
+      "value": {
+        "textColumn": "left-aligned at approximately x=153 px",
+        "topBanner": "horizontally centered",
+        "media": "overlapping card stack anchored to the lower surface"
+      },
+      "origin": "inferred",
+      "confidence": "low",
+      "note": "Alignment is a semantic interpretation of the visible composition."
+    },
+    "spacingPx": {
+      "value": [
+        107,
+        76,
+        6
+      ],
+      "origin": "measured",
+      "confidence": "medium",
+      "note": "Distances measured between visible element bounds."
+    },
+    "layerOrder": {
+      "value": [
+        "background",
+        "lower-surface",
+        "secondary-photo-accent",
+        "secondary-photo",
+        "primary-photo-accent",
+        "primary-photo",
+        "notification-badge",
+        "notification-glyph",
+        "brand-card",
+        "brand-icon-badge",
+        "brand-icon-glyph",
+        "brand-wordmark",
+        "brand-url",
+        "top-banner",
+        "top-banner-text",
+        "primary-headline",
+        "supporting-copy"
+      ],
+      "origin": "inferred",
+      "confidence": "medium",
+      "note": "Reconstructed from visible overlap and reading order."
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "value": "unknown",
+      "origin": "inferred",
+      "confidence": "low",
+      "note": "No font file or reliable font metadata is contained in the raster."
+    },
+    "fontCandidates": {
+      "value": [],
+      "origin": "inferred",
+      "confidence": "low",
+      "note": "No candidate is asserted without user-provided evidence."
+    }
+  },
+  "images": [
+    {
+      "id": {
+        "value": "secondary-photo",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the smaller portrait-oriented photograph and its dark rounded outline; the original photo asset and crop are unavailable."
+      },
+      "type": {
+        "value": "image",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the smaller portrait-oriented photograph and its dark rounded outline; the original photo asset and crop are unavailable."
+      },
+      "role": {
+        "value": "secondary-photographic-card",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the smaller portrait-oriented photograph and its dark rounded outline; the original photo asset and crop are unavailable."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 160,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1105,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 650,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 776,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.074074,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.511574,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.300926,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.359259,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 3,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the smaller portrait-oriented photograph and its dark rounded outline; the original photo asset and crop are unavailable."
+      },
+      "image": {
+        "value": {
+          "content": "photograph of a person holding a handheld device and cup",
+          "fit": "cover",
+          "crop": "portrait",
+          "rotationDegrees": -7.2,
+          "cornerRadiusPx": 78,
+          "borderColor": "#1C1917"
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the smaller portrait-oriented photograph and its dark rounded outline; the original photo asset and crop are unavailable."
+      }
+    },
+    {
+      "id": {
+        "value": "primary-photo",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the larger landscape photograph with rounded, slightly rotated edges; its lower-right region is occluded by the brand card."
+      },
+      "type": {
+        "value": "image",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the larger landscape photograph with rounded, slightly rotated edges; its lower-right region is occluded by the brand card."
+      },
+      "role": {
+        "value": "primary-photographic-card",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the larger landscape photograph with rounded, slightly rotated edges; its lower-right region is occluded by the brand card."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 680,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 984,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 1240,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 1093,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.314815,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.455556,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.574074,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.506019,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 5,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the larger landscape photograph with rounded, slightly rotated edges; its lower-right region is occluded by the brand card."
+      },
+      "image": {
+        "value": {
+          "content": "photograph of a person using a handheld device",
+          "fit": "cover",
+          "crop": "landscape",
+          "rotationDegrees": 4.1,
+          "cornerRadiusPx": 89,
+          "borderColor": "#1C1917"
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the larger landscape photograph with rounded, slightly rotated edges; its lower-right region is occluded by the brand card."
+      }
+    }
+  ],
+  "shapes": [
+    {
+      "id": {
+        "value": "lower-surface",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A large flat #44403B surface begins at y=1318 px and fills the canvas bottom; its upper corners are visibly rounded."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A large flat #44403B surface begins at y=1318 px and fills the canvas bottom; its upper corners are visibly rounded."
+      },
+      "role": {
+        "value": "rounded-background-surface",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A large flat #44403B surface begins at y=1318 px and fills the canvas bottom; its upper corners are visibly rounded."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 0,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1318,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 2160,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 842,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.0,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.610185,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 1.0,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.389815,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 1,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A large flat #44403B surface begins at y=1318 px and fills the canvas bottom; its upper corners are visibly rounded."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#44403B",
+          "cornerRadiusPx": 116,
+          "stroke": "none"
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A large flat #44403B surface begins at y=1318 px and fills the canvas bottom; its upper corners are visibly rounded."
+      }
+    },
+    {
+      "id": {
+        "value": "secondary-photo-accent",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 offset layer is visible around the smaller tilted photograph; occlusion prevents measuring its full silhouette exactly."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 offset layer is visible around the smaller tilted photograph; occlusion prevents measuring its full silhouette exactly."
+      },
+      "role": {
+        "value": "offset-card-accent",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 offset layer is visible around the smaller tilted photograph; occlusion prevents measuring its full silhouette exactly."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 147,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1105,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 676,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 796,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.068056,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.511574,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.312963,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.368519,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 2,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 offset layer is visible around the smaller tilted photograph; occlusion prevents measuring its full silhouette exactly."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#FFB900",
+          "cornerRadiusPx": 79,
+          "rotationDegrees": -7.2
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 offset layer is visible around the smaller tilted photograph; occlusion prevents measuring its full silhouette exactly."
+      }
+    },
+    {
+      "id": {
+        "value": "primary-photo-accent",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 backing is visible along the right and bottom of the larger tilted card; portions are hidden by the photograph and foreground card."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 backing is visible along the right and bottom of the larger tilted card; portions are hidden by the photograph and foreground card."
+      },
+      "role": {
+        "value": "offset-card-accent",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 backing is visible along the right and bottom of the larger tilted card; portions are hidden by the photograph and foreground card."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 672,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 984,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 1298,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 1130,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.311111,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.455556,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.600926,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.523148,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 4,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 backing is visible along the right and bottom of the larger tilted card; portions are hidden by the photograph and foreground card."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#FFB900",
+          "cornerRadiusPx": 90,
+          "rotationDegrees": 4.1
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 backing is visible along the right and bottom of the larger tilted card; portions are hidden by the photograph and foreground card."
+      }
+    },
+    {
+      "id": {
+        "value": "notification-badge",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat yellow rounded-square badge is directly measurable; it carries a black notification-like glyph."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat yellow rounded-square badge is directly measurable; it carries a black notification-like glyph."
+      },
+      "role": {
+        "value": "notification-symbol-container",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat yellow rounded-square badge is directly measurable; it carries a black notification-like glyph."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 968,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1364,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 124,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 140,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.448148,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.631481,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.057407,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.064815,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 6,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat yellow rounded-square badge is directly measurable; it carries a black notification-like glyph."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#FFBB00",
+          "cornerRadiusPx": 18
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat yellow rounded-square badge is directly measurable; it carries a black notification-like glyph."
+      }
+    },
+    {
+      "id": {
+        "value": "notification-glyph",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the yellow badge; its original vector paths are not recoverable from the raster."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the yellow badge; its original vector paths are not recoverable from the raster."
+      },
+      "role": {
+        "value": "notification-symbol",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the yellow badge; its original vector paths are not recoverable from the raster."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 985,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1384,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 91,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 96,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.456019,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.640741,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.04213,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.044444,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 7,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the yellow badge; its original vector paths are not recoverable from the raster."
+      },
+      "shape": {
+        "value": {
+          "kind": "line-icon",
+          "fill": "#000000",
+          "strokeWidthPx": 9
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the yellow badge; its original vector paths are not recoverable from the raster."
+      }
+    },
+    {
+      "id": {
+        "value": "brand-card",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A white foreground card with a dark rounded outline overlays the primary photograph; measured from its visible outer edge."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A white foreground card with a dark rounded outline overlays the primary photograph; measured from its visible outer edge."
+      },
+      "role": {
+        "value": "foreground-brand-panel",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A white foreground card with a dark rounded outline overlays the primary photograph; measured from its visible outer edge."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 1420,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1552,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 655,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 411,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.657407,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.718519,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.303241,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.190278,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 8,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A white foreground card with a dark rounded outline overlays the primary photograph; measured from its visible outer edge."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "color": "#1C1917",
+            "widthPx": 9
+          },
+          "cornerRadiusPx": 77
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A white foreground card with a dark rounded outline overlays the primary photograph; measured from its visible outer edge."
+      }
+    },
+    {
+      "id": {
+        "value": "brand-icon-badge",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A small flat #FFBB00 rounded-square badge appears above the right end of the brand wordmark."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A small flat #FFBB00 rounded-square badge appears above the right end of the brand wordmark."
+      },
+      "role": {
+        "value": "brand-icon-container",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A small flat #FFBB00 rounded-square badge appears above the right end of the brand wordmark."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 1856,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1664,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 72,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 80,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.859259,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.77037,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.033333,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.037037,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 9,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A small flat #FFBB00 rounded-square badge appears above the right end of the brand wordmark."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#FFBB00",
+          "cornerRadiusPx": 10
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A small flat #FFBB00 rounded-square badge appears above the right end of the brand wordmark."
+      }
+    },
+    {
+      "id": {
+        "value": "brand-icon-glyph",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the small yellow brand badge; the original vector paths are unknown."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the small yellow brand badge; the original vector paths are unknown."
+      },
+      "role": {
+        "value": "brand-symbol",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the small yellow brand badge; the original vector paths are unknown."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 1867,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1674,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 50,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 59,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.864352,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.775,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.023148,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.027315,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 10,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the small yellow brand badge; the original vector paths are unknown."
+      },
+      "shape": {
+        "value": {
+          "kind": "line-icon",
+          "fill": "#1C1917",
+          "strokeWidthPx": 6
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the small yellow brand badge; the original vector paths are unknown."
+      }
+    },
+    {
+      "id": {
+        "value": "top-banner",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat #FFB900 pill is measurable from the source pixel grid and is centered near the top."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat #FFB900 pill is measurable from the source pixel grid and is centered near the top."
+      },
+      "role": {
+        "value": "section-label-background",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat #FFB900 pill is measurable from the source pixel grid and is centered near the top."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 147,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 120,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 1129,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 116,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.068056,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.055556,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.522685,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.053704,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 13,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat #FFB900 pill is measurable from the source pixel grid and is centered near the top."
+      },
+      "shape": {
+        "value": {
+          "kind": "pill",
+          "fill": "#FFB900",
+          "cornerRadiusPx": 58
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat #FFB900 pill is measurable from the source pixel grid and is centered near the top."
+      }
+    }
+  ],
+  "elements": [
+    {
+      "id": {
+        "value": "lower-surface",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A large flat #44403B surface begins at y=1318 px and fills the canvas bottom; its upper corners are visibly rounded."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A large flat #44403B surface begins at y=1318 px and fills the canvas bottom; its upper corners are visibly rounded."
+      },
+      "role": {
+        "value": "rounded-background-surface",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A large flat #44403B surface begins at y=1318 px and fills the canvas bottom; its upper corners are visibly rounded."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 0,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1318,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 2160,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 842,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.0,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.610185,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 1.0,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.389815,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 1,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A large flat #44403B surface begins at y=1318 px and fills the canvas bottom; its upper corners are visibly rounded."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#44403B",
+          "cornerRadiusPx": 116,
+          "stroke": "none"
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A large flat #44403B surface begins at y=1318 px and fills the canvas bottom; its upper corners are visibly rounded."
+      }
+    },
+    {
+      "id": {
+        "value": "secondary-photo-accent",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 offset layer is visible around the smaller tilted photograph; occlusion prevents measuring its full silhouette exactly."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 offset layer is visible around the smaller tilted photograph; occlusion prevents measuring its full silhouette exactly."
+      },
+      "role": {
+        "value": "offset-card-accent",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 offset layer is visible around the smaller tilted photograph; occlusion prevents measuring its full silhouette exactly."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 147,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1105,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 676,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 796,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.068056,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.511574,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.312963,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.368519,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 2,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 offset layer is visible around the smaller tilted photograph; occlusion prevents measuring its full silhouette exactly."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#FFB900",
+          "cornerRadiusPx": 79,
+          "rotationDegrees": -7.2
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 offset layer is visible around the smaller tilted photograph; occlusion prevents measuring its full silhouette exactly."
+      }
+    },
+    {
+      "id": {
+        "value": "secondary-photo",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the smaller portrait-oriented photograph and its dark rounded outline; the original photo asset and crop are unavailable."
+      },
+      "type": {
+        "value": "image",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the smaller portrait-oriented photograph and its dark rounded outline; the original photo asset and crop are unavailable."
+      },
+      "role": {
+        "value": "secondary-photographic-card",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the smaller portrait-oriented photograph and its dark rounded outline; the original photo asset and crop are unavailable."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 160,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1105,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 650,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 776,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.074074,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.511574,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.300926,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.359259,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 3,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the smaller portrait-oriented photograph and its dark rounded outline; the original photo asset and crop are unavailable."
+      },
+      "image": {
+        "value": {
+          "content": "photograph of a person holding a handheld device and cup",
+          "fit": "cover",
+          "crop": "portrait",
+          "rotationDegrees": -7.2,
+          "cornerRadiusPx": 78,
+          "borderColor": "#1C1917"
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the smaller portrait-oriented photograph and its dark rounded outline; the original photo asset and crop are unavailable."
+      }
+    },
+    {
+      "id": {
+        "value": "primary-photo-accent",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 backing is visible along the right and bottom of the larger tilted card; portions are hidden by the photograph and foreground card."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 backing is visible along the right and bottom of the larger tilted card; portions are hidden by the photograph and foreground card."
+      },
+      "role": {
+        "value": "offset-card-accent",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 backing is visible along the right and bottom of the larger tilted card; portions are hidden by the photograph and foreground card."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 672,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 984,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 1298,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 1130,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.311111,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.455556,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.600926,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.523148,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 4,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 backing is visible along the right and bottom of the larger tilted card; portions are hidden by the photograph and foreground card."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#FFB900",
+          "cornerRadiusPx": 90,
+          "rotationDegrees": 4.1
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A yellow #FFB900 backing is visible along the right and bottom of the larger tilted card; portions are hidden by the photograph and foreground card."
+      }
+    },
+    {
+      "id": {
+        "value": "primary-photo",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the larger landscape photograph with rounded, slightly rotated edges; its lower-right region is occluded by the brand card."
+      },
+      "type": {
+        "value": "image",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the larger landscape photograph with rounded, slightly rotated edges; its lower-right region is occluded by the brand card."
+      },
+      "role": {
+        "value": "primary-photographic-card",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the larger landscape photograph with rounded, slightly rotated edges; its lower-right region is occluded by the brand card."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 680,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 984,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 1240,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 1093,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.314815,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.455556,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.574074,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.506019,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 5,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the larger landscape photograph with rounded, slightly rotated edges; its lower-right region is occluded by the brand card."
+      },
+      "image": {
+        "value": {
+          "content": "photograph of a person using a handheld device",
+          "fit": "cover",
+          "crop": "landscape",
+          "rotationDegrees": 4.1,
+          "cornerRadiusPx": 89,
+          "borderColor": "#1C1917"
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Visible bounds enclose the larger landscape photograph with rounded, slightly rotated edges; its lower-right region is occluded by the brand card."
+      }
+    },
+    {
+      "id": {
+        "value": "notification-badge",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat yellow rounded-square badge is directly measurable; it carries a black notification-like glyph."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat yellow rounded-square badge is directly measurable; it carries a black notification-like glyph."
+      },
+      "role": {
+        "value": "notification-symbol-container",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat yellow rounded-square badge is directly measurable; it carries a black notification-like glyph."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 968,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1364,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 124,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 140,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.448148,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.631481,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.057407,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.064815,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 6,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat yellow rounded-square badge is directly measurable; it carries a black notification-like glyph."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#FFBB00",
+          "cornerRadiusPx": 18
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat yellow rounded-square badge is directly measurable; it carries a black notification-like glyph."
+      }
+    },
+    {
+      "id": {
+        "value": "notification-glyph",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the yellow badge; its original vector paths are not recoverable from the raster."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the yellow badge; its original vector paths are not recoverable from the raster."
+      },
+      "role": {
+        "value": "notification-symbol",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the yellow badge; its original vector paths are not recoverable from the raster."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 985,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1384,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 91,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 96,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.456019,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.640741,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.04213,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.044444,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 7,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the yellow badge; its original vector paths are not recoverable from the raster."
+      },
+      "shape": {
+        "value": {
+          "kind": "line-icon",
+          "fill": "#000000",
+          "strokeWidthPx": 9
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the yellow badge; its original vector paths are not recoverable from the raster."
+      }
+    },
+    {
+      "id": {
+        "value": "brand-card",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A white foreground card with a dark rounded outline overlays the primary photograph; measured from its visible outer edge."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A white foreground card with a dark rounded outline overlays the primary photograph; measured from its visible outer edge."
+      },
+      "role": {
+        "value": "foreground-brand-panel",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A white foreground card with a dark rounded outline overlays the primary photograph; measured from its visible outer edge."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 1420,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1552,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 655,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 411,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.657407,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.718519,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.303241,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.190278,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 8,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A white foreground card with a dark rounded outline overlays the primary photograph; measured from its visible outer edge."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "color": "#1C1917",
+            "widthPx": 9
+          },
+          "cornerRadiusPx": 77
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A white foreground card with a dark rounded outline overlays the primary photograph; measured from its visible outer edge."
+      }
+    },
+    {
+      "id": {
+        "value": "brand-icon-badge",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A small flat #FFBB00 rounded-square badge appears above the right end of the brand wordmark."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A small flat #FFBB00 rounded-square badge appears above the right end of the brand wordmark."
+      },
+      "role": {
+        "value": "brand-icon-container",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A small flat #FFBB00 rounded-square badge appears above the right end of the brand wordmark."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 1856,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1664,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 72,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 80,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.859259,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.77037,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.033333,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.037037,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 9,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A small flat #FFBB00 rounded-square badge appears above the right end of the brand wordmark."
+      },
+      "shape": {
+        "value": {
+          "kind": "rounded-rectangle",
+          "fill": "#FFBB00",
+          "cornerRadiusPx": 10
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "A small flat #FFBB00 rounded-square badge appears above the right end of the brand wordmark."
+      }
+    },
+    {
+      "id": {
+        "value": "brand-icon-glyph",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the small yellow brand badge; the original vector paths are unknown."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the small yellow brand badge; the original vector paths are unknown."
+      },
+      "role": {
+        "value": "brand-symbol",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the small yellow brand badge; the original vector paths are unknown."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 1867,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1674,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 50,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 59,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.864352,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.775,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.023148,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.027315,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 10,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the small yellow brand badge; the original vector paths are unknown."
+      },
+      "shape": {
+        "value": {
+          "kind": "line-icon",
+          "fill": "#1C1917",
+          "strokeWidthPx": 6
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "A black bell-like line glyph is visible inside the small yellow brand badge; the original vector paths are unknown."
+      }
+    },
+    {
+      "id": {
+        "value": "brand-wordmark",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the large dark brand-text area on the foreground card; its textual content is intentionally omitted."
+      },
+      "type": {
+        "value": "text",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the large dark brand-text area on the foreground card; its textual content is intentionally omitted."
+      },
+      "role": {
+        "value": "brand-wordmark-area",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the large dark brand-text area on the foreground card; its textual content is intentionally omitted."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 1499,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1718,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 424,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 109,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.693981,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.79537,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.196296,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.050463,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 11,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the large dark brand-text area on the foreground card; its textual content is intentionally omitted."
+      },
+      "text": {
+        "value": null,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Text content is intentionally omitted; only the text area's visual properties are extracted."
+      },
+      "typography": {
+        "value": {
+          "fontFamily": "unknown",
+          "fontCandidates": [],
+          "weight": "very-bold",
+          "sizePx": 84,
+          "lineCount": 1,
+          "color": "#1C1917",
+          "alignment": "left"
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the large dark brand-text area on the foreground card; its textual content is intentionally omitted."
+      }
+    },
+    {
+      "id": {
+        "value": "brand-url",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the smaller dark secondary-text area on the foreground card; its textual content is intentionally omitted."
+      },
+      "type": {
+        "value": "text",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the smaller dark secondary-text area on the foreground card; its textual content is intentionally omitted."
+      },
+      "role": {
+        "value": "brand-secondary-text-area",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the smaller dark secondary-text area on the foreground card; its textual content is intentionally omitted."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 1505,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 1859,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 389,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 54,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.696759,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.860648,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.180093,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.025,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 12,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the smaller dark secondary-text area on the foreground card; its textual content is intentionally omitted."
+      },
+      "text": {
+        "value": null,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Text content is intentionally omitted; only the text area's visual properties are extracted."
+      },
+      "typography": {
+        "value": {
+          "fontFamily": "unknown",
+          "fontCandidates": [],
+          "weight": "bold",
+          "sizePx": 47,
+          "lineCount": 1,
+          "color": "#1C1917",
+          "alignment": "left"
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the smaller dark secondary-text area on the foreground card; its textual content is intentionally omitted."
+      }
+    },
+    {
+      "id": {
+        "value": "top-banner",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat #FFB900 pill is measurable from the source pixel grid and is centered near the top."
+      },
+      "type": {
+        "value": "shape",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat #FFB900 pill is measurable from the source pixel grid and is centered near the top."
+      },
+      "role": {
+        "value": "section-label-background",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat #FFB900 pill is measurable from the source pixel grid and is centered near the top."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 147,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 120,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 1129,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 116,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.068056,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.055556,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.522685,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.053704,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 13,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat #FFB900 pill is measurable from the source pixel grid and is centered near the top."
+      },
+      "shape": {
+        "value": {
+          "kind": "pill",
+          "fill": "#FFB900",
+          "cornerRadiusPx": 58
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "The flat #FFB900 pill is measurable from the source pixel grid and is centered near the top."
+      }
+    },
+    {
+      "id": {
+        "value": "top-banner-text",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the dark single-line text area inside the yellow pill; its textual content is intentionally omitted."
+      },
+      "type": {
+        "value": "text",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the dark single-line text area inside the yellow pill; its textual content is intentionally omitted."
+      },
+      "role": {
+        "value": "section-label-text-area",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the dark single-line text area inside the yellow pill; its textual content is intentionally omitted."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 205,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 151,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 1013,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 55,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.094907,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.069907,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.468981,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.025463,
+          "origin": "measured",
+          "confidence": "medium",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 14,
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "medium",
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the dark single-line text area inside the yellow pill; its textual content is intentionally omitted."
+      },
+      "text": {
+        "value": null,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Text content is intentionally omitted; only the text area's visual properties are extracted."
+      },
+      "typography": {
+        "value": {
+          "fontFamily": "unknown",
+          "fontCandidates": [],
+          "weight": "very-bold",
+          "sizePx": 64,
+          "lineCount": 1,
+          "color": "#1C1917",
+          "alignment": "left"
+        },
+        "origin": "inferred",
+        "confidence": "medium",
+        "note": "This is the dark single-line text area inside the yellow pill; its textual content is intentionally omitted."
+      }
+    },
+    {
+      "id": {
+        "value": "primary-headline",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Two large white text lines are directly measurable at these visible bounds; their textual content is intentionally omitted."
+      },
+      "type": {
+        "value": "text",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Two large white text lines are directly measurable at these visible bounds; their textual content is intentionally omitted."
+      },
+      "role": {
+        "value": "primary-headline-text-area",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Two large white text lines are directly measurable at these visible bounds; their textual content is intentionally omitted."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 153,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 343,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 1708,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 292,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.070833,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.158796,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.790741,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.135185,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 15,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Two large white text lines are directly measurable at these visible bounds; their textual content is intentionally omitted."
+      },
+      "text": {
+        "value": null,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Text content is intentionally omitted; only the text area's visual properties are extracted."
+      },
+      "typography": {
+        "value": {
+          "fontFamily": "unknown",
+          "fontCandidates": [],
+          "weight": "very-bold",
+          "sizePx": 132,
+          "lineHeightPx": 169,
+          "lineCount": 2,
+          "color": "#FFFFFF",
+          "alignment": "left"
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Two large white text lines are directly measurable at these visible bounds; their textual content is intentionally omitted."
+      }
+    },
+    {
+      "id": {
+        "value": "supporting-copy",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Three white supporting-text lines are directly measurable at these visible bounds; their textual content is intentionally omitted."
+      },
+      "type": {
+        "value": "text",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Three white supporting-text lines are directly measurable at these visible bounds; their textual content is intentionally omitted."
+      },
+      "role": {
+        "value": "supporting-copy-text-area",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Three white supporting-text lines are directly measurable at these visible bounds; their textual content is intentionally omitted."
+      },
+      "bounds": {
+        "xPx": {
+          "value": 153,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "yPx": {
+          "value": 711,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "widthPx": {
+          "value": 1835,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "heightPx": {
+          "value": 266,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "x": {
+          "value": 0.070833,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "y": {
+          "value": 0.329167,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "width": {
+          "value": 0.849537,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        },
+        "height": {
+          "value": 0.123148,
+          "origin": "measured",
+          "confidence": "high",
+          "note": "Measured against the source pixel grid after visual inspection."
+        }
+      },
+      "zIndex": {
+        "value": 16,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Layer order is reconstructed from visible overlap."
+      },
+      "confidence": {
+        "value": "high",
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Three white supporting-text lines are directly measurable at these visible bounds; their textual content is intentionally omitted."
+      },
+      "text": {
+        "value": null,
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Text content is intentionally omitted; only the text area's visual properties are extracted."
+      },
+      "typography": {
+        "value": {
+          "fontFamily": "unknown",
+          "fontCandidates": [],
+          "weight": "regular",
+          "sizePx": 62,
+          "lineHeightPx": 104,
+          "lineCount": 3,
+          "color": "#FFFFFF",
+          "alignment": "left"
+        },
+        "origin": "inferred",
+        "confidence": "high",
+        "note": "Three white supporting-text lines are directly measurable at these visible bounds; their textual content is intentionally omitted."
+      }
+    }
+  ],
+  "generatedAssets": [
+    {
+      "generationId": "f41c92e5-a6c8-43cd-92fe-56de6a94133a",
+      "designVersionId": "version-c1d204649370036e",
+      "path": "generated-content/dudupavani/styles/design-6549e683e252f6cb/versions/version-c1d204649370036e/posts/design-6549e683e252f6cb--f41c92e5-a6c8-43cd-92fe-56de6a94133a.png"
+    }
+  ],
+  "uncertainties": [
+    {
+      "field": "typography.fontFamily",
+      "reason": "A raster image cannot prove the original font.",
+      "confidence": "low"
+    },
+    {
+      "field": "gradients",
+      "reason": "Pixels do not reveal original stops, opacity or blend settings.",
+      "confidence": "low"
+    },
+    {
+      "field": "semanticRoles",
+      "reason": "Detected regions are classified conservatively from visual features.",
+      "confidence": "low"
+    }
+  ]
+}
