@@ -1,23 +1,62 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/dudupavani/my-brain-agents/blob/main/domains/products/pomake/schemas/generation-manifest.schema.json",
-  "title": "Pomake generatedAssets record",
+  "title": "Pomake generated post manifest",
   "type": "object",
   "additionalProperties": false,
-  "required": ["generationId", "designVersionId", "path"],
+  "required": [
+    "manifestVersion",
+    "designId",
+    "designVersionId",
+    "generationId",
+    "designSourcePath",
+    "designOperationalPath",
+    "assetPath",
+    "checksums"
+  ],
   "properties": {
-    "designVersionId": {
+    "manifestVersion": {
+      "const": 1
+    },
+    "designId": {
       "type": "string",
       "minLength": 1,
       "pattern": "^[^/\\\\]+$"
+    },
+    "designVersionId": {
+      "type": "string",
+      "pattern": "^version-[0-9a-f]{16}$"
     },
     "generationId": {
       "type": "string",
       "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
     },
-    "path": {
+    "designSourcePath": {
+      "type": "string",
+      "pattern": "^designs/[^/]+/(design\\.source\\.json|versions/version-[0-9a-f]{16}\\.source\\.json)$"
+    },
+    "designOperationalPath": {
+      "type": "string",
+      "pattern": "^designs/[^/]+/design\\.json$"
+    },
+    "assetPath": {
       "type": "string",
       "pattern": "^generated/[^/]+/[^/]+--[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\\.png$"
+    },
+    "checksums": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceJsonSha256", "assetSha256"],
+      "properties": {
+        "sourceJsonSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "assetSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
     }
   }
 }

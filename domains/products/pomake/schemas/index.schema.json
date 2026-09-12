@@ -20,64 +20,75 @@
     "design": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["designId", "versions"],
+      "required": [
+        "designId",
+        "designSourcePath",
+        "designOperationalPath",
+        "sourceVersions",
+        "posts"
+      ],
       "properties": {
         "designId": {
           "type": "string",
           "minLength": 1,
           "pattern": "^[^/\\\\]+$"
         },
-        "versions": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/version"
-          }
-        }
-      }
-    },
-    "version": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["designVersionId", "designSourcePath", "designJsonPath", "posts"],
-      "properties": {
-        "designVersionId": {
-          "type": "string",
-          "minLength": 1,
-          "pattern": "^[^/\\\\]+$"
-        },
         "designSourcePath": {
           "type": "string",
-          "pattern": "^designs/[^/]+/versions/[^/]+/design\\.source\\.json$"
+          "pattern": "^designs/[^/]+/design\\.source\\.json$"
         },
-        "designJsonPath": {
+        "designOperationalPath": {
           "type": "string",
-          "pattern": "^designs/[^/]+/versions/[^/]+/design\\.json$"
+          "pattern": "^designs/[^/]+/design\\.json$"
+        },
+        "sourceVersions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["designVersionId", "path"],
+            "properties": {
+              "designVersionId": {
+                "type": "string",
+                "pattern": "^version-[0-9a-f]{16}$"
+              },
+              "path": {
+                "type": "string",
+                "pattern": "^designs/[^/]+/(design\\.source\\.json|versions/version-[0-9a-f]{16}\\.source\\.json)$"
+              }
+            }
+          }
         },
         "posts": {
           "type": "array",
           "items": {
-            "$ref": "#/$defs/post"
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "generationId",
+              "designVersionId",
+              "pngPath",
+              "manifestPath"
+            ],
+            "properties": {
+              "generationId": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+              },
+              "designVersionId": {
+                "type": "string",
+                "pattern": "^version-[0-9a-f]{16}$"
+              },
+              "pngPath": {
+                "type": "string",
+                "pattern": "^generated/[^/]+/[^/]+--[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\\.png$"
+              },
+              "manifestPath": {
+                "type": "string",
+                "pattern": "^generated/[^/]+/[^/]+--[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\\.manifest\\.json$"
+              }
+            }
           }
-        }
-      }
-    },
-    "post": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["generationId", "designVersionId", "pngPath"],
-      "properties": {
-        "generationId": {
-          "type": "string",
-          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
-        },
-        "designVersionId": {
-          "type": "string",
-          "minLength": 1,
-          "pattern": "^[^/\\\\]+$"
-        },
-        "pngPath": {
-          "type": "string",
-          "pattern": "^generated/[^/]+/[^/]+--[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\\.png$"
         }
       }
     }

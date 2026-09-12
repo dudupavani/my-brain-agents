@@ -282,125 +282,6 @@ def validate_index(root: Path, errors: list[str]) -> None:
                 errors.append(f"{index_path}: {field} inválido para {design_id}: {value!r}")
 
 
-def validate_current_repository(root: Path) -> list[str]:
-    """Validate the version-folder contract without PNG sidecar manifests."""
-    errors: list[str] = []
-    generation_ids: set[str] = set()
-    listed_pngs: set[str] = set()
-    designs_dir = root / "designs"
-    generated_dir = root / "generated"
-
-    def json_object(path: Path) -> dict[str, object] | None:
-        try:
-            data = json.loads(path.read_text(encoding="utf-8"))
-        except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
-            errors.append(f"JSON inválido em {path}: {exc}")
-            return None
-        if not isinstance(data, dict):
-            errors.append(f"{path}: a raiz precisa ser um objeto JSON")
-            return None
-        return data
-
-    def source_sha(data: dict[str, object]) -> object:
-        source = data.get("source")
-        source_value = source.get("value") if isinstance(source, dict) and "value" in source else source
-        if isinstance(source_value, dict) and set(source_value).issubset({"value", "origin", "confidence", "note"}):
-            source_value = source_value.get("value")
-        return source_value.get("sha256") if isinstance(source_value, dict) else None
-
-    def canvas_size(data: dict[str, object]) -> tuple[int, int] | None:
-        canvas = data.get("canvas")
-        if not isinstance(canvas, dict):
-            return None
-        width = canvas.get("width")
-        height = canvas.get("height")
-        if isinstance(width, dict):
-            width = width.get("value")
-        if isinstance(height, dict):
-            height = height.get("value")
-        return (width, height) if isinstance(width, int) and isinstance(height, int) else None
-
-    def valid_png(path: Path, expected_size: tuple[int, int] | None) -> bool:
-        try:
-            content = path.read_bytes()
-            if not content.startswith(b"\x89PNG\r\n\x1a\n") or content[12:16] != b"IHDR":
-                return False
-            width = int.from_bytes(content[16:20], "big")
-            height = int.from_bytes(content[20:24], "big")
-            return expected_size is None or (width, height) == expected_size
-        except OSError:
-            return False
-
-    if designs_dir.is_dir():
-        for design_dir in sorted(path for path in designs_dir.iterdir() if path.is_dir() and path.name != "conflicts"):
-            if not re.fullmatch(r"[^/\\]+", design_dir.name):
-                errors.append(f"designId inválido no diretório: {design_dir.name}")
-            versions_dir = design_dir / "versions"
-            if not versions_dir.is_dir():
-                errors.append(f"versions ausente: {versions_dir}")
-                continue
-            for version_dir in sorted(path for path in versions_dir.iterdir() if path.is_dir() and path.name != "conflicts"):
-                if not re.fullmatch(r"[^/\\]+", version_dir.name):
-                    errors.append(f"designVersionId inválido no diretório: {version_dir.name}")
-                source_path = version_dir / "design.source.json"
-                operational_path = version_dir / "design.json"
-                source = json_object(source_path)
-                operational = json_object(operational_path)
-                if source is None or operational is None:
-                    continue
-                version_id = source.get("designVersionId")
-                if source.get("designId") != design_dir.name or operational.get("designId") != design_dir.name:
-                    errors.append(f"designId não corresponde a {version_dir}")
-                if version_id != version_dir.name or operational.get("designVersionId") != version_id:
-                    errors.append(f"designVersionId não corresponde a {version_dir}")
-                digest = source_sha(source)
-                if not isinstance(digest, str) or not SHA256_RE.fullmatch(digest):
-                    errors.append(f"source.value.sha256 inválido em {source_path}")
-                assets = operational.get("generatedAssets")
-                if not isinstance(assets, list):
-                    errors.append(f"generatedAssets precisa ser uma lista em {operational_path}")
-                    continue
-                expected_size = canvas_size(operational)
-                for index, record in enumerate(assets):
-                    label = f"{operational_path} generatedAssets[{index}]"
-                    if not isinstance(record, dict):
-                        errors.append(f"{label}: registro precisa ser um objeto")
-                        continue
-                    generation_id = record.get("generationId")
-                    path_value = record.get("path")
-                    if not isinstance(generation_id, str) or not UUID_V4_RE.fullmatch(generation_id) or generation_id in generation_ids:
-                        errors.append(f"{label}: generationId inválido ou duplicado: {generation_id!r}")
-                    if isinstance(generation_id, str):
-                        generation_ids.add(generation_id)
-                    if record.get("designVersionId") != version_id:
-                        errors.append(f"{label}: designVersionId inválido")
-                    expected_path = f"generated/{design_dir.name}/{design_dir.name}--{generation_id}.png"
-                    if path_value != expected_path:
-                        errors.append(f"{label}: path deveria ser {expected_path!r}")
-                        continue
-                    png_path = root / path_value
-                    listed_pngs.add(path_value)
-                    if not png_path.is_file() or not valid_png(png_path, expected_size):
-                        errors.append(f"{label}: PNG ausente ou inválido: {path_value}")
-
-    if generated_dir.is_dir():
-        for png_path in sorted(generated_dir.glob("*/*.png")):
-            relative_path = relative_to_root(root, png_path)
-            if relative_path not in listed_pngs:
-                errors.append(f"PNG sem registro em design.json: {relative_path}")
-
-    index_path = root / "index.json"
-    index = json_object(index_path)
-    if index is None:
-        return errors
-    try:
-        if index != build_index(root):
-            errors.append(f"{index_path}: não corresponde aos design.json operacionais")
-    except (OSError, ValueError, json.JSONDecodeError) as exc:
-        errors.append(f"{index_path}: não foi possível reconstruir o índice: {exc}")
-    return errors
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -411,7 +292,20 @@ def main() -> int:
     )
     args = parser.parse_args()
     root = args.root.resolve()
-    errors = validate_current_repository(root)
+    errors: list[str] = []
+    generation_ids: dict[str, Path] = {}
+    designs_dir = root / "designs"
+    generated_dir = root / "generated"
+    if designs_dir.is_dir():
+        for design_dir in sorted(path for path in designs_dir.iterdir() if path.is_dir()):
+            validate_design(root, design_dir, errors, generation_ids)
+    if generated_dir.is_dir():
+        for generated_design_dir in sorted(path for path in generated_dir.iterdir() if path.is_dir()):
+            if not (designs_dir / generated_design_dir.name).is_dir():
+                errors.append(
+                    f"diretório de PNGs sem design correspondente: {relative_to_root(root, generated_design_dir)}"
+                )
+    validate_index(root, errors)
 
     if errors:
         print("Validação falhou:")
