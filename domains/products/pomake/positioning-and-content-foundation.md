@@ -32,9 +32,13 @@ A comunicação precisa, então, fazer três movimentos:
 2. mostrar que o bloqueio vem da quantidade de decisões, não de incapacidade ou falta de disciplina;
 3. apresentar o Pomake como uma rota concreta para sair da intenção e chegar a um post que represente o negócio.
 
-## 3. Público inicial recomendado — hipótese de trabalho
+## 3. Público inicial aprovado
 
-### Prioridade recomendada
+### Decisão de Eduardo — 2026-09-15
+
+O Pomake falará primeiro com **donos de pequenos negócios e autônomos que precisam aparecer no Instagram, mas não sabem ou não querem criar conteúdo**. Profissionais de social media não entram na narrativa principal inicial.
+
+### Prioridade de comunicação
 
 Donos de pequenos negócios de serviço e profissionais autônomos que dependem de Instagram para aparecer, atrair clientes ou manter a marca lembrada, mas são eles próprios que precisam resolver a criação dos posts.
 

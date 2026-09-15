@@ -4,7 +4,7 @@
 **Data:** 2026-09-15
 **Base estratégica:** [Fundação de posicionamento e estratégia de conteúdo](positioning-and-content-foundation.md)
 
-> Nenhum público, posição, pilar, pauta, formato ou ordem de produção neste documento foi aprovado como decisão. O material registra propostas para discussão com Eduardo.
+> Nenhuma posição, pilar, pauta, formato ou ordem de produção neste documento foi aprovado como decisão. A única decisão já aprovada é o público inicial: donos de pequenos negócios e autônomos que precisam aparecer no Instagram, mas não sabem ou não querem criar conteúdo. O restante registra propostas para discussão com Eduardo.
 
 ## Função do perfil no início
 
