@@ -56,6 +56,24 @@ agents:
       - path: .agents/skills/
         condition: "Procedimento recorrente, validado e autorizado para promoção compartilhada"
 
+systems:
+  extract-design:
+    status: active
+    purpose: "Extrair a estrutura visual de uma imagem de referência e gerar um design.json"
+    canonical_path: projects/extract-design/
+    input: "JPG ou PNG de referência"
+    output: "design.json"
+    writes_generated_content: false
+
+  design-renderer:
+    status: active
+    purpose: "Renderizar posts PNG a partir de um design.json e do conteúdo informado"
+    canonical_path: projects/design-renderer/
+    input: "design.json e conteúdo do post"
+    output: "PNG independente por geração"
+    generated_content_path: generated-content/
+    writes_generated_content: true
+
 brains:
   product_brain:
     owner: products
@@ -98,7 +116,7 @@ maintainers:
       - references/editorial/
       - content/templates/
 
-systems:
+external_systems:
   github:
     authority: canonical-content-and-history
   clickup:
@@ -112,3 +130,6 @@ governance:
   secrets_in_repository: false
   orchestration: deferred
   split_repository_on_permission_boundary: true
+  versioned_systems_in_this_brain:
+    - projects/extract-design/
+    - projects/design-renderer/

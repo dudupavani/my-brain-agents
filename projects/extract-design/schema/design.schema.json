@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design/1.0.0",
+  "title": "Extracted visual design",
+  "type": "object",
+  "required": ["schemaVersion", "designId", "designVersionId", "source", "canvas", "colors", "background", "layout", "typography", "images", "shapes", "elements", "assetBinding", "generatedAssets", "uncertainties"],
+  "properties": {
+    "schemaVersion": {"const": "1.0.0"},
+    "designId": {"$ref": "#/$defs/fact"},
+    "designVersionId": {"$ref": "#/$defs/fact"},
+    "assetBinding": {"$ref": "#/$defs/assetBinding"},
+    "source": {"$ref": "#/$defs/fact"},
+    "canvas": {"$ref": "#/$defs/canvas"},
+    "colors": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/fact"}},
+    "background": {"$ref": "#/$defs/background"},
+    "layout": {"$ref": "#/$defs/layout"},
+    "typography": {"$ref": "#/$defs/typography"},
+    "images": {"type": "array", "items": {"$ref": "#/$defs/element"}},
+    "shapes": {"type": "array", "items": {"$ref": "#/$defs/element"}},
+    "elements": {"type": "array", "items": {"$ref": "#/$defs/element"}},
+    "generatedAssets": {"type": "array", "items": {"$ref": "#/$defs/assetRef"}},
+    "uncertainties": {"type": "array", "items": {"$ref": "#/$defs/uncertainty"}}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "fact": {"type": "object", "required": ["value", "origin", "confidence"], "properties": {"value": {}, "origin": {"enum": ["measured", "inferred", "user-provided"]}, "confidence": {"enum": ["high", "medium", "low"]}, "note": {"type": "string"}}, "additionalProperties": false},
+    "canvas": {"type": "object", "required": ["widthPx", "heightPx", "aspectRatio"], "properties": {"widthPx": {"$ref": "#/$defs/fact"}, "heightPx": {"$ref": "#/$defs/fact"}, "aspectRatio": {"$ref": "#/$defs/fact"}}, "additionalProperties": false},
+    "bounds": {"type": "object", "required": ["xPx", "yPx", "widthPx", "heightPx", "x", "y", "width", "height"], "properties": {"xPx": {"$ref": "#/$defs/fact"}, "yPx": {"$ref": "#/$defs/fact"}, "widthPx": {"$ref": "#/$defs/fact"}, "heightPx": {"$ref": "#/$defs/fact"}, "x": {"$ref": "#/$defs/fact"}, "y": {"$ref": "#/$defs/fact"}, "width": {"$ref": "#/$defs/fact"}, "height": {"$ref": "#/$defs/fact"}}, "additionalProperties": false},
+    "element": {"type": "object", "required": ["id", "type", "role", "bounds", "zIndex", "confidence"], "properties": {"id": {"$ref": "#/$defs/fact"}, "type": {"$ref": "#/$defs/fact"}, "role": {"$ref": "#/$defs/fact"}, "bounds": {"$ref": "#/$defs/bounds"}, "zIndex": {"$ref": "#/$defs/fact"}, "confidence": {"$ref": "#/$defs/fact"}, "text": {"$ref": "#/$defs/fact"}, "typography": {"$ref": "#/$defs/fact"}, "image": {"$ref": "#/$defs/fact"}, "shape": {"$ref": "#/$defs/fact"}}, "additionalProperties": false},
+    "background": {"type": "object", "required": ["baseColor", "samples", "gradients"], "properties": {"baseColor": {"$ref": "#/$defs/fact"}, "samples": {"$ref": "#/$defs/fact"}, "gradients": {"$ref": "#/$defs/fact"}}, "additionalProperties": false},
+    "layout": {"type": "object", "required": ["margins", "alignments", "spacingPx", "layerOrder"], "properties": {"margins": {"$ref": "#/$defs/fact"}, "alignments": {"$ref": "#/$defs/fact"}, "spacingPx": {"$ref": "#/$defs/fact"}, "layerOrder": {"$ref": "#/$defs/fact"}}, "additionalProperties": false},
+    "typography": {"type": "object", "required": ["fontFamily", "fontCandidates"], "properties": {"fontFamily": {"$ref": "#/$defs/fact"}, "fontCandidates": {"$ref": "#/$defs/fact"}}, "additionalProperties": false},
+    "uncertainty": {"type": "object", "required": ["field", "reason", "confidence"], "properties": {"field": {"type": "string"}, "reason": {"type": "string"}, "confidence": {"enum": ["high", "medium", "low"]}}, "additionalProperties": false}
+    ,"assetRef": {"type": "object", "required": ["generationId", "path", "designVersionId"], "properties": {"generationId": {"type": "string"}, "path": {"type": "string"}, "designVersionId": {"type": "string"}, "kind": {"type": "string"}}, "additionalProperties": false}
+    ,"assetBinding": {"type": "object", "required": ["directoryTemplate", "filenameTemplate", "pngMetadataKeys", "registrationRule"], "properties": {"directoryTemplate": {"$ref": "#/$defs/fact"}, "filenameTemplate": {"$ref": "#/$defs/fact"}, "pngMetadataKeys": {"$ref": "#/$defs/fact"}, "registrationRule": {"$ref": "#/$defs/fact"}}, "additionalProperties": false}
+  }
+}

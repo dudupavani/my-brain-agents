@@ -18,13 +18,15 @@ Os profiles já existem e funcionam fora deste repositório. A arquitetura v1 ap
 
 É o patrimônio compartilhável. Mantém pesquisas, benchmarks, decisões, materiais, regras, entregas, skills portáteis e histórico. Não substitui a memória automática do Hermes.
 
+Por decisão explícita do Eduardo, também mantém o código-fonte dos sistemas `Extract Design` e `Design Renderer` em `projects/`, além dos JSONs e PNGs gerados em `generated-content/`. Cada sistema tem uma pasta própria e continua independente do outro.
+
 ### ClickUp
 
 É o sistema de acompanhamento. Mantém tarefas, prazos, responsáveis e aprovações. Quando uma entrega aparecer nos dois sistemas, o conteúdo canônico fica no GitHub e o ClickUp aponta para ele.
 
 ### Repositórios de software
 
-O código-fonte permanece no repositório do software. Este cérebro guarda contexto, pesquisa, decisões, especificações e links para o código.
+O código-fonte de outros softwares permanece no repositório do software correspondente. Os dois sistemas visuais descritos abaixo são a exceção explicitamente aprovada e vivem em `projects/` neste cérebro.
 
 ## Cérebros lógicos
 
@@ -53,6 +55,17 @@ Não existe masterbrain na v1. Eduardo conversa diretamente com cada agente.
 
 Quando um trabalho gerar uma entrada útil para o outro agente, a origem cria uma nota pequena no inbox do destinatário e aponta para o artefato canônico. O inbox não recebe cópias completas.
 
+## Sistemas versionados neste cérebro
+
+Os dois sistemas do fluxo visual são software compartilhado e vivem no mesmo repositório:
+
+- `projects/extract-design/`: imagem de referência → `design.json`;
+- `projects/design-renderer/`: `design.json` + conteúdo → posts PNG.
+
+Os resultados ficam em `generated-content/<produto>/styles/<designId>/versions/<designVersionId>/`. A arquitetura completa do vínculo está em `architecture/design-post-registry.md`.
+
+As pastas locais dos projetos são cópias de trabalho. Não devem criar um histórico Git independente dentro de `projects/`.
+
 ## Quando criar outro repositório
 
 Separe um cérebro lógico quando existir pelo menos uma fronteira real:
@@ -67,7 +80,7 @@ A existência de outro agente, por si só, não é motivo suficiente.
 
 ## Portabilidade
 
-O contrato portátil é formado por `AGENTS.md`, documentos Markdown, dados estruturados e `.agents/skills/`. Instruções específicas de um runtime só devem existir quando houver uma diferença real de comportamento.
+O contrato portátil é formado por `AGENTS.md`, documentos Markdown, dados estruturados, código em `projects/` e `.agents/skills/`. Instruções específicas de um runtime só devem existir quando houver uma diferença real de comportamento.
 
 ## Evolução
 

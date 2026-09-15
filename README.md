@@ -17,6 +17,8 @@ ClickUp e outros sistemas
 
 O GitHub é a fonte canônica do conteúdo das entregas. ClickUp pode guardar a tarefa, o responsável, o prazo e um link para o material no GitHub.
 
+Por decisão explícita do Eduardo, este segundo cérebro também guarda o código-fonte dos dois sistemas do fluxo visual: `projects/extract-design/` e `projects/design-renderer/`. Os JSONs e PNGs gerados ficam em `generated-content/`, organizados por produto, design e versão.
+
 ## Agentes ativos na v1
 
 | Agente lógico | Função | Cérebro no repositório |
@@ -33,6 +35,8 @@ Os nomes reais dos profiles são configurados no Hermes. Codex, Claude ou outro 
 - [architecture/decisions.md](architecture/decisions.md): o que já foi decidido, o que é provisório e o que está adiado.
 - [architecture/registry.yaml](architecture/registry.yaml): contratos e permissões em formato estruturado.
 - [AGENTS.md](AGENTS.md): contexto obrigatório para qualquer agente ou runtime.
+- [projects/](projects/): os dois sistemas versionados de extração e renderização.
+- [architecture/design-post-registry.md](architecture/design-post-registry.md): vínculo genérico entre JSONs e posts.
 
 ## Princípio de evolução
 

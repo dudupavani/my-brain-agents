@@ -3,5 +3,7 @@
 .env.*
 !.env.example
 node_modules/
+__pycache__/
+.pytest_cache/
 *.tmp
 AGENTS.override.md

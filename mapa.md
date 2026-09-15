@@ -26,6 +26,16 @@ Use este mapa para descobrir onde ler e onde registrar uma entrega. A identidade
 - Passagens entre agentes: `inbox/`
 - Procedimentos portáteis entre Hermes, Codex, Claude e outros: `.agents/skills/`
 
+## Sistemas versionados
+
+Os dois sistemas do fluxo visual ficam no segundo cérebro, em pastas separadas:
+
+- `projects/extract-design/`: recebe uma imagem de referência e gera um `design.json`.
+- `projects/design-renderer/`: recebe o JSON e o conteúdo e gera posts PNG.
+- `generated-content/`: guarda os JSONs e PNGs gerados, organizados por produto, `designId` e `designVersionId`.
+
+Leia `architecture/design-post-registry.md` antes de alterar esse fluxo.
+
 ## Estrutura
 
 ```text
@@ -40,6 +50,8 @@ references/                 marca e regras editoriais
 shared/                     conhecimento realmente compartilhado
 inbox/                      passagens pequenas entre agentes
 .agents/skills/             procedimentos reutilizáveis do projeto
+projects/                   código-fonte dos dois sistemas de design
+generated-content/          JSONs e PNGs gerados pelos sistemas de design
 ```
 
 ## Destinos comuns
@@ -54,6 +66,9 @@ inbox/                      passagens pequenas entre agentes
 | Pacote de conteúdo pessoal | `content/items/<id>/` |
 | Identidade e regras editoriais | `references/brand/` e `references/editorial/` |
 | Procedimento recorrente e compartilhável | `.agents/skills/<nome>/` |
+| Código do Extract Design | `projects/extract-design/` |
+| Código do Design Renderer | `projects/design-renderer/` |
+| JSONs e PNGs dos posts | `generated-content/<produto>/` |
 | Preferência ou memória privada do agente | Profile do Hermes, não este repositório |
 | Tarefa, prazo e acompanhamento | ClickUp; linke a entrega canônica do GitHub |
 

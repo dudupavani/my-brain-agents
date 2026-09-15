@@ -15,7 +15,9 @@
 | --- | --- | --- |
 | Benchmark de concorrente | `domains/products/benchmarks/<id>/` | GitHub contém o relatório; ClickUp aponta para ele |
 | Pesquisa, decisão ou especificação de produto | `domains/products/` | Agrupe pelo produto quando isso já fizer sentido |
-| Código-fonte de software | Repositório do software | Registre aqui somente contexto e link |
+| Código-fonte de outros softwares | Repositório do software | Registre aqui somente contexto e link |
+| Código dos sistemas Extract Design e Design Renderer | `projects/extract-design/` e `projects/design-renderer/` | Exceção aprovada: estes dois sistemas são mantidos neste cérebro |
+| JSONs e PNGs gerados pelos sistemas de design | `generated-content/<produto>/` | Siga `architecture/design-post-registry.md` |
 | Conteúdo pessoal para redes | `content/items/<id>/` | Siga `content/AGENTS.md` |
 | Marca ou regra editorial aprovada | `references/` | Exige decisão explícita do Eduardo |
 | Procedimento compartilhável | `.agents/skills/<nome>/` | Não guarde fatos de uma execução na skill |
@@ -28,3 +30,4 @@
 - Não use ClickUp e GitHub como duas fontes independentes da mesma entrega.
 - Não copie memória privada do Hermes para o repositório.
 - Não crie novo domínio ou repositório sem uma responsabilidade durável ou fronteira de acesso.
+- Não misture os dois sistemas em uma única pasta e não crie repositórios Git aninhados dentro de `projects/`.

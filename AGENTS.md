@@ -50,6 +50,12 @@ O Codex Desktop, quando Eduardo pedir trabalho sobre este repositório, atua com
 - Evite overengineering. Implemente primeiro a menor solução robusta para os agentes e casos que existem hoje.
 - Não diga que algo funciona apenas porque foi documentado. Diferencie arquitetura, capacidade disponível e comportamento efetivamente testado.
 
+## Regras de comportamento do Codex
+
+1. Nunca invente nada.
+2. Trabalhe sempre com fatos, não com suposições.
+3. Se não tiver conhecimento sobre algo solicitado, avise ou investigue antes de chegar a qualquer conclusão.
+
 ## Antes de agir
 
 1. Leia este arquivo.
@@ -68,15 +74,17 @@ Se a identidade não estiver disponível e ela mudar materialmente o que pode se
 - Organize pelo assunto e pela responsabilidade, não pelo agente que digitou o arquivo.
 - Use `inbox/<agente>/` apenas para uma passagem real entre agentes. O artefato canônico permanece em seu domínio de origem.
 - Quando o mesmo material aparecer no ClickUp e no GitHub, o GitHub é a fonte do conteúdo; o ClickUp é a fonte do acompanhamento da tarefa.
-- Código-fonte de um software permanece no repositório daquele software. Este cérebro guarda contexto, pesquisa, decisões e links canônicos sobre o produto.
+- Por decisão explícita do Eduardo, o código-fonte dos sistemas `Extract Design` e `Design Renderer` também vive neste cérebro, em `projects/`. Outros softwares continuam em seus próprios repositórios, salvo decisão explícita semelhante.
+- Os JSONs e PNGs gerados por esses sistemas vivem em `generated-content/`, seguindo `architecture/design-post-registry.md`.
 
 ## Sincronização e autoria
 
-1. Atualize o repositório antes de trabalhar, quando houver remoto configurado.
-2. Preserve alterações locais ou de outro agente; nunca force sincronização nem sobrescreva trabalho recente.
-3. Cada efeito persistente deve ter um responsável claro. Um agente só escreve nos caminhos permitidos em `architecture/registry.yaml`.
-4. Revise os arquivos alterados, faça um commit focado e envie ao remoto quando houver acesso autorizado.
-5. Em conflito não resolvível com segurança, interrompa a escrita e peça decisão ao Eduardo.
+1. Antes de qualquer trabalho em um repositório Git com remoto configurado, execute `git pull --ff-only`.
+2. Se não for possível atualizar sem conflito ou houver alterações locais que impeçam a atualização, pare e informe o Eduardo. Não faça merge, rebase, reset, force-push ou outra integração por conta própria.
+3. Preserve alterações locais ou de outro agente; nunca force sincronização nem sobrescreva trabalho recente.
+4. Cada efeito persistente deve ter um responsável claro. Um agente só escreve nos caminhos permitidos em `architecture/registry.yaml`.
+5. Revise os arquivos alterados, faça um commit focado e envie ao remoto quando houver acesso autorizado.
+6. Em conflito não resolvível com segurança, interrompa a escrita e peça decisão ao Eduardo.
 
 ## Qualidade global
 

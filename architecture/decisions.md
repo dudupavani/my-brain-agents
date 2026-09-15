@@ -16,8 +16,13 @@ Este arquivo separa decisões ativas, hipóteses em validação e possibilidades
 - O agente `personal-content` usa uma única skill `instagram-carousel` para conduzir seleção, copy, visual, renderização e QA quando Eduardo pedir um carrossel completo.
 - O gerador de imagem cria apenas assets; o texto final é aplicado por renderer determinístico.
 - Um efeito persistente tem um responsável e um caminho canônico.
-- Código-fonte permanece no repositório do software correspondente.
+- Código-fonte de outros softwares permanece no repositório do software correspondente.
 - Codex, Claude, Grok e outros são runtimes intercambiáveis.
+- Os sistemas `Extract Design` e `Design Renderer` são exceção explícita: seu código-fonte canônico vive neste cérebro, em `projects/extract-design/` e `projects/design-renderer/`.
+- Os dois sistemas continuam separados em responsabilidade e pasta, mas compartilham o histórico do repositório.
+- JSONs e PNGs gerados pelos dois sistemas vivem em `generated-content/`, organizados por produto, `designId` e `designVersionId`.
+- O vínculo oficial entre cada versão de JSON e seus posts é o array `generatedAssets` do `design.json` operacional.
+- O Renderer deve confirmar o push; uma execução cujo push falhe não é considerada concluída.
 
 ## Provisórias e em validação
 
