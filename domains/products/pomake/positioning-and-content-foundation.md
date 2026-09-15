@@ -223,6 +223,7 @@ Direta, próxima e prática. Como alguém que entende que tocar um negócio já 
 - **Demonstração antes de adjetivo:** mostrar o post e o fluxo em vez de dizer que a criação é inovadora, profissional ou revolucionária.
 - **Natural, não professoral:** evitar tom de curso de marketing, consultoria ou pitch de startup.
 - **Blocos completos:** título e texto de apoio devem ser frases ou ideias completas por conta própria. O apoio aprofunda ou desloca a ideia do título; nunca termina uma frase iniciada acima.
+- **Ritmo de fala:** escrever como uma observação que um brasileiro reconheceria na própria rotina. Preferir construções naturais como “deixou para depois” e “virou aquele peso que volta”; evitar frases artificiais, telegráficas ou com cara de copy.
 
 ### Vocabulário a priorizar
 
