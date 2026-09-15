@@ -128,7 +128,7 @@
 
 ## Peça 03 — O post que você deixou para depois
 
-**Estado:** texto e diagramação aprovados por Eduardo em 2026-09-15
+**Estado:** revisão proposta para aprovação de Eduardo em 2026-09-15
 **Função:** conexão; mostrar que a pendência de publicar continua presente mesmo quando a pessoa segue trabalhando.
 
 ### Direção visual aprovada
@@ -142,17 +142,17 @@
 
 **Texto pequeno no topo**
 
-`TEM UMA COISA QUE VOCÊ AINDA PRECISA FAZER`
+`AQUELA PENDÊNCIA QUE FICA NA CABEÇA`
 
 **Título principal**
 
-> O post que você<br>
-> deixou para depois<br>
-> ainda precisa postar
+> Você deixou o post<br>
+> para depois.<br>
+> Mas ele não foi embora.
 
 **Texto de apoio**
 
-> Ele virou aquele peso que volta toda vez que você lembra do Instagram.
+> Toda vez que você abre o Instagram, lembra de novo: “eu preciso postar alguma coisa.”
 
 **Assinatura pequena no rodapé**
 
@@ -160,11 +160,11 @@
 
 ### Legenda do feed
 
-> Você passa o dia cuidando do que precisa ser feito.
+> Você deixa para depois porque o dia pede outras coisas primeiro.
 >
-> Mas basta abrir o Instagram para lembrar: “eu ainda preciso postar alguma coisa”.
+> Atendimento. Cliente. Entrega. Alguma coisa para resolver.
 >
-> A pendência não some porque você deixou para depois. Ela só volta em outro momento do dia.
+> Mas o post fica ali. E, toda vez que você abre o Instagram, a mesma frase volta: “eu preciso postar alguma coisa”.
 >
 > Pomake.
 
@@ -173,15 +173,18 @@
 **Duração:** 8 a 12 segundos
 
 1. Você deixou o post para depois.
-2. Mas ele não saiu da sua cabeça.
-3. Basta abrir o Instagram para a pendência voltar.
-4. “Eu ainda preciso postar alguma coisa.”<br>
+2. Porque naquele momento tinha coisa mais urgente.
+3. Mas ele não foi embora.
+4. Toda vez que você abre o Instagram:<br>
+   “eu preciso postar alguma coisa.”<br>
    `Pomake`
 
 ### Legenda do Reel
 
-> Você deixa o post para depois e segue o dia.
+> Você deixa para depois porque o dia pede outras coisas primeiro.
 >
-> Mas ele volta toda vez que você abre o Instagram e percebe que ainda não publicou nada.
+> Mas o post continua ali.
+>
+> Até você abrir o Instagram e lembrar de novo: “eu preciso postar alguma coisa”.
 >
 > Pomake.
