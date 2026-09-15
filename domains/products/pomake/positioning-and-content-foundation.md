@@ -40,6 +40,8 @@ O Pomake falará primeiro com **donos de pequenos negócios e autônomos que pre
 
 Nos primeiros posts, a linguagem permanecerá geral para esse público: usaremos cenas universais de quem precisa publicar, sem priorizar um nicho específico.
 
+Nos posts de conexão da abertura do perfil, o Pomake poderá ser citado de forma leve. A dor continua sendo o assunto principal; a menção deve funcionar como assinatura ou pista da existência de uma rota, não como oferta ou CTA comercial.
+
 ### Prioridade de comunicação
 
 Donos de pequenos negócios de serviço e profissionais autônomos que dependem de Instagram para aparecer, atrair clientes ou manter a marca lembrada, mas são eles próprios que precisam resolver a criação dos posts.

@@ -20,7 +20,7 @@ A pessoa que chega por um post impulsionado deve conseguir percorrer o perfil e 
 
 ## Regra de composição
 
-- **Posts de conexão** criam reconhecimento e não precisam mencionar Pomake nem ter CTA comercial.
+- **Posts de conexão** criam reconhecimento. Nos primeiros posts, podem citar o Pomake de forma leve como assinatura ou pista da solução, mas não devem carregar oferta nem CTA comercial.
 - **Posts de reenquadramento** explicam a causa do travamento e abrem espaço para uma alternativa.
 - **Posts de prova** mostram o produto trabalhando; devem usar tela, processo ou resultado real.
 - **Posts de convite** chamam para o teste gratuito somente depois que o perfil já construiu contexto.
@@ -37,7 +37,7 @@ A função de cada post deve ser escolhida antes de escrever. Não repetir a mes
 
 **Tensão central:** “Eu sei que preciso publicar, mas não consigo nem começar.”
 
-**Não fazer:** falar de IA, venda, plano ou funcionalidade. Não acusar a pessoa de descuidar do negócio.
+**Não fazer:** transformar a publicação em anúncio, falar de plano, preço ou funcionalidade. Uma citação leve do Pomake como assinatura é permitida.
 
 **Recortes possíveis:**
 - lembrar que precisa postar e deixar para a noite;
