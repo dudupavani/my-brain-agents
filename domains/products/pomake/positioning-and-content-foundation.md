@@ -38,6 +38,8 @@ A comunicação precisa, então, fazer três movimentos:
 
 O Pomake falará primeiro com **donos de pequenos negócios e autônomos que precisam aparecer no Instagram, mas não sabem ou não querem criar conteúdo**. Profissionais de social media não entram na narrativa principal inicial.
 
+Nos primeiros posts, a linguagem permanecerá geral para esse público: usaremos cenas universais de quem precisa publicar, sem priorizar um nicho específico.
+
 ### Prioridade de comunicação
 
 Donos de pequenos negócios de serviço e profissionais autônomos que dependem de Instagram para aparecer, atrair clientes ou manter a marca lembrada, mas são eles próprios que precisam resolver a criação dos posts.
