@@ -128,8 +128,15 @@
 
 ## Peça 03 — O post que você deixou para depois
 
-**Estado:** proposta para aprovação de Eduardo
+**Estado:** texto e diagramação aprovados por Eduardo em 2026-09-15
 **Função:** conexão; mostrar que a pendência de publicar continua presente mesmo quando a pessoa segue trabalhando.
+
+### Direção visual aprovada
+
+- Fotografia ocupando o bloco superior, com título em branco sobre a imagem.
+- Faixa amarela de contexto no topo.
+- Texto de apoio em bloco separado, sobre fundo claro, abaixo da imagem.
+- O título permanece uma frase completa mesmo quando quebrado em várias linhas por composição.
 
 ### Feed
 
@@ -139,12 +146,13 @@
 
 **Título principal**
 
-> Você deixou o post<br>
-> para depois.
+> O post que você<br>
+> deixou para depois<br>
+> ainda precisa postar
 
 **Texto de apoio**
 
-> Mas ele não saiu da sua cabeça. Toda vez que você abre o Instagram, a pendência volta.
+> Ele virou aquele peso que volta toda vez que você lembra do Instagram.
 
 **Assinatura pequena no rodapé**
 
