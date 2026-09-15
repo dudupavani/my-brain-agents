@@ -4,7 +4,7 @@
 **Data:** 2026-09-15
 **Base estratégica:** [Fundação de posicionamento e estratégia de conteúdo](positioning-and-content-foundation.md)
 
-> Nenhuma posição, pilar, pauta, formato ou ordem de produção neste documento foi aprovado como decisão. A única decisão já aprovada é o público inicial: donos de pequenos negócios e autônomos que precisam aparecer no Instagram, mas não sabem ou não querem criar conteúdo. O restante registra propostas para discussão com Eduardo.
+> Nenhuma posição, pauta, formato ou ordem de produção neste documento foi aprovado como decisão. Já foram aprovados: o público inicial; a linguagem geral; a citação leve do Pomake em posts de conexão; e o pilar **“A pendência de aparecer”** como abertura do perfil. O restante registra propostas para discussão com Eduardo.
 
 ## Função do perfil no início
 
