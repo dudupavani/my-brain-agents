@@ -4,7 +4,7 @@
 **Data:** 2026-09-15
 **Base estratégica:** [Fundação de posicionamento e estratégia de conteúdo](positioning-and-content-foundation.md)
 
-> Nenhuma posição, pauta, formato ou ordem de produção neste documento foi aprovado como decisão. Já foram aprovados: o público inicial; a linguagem geral; a citação leve do Pomake em posts de conexão; e o pilar **“A pendência de aparecer”** como abertura do perfil. O restante registra propostas para discussão com Eduardo.
+> Nenhuma posição, pauta, formato criativo específico ou ordem de produção neste documento foi aprovado como decisão. Já foram aprovados: o público inicial; a linguagem geral; a citação leve do Pomake em posts de conexão; o pilar **“A pendência de aparecer”** como abertura do perfil; e a criação de uma peça de feed e um Reel com motion para cada tema inicial. O restante registra propostas para discussão com Eduardo.
 
 ## Função do perfil no início
 

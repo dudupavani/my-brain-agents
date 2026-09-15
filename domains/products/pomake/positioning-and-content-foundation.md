@@ -44,6 +44,8 @@ Nos posts de conexão da abertura do perfil, o Pomake poderá ser citado de form
 
 O perfil será aberto pelo pilar **“A pendência de aparecer”**, para construir identificação antes de explicar o mecanismo do problema ou demonstrar o produto.
 
+Cada tema inicial terá duas peças: um post de feed e um Reel com motion. O feed fortalece o perfil para quem chega; o Reel será o formato prioritário para alcançar público novo. Essa distribuição é uma hipótese operacional a medir, não uma garantia de entrega da plataforma.
+
 ### Prioridade de comunicação
 
 Donos de pequenos negócios de serviço e profissionais autônomos que dependem de Instagram para aparecer, atrair clientes ou manter a marca lembrada, mas são eles próprios que precisam resolver a criação dos posts.
