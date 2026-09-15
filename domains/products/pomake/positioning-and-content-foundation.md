@@ -224,6 +224,7 @@ Direta, próxima e prática. Como alguém que entende que tocar um negócio já 
 - **Natural, não professoral:** evitar tom de curso de marketing, consultoria ou pitch de startup.
 - **Blocos completos:** título e texto de apoio devem ser frases ou ideias completas por conta própria. O apoio aprofunda ou desloca a ideia do título; nunca termina uma frase iniciada acima.
 - **Ritmo de fala:** escrever como uma observação que um brasileiro reconheceria na própria rotina. Preferir construções naturais como “deixou para depois” e “virou aquele peso que volta”; evitar frases artificiais, telegráficas ou com cara de copy.
+- **Contexto zero:** cada post precisa funcionar para alguém que nunca ouviu falar do Pomake, não viu os posts anteriores e não conhece nossa estratégia. A primeira leitura deve tornar a situação compreensível sem depender de contexto interno; Pomake entra apenas como assinatura até o conteúdo de prova explicar o produto.
 
 ### Vocabulário a priorizar
 
