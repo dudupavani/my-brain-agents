@@ -25,7 +25,7 @@ A pessoa que chega por um post impulsionado deve conseguir percorrer o perfil e 
 - **Posts de prova** mostram o produto trabalhando; devem usar tela, processo ou resultado real.
 - **Posts de convite** chamam para o teste gratuito somente depois que o perfil já construiu contexto.
 
-A função de cada post deve ser escolhida antes de escrever. Não repetir a mesma dor com palavras diferentes apenas para preencher calendário.
+A função de cada post deve ser escolhida antes de escrever. Não repetir a mesma dor com palavras diferentes apenas para preencher calendário. Na diagramação, título e texto de apoio precisam sustentar ideias completas individualmente: o apoio aprofunda ou desloca a mensagem, mas não termina uma frase quebrada pelo título.
 
 ---
 

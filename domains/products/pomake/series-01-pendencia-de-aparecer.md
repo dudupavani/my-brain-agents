@@ -139,12 +139,12 @@
 
 **Título principal**
 
-> O post que você<br>
-> deixou para depois
+> Você deixou o post<br>
+> para depois.
 
 **Texto de apoio**
 
-> não sumiu. Ele só virou aquela pendência que volta toda vez que você lembra do Instagram.
+> Mas ele não saiu da sua cabeça. Toda vez que você abre o Instagram, a pendência volta.
 
 **Assinatura pequena no rodapé**
 
@@ -152,13 +152,11 @@
 
 ### Legenda do feed
 
-> Você continua atendendo, resolvendo, entregando, cuidando do que precisa ser feito.
+> Você passa o dia cuidando do que precisa ser feito.
 >
-> Mas, em algum momento do dia, a lembrança volta: “eu ainda preciso postar alguma coisa”.
+> Mas basta abrir o Instagram para lembrar: “eu ainda preciso postar alguma coisa”.
 >
-> Não porque o negócio parou. Nem porque faltou assunto.
->
-> Só porque criar um post continua parecendo uma tarefa grande demais para encaixar no meio de tudo.
+> A pendência não some porque você deixou para depois. Ela só volta em outro momento do dia.
 >
 > Pomake.
 
@@ -166,17 +164,16 @@
 
 **Duração:** 8 a 12 segundos
 
-1. Tem um post que você deixou para depois.
-2. Ele não está no seu calendário.
-3. Mas aparece toda vez que você lembra do Instagram.
-4. A pendência não some.<br>
-   Só muda de hora.<br>
+1. Você deixou o post para depois.
+2. Mas ele não saiu da sua cabeça.
+3. Basta abrir o Instagram para a pendência voltar.
+4. “Eu ainda preciso postar alguma coisa.”<br>
    `Pomake`
 
 ### Legenda do Reel
 
-> O post que ficou para depois não desaparece.
+> Você deixa o post para depois e segue o dia.
 >
-> Ele volta quando você abre o Instagram, quando alguém pergunta pelo seu negócio ou quando percebe que passou mais uma semana sem publicar.
+> Mas ele volta toda vez que você abre o Instagram e percebe que ainda não publicou nada.
 >
 > Pomake.
