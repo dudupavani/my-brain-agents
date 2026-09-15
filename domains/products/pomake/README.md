@@ -4,8 +4,8 @@ Conhecimento durável, pesquisas, decisões, especificações e links canônicos
 
 ## Estratégia de marca e conteúdo
 
-- [Fundação de posicionamento e estratégia de conteúdo](positioning-and-content-foundation.md) — rascunho estratégico de 2026-09-15; separa fatos, hipóteses e decisões pendentes.
-- [Pilares de comunicação e primeiro acervo](content-pillars-and-first-archive.md) — estrutura operacional para os primeiros 20 posts.
+- [Fundação de posicionamento e estratégia de conteúdo](positioning-and-content-foundation.md) — proposta estratégica não aprovada de 2026-09-15; separa fatos, hipóteses e decisões pendentes.
+- [Pilares de comunicação e primeiro acervo](content-pillars-and-first-archive.md) — proposta exploratória não aprovada para discutir antes de produzir.
 
 ## Fluxo visual
 

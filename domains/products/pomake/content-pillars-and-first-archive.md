@@ -1,8 +1,10 @@
 # Pilares de comunicação e primeiro acervo — Pomake
 
-**Estado:** rascunho operacional para criação dos posts
+**Estado:** proposta exploratória não aprovada; não orientar produção até validação de Eduardo
 **Data:** 2026-09-15
 **Base estratégica:** [Fundação de posicionamento e estratégia de conteúdo](positioning-and-content-foundation.md)
+
+> Nenhum público, posição, pilar, pauta, formato ou ordem de produção neste documento foi aprovado como decisão. O material registra propostas para discussão com Eduardo.
 
 ## Função do perfil no início
 

@@ -1,6 +1,6 @@
 # Fundação de posicionamento e estratégia de conteúdo — Pomake
 
-**Estado:** rascunho estratégico para validação com Eduardo
+**Estado:** proposta estratégica não aprovada; requer validação de Eduardo antes de orientar produção
 **Data:** 2026-09-15
 **Fontes:** página oficial do Pomake consultada em 2026-09-15 (`https://www.pomake.com.br`); benchmark da hello, social no ClickUp, consultado em 2026-09-15; contexto de produto informado por Eduardo.
 
