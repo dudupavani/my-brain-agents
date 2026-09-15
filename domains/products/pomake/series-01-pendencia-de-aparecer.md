@@ -123,3 +123,60 @@
 > É conseguir parar para transformar o que aconteceu em algo para publicar.
 >
 > Pomake.
+
+---
+
+## Peça 03 — O post que você deixou para depois
+
+**Estado:** proposta para aprovação de Eduardo
+**Função:** conexão; mostrar que a pendência de publicar continua presente mesmo quando a pessoa segue trabalhando.
+
+### Feed
+
+**Texto pequeno no topo**
+
+`TEM UMA COISA QUE VOCÊ AINDA PRECISA FAZER`
+
+**Título principal**
+
+> O post que você<br>
+> deixou para depois
+
+**Texto de apoio**
+
+> não sumiu. Ele só virou aquela pendência que volta toda vez que você lembra do Instagram.
+
+**Assinatura pequena no rodapé**
+
+`Pomake`
+
+### Legenda do feed
+
+> Você continua atendendo, resolvendo, entregando, cuidando do que precisa ser feito.
+>
+> Mas, em algum momento do dia, a lembrança volta: “eu ainda preciso postar alguma coisa”.
+>
+> Não porque o negócio parou. Nem porque faltou assunto.
+>
+> Só porque criar um post continua parecendo uma tarefa grande demais para encaixar no meio de tudo.
+>
+> Pomake.
+
+### Reel com motion
+
+**Duração:** 8 a 12 segundos
+
+1. Tem um post que você deixou para depois.
+2. Ele não está no seu calendário.
+3. Mas aparece toda vez que você lembra do Instagram.
+4. A pendência não some.<br>
+   Só muda de hora.<br>
+   `Pomake`
+
+### Legenda do Reel
+
+> O post que ficou para depois não desaparece.
+>
+> Ele volta quando você abre o Instagram, quando alguém pergunta pelo seu negócio ou quando percebe que passou mais uma semana sem publicar.
+>
+> Pomake.
