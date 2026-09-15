@@ -8,6 +8,8 @@
 
 ## Função do perfil no início
 
+**Objetivo da primeira série: awareness (consciência de marca).** O público ainda não conhece o Pomake. As peças devem fazê-lo reconhecer a marca associada a uma situação que já vive: a pendência de criar e publicar conteúdo. Nesta fase, não medimos sucesso por venda direta nem tentamos explicar o produto inteiro em cada post; buscamos conhecimento, lembrança e reconhecimento da marca.
+
 O perfil não deve parecer uma sequência de anúncios de um software novo. Ele precisa funcionar como uma coleção de situações que fazem o dono de um pequeno negócio reconhecer uma pendência que já carrega: a necessidade de aparecer nas redes, sem saber como encaixar a criação de posts na rotina.
 
 A pessoa que chega por um post impulsionado deve conseguir percorrer o perfil e entender, nesta ordem:
