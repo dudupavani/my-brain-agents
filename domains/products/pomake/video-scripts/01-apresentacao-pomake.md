@@ -1,6 +1,6 @@
 # Motion video 01 — Apresentação do Pomake
 
-**Estado:** proposta para aprovação de Eduardo
+**Estado:** produzido por Eduardo em 2026-09-16; Eduardo avaliou o resultado como muito bom. O arquivo de vídeo não foi adicionado a este repositório.
 **Objetivo:** awareness. Apresentar o nome Pomake para um público frio, relacionando a marca ao problema de travar para criar um post.
 **Duração:** 12 a 15 segundos
 **Formato:** Reel vertical 9:16, sem locução; música e motion simples.
