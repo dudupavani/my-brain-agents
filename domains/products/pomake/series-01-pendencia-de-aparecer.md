@@ -1,6 +1,7 @@
 # Série 01 — A pendência de aparecer
 
 **Estado da série:** em produção, peça por peça
+**Operação:** Eduardo informou em 2026-09-16 que uma peça já foi publicada e outras duas estão programadas. O texto não registra horários ou URLs de publicação.
 **Público aprovado:** donos de pequenos negócios e autônomos que precisam aparecer no Instagram, mas não sabem ou não querem criar conteúdo.
 **Regra aprovada:** cada tema tem um post de feed e um Reel com motion; posts de conexão citam Pomake de forma leve, sem oferta, preço ou CTA comercial.
 
