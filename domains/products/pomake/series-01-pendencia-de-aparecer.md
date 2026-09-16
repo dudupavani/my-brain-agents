@@ -121,21 +121,17 @@ Cada tela tem uma chamada principal e um apoio que aprofunda a mesma ideia. O t�
 5. **Pomake.**<br>
    A forma simples de criar posts para o seu negócio.
 
-Na tela 5, mostrar o logo Pomake e um post final na linguagem visual do vídeo. A frase de apoio vem da proposta atual do site e encerra o Reel explicando quem resolve a situação apresentada.
+A frase de apoio da tela 5 vem da proposta atual do site e encerra o Reel explicando quem resolve a situação apresentada.
 
-#### Roteiro de produção — 15 segundos
+#### Roteiro de texto — 15 segundos
 
-**Áudio:** música instrumental leve, sem locução. Cada entrada de texto acompanha uma troca de ritmo; a música resolve na tela final.
-
-| Tempo | Texto em tela | Ação de motion |
-| --- | --- | --- |
-| 0,0–3,0s | **Seu negócio não parou.**<br>Você atendeu, resolveu, entregou e conversou com clientes. | Mostrar uma situação de rotina de trabalho no estilo visual já definido. A chamada entra primeiro; o apoio aparece cerca de 0,6 segundo depois. |
-| 3,0–6,0s | **Todo dia tem alguma coisa acontecendo.**<br>Uma novidade. Uma dúvida. Um serviço. Uma entrega. | A imagem ou composição muda para sugerir acontecimentos do negócio. Manter o título; fazer o apoio entrar em pequenas unidades, sem acrescentar novas palavras. |
-| 6,0–9,0s | **Mas o Instagram continuou parado.**<br>Porque transformar tudo isso em post ainda dá trabalho. | Criar contraste visual entre a rotina em movimento e o perfil/post ainda sem resolução. Título primeiro, apoio depois. |
-| 9,0–11,5s | **E o perfil ficou esperando.**<br>Não por falta de assunto. Por falta de tempo. | Pausa mais calma. Deixar a mensagem assentar antes do fechamento; sem apresentar produto ainda. |
-| 11,5–15,0s | **Pomake.**<br>A forma simples de criar posts para o seu negócio. | Entrada do logo e de um post final completo. O resultado visual deve ocupar o centro; manter logo e frase tempo suficiente para leitura. |
-
-**Regra:** não inserir locução, CTA, preço, plano, botão, palavras adicionais ou explicação de funcionalidade. O vídeo termina na marca e no post final.
+| Tempo | Texto em tela |
+| --- | --- |
+| 0,0–3,0s | **Seu negócio não parou.**<br>Você atendeu, resolveu, entregou e conversou com clientes. |
+| 3,0–6,0s | **Todo dia tem alguma coisa acontecendo.**<br>Uma novidade. Uma dúvida. Um serviço. Uma entrega. |
+| 6,0–9,0s | **Mas o Instagram continuou parado.**<br>Porque transformar tudo isso em post ainda dá trabalho. |
+| 9,0–11,5s | **E o perfil ficou esperando.**<br>Não por falta de assunto. Por falta de tempo. |
+| 11,5–15,0s | **Pomake.**<br>A forma simples de criar posts para o seu negócio. |
 
 ### Legenda do Reel
 
