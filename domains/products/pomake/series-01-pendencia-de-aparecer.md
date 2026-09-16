@@ -108,7 +108,7 @@
 
 **Duração:** 12 a 15 segundos
 
-Cada tela tem uma chamada principal e um apoio que aprofunda a mesma ideia. O título e o apoio entram em sequência dentro do mesmo frame; não devem aparecer todos de uma vez.
+Cada tela tem uma chamada principal e um apoio que aprofunda a mesma ideia. O título e o apoio entram em sequência dentro do mesmo frame; não devem aparecer todos de uma vez. As telas 1–4 foram aprovadas por Eduardo em 2026-09-16.
 
 1. **Seu negócio não parou.**<br>
    Você atendeu, resolveu, entregou e conversou com clientes.
@@ -117,8 +117,11 @@ Cada tela tem uma chamada principal e um apoio que aprofunda a mesma ideia. O t�
 3. **Mas o Instagram continuou parado.**<br>
    Porque transformar tudo isso em post ainda dá trabalho.
 4. **E o perfil ficou esperando.**<br>
-   Não por falta de assunto. Por falta de tempo.<br>
-   `Pomake`
+   Não por falta de assunto. Por falta de tempo.
+5. **Pomake.**<br>
+   A forma simples de criar posts para o seu negócio.
+
+Na tela 5, mostrar o logo Pomake e um post final na linguagem visual do vídeo. A frase de apoio vem da proposta atual do site e encerra o Reel explicando quem resolve a situação apresentada.
 
 ### Legenda do Reel
 
