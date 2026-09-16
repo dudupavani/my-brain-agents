@@ -106,22 +106,27 @@
 
 ### Reel com motion
 
-**Duração:** 8 a 12 segundos
+**Duração:** 12 a 15 segundos
 
-1. Seu negócio não parou.
-2. Você atendeu, resolveu, entregou.
-3. Mas o Instagram ficou esperando.
-4. Não por falta de assunto.<br>
-   Por falta de tempo para transformar tudo isso em post.<br>
+Cada tela tem uma chamada principal e um apoio que aprofunda a mesma ideia. O título e o apoio entram em sequência dentro do mesmo frame; não devem aparecer todos de uma vez.
+
+1. **Seu negócio não parou.**<br>
+   Você atendeu, resolveu, entregou e conversou com clientes.
+2. **Todo dia tem alguma coisa acontecendo.**<br>
+   Uma novidade. Uma dúvida. Um serviço. Uma entrega.
+3. **Mas o Instagram continuou parado.**<br>
+   Porque transformar tudo isso em post ainda dá trabalho.
+4. **E o perfil ficou esperando.**<br>
+   Não por falta de assunto. Por falta de tempo.<br>
    `Pomake`
 
 ### Legenda do Reel
 
-> Seu negócio está cheio de coisas acontecendo.
+> O seu negócio continua acontecendo todos os dias.
 >
-> O difícil não é ter assunto.
+> Atendimento, novidade, dúvida de cliente, serviço entregue, coisa boa para mostrar.
 >
-> É conseguir parar para transformar o que aconteceu em algo para publicar.
+> Mas transformar tudo isso em post ainda parece uma tarefa grande demais para encaixar na rotina.
 >
 > Pomake.
 
