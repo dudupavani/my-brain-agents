@@ -225,6 +225,7 @@ Direta, próxima e prática. Como alguém que entende que tocar um negócio já 
 - **Blocos completos:** título e texto de apoio devem ser frases ou ideias completas por conta própria. O apoio aprofunda ou desloca a ideia do título; nunca termina uma frase iniciada acima.
 - **Ritmo de fala:** escrever como uma observação que um brasileiro reconheceria na própria rotina. Preferir construções naturais como “deixou para depois” e “virou aquele peso que volta”; evitar frases artificiais, telegráficas ou com cara de copy.
 - **Contexto zero:** cada post precisa funcionar para alguém que nunca ouviu falar do Pomake, não viu os posts anteriores e não conhece nossa estratégia. A primeira leitura deve tornar a situação compreensível sem depender de contexto interno; Pomake entra apenas como assinatura até o conteúdo de prova explicar o produto.
+- **Categoria antes de posicionamento:** para público que talvez nem saiba que existe uma ferramenta capaz de criar posts, conteúdos de apresentação devem explicar literalmente o que o Pomake faz: a pessoa conta o que quer publicar e recebe um post com texto, imagem e design. Não presumir que expressões como “transformar uma ideia” já tornam o funcionamento evidente.
 
 ### Vocabulário a priorizar
 
