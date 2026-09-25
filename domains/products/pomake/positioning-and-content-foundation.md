@@ -217,7 +217,7 @@ Direta, próxima e prática. Como alguém que entende que tocar um negócio já 
 
 ### Princípios
 
-- **Cena concreta, não conselho abstrato:** “você abriu o Instagram, pensou em três assuntos e fechou sem postar” em vez de “vença o bloqueio criativo”.
+- **Cena concreta, não conselho abstrato:** toda copy deve colocar a pessoa em uma situação que ela reconhece antes de nomear a dor, explicar o produto ou fazer uma promessa. Use ações e momentos específicos — por exemplo, “abriu o Canva, olhou, pensou e desistiu” — em vez de rótulos como “vença o bloqueio criativo”. A identificação humana nasce da cena, não da descrição abstrata do problema.
 - **Alívio, não culpa:** “não precisa dar conta disso sem ajuda” em vez de “seu perfil está parado porque você não se esforça”.
 - **Resultado antes de tecnologia:** “sua ideia vira um post pronto” antes de mencionar IA.
 - **Demonstração antes de adjetivo:** mostrar o post e o fluxo em vez de dizer que a criação é inovadora, profissional ou revolucionária.
