@@ -2,7 +2,7 @@
 
 **Estado:** preferência e referência fornecidas por Eduardo; não é aprovação de todas as copys, peças, claims ou formatos para publicação.
 **Data:** 2026-09-30
-**Fonte:** material “POMAKE — ANÚNCIOS META ADS” enviado por Eduardo nesta conversa e sua instrução: “conteúdo para você entender tipos de posts que eu gosto e aprovo”.
+**Fonte:** material “POMAKE — ANÚNCIOS META ADS” enviado por Eduardo nesta conversa; sua instrução “conteúdo para você entender tipos de posts que eu gosto e aprovo”; e a mensagem posterior com frases, dores e desejo central.
 
 ## O que Eduardo quer nos anúncios
 
@@ -17,7 +17,19 @@
 
 - Iniciar o trabalho pela campanha de **acesso ao site**, com intenção de apresentar a marca a quem não conhece o Pomake. A campanha de vendas com caminho anúncio → site → checkout será discutida depois. Uma visita ao site, por si, não comprova conhecimento ou lembrança da marca.
 - Eduardo aprovou dois argumentos iniciais para os anúncios: **“Fazer um post envolve mais do que ter uma ideia”** (assunto, texto, imagem, arte) e **“Você conhece seu trabalho; transformar isso em post é outra tarefa”** (o conhecimento do negócio como ponto de partida). Ele deseja pelo menos cinco anúncios, mas não aprovou ainda os demais argumentos propostos nesta conversa.
-- Eduardo rejeitou expressamente o ângulo/frase **“O negócio funciona, mas o perfil fica parado”** e pediu que não seja recuperado automaticamente. O material de referência posterior inclui “Instagram abandonado”, mas não revoga explicitamente essa rejeição nem aprova todas as peças para execução.
+- Eduardo rejeitou expressamente a formulação **“O negócio funciona, mas o perfil fica parado”**. Isso **não** significa rejeitar a dor do Instagram parado: ele posteriormente a apontou de forma explícita como uma das dores centrais. Não reutilizar a frase rejeitada, nem tratar as peças do material de referência como aprovadas para execução.
+
+## Dores e desejo apontados por Eduardo
+
+As frases abaixo são insumos de comunicação fornecidos por Eduardo, não pesquisa validada sobre todo o público nem copys finais aprovadas:
+
+- **“Meu Instagram está parado há semanas.”** Dor: abandono do perfil e dificuldade de manter constância.
+- **“Todo mundo está postando e eu não consigo.”** Dor: comparação e sensação de estar ficando para trás.
+- **“Toda vez que tento criar um post, eu travo.”** Dor: dificuldade com ferramentas e com o que escrever.
+- **“Quando eu consigo fazer, o post fica feio.”** Dor: frustração com o resultado e sensação de amadorismo.
+- **“Eu queria só dizer o assunto e receber o post pronto.”** Desejo: não montar texto e arte por conta própria. Diferencial apontado por Eduardo: identidade visual e voz da marca já configuradas, post criado dentro desse padrão e pronto para publicar; publicação direta requer integração configurada.
+
+Esses pontos complementam os argumentos já aprovados; não são, por si só, cinco anúncios distintos nem autorização para usar culpa, comparação humilhante ou promessas de resultado.
 
 ## Limites de fidelidade ao produto
 
