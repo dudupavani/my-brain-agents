@@ -9,6 +9,7 @@ Conhecimento durável, pesquisas, decisões, especificações e links canônicos
 - [Estratégia de conteúdo útil](useful-content-strategy.md) — recomendação inicial para atrair e engajar o público do Pomake sem transformar o perfil em tutoriais de ferramentas ou posts de venda.
 - [Série 01 — A pendência de aparecer](series-01-pendencia-de-aparecer.md) — produção sequencial de posts; a peça 01 está aprovada e a peça 02 aguarda aprovação.
 - [Roteiros de vídeo](video-scripts/) — roteiros de motion/Reels do Pomake; o primeiro é uma proposta de awareness.
+- [Referência criativa para Meta Ads](meta-ads-creative-reference.md) — preferências expressas por Eduardo, argumentos aprovados e limites de fidelidade ao produto; não é aprovação de todas as peças do material enviado.
 
 ## Fluxo visual
 
