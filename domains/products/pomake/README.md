@@ -2,6 +2,10 @@
 
 Conhecimento durável, pesquisas, decisões, especificações e links canônicos do Pomake.
 
+## Definição aprovada do produto
+
+- [O que é o Pomake?](o-que-e-o-pomake.md): definição aprovada por Eduardo, em linguagem para leigos. Ponto de partida para explicar o produto; inclui a escrita de todos os textos e o valor da voz da marca.
+
 ## Estratégia de marca e conteúdo
 
 - [Fundação de posicionamento e estratégia de conteúdo](positioning-and-content-foundation.md) — proposta estratégica não aprovada de 2026-09-15; separa fatos, hipóteses e decisões pendentes.
