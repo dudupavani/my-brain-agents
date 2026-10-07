@@ -1,39 +1,39 @@
-# Estratégia de conteúdo útil para o Instagram do Pomake
+# Estratégia de conteúdo útil para Instagram e TikTok do Pomake
 
-**Estado:** recomendação estratégica inicial; criada por solicitação de Eduardo em 2026-09-26.  
-**Escopo:** conteúdo útil para o público do Pomake. Não é calendário de anúncios, conteúdo de venda nem tutorial de uso do Pomake.  
-**Fontes:** funcionamento e posicionamento do Pomake em `positioning-and-content-foundation.md`; site oficial consultado em 2026-09-26; pesquisa exploratória sobre presença de arquitetos no Instagram (NCD e ABB, consultadas em 2026-09-26).
+**Estado:** estratégia em evolução. As decisões abaixo foram aprovadas explicitamente por Eduardo em 2026-10-07. A arquitetura de pilares a partir da seção 4 permanece como proposta histórica e não orienta produção até ser revisada.
+**Escopo:** conteúdo útil para o público do Pomake no Instagram e no TikTok. Não é calendário de anúncios, conteúdo de venda nem tutorial de uso do Pomake.
+**Fontes:** funcionamento e posicionamento do Pomake em `positioning-and-content-foundation.md`; site oficial consultado em 2026-09-26; decisões de Eduardo registradas em conversa de estratégia editorial em 2026-10-07.
 
-## 1. Decisão recomendada: começar por arquitetos autônomos e pequenos escritórios
+## 1. Público aprovado
 
-**Foco inicial proposto:** arquitetos, designers de interiores e pequenos escritórios que atendem clientes diretamente.
+O Pomake falará com profissionais autônomos e pequenas equipes que precisam divulgar o próprio trabalho, mas não possuem uma pessoa dedicada à criação de conteúdo.
 
-### Por que este é o primeiro recorte
+O público será definido pela situação em comum, não por uma profissão específica. A comunicação pode usar:
 
-- O trabalho gera acontecimentos visuais e recorrentes: visita técnica, obra, projeto, materiais, escolhas, detalhes, antes/depois e entrega.
-- Esses acontecimentos viram conteúdo útil sem exigir aula de marketing ou de ferramenta.
-- O Instagram é um canal usado no segmento para portfólio e divulgação de projetos; fontes exploratórias citam projetos, registros de obra e fotos bem produzidas como material de perfil.
-- O público tem uma ligação clara com o problema que o Pomake resolve: existe o que mostrar, mas transformar rotina em publicação exige uma tarefa criativa adicional.
+- assuntos gerais, aplicáveis a diferentes tipos de negócio;
+- exemplos contextualizados para profissões e setores específicos.
 
-**Limite da decisão:** não há evidência de que arquitetura seja o segmento que compra mais, ativa melhor ou permanece mais tempo no Pomake. É uma escolha operacional para criar uma primeira biblioteca coerente, não um ICP validado.
+Os exemplos setoriais concretizam uma questão geral; não transformam cada publicação em mudança de público.
 
 ## 2. Papel do perfil
 
-O perfil deve ensinar uma ideia simples:
+O perfil deve ajudar quem cuida do próprio negócio a reconhecer o que pode comunicar e a lidar com a tarefa de divulgar o trabalho nas redes, sem virar um curso de marketing, design ou produção de conteúdo.
 
-> O seu trabalho já produz assuntos para conteúdo. Você só precisa aprender a enxergá-los.
+O conteúdo não ensina a pessoa a montar design, escrever comandos, usar Canva ou pedir textos a uma IA. Também não transforma toda pauta em propaganda do Pomake.
 
-O conteúdo não ensina a pessoa a montar design, escrever comandos, usar Canva ou pedir textos a ChatGPT. Ele a ajuda a identificar o que merece ser comunicado sobre o próprio trabalho.
+## 3. Promessa editorial aprovada
 
-A associação desejada é: o perfil entende a rotina do profissional e o ajuda a encontrar assuntos; quando ele quiser transformar um assunto em post, o Pomake é a rota coerente.
+> **Ajudar quem toca o próprio negócio a reconhecer o que vale comunicar e simplificar a tarefa de divulgar seu trabalho nas redes, sem precisar virar especialista em conteúdo.**
 
-## 3. Promessa editorial
+Essa formulação amplia a promessa anterior, que ficava concentrada em encontrar assuntos. Ela também comporta, sem perder o foco: reconhecimento de pautas na rotina, escolha do que merece ser comunicado, apresentação do próprio trabalho, dificuldade de execução, adiamento, identidade da marca e novas possibilidades para publicar.
 
-**Todo dia de trabalho pode render algo para mostrar, explicar ou registrar no Instagram.**
+Não é promessa de seguidores, vendas, alcance, autoridade ou frequência garantida.
 
-Não é promessa de seguidores, vendas, alcance ou autoridade. É uma proposta de utilidade prática: reduzir a dúvida “o que eu posso publicar?”.
+## 4. Proposta histórica a revisar
 
-## 4. Estrutura editorial inicial
+As seções abaixo foram escritas para um recorte inicial de arquitetura. Esse recorte foi superado pela decisão de falar com o público geral descrito acima. Seus princípios úteis podem ser reaproveitados, mas os pilares, exemplos, teste editorial e ordem de expansão ainda precisam ser reformulados antes de orientar produção.
+
+### Estrutura editorial inicial
 
 ### Pilar A — Seu dia de trabalho já tem conteúdo
 
