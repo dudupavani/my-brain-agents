@@ -10,7 +10,7 @@ Conhecimento durável, pesquisas, decisões, especificações e links canônicos
 
 - [Fundação de posicionamento e estratégia de conteúdo](positioning-and-content-foundation.md) — proposta estratégica não aprovada de 2026-09-15; separa fatos, hipóteses e decisões pendentes.
 - [Pilares de comunicação e primeiro acervo](content-pillars-and-first-archive.md) — proposta exploratória não aprovada para discutir antes de produzir.
-- [Estratégia de conteúdo útil](useful-content-strategy.md) — público e promessa editorial aprovados; a arquitetura antiga por segmento permanece marcada para revisão.
+- [Estratégia de conteúdo útil](useful-content-strategy.md) — público e promessa editorial aprovados para Instagram e TikTok.
 - [Série 01 — A pendência de aparecer](series-01-pendencia-de-aparecer.md) — produção sequencial de posts; a peça 01 está aprovada e a peça 02 aguarda aprovação.
 - [Roteiros de vídeo](video-scripts/) — roteiros de motion/Reels do Pomake; o primeiro é uma proposta de awareness.
 - [Referência criativa para Meta Ads](meta-ads-creative-reference.md) — preferências expressas por Eduardo, argumentos aprovados e limites de fidelidade ao produto; não é aprovação de todas as peças do material enviado.
