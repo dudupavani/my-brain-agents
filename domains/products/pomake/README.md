@@ -2,18 +2,26 @@
 
 Conhecimento durável, pesquisas, decisões, especificações e links canônicos do Pomake.
 
-## Definição aprovada do produto
+## Fontes aprovadas
 
-- [O que é o Pomake?](o-que-e-o-pomake.md): definição aprovada por Eduardo, em linguagem para leigos. Ponto de partida para explicar o produto; inclui a escrita de todos os textos e o valor da voz da marca.
+- [O que é o Pomake?](o-que-e-o-pomake.md): definição aprovada do produto em linguagem para leigos.
+- [Estratégia editorial](editorial-strategy/README.md): índice da estratégia aprovada para Instagram e TikTok.
+  - [Fundação editorial](editorial-strategy/foundation.md): público, papel do perfil, promessa, limites e uso de setores.
+  - [Territórios editoriais](editorial-strategy/territories.md): seis territórios aprovados.
+- [Lívia](creative-direction/livia.md): papel e comportamento permanente da personagem apresentadora.
 
-## Estratégia de marca e conteúdo
+## Produção editorial
 
-- [Fundação de posicionamento e estratégia de conteúdo](positioning-and-content-foundation.md) — proposta estratégica não aprovada de 2026-09-15; separa fatos, hipóteses e decisões pendentes.
-- [Pilares de comunicação e primeiro acervo](content-pillars-and-first-archive.md) — proposta exploratória não aprovada para discutir antes de produzir.
-- [Estratégia de conteúdo útil](useful-content-strategy.md) — registro canônico das decisões editoriais aprovadas para Instagram e TikTok, incluindo público, promessa e territórios.
-- [Série 01 — A pendência de aparecer](series-01-pendencia-de-aparecer.md) — produção sequencial de posts; a peça 01 está aprovada e a peça 02 aguarda aprovação.
-- [Roteiros de vídeo](video-scripts/) — roteiros de motion/Reels do Pomake; o primeiro é uma proposta de awareness.
-- [Referência criativa para Meta Ads](meta-ads-creative-reference.md) — preferências expressas por Eduardo, argumentos aprovados e limites de fidelidade ao produto; não é aprovação de todas as peças do material enviado.
+- [Série 01 — A pendência de aparecer](series-01-pendencia-de-aparecer.md): histórico de produção e aprovação das peças da série.
+- [Roteiros de vídeo](video-scripts/): roteiros e estados de aprovação.
+
+## Meta Ads
+
+- [Referência criativa para Meta Ads](meta-ads-creative-reference.md): preferências expressas por Eduardo, argumentos aprovados e limites de fidelidade ao produto. Não é aprovação de todas as peças do material enviado.
+
+## Arquivo histórico
+
+- [Propostas estratégicas não aprovadas](archive/unapproved-strategy/): materiais preservados apenas como histórico. Não orientam a estratégia atual nem a produção.
 
 ## Fluxo visual
 

@@ -1,0 +1,20 @@
+# Estratégia editorial do Pomake
+
+**Estado:** em construção, com decisões aprovadas registradas por tipo.
+**Canais:** Instagram e TikTok.
+**Fonte:** decisões aprovadas explicitamente por Eduardo em 2026-10-07.
+
+Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele registra somente decisões aprovadas. Propostas em discussão não devem ser incorporadas como definições.
+
+## Documentos atuais
+
+- [Fundação editorial](foundation.md): público, papel do perfil, promessa, limites e uso de setores.
+- [Territórios editoriais](territories.md): os seis territórios aprovados que organizam os assuntos.
+
+## Conexões
+
+- [Definição do produto](../o-que-e-o-pomake.md): fonte aprovada para explicar o que o Pomake faz.
+- [Direção da Lívia](../creative-direction/livia.md): papel e comportamento permanente da apresentadora; não define assuntos.
+- Produções, roteiros e séries devem apontar para o território que executam, mas permanecem em documentos próprios.
+
+Quando cada território for aprofundado, seu mapa de tensões, ramos narrativos, fronteiras e hipóteses deve ficar em documento próprio, sem transformar este índice em arquivo de produção.
