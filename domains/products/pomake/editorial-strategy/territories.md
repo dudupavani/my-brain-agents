@@ -9,9 +9,11 @@ Ajuda a pessoa a reconhecer acontecimentos, dúvidas, decisões, serviços e ent
 
 **Aprofundamento:** aprovado e definido.
 
-## 2. O que vale comunicar
+## 2. [O que vale comunicar](territories/02-o-que-vale-comunicar.md)
 
 Ajuda a diferenciar aquilo que apenas aconteceu daquilo que pode ser relevante, interessante ou esclarecedor para quem acompanha o negócio.
+
+**Aprofundamento:** aprovado e definido.
 
 ## 3. Conhecer o trabalho não é saber apresentá-lo
 
