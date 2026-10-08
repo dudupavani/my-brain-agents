@@ -3,9 +3,11 @@
 **Estado:** seis territórios aprovados por Eduardo em 2026-10-07.
 **Base:** [fundação editorial](foundation.md).
 
-## 1. O trabalho já tem assunto
+## 1. [O trabalho já tem assunto](territories/01-o-trabalho-ja-tem-assunto.md)
 
 Ajuda a pessoa a reconhecer acontecimentos, dúvidas, decisões, serviços e entregas da rotina como possíveis matérias-primas para conteúdo.
+
+**Aprofundamento:** aprovado e definido.
 
 ## 2. O que vale comunicar
 
