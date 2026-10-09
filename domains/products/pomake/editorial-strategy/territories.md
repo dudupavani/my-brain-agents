@@ -27,9 +27,11 @@ Torna visível a soma de tarefas envolvidas: encontrar assunto, escrever, escolh
 
 **Aprofundamento:** aprovado e definido.
 
-## 5. Uma marca com um jeito reconhecível
+## 5. [Uma marca com um jeito reconhecível](territories/05-uma-marca-com-um-jeito-reconhecivel.md)
 
 Aborda a dificuldade de manter coerência entre textos, imagens, cores, estilo visual e jeito de falar, sem transformar o perfil em aula de design.
+
+**Aprofundamento:** aprovado e definido.
 
 ## 6. Publicar sem precisar fazer tudo sozinho
 
