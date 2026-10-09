@@ -28,6 +28,12 @@ O perfil não deve virar curso de marketing, design ou produção de conteúdo. 
 - Não ensinar Canva, prompts, edição ou montagem de arte como solução para o público executar.
 - Não reduzir o público a uma profissão específica.
 
+## Linguagem e criação
+
+- Falar sempre em português brasileiro, com palavras comuns para quem conhece o próprio negócio, mas não é especialista em criação de conteúdo. Explicar termos inevitáveis sem infantilizar a pessoa.
+- Escrever como uma conversa com a audiência: cada conteúdo deve oferecer uma ideia, orientação, esclarecimento ou observação útil por si só; os nomes internos de territórios e séries não são a fala do post.
+- Criar Reels, posts, carrosséis, roteiros e legendas somente quando Eduardo pedir a peça específica. O trabalho de estratégia não autoriza produção de conteúdos por iniciativa própria.
+
 ## Uso de profissões e setores
 
 A comunicação pode combinar assuntos gerais com exemplos contextualizados para profissões e setores específicos.
