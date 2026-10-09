@@ -1,7 +1,9 @@
 # Banco de pautas do Pomake
 
-**Estado:** construção progressiva a partir das famílias e séries aprovadas.
+**Estado:** repertório de pautas candidatas; não equivale a conteúdos aprovados ou prontos para produção.
 **Base:** [séries recorrentes](series.md).
+
+A passagem de uma entrada deste banco para uma peça solicitada por Eduardo depende da [ponte editorial e do teste de valor para a audiência](production-bridge.md). A quantidade de pautas registradas não valida sua qualidade como publicação.
 
 ## Autorização de trabalho
 
