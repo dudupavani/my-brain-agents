@@ -21,9 +21,11 @@ Explora a distância entre dominar uma profissão e conseguir explicar, mostrar 
 
 **Aprofundamento:** aprovado e definido.
 
-## 4. O peso escondido de criar um post
+## 4. [O peso escondido de criar um post](territories/04-o-peso-escondido-de-criar-um-post.md)
 
 Torna visível a soma de tarefas envolvidas: encontrar assunto, escrever, escolher imagem, montar a arte e avaliar se o resultado representa a marca. Também comporta adiamento, frustração e a preocupação recorrente com o perfil parado.
+
+**Aprofundamento:** aprovado e definido.
 
 ## 5. Uma marca com um jeito reconhecível
 
