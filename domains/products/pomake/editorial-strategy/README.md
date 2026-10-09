@@ -10,6 +10,7 @@ Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele reg
 
 - [Fundação editorial](foundation.md): público, papel do perfil, promessa, limites e uso de setores.
 - [Territórios editoriais](territories.md): os seis territórios aprovados que organizam os assuntos.
+- [Séries recorrentes](series.md): famílias e séries aprovadas, organizadas por território proprietário.
 
 ## Conexões
 
