@@ -6,6 +6,8 @@ Você pode configurar cores, tema fotográfico e estilo de design. Também pode 
 
 Na criação de um post, depois de informar o que deseja comunicar e clicar em criar, o Pomake gera automaticamente três opções de texto seguindo a Voz da Marca, sem exigir prompts ou o pedido individual de cada opção. Você escolhe uma delas, gera o visual e, se quiser mudar alguma coisa, pode pedir ajustes por conversa.
 
+A publicação direta depende de a integração correspondente estar configurada. Sem essa integração, o Pomake entrega o post pronto para publicar, mas não realiza a publicação automática.
+
 O trabalho do Pomake é ajudar você a mostrar o que faz, mesmo quando sabe o que quer dizer, mas não consegue colocar isso em palavras ou transformar em uma arte. Ele cuida dessas partes da criação para você não precisar resolver tudo sozinho nem aprender ferramentas de escrita e design. Você conhece o seu trabalho; o Pomake ajuda a apresentá-lo nas redes sociais, com o visual e o jeito de falar da sua marca.
 
 ## Estado e uso

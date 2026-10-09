@@ -23,7 +23,7 @@ Depois de reconhecer um assunto, escolher o que vale comunicar e entender a mens
 - manter as escolhas da marca;
 - revisar e ajustar o resultado.
 
-Ela pode conhecer profundamente o próprio trabalho e ainda não querer aprender escrita, design, edição, ferramentas ou comandos de inteligência artificial para conseguir publicar.
+Ela pode conhecer profundamente o próprio trabalho e ainda não querer aprender escrita, design, ferramentas ou comandos de inteligência artificial para conseguir publicar.
 
 A hipótese editorial é que algumas pessoas ainda não sabem que uma ferramenta pode assumir partes da criação enquanto elas mantêm as decisões sobre o que desejam comunicar. Isso não significa que todos desconheçam ferramentas ou que uma única solução sirva para todos.
 
@@ -60,11 +60,13 @@ Depois de informar o que deseja comunicar e clicar em criar, a pessoa recebe aut
 
 A pessoa escolhe uma opção de texto e gera o visual. Também pode configurar cores, tema fotográfico e estilo de design. Se desejar mudanças, pode pedir ajustes por conversa.
 
+A publicação direta depende de a integração correspondente estar configurada. Sem essa integração, o Pomake entrega o post pronto para publicar, mas não realiza a publicação automática.
+
 ## Ramos narrativos
 
 ### 1. Decidir não é o mesmo que executar tudo
 
-Separar as decisões que pertencem ao profissional da execução de texto, imagem e design que pode ser assumida pelo produto.
+Separar as decisões que pertencem ao profissional da execução do texto e do visual que pode ser assumida pelo produto.
 
 ### 2. Começar pelo que se quer comunicar
 
@@ -80,7 +82,7 @@ Ao clicar em criar, a pessoa recebe automaticamente três caminhos de texto orie
 
 ### 5. Identidade visual e verbal aplicadas à criação
 
-Mostrar como cores, tema fotográfico, estilo de design e Voz da Marca configurados podem orientar novos posts, sem prometer reconhecimento automático.
+Mostrar como as cores, o tema fotográfico e o estilo de design configurados, junto da Voz da Marca criada, podem orientar novos posts, sem prometer reconhecimento automático.
 
 ### 6. Escolher, gerar e ajustar
 
@@ -90,8 +92,8 @@ Demonstrações concretas da passagem entre o que a pessoa deseja comunicar, as 
 
 O território pode gerar abordagens diferentes combinando:
 
-- **Ponto de partida:** produto, serviço, promoção, acontecimento, dúvida, foto ou ideia;
-- **Parte assumida pelo produto:** construção da Voz da Marca, texto da arte, legenda, imagem, design, aplicação da identidade ou ajuste;
+- **Ponto de partida:** produto, serviço, promoção, acontecimento, dúvida ou ideia;
+- **Parte assumida pelo produto:** construção da Voz da Marca, geração das opções de texto, criação do visual, aplicação das escolhas configuradas ou ajuste por conversa;
 - **Participação da pessoa:** responder perguntas, explicar, escolher, revisar, pedir mudança ou aprovar;
 - **Forma editorial:** quebra de crença, comparação de processos, demonstração, bastidor do produto, resposta a objeção ou explicação da categoria;
 - **Intensidade comercial:** conteúdo útil sem menção ao Pomake, apresentação da possibilidade, demonstração do produto ou convite direto quando solicitado.
