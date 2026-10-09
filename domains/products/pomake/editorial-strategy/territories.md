@@ -39,6 +39,21 @@ Apresenta outras formas de sair de uma ideia e chegar a um post pronto. É o ter
 
 **Aprofundamento:** aprovado e definido.
 
+## Regra de propriedade editorial
+
+Cada série e cada pauta devem ter **um único território proprietário**, definido pelo trabalho editorial dominante que realizam. Outros territórios podem aparecer como apoio, mas não devem disputar a função principal do conteúdo.
+
+Para arbitrar casos próximos:
+
+- o território 1 encontra a possível matéria-prima;
+- o território 2 decide se ela merece ser comunicada;
+- o território 3 define o que precisa ser compreendido por quem está de fora;
+- o território 4 torna reconhecível a carga operacional da criação;
+- o território 5 trata da continuidade visual e verbal entre publicações;
+- o território 6 apresenta uma divisão diferente da execução, incluindo demonstrações do Pomake quando pertinente.
+
+Mudar profissão, cenário ou formato não cria uma pauta realmente diferente quando o argumento e o trabalho editorial permanecem iguais.
+
 ## Estado do aprofundamento
 
-Os seis territórios foram aprofundados, aprovados e registrados separadamente. A próxima etapa é revisar o conjunto e transformar seus ramos em séries, pautas, formatos e pilotos para compor o plano estratégico de conteúdo.
+Os seis territórios foram aprofundados, aprovados e registrados separadamente. A revisão do conjunto foi concluída e estabeleceu a regra de propriedade editorial. A próxima etapa é transformar os ramos em séries, pautas, formatos e pilotos para compor o plano estratégico de conteúdo.
