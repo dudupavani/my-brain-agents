@@ -12,6 +12,7 @@ Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele reg
 - [Territórios editoriais](territories.md): os seis territórios aprovados que organizam os assuntos.
 - [Séries recorrentes](series.md): famílias e séries aprovadas, organizadas por território proprietário.
 - [Banco de pautas](content-bank.md): pautas concretas derivadas das séries e revisadas antes do registro.
+- [Papel dos formatos](format-roles.md): proposta operacional para vídeos curtos, carrosséis, peças estáticas, Stories e demonstrações, sem cota de publicação.
 
 ## Conexões
 
