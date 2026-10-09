@@ -15,9 +15,11 @@ Ajuda a diferenciar aquilo que apenas aconteceu daquilo que pode ser relevante, 
 
 **Aprofundamento:** aprovado e definido.
 
-## 3. Conhecer o trabalho não é saber apresentá-lo
+## 3. [Conhecer o trabalho não é saber apresentá-lo](territories/03-conhecer-o-trabalho-nao-e-saber-apresenta-lo.md)
 
 Explora a distância entre dominar uma profissão e conseguir explicar, mostrar ou colocar esse conhecimento em palavras para as redes.
+
+**Aprofundamento:** aprovado e definido.
 
 ## 4. O peso escondido de criar um post
 
