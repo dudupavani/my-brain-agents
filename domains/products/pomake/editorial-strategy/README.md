@@ -13,7 +13,7 @@ Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele reg
 - [Séries recorrentes](series.md): famílias e séries aprovadas, organizadas por território proprietário.
 - [Banco de pautas](content-bank.md): pautas concretas derivadas das séries e revisadas antes do registro.
 - [Papel dos formatos](format-roles.md): proposta operacional para vídeos curtos, carrosséis, peças estáticas, Stories e demonstrações, sem cota de publicação.
-- [Piloto 1 — A pergunta sobre o serviço](pilots/01-a-pergunta-sobre-o-servico.md): primeiro carrossel textual completo para avaliação, ainda não aprovado nem publicado.
+- [Piloto 1 — A pergunta sobre o serviço](pilots/01-a-pergunta-sobre-o-servico.md): tentativa rejeitada; não usar como modelo editorial ou peça de produção.
 
 ## Conexões
 

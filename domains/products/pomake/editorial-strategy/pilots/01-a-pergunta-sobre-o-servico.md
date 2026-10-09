@@ -1,6 +1,6 @@
 # Piloto 1 — A pergunta sobre o serviço
 
-**Estado:** piloto editorial para avaliação de Eduardo; não aprovado nem publicado.
+**Estado:** rejeitado por Eduardo; não usar para produção ou publicação. Preservado apenas como registro da tentativa.
 **Origem:** [Território 1, série “Você acabou de explicar isso”, pauta 1](../content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md).
 **Função:** ajudar quem toca o negócio a reconhecer uma explicação dada no atendimento como possível assunto. Não afirmar que toda pergunta deve ser publicada.
 **Formato proposto:** carrossel para Instagram. A sequência mostra a conversa e o reconhecimento do assunto sem exigir um caso real de cliente nem ensinar a montar o post.
@@ -48,5 +48,8 @@ Qual explicação você costuma repetir no atendimento?
 
 - A pergunta entre aspas é uma **cena ilustrativa**, não depoimento real nem dado de pesquisa.
 - A pauta reconhece matéria-prima (Território 1); não julga relevância em nome do público (Território 2) nem ensina a escrever ou desenhar o post.
-- A peça faz sentido sem publicações anteriores e não vende o Pomake.
-- Antes de produzir arte, Eduardo pode ajustar ritmo, naturalidade e hierarquia do texto. Nenhuma publicação foi autorizada por este piloto.
+- A peça não foi aprovada para arte ou publicação.
+
+## Avaliação posterior
+
+Eduardo rejeitou o piloto por não fazer sentido como conteúdo para o público. A avaliação anterior foi insuficiente: o texto apenas encena uma pergunta genérica e conclui que ela pode ser pauta. Não explica um caso real, não desenvolve uma descoberta útil ou interessante e usa frases artificiais como “A conversa terminou. O assunto pode ficar.” A fronteira estratégica do Território 1 foi respeitada formalmente, mas isso não tornou a peça boa. Não reciclar a copy trocando apenas o exemplo ou o formato; a passagem das séries para conteúdos precisa ser revista antes de outro piloto.
