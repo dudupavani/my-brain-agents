@@ -33,10 +33,12 @@ Aborda a dificuldade de manter coerência entre textos, imagens, cores, estilo v
 
 **Aprofundamento:** aprovado e definido.
 
-## 6. Publicar sem precisar fazer tudo sozinho
+## 6. [Publicar sem precisar fazer tudo sozinho](territories/06-publicar-sem-precisar-fazer-tudo-sozinho.md)
 
 Apresenta outras formas de sair de uma ideia e chegar a um post pronto. É o território em que podem entrar quebra de crenças, demonstrações e o Pomake trabalhando, sem transformar todo conteúdo em propaganda.
 
-## Regra de aprofundamento
+**Aprofundamento:** aprovado e definido.
 
-Cada território será aprofundado separadamente. O aprofundamento deve definir sua situação humana, trabalho editorial, ponto de vista do Pomake, ramos narrativos, fronteiras e hipótese observável antes da criação de séries ou pautas.
+## Estado do aprofundamento
+
+Os seis territórios foram aprofundados, aprovados e registrados separadamente. A próxima etapa é revisar o conjunto e transformar seus ramos em séries, pautas, formatos e pilotos para compor o plano estratégico de conteúdo.
