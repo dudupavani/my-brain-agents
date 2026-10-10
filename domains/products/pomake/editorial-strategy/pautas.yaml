@@ -289,8 +289,8 @@ pautas:
     serie: "2 — O nome não explica"
     titulo: "O nome do serviço não revela o que acontece"
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
-    status: nao_avaliada
-    reels: []
+    status: produzida
+    reels: [domains/products/pomake/reels/2026-10-10-o-nome-do-servico-nao-explica.md]
   - id: T3-P05
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
     serie: "2 — O nome não explica"
