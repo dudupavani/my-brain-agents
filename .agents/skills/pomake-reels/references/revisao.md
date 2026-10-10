@@ -1,64 +1,63 @@
 # Checklist de revisão de Reel do Pomake
 
-Avalie o Reel como alguém que não participou da criação. Use somente o arquivo do Reel, este checklist e os documentos citados nele. Cada item é **passa** ou **falha**; não existe meio-termo.
+Você não participou da criação. Avalie somente com este checklist e o material do briefing do revisor. Regras mecânicas (estrutura, duração, hashtags, emojis, Pomake fora do território 6, frases repetidas, presença do pedido final) já são conferidas pelo validador; não as avalie de novo.
 
-## A. Gancho
+Primeiro, execute `python3 .agents/skills/pomake-reels/scripts/validar_reel.py <arquivo>`. Se houver ERRO, reprove citando o erro. Para cada AVISO, decida se é um problema real e, se for, registre-o como falha no item correspondente.
 
-1. A Fala 1 usa ao menos uma técnica de `domains/products/pomake/editorial-strategy/hooks.md`, a mesma indicada em "Técnica do gancho".
-2. A Fala 1 prende a atenção nos primeiros 3 segundos e é compreensível para quem nunca viu o perfil.
-3. O gancho é forte sem ser agressivo, conforme `voice.md`.
-4. O texto do criativo usa ao menos uma técnica de `hooks.md`, a mesma indicada em "Técnica do criativo".
-4.1. O texto do criativo abre uma pergunta em quem lê ou mostra o que está em jogo. Se for uma afirmação que se encerra sozinha, falha.
-4.2. O texto do criativo é curto, legível em uma leitura rápida e tem o mesmo argumento da Fala 1.
-4.3. O texto do criativo está no mesmo nível de força do criativo dos Reels com estado `aprovado` ou `publicado`.
+Não altere nenhum arquivo. Cada item é **passa** ou **falha**; não existe meio-termo.
+
+## A. Gancho e criativo
+
+1. A Fala 1 usa a técnica indicada em "Técnica do gancho", prende a atenção nos primeiros 3 segundos e é compreensível para quem nunca viu o perfil.
+2. O gancho é forte sem ser agressivo e está no mesmo nível de força da Fala 1 dos Reels aprovados.
+3. O texto do criativo usa a técnica indicada em "Técnica do criativo", abre uma pergunta em quem lê ou mostra o que está em jogo, e não é uma afirmação que se encerra sozinha.
+4. O texto do criativo é curto, legível em uma leitura rápida, tem o mesmo argumento da Fala 1 e está no mesmo nível de força do criativo dos Reels aprovados.
 
 ## B. Promessa cumprida
 
-5. Toda pergunta ou lacuna aberta pelo gancho é respondida dentro do próprio Reel.
-6. O fechamento entrega uma orientação concreta que a pessoa consegue aplicar no próprio negócio.
+5. Toda pergunta ou lacuna aberta pelo gancho e pelo criativo é respondida dentro do próprio Reel.
+6. O fechamento entrega uma orientação concreta, que a pessoa consegue aplicar no próprio negócio.
 7. Há uma única ideia; todas as falas servem ao mesmo argumento.
+8. O pedido final corresponde ao tipo de conteúdo: salvar para dica de como agir; enviar a quem vai gostar de saber para outro tipo. A legenda termina com o mesmo tipo de pedido.
 
 ## C. Voz
 
-8. Português brasileiro, segunda pessoa, palavras comuns.
-9. Cada fala soa natural dita em voz alta; nenhuma parece texto escrito para leitura.
-10. Não aparecem nomes internos de territórios, séries ou pautas.
+9. Português brasileiro, segunda pessoa, palavras comuns, tom de conversa.
+10. Cada fala soa natural dita em voz alta; nenhuma parece texto escrito para leitura.
 
 ## D. Verdade e limites
 
-11. Não há número, cliente, caso, depoimento, estudo ou fonte inventados. Cenas hipotéticas estão em segunda pessoa e não se apresentam como reais.
-12. Técnicas 14, 15 e 16 só aparecem com evidência verdadeira.
-13. Não há promessa de resultado garantido.
-14. Não se ensina ferramenta (Canva, prompts, edição, montagem de arte).
-15. O Pomake só é citado se o território for 6; nesse caso, sem preço, oferta, convite direto ou chamada de compra, e apenas com funções confirmadas em `domains/products/pomake/o-que-e-o-pomake.md`.
+11. Não há número, cliente, caso, depoimento, estudo ou fonte inventados. Cenas hipotéticas estão em segunda pessoa e não se apresentam como reais. Especificidade, prova social e autoridade só aparecem com evidência verdadeira.
+12. Não há promessa de resultado garantido, ensino de ferramentas, nome interno de território ou série, nem desrespeito às fronteiras do território e aos limites da fundação.
+13. No território 6: o Pomake aparece sem preço, oferta, convite direto ou chamada de compra, e apenas com funções confirmadas em "O que é o Pomake".
 
-## E. Legenda
+## E. Legenda e leitura fria
 
-16. A legenda tem o mesmo argumento das falas, adaptado para leitura, sem contradizê-las nem introduzir outro assunto.
+14. A legenda tem o mesmo argumento das falas, adaptado para leitura, sem contradizê-las, sem copiar a Fala 1 e sem introduzir outro assunto.
+15. Lido sem nenhum contexto, fica claro quem está na situação, o que acontece, por que importa e o que a pessoa ganha.
 
-## F. Leitura fria
+## F. Comparação
 
-17. Lido sem nenhum contexto, fica claro quem está na situação, o que acontece, por que importa e o que a pessoa ganha.
-
-## G. Comparação
-
-18. O nível de força e clareza é igual ou superior ao dos Reels com estado `aprovado` ou `publicado` em `domains/products/pomake/reels/`.
-19. O argumento não repete o de nenhum Reel existente.
-20. Não repete nenhum problema registrado como motivo de rejeição.
-21. Não repete aberturas, transições ou frases de fechamento de nenhum Reel existente.
-
-## H. Formato
-
-22. O roteiro completo tem no mínimo 40 palavras (Reel de no mínimo 15 segundos).
-23. O pedido do fechamento corresponde ao tipo de conteúdo: salvar para dica de como agir; enviar a quem vai gostar de saber para outro tipo. A legenda termina com o mesmo tipo de pedido.
-24. A legenda não tem hashtags nem emojis.
+16. O argumento não repete o de nenhum Reel listado em "Outros Reels" e não repete nenhum motivo de rejeição de Eduardo.
 
 ## Formato do resultado
 
-```
-Resultado: aprovado | reprovado
-Falhas:
-- <número do item>: <o que falhou, em uma frase> → <correção necessária, em uma frase>
+Responda somente com este bloco JSON:
+
+```json
+{
+  "resultado": "aprovado",
+  "falhas": []
+}
 ```
 
-Se não houver falhas, escreva `Falhas: nenhuma`.
+Em caso de reprovação:
+
+```json
+{
+  "resultado": "reprovado",
+  "falhas": [
+    {"item": 3, "problema": "<o que falhou, em uma frase>", "correcao": "<o que o redator deve fazer, em uma frase>"}
+  ]
+}
+```
