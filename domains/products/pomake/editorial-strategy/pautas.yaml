@@ -457,8 +457,8 @@ pautas:
     serie: "4 — Já estava quase pronto"
     titulo: "O texto permaneceu no bloco de notas"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: nao_avaliada
-    reels: []
+    status: produzida
+    reels: [domains/products/pomake/reels/2026-10-10-o-texto-pronto-ainda-nao-virou-post.md]
   - id: T4-P11
     territorio: "4 — O peso escondido de criar um post"
     serie: "4 — Já estava quase pronto"
