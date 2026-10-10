@@ -59,7 +59,7 @@ Não faça commit, não altere outros arquivos e não altere `pautas.yaml`.
 
 ## Modo correção
 
-Se o coordenador enviar falhas apontadas pelo revisor, corrija somente esses pontos no arquivo indicado, mantendo o que não foi apontado. Depois, valide de novo (passo 5).
+Se o coordenador enviar falhas (do revisor, do validador ou um pedido de Eduardo), **reescreva o Reel inteiro**, não remende trechos. Releia o Reel atual e as falhas, refaça os passos 2 a 5 levando as falhas em conta e salve no mesmo arquivo. Mantenha uma frase do texto anterior somente se ela continuar coerente com o novo texto. O resultado precisa ser um texto único e coeso, não uma colagem de correções.
 
 ## Resposta ao coordenador
 

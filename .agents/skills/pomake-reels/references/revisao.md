@@ -6,6 +6,13 @@ Primeiro, execute `python3 .agents/skills/pomake-reels/scripts/validar_reel.py <
 
 Não altere nenhum arquivo. Cada item é **passa** ou **falha**; não existe meio-termo.
 
+## Tipo de falha
+
+- **Bloqueante:** impede Eduardo de usar o texto. São bloqueantes as falhas nos itens 1 a 6, 11, 12, 13, 15 e 16, e todo ERRO do validador.
+- **Melhoria:** o texto pode ser usado, mas ficaria melhor. São melhorias as falhas nos itens 7, 8, 9, 10 e 14.
+
+O resultado é **reprovado** somente se houver ao menos uma falha bloqueante. Só aponte falha que você consiga descrever com precisão; não procure defeito para preencher o checklist.
+
 ## A. Gancho e criativo
 
 1. A Fala 1 usa a técnica indicada em "Técnica do gancho", prende a atenção nos primeiros 3 segundos e é compreensível para quem nunca viu o perfil.
@@ -51,13 +58,14 @@ Responda somente com este bloco JSON:
 }
 ```
 
-Em caso de reprovação:
+Com falhas (aprovado só com melhorias, ou reprovado com bloqueantes):
 
 ```json
 {
   "resultado": "reprovado",
   "falhas": [
-    {"item": 3, "problema": "<o que falhou, em uma frase>", "correcao": "<o que o redator deve fazer, em uma frase>"}
+    {"item": 3, "tipo": "bloqueante", "problema": "<o que falhou, em uma frase>", "correcao": "<o que o redator deve fazer, em uma frase>"},
+    {"item": 9, "tipo": "melhoria", "problema": "<o que falhou, em uma frase>", "correcao": "<o que o redator deve fazer, em uma frase>"}
   ]
 }
 ```

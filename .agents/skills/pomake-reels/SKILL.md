@@ -45,8 +45,8 @@ Execute `validar_reel.py <arquivo>`. Se houver ERRO, chame o redator em modo cor
 
 Gere o briefing: `preparar.py revisor <arquivo>`. Chame o revisor com o caminho do briefing e exija a resposta no formato JSON do checklist (use validação de formato da resposta, se o runtime oferecer).
 
-- **aprovado:** siga para o passo 6.
-- **reprovado:** chame o redator em modo correção (mesmo briefing do redator, caminho do arquivo e as falhas do JSON). Depois repita os passos 4 e 5. No máximo 2 ciclos de correção. Se ainda reprovar, siga para o passo 6 e informe Eduardo, em uma linha, o item que não passou.
+- **aprovado:** siga para o passo 6, mesmo que haja falhas do tipo melhoria.
+- **reprovado:** chame o redator em modo correção (mesmo briefing do redator, caminho do arquivo e todas as falhas do JSON). Ele reescreve o Reel inteiro. Depois repita os passos 4 e 5 uma única vez. Há no máximo **1 ciclo de correção**: se a segunda revisão ainda reprovar, siga para o passo 6 e, na entrega, informe Eduardo em uma linha cada falha bloqueante que restou.
 
 ## 6. Registrar
 
