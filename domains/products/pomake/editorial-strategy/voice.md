@@ -13,7 +13,7 @@
 - Falar diretamente com a pessoa, em segunda pessoa (“você”).
 - Uma ideia por Reel. Todas as falas servem ao mesmo argumento.
 - Toda peça entrega uma orientação concreta, que a pessoa consegue aplicar no próprio negócio.
-- Não citar o Pomake. O conteúdo não é de venda.
+- O conteúdo não é de venda. O Pomake só é citado em Reels do Território 6, conforme os [limites da fundação](foundation.md#limites).
 - Não prometer resultado garantido. Mostrar o que está em jogo é permitido, conforme os [limites da fundação](foundation.md#limites).
 - Não ensinar ferramentas (Canva, prompts, edição, montagem de arte).
 - Não usar os nomes internos de territórios, séries ou pautas no texto.

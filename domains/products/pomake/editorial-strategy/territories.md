@@ -62,6 +62,7 @@ Mudar profissão, cenário ou formato não cria uma pauta realmente diferente qu
 - Todo Reel entrega à audiência uma orientação concreta e utilizável, mesmo quando o território trata de reconhecimento. Terminar apenas em "isso pode ser assunto" não é suficiente.
 - As fronteiras de cada território continuam valendo para classificar pautas e evitar que duas peças façam o mesmo trabalho editorial.
 - A proibição de ensinar ferramentas (Canva, prompts, edição, montagem de arte) continua valendo.
+- O Pomake só é citado em Reels do Território 6, sem tom de anúncio, conforme os [limites da fundação](foundation.md#limites).
 
 ## Estado do aprofundamento
 

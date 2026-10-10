@@ -103,6 +103,8 @@ Isso permite variedade entre educação, explicação da categoria e produto sem
 ## Fronteiras
 
 > Na produção de Reels, a [regra de produção](../territories.md#regra-de-produção) prevalece: estas fronteiras classificam a pauta, mas toda peça entrega uma orientação concreta.
+>
+> **Regras para Reels deste território (Eduardo, 2026-10-10):** é o único território em que o Pomake pode ser citado. O Reel não é anúncio: sem preço, oferta, convite direto ou chamada de compra. Ele continua útil a quem nunca usar o produto, e o Pomake aparece como uma forma diferente de dividir o trabalho, não como o assunto principal. Como o pacote do Reel é só texto falado pela Lívia, demonstrações de tela ficam fora; a Lívia descreve apenas funções confirmadas em [O que é o Pomake](../../o-que-e-o-pomake.md).
 
 Este território não deve:
 

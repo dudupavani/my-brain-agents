@@ -26,7 +26,7 @@ O perfil não deve virar curso de marketing, design ou produção de conteúdo. 
 
 - Não prometer resultado garantido: seguidores, vendas, clientes, alcance, autoridade ou frequência.
 - É permitido mostrar o que está em jogo, como o risco de perder clientes ou de o valor do trabalho não ser percebido, desde que apresentado como consequência plausível, nunca como garantia ou com números inventados. (Decisão de Eduardo em 2026-10-10.)
-- Não citar o Pomake no conteúdo orgânico. O conteúdo não é de venda; a marca aparece somente pelo perfil que publica. (Decisão de Eduardo em 2026-10-10.)
+- O conteúdo orgânico não é de venda. O Pomake só pode ser citado em Reels do Território 6, [Publicar sem precisar fazer tudo sozinho](territories/06-publicar-sem-precisar-fazer-tudo-sozinho.md). Nos territórios 1 a 5 ele não é citado. Mesmo no Território 6, o Reel não é anúncio: sem preço, sem oferta e sem chamada de compra; continua entregando orientação útil a quem nunca usar o produto; e descreve somente funções confirmadas em [O que é o Pomake](../o-que-e-o-pomake.md). (Decisões de Eduardo em 2026-10-10.)
 - Não ensinar Canva, prompts, edição ou montagem de arte como solução para o público executar.
 - Não reduzir o público a uma profissão específica.
 
