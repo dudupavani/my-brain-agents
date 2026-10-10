@@ -96,7 +96,7 @@ O território pode gerar abordagens diferentes combinando:
 - **Parte assumida pelo produto:** construção da Voz da Marca, geração das opções de texto, criação do visual, aplicação das escolhas configuradas ou ajuste por conversa;
 - **Participação da pessoa:** responder perguntas, explicar, escolher, revisar, pedir mudança ou aprovar;
 - **Forma editorial:** quebra de crença, comparação de processos, demonstração, bastidor do produto, resposta a objeção ou explicação da categoria;
-- **Intensidade comercial:** conteúdo útil sem menção ao Pomake, apresentação da possibilidade, demonstração do produto ou convite direto quando solicitado.
+- **Intensidade comercial:** conteúdo útil sem menção ao Pomake ou apresentação da possibilidade, sem convite direto nem chamada de compra.
 
 Isso permite variedade entre educação, explicação da categoria e produto sem fazer de cada publicação um anúncio.
 

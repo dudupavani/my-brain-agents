@@ -45,6 +45,13 @@ Avalie o Reel como alguém que não participou da criação. Use somente o arqui
 18. O nível de força e clareza é igual ou superior ao dos Reels com estado `aprovado` ou `publicado` em `domains/products/pomake/reels/`.
 19. O argumento não repete o de nenhum Reel existente.
 20. Não repete nenhum problema registrado como motivo de rejeição.
+21. Não repete aberturas, transições ou frases de fechamento de nenhum Reel existente.
+
+## H. Formato
+
+22. O roteiro completo tem no mínimo 40 palavras (Reel de no mínimo 15 segundos).
+23. O pedido do fechamento corresponde ao tipo de conteúdo: salvar para dica de como agir; enviar a quem vai gostar de saber para outro tipo. A legenda termina com o mesmo tipo de pedido.
+24. A legenda não tem hashtags nem emojis.
 
 ## Formato do resultado
 

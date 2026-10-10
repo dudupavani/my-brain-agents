@@ -695,21 +695,21 @@ pautas:
     serie: "3 — O jeito da marca entra antes do post"
     titulo: "As respostas que constroem a Voz da Marca"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: nao_avaliada
+    status: aguardar_material
     reels: []
   - id: T6-P09
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     serie: "3 — O jeito da marca entra antes do post"
     titulo: "Do que a pessoa informa à identidade verbal criada"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: nao_avaliada
+    status: aguardar_material
     reels: []
   - id: T6-P10
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     serie: "4 — Três opções na mesa"
     titulo: "Um serviço, três caminhos de texto"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: nao_avaliada
+    status: aguardar_material
     reels: []
   - id: T6-P11
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
@@ -737,7 +737,7 @@ pautas:
     serie: "5 — Pode pedir para ajustar"
     titulo: "Pedido, antes e depois"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: nao_avaliada
+    status: aguardar_material
     reels: []
   - id: T6-P15
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
@@ -751,19 +751,19 @@ pautas:
     serie: "6 — Por dentro de uma criação"
     titulo: "Da explicação às opções e ao visual"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: nao_avaliada
+    status: aguardar_material
     reels: []
   - id: T6-P17
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     serie: "6 — Por dentro de uma criação"
     titulo: "O que compõe o post pronto"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: nao_avaliada
+    status: aguardar_material
     reels: []
   - id: T6-P18
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     serie: "6 — Por dentro de uma criação"
     titulo: "Criação com escolhas da marca e ajuste"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: nao_avaliada
+    status: aguardar_material
     reels: []

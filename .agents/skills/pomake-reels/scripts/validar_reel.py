@@ -11,6 +11,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _comum import ids_de_pautas  # noqa: E402
 
 ESTADOS = {"proposta", "aprovado", "publicado", "rejeitado"}
+MIN_PALAVRAS = 40
+EMOJI = re.compile("[\U0001F000-\U0001FAFF\u2600-\u27BF\uFE0F]")
 SECOES = ["Roteiro da Lívia", "Legenda", "Texto do criativo"]
 TERMOS_COMERCIAIS = ["preço", "r$", "compre", "assine", "assinatura", "teste grátis",
                      "link na bio", "cupom", "desconto"]
@@ -65,6 +67,17 @@ def validar(caminho):
         erros.append("Roteiro sem 'Fala 1:' preenchida (gancho).")
     if not re.search(r"^Fechamento:\s*\S", roteiro, re.M):
         erros.append("Roteiro sem 'Fechamento:' preenchido.")
+
+    falado = re.sub(r"^(Fala \d+|Fechamento):", "", roteiro, flags=re.M)
+    palavras = len(re.findall(r"\w+", falado))
+    if palavras < MIN_PALAVRAS:
+        erros.append(f"Roteiro com {palavras} palavras; o mínimo é {MIN_PALAVRAS} (Reel de no mínimo 15 segundos).")
+
+    legenda = sec.get("Legenda", "")
+    if re.search(r"(^|\s)#\w", legenda):
+        erros.append("Legenda com hashtag.")
+    if EMOJI.search(legenda):
+        erros.append("Legenda com emoji.")
 
     pacote = "\n".join(sec.get(n, "") for n in SECOES).lower()
     if territorio and territorio != "6" and "pomake" in pacote:

@@ -30,6 +30,8 @@ O [primeiro Reel aprovado](../reels/2026-10-10-o-erro-de-postar-so-o-resultado.m
 
 Essa progressão é a referência atual. Ela deve ser revista à medida que novos Reels forem aprovados ou rejeitados.
 
+A progressão orienta a ordem das ideias, não as palavras. Cada Reel usa frases próprias: não repetir aberturas, transições ou fechamentos de Reels anteriores (por exemplo, “Então, no próximo post…” ou “Salva esse vídeo pra lembrar…”). Reels aprovados mostram o nível a alcançar, não um molde a copiar.
+
 ## Reels aprovados como referência
 
 A pasta [`../reels/`](../reels/) guarda todos os Reels produzidos. Somente os que estiverem com estado **aprovado** ou **publicado** servem como referência de qualidade.

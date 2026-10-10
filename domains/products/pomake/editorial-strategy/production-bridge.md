@@ -1,6 +1,6 @@
 # Ponte editorial: do banco de pautas ao conteúdo solicitado
 
-**Estado:** proposta aplicada ao banco existente; não é autorização para criar peças. Eduardo escolhe quando pedir cada Reel, post ou carrossel e avalia uma peça antes da seguinte.
+**Estado:** critério ativo de qualificação de pautas para Reels com a Lívia. Não é autorização para criar peças; Eduardo pede cada Reel e avalia o texto final. Avaliações de pautas feitas antes de 2026-10-10 foram removidas por usarem regras de evidência anteriores; o status atual de cada pauta fica no [índice de pautas](pautas.yaml).
 
 ## O que muda no motor
 
@@ -16,56 +16,6 @@ Os territórios e as séries continuam servindo para organizar o repertório, ma
 6. **Teste de leitura fria:** ler sem o brief e sem legenda explicativa. Se não se entende quem, o que, por que e o ganho, voltar à pauta.
 
 Sem situação ou ganho, **descartar/fundir**. Sem evidência indispensável, **aguardar material**; quando a pauta funcionar com cena hipotética em segunda pessoa, ela não depende de material. Só então, e somente por pedido de Eduardo, escrever o Reel.
-
-## Aplicação a seis entradas já existentes
-
-### 1. Território 1 — “O que está incluído no serviço”
-
-- **O que o banco contém:** uma explicação dada antes da contratação.
-- **O que a pessoa pode levar:** uma dúvida que aparece repetidamente no atendimento pode ser respondida também no perfil. Isso é mais útil do que dizer que “a dúvida pode virar pauta”.
-- **História possível:** o profissional responde no atendimento → percebe que já explicou isso outras vezes → o perfil pode trazer a resposta para quem ainda não perguntou.
-- **Evidência:** para uma orientação geral, o exemplo pode ser ilustrativo; se a peça disser que determinada pergunta é frequente ou explicar o escopo de um serviço específico, confirmar com o negócio.
-- **Estado:** apta a receber pedido de conteúdo geral; exemplo profissional específico condicionado à confirmação.
-
-### 2. Território 2 — “Equipamento novo, possibilidade nova?”
-
-- **O que o banco contém:** aquisição interna e possível alteração da oferta.
-- **O que a pessoa pode levar:** distinguir a compra em si da opção nova que realmente ficou disponível a quem contrata.
-- **História possível:** o negócio compra → pergunta o que efetivamente mudou para o cliente → comunica a mudança, se existir.
-- **Evidência:** equipamento, oferta anterior e nova opção disponíveis de verdade. Não pressupor que toda compra produza benefício.
-- **Estado:** aguardar caso real para tratar como história de negócio; uma comparação hipotética deve ser identificada como tal.
-
-### 3. Território 3 — “O nome do serviço não revela o que acontece”
-
-- **O que o banco contém:** rótulo comercial que não explica a entrega.
-- **O que a pessoa pode levar:** saber o nome de um serviço não significa saber o que acontece nele ou o que se recebe.
-- **História possível:** alguém encontra o nome → ainda não consegue imaginar a experiência → o profissional torna visível um componente concreto da entrega.
-- **Evidência:** nome, escopo e componente efetivo do serviço; sem inventar etapas ou prometer resultados.
-- **Estado:** aguardar oferta real para um caso específico; exemplo genérico pode servir apenas como ilustração declarada.
-
-### 4. Território 4 — “O texto permaneceu no bloco de notas”
-
-- **O que o banco contém:** texto iniciado, publicação não concluída.
-- **O que a pessoa pode levar:** localizar se a pendência está na imagem, na arte ou na revisão, em vez de continuar buscando assuntos.
-- **História possível:** texto escrito → tarefa interrompida na etapa visual → distinção entre ter assunto e ter post pronto.
-- **Evidência:** cena ilustrativa possível, sem fingir mostrar rascunho de cliente real.
-- **Estado:** apta a receber pedido de conteúdo de identificação, desde que o final ofereça essa distinção e não apenas repita a dor.
-
-### 5. Território 5 — “Explicar e comemorar com a mesma voz”
-
-- **O que o banco contém:** mudança legítima de tom entre situações.
-- **O que a pessoa pode levar:** um aviso pode ser sóbrio e uma comemoração animada sem o negócio trocar de personalidade verbal.
-- **História possível:** duas mensagens de finalidades diferentes → diferença no tom → jeito de falar que ainda as relaciona.
-- **Evidência:** textos reais autorizados ou duas falas ilustrativas claramente identificadas; sem alegar que o público reconheceu a marca.
-- **Estado:** apta como comparação ilustrativa; análise de marca real depende de material.
-
-### 6. Território 6 — “Da explicação às opções e ao visual”
-
-- **O que o banco contém:** fluxo completo de criação com Pomake.
-- **O que a pessoa pode levar:** entender que informa o assunto, recebe três opções de texto orientadas pela Voz da Marca, escolhe uma, gera o visual e pode pedir ajustes.
-- **História possível:** necessidade de comunicar → entrada do profissional → opções geradas → escolha → post e revisão. Explicar primeiro que Pomake é software para criar posts.
-- **Evidência:** captura contínua do aplicativo e resultado efetivo, com dados autorizados. Publicação direta só se integração correspondente estiver configurada.
-- **Estado:** demonstração bloqueada até haver gravação real; explicação verbal do funcionamento confirmado é outra pauta, não demonstração simulada.
 
 ## Controle de qualidade antes de qualquer publicação
 
