@@ -29,3 +29,15 @@ Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele reg
 - Produções, roteiros e séries devem apontar para o território que executam, mas permanecem em documentos próprios.
 
 Quando cada território for aprofundado, seu mapa de tensões, ramos narrativos, fronteiras e hipóteses deve ficar em documento próprio, sem transformar este índice em arquivo de produção.
+
+## Títulos usados pelo gerador
+
+O script `.agents/skills/pomake-reels/scripts/preparar.py` extrai trechos destes documentos pelos títulos de seção abaixo. Renomear ou remover um deles faz o gerador parar com erro até o script ser atualizado.
+
+- `foundation.md`: Público; Papel do perfil; Promessa editorial; Limites; Linguagem e criação.
+- `territories.md`: Regra de propriedade editorial; Regra de produção; os títulos numerados dos seis territórios.
+- `territories/0N-*.md`: Situação humana; Trabalho editorial; Tese do Pomake; Fronteiras; Critério para reconhecer uma pauta deste território; no território 6, também Funcionamento confirmado relevante para este território.
+- `production-bridge.md`: Controle de qualidade antes de qualquer publicação.
+- `content-bank/0N-*.md`: os títulos `### Pauta N — <título>`.
+- `../o-que-e-o-pomake.md`: Estado e uso (o texto antes dele é a definição usada).
+- `hooks.md`, `voice.md`, `reel-livia.md` e `../creative-direction/livia.md` são usados por inteiro.
