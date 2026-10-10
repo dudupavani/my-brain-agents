@@ -142,8 +142,8 @@ pautas:
     serie: "1 — Aconteceu. Mas por que contar?"
     titulo: "O certificado e a mudança no atendimento"
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
-    status: nao_avaliada
-    reels: []
+    status: produzida
+    reels: [domains/products/pomake/reels/2026-10-10-o-certificado-e-a-mudanca-no-atendimento.md]
   - id: T2-P02
     territorio: "2 — O que vale comunicar"
     serie: "1 — Aconteceu. Mas por que contar?"
