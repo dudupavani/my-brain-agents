@@ -17,7 +17,6 @@ Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele reg
 - [Reel com a Lívia](reel-livia.md): único formato do conteúdo orgânico e pacote de texto de cada peça.
 - [Voz e padrão de copy](voice.md): gancho forte sem agressividade, regras de voz e estrutura de referência.
 - [Catálogo de ganchos](hooks.md): 18 técnicas de gancho e regras de uso.
-- [Piloto 2 — Uma dúvida do cliente pode virar post?](pilots/02-uma-duvida-do-cliente.md): proposta de Reel orientada pelo exemplo de Eduardo; aguarda avaliação.
 
 ## Conexões
 

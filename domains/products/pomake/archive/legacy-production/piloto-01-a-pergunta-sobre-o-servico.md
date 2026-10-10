@@ -52,4 +52,4 @@ Qual explicação você costuma repetir no atendimento?
 
 ## Avaliação posterior
 
-Eduardo rejeitou o piloto por não fazer sentido como conteúdo para o público. A avaliação anterior foi insuficiente: o texto encena uma pergunta e conclui, de modo abstrato, que ela “pode ser pauta”. Não orienta diretamente o profissional a aproveitar a dúvida e responder a ela no perfil; frases como “A conversa terminou. O assunto pode ficar” soam artificiais. Respeitar formalmente a fronteira do Território 1 não basta para criar um conteúdo útil. A correção proposta está no [piloto 2](../../editorial-strategy/pilots/02-uma-duvida-do-cliente.md), que usa o exemplo dado por Eduardo como direção, sem tratar a nova copy como aprovada.
+Eduardo rejeitou o piloto por não fazer sentido como conteúdo para o público. A avaliação anterior foi insuficiente: o texto encena uma pergunta e conclui, de modo abstrato, que ela “pode ser pauta”. Não orienta diretamente o profissional a aproveitar a dúvida e responder a ela no perfil; frases como “A conversa terminou. O assunto pode ficar” soam artificiais. Respeitar formalmente a fronteira do Território 1 não basta para criar um conteúdo útil. 
