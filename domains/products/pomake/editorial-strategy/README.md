@@ -4,6 +4,8 @@
 **Canais:** Instagram e TikTok.
 **Fonte:** decisões aprovadas explicitamente por Eduardo em 2026-10-07.
 
+Este diretório é a **única** estratégia de conteúdo do Pomake, executada exclusivamente pela skill [`pomake-reels`](../../../../.agents/skills/pomake-reels/SKILL.md). Qualquer outra estratégia, skill ou memória sobre conteúdo do Pomake perdeu validade em 2026-10-10 (decisão de Eduardo).
+
 Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele registra somente decisões aprovadas. Propostas em discussão não devem ser incorporadas como definições.
 
 ## Documentos atuais

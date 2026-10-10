@@ -31,7 +31,7 @@ Antes de escrever, leia por completo:
 
 Depois de escolher a pauta, leia também o arquivo do território dela, a pauta no banco (`arquivo` indicado em `pautas.yaml`) e, se o território for 6, `domains/products/pomake/o-que-e-o-pomake.md`.
 
-Não leia nem use como referência: `domains/products/pomake/archive/`, `domains/products/pomake/meta-ads-creative-reference.md`, `references/`, `content/` ou qualquer material de outro produto.
+Não leia nem use como referência: `domains/products/pomake/meta-ads-creative-reference.md`, `references/`, `content/` ou qualquer material de outro produto.
 
 ## Processo
 

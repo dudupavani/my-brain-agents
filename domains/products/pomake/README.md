@@ -18,10 +18,6 @@ Conhecimento durável, pesquisas, decisões, especificações e links canônicos
 
 - [Referência criativa para Meta Ads](meta-ads-creative-reference.md): preferências expressas por Eduardo, argumentos aprovados e limites de fidelidade ao produto. Não é aprovação de todas as peças do material enviado.
 
-## Arquivo histórico
-
-- [Propostas estratégicas não aprovadas](archive/unapproved-strategy/): materiais preservados apenas como histórico. Não orientam a estratégia atual nem a produção.
-
 ## Fluxo visual
 
 Pomake usa os sistemas genéricos mantidos em [`projects/extract-design/`](../../../projects/extract-design/) e [`projects/design-renderer/`](../../../projects/design-renderer/). O produto não possui regras próprias de armazenamento.
