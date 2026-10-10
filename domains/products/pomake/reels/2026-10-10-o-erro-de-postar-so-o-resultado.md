@@ -1,8 +1,11 @@
 # Reel — O erro de postar só o resultado final
 
-**Estado:** publicado no Instagram do Pomake em 2026-10-10. Aprovado por Eduardo.
-**Uso:** primeiro Reel de referência de qualidade para o gerador.
-**Classificação posterior:** Território 1 — [O trabalho já tem assunto](../editorial-strategy/territories/01-o-trabalho-ja-tem-assunto.md), série 5 “O que mudou no caminho”. A peça não foi criada a partir de uma pauta do banco; a classificação foi feita depois, na construção do gerador.
+**Estado:** publicado
+**Pauta:** orientacao-eduardo
+**Território:** 1
+**Técnica do gancho:** 8, 9
+
+Publicado no Instagram do Pomake em 2026-10-10 e aprovado por Eduardo. É o primeiro Reel de referência de qualidade. Não foi criado a partir de uma pauta do banco; o território foi classificado depois, na construção do gerador ([Território 1](../editorial-strategy/territories/01-o-trabalho-ja-tem-assunto.md), série 5 “O que mudou no caminho”).
 
 ## Roteiro da Lívia
 

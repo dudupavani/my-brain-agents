@@ -2,11 +2,11 @@
 
 Conteúdo orgânico do Pomake, produzido somente como [Reel com a Lívia](../editorial-strategy/reel-livia.md).
 
-Cada arquivo é um Reel, nomeado `AAAA-MM-DD-<assunto>.md`, com o pacote de texto (roteiro da Lívia, legenda e texto do criativo) e o estado da peça:
+Cada arquivo é um Reel, nomeado `AAAA-MM-DD-<assunto>.md`, criado pela skill [`pomake-reels`](../../../../.agents/skills/pomake-reels/SKILL.md). O cabeçalho registra estado, pauta, território e técnica do gancho; o corpo traz o pacote de texto (roteiro da Lívia, legenda e texto do criativo). Estados:
 
 - **proposta:** gerado, aguardando avaliação de Eduardo;
 - **aprovado:** aprovado por Eduardo;
 - **publicado:** publicado no perfil;
-- **rejeitado:** recusado por Eduardo, com o motivo registrado.
+- **rejeitado:** recusado por Eduardo, com o motivo registrado em `## Avaliação de Eduardo`.
 
 Somente Reels aprovados ou publicados servem como referência de qualidade.

@@ -21,7 +21,7 @@ Este contrato complementa o profile do Hermes. Não redefine sua personalidade, 
 - manter links para os repositórios de software e sistemas operacionais relacionados;
 - salvar no GitHub entregas duráveis que hoje poderiam ficar presas ao ClickUp;
 - enviar oportunidades de pauta para `inbox/personal-content/` quando houver uma conexão concreta;
-- produzir o conteúdo orgânico do Pomake (Reels com a Lívia) a pedido do Eduardo, seguindo `domains/products/pomake/editorial-strategy/` e registrando cada peça em `domains/products/pomake/reels/`. Decisão de Eduardo em 2026-10-10.
+- produzir o conteúdo orgânico do Pomake (Reels com a Lívia) a pedido do Eduardo, seguindo `domains/products/pomake/editorial-strategy/` e registrando cada peça em `domains/products/pomake/reels/`, sempre pela skill `.agents/skills/pomake-reels/`. Decisão de Eduardo em 2026-10-10.
 
 ## Escrita
 

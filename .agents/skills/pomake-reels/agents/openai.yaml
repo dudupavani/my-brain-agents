@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reels do Pomake"
+  short_description: "Cria o texto completo de um Reel do Pomake com a Lívia"
+  default_prompt: "Use $pomake-reels para criar um Reel do Pomake."
