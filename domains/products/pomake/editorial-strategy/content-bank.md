@@ -3,6 +3,8 @@
 **Estado:** repertório de pautas candidatas; não equivale a conteúdos aprovados ou prontos para produção.
 **Base:** [séries recorrentes](series.md).
 
+O status de cada pauta e os Reels produzidos a partir dela ficam no [índice de pautas](pautas.yaml).
+
 A passagem de uma entrada deste banco para uma peça solicitada por Eduardo depende da [ponte editorial e do teste de valor para a audiência](production-bridge.md). A quantidade de pautas registradas não valida sua qualidade como publicação.
 
 ## Autorização de trabalho

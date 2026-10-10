@@ -9,6 +9,7 @@ Use este mapa para descobrir onde ler e onde registrar uma entrega. A identidade
 - Contrato: `agents/products/README.md`
 - Conhecimento canônico: `domains/products/`
 - Benchmarks: `domains/products/benchmarks/`
+- Conteúdo orgânico do Pomake (Reels com a Lívia): estratégia em `domains/products/pomake/editorial-strategy/`, peças em `domains/products/pomake/reels/`
 - Entradas recebidas de outro agente: `inbox/products/`
 - Skills: `.agents/skills/` conforme a tarefa
 

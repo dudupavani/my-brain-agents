@@ -102,6 +102,8 @@ Isso permite variedade entre educação, explicação da categoria e produto sem
 
 ## Fronteiras
 
+> Na produção de Reels, a [regra de produção](../territories.md#regra-de-produção) prevalece: estas fronteiras classificam a pauta, mas toda peça entrega uma orientação concreta.
+
 Este território não deve:
 
 - afirmar que a pessoa não precisa participar, revisar ou decidir;

@@ -54,6 +54,15 @@ Para arbitrar casos próximos:
 
 Mudar profissão, cenário ou formato não cria uma pauta realmente diferente quando o argumento e o trabalho editorial permanecem iguais.
 
+## Regra de produção
+
+**Decisão de Eduardo em 2026-10-10.** Esta regra prevalece sobre as fronteiras descritas em cada território quando houver conflito.
+
+- O território define **de onde vem o assunto** e qual é o argumento central da peça. Ele não define onde a peça termina.
+- Todo Reel entrega à audiência uma orientação concreta e utilizável, mesmo quando o território trata de reconhecimento. Terminar apenas em "isso pode ser assunto" não é suficiente.
+- As fronteiras de cada território continuam valendo para classificar pautas e evitar que duas peças façam o mesmo trabalho editorial.
+- A proibição de ensinar ferramentas (Canva, prompts, edição, montagem de arte) continua valendo.
+
 ## Estado do aprofundamento
 
 Os seis territórios foram aprofundados, aprovados e registrados separadamente. A revisão do conjunto foi concluída e estabeleceu a regra de propriedade editorial. A próxima etapa é transformar os ramos em séries, pautas, formatos e pilotos para compor o plano estratégico de conteúdo.

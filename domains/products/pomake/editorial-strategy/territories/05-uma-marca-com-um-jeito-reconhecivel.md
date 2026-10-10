@@ -87,6 +87,8 @@ Isso permite conteúdos visuais, verbais e comparativos sem transformar o perfil
 
 ## Fronteiras
 
+> Na produção de Reels, a [regra de produção](../territories.md#regra-de-produção) prevalece: estas fronteiras classificam a pauta, mas toda peça entrega uma orientação concreta.
+
 Este território não deve:
 
 - ensinar Canva, teoria das cores, tipografia ou montagem de layout;

@@ -12,8 +12,8 @@ Conhecimento durável, pesquisas, decisões, especificações e links canônicos
 
 ## Produção editorial
 
-- [Série 01 — A pendência de aparecer](series-01-pendencia-de-aparecer.md): histórico de produção e aprovação das peças da série.
-- [Roteiros de vídeo](video-scripts/): roteiros e estados de aprovação.
+- [Reels](reels/): conteúdo orgânico atual, produzido somente como Reel com a Lívia, com estado de aprovação de cada peça.
+- [Produção antiga](archive/legacy-production/): legado anterior a 2026-10-10; não orienta a produção atual.
 
 ## Meta Ads
 

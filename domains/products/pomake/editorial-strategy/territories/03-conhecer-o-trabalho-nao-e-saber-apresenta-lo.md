@@ -79,6 +79,8 @@ Essa combinação permite contextualizar diferentes profissões sem transformar 
 
 ## Fronteiras
 
+> Na produção de Reels, a [regra de produção](../territories.md#regra-de-produção) prevalece: estas fronteiras classificam a pauta, mas toda peça entrega uma orientação concreta.
+
 Este território não deve:
 
 - encontrar possíveis assuntos — isso pertence ao território 1;

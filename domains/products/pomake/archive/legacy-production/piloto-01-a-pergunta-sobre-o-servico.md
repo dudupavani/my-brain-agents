@@ -1,7 +1,7 @@
 # Piloto 1 — A pergunta sobre o serviço
 
 **Estado:** rejeitado por Eduardo; não usar para produção ou publicação. Preservado apenas como registro da tentativa.
-**Origem:** [Território 1, série “Você acabou de explicar isso”, pauta 1](../content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md).
+**Origem:** [Território 1, série “Você acabou de explicar isso”, pauta 1](../../editorial-strategy/content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md).
 **Função:** ajudar quem toca o negócio a reconhecer uma explicação dada no atendimento como possível assunto. Não afirmar que toda pergunta deve ser publicada.
 **Formato proposto:** carrossel para Instagram. A sequência mostra a conversa e o reconhecimento do assunto sem exigir um caso real de cliente nem ensinar a montar o post.
 
@@ -52,4 +52,4 @@ Qual explicação você costuma repetir no atendimento?
 
 ## Avaliação posterior
 
-Eduardo rejeitou o piloto por não fazer sentido como conteúdo para o público. A avaliação anterior foi insuficiente: o texto encena uma pergunta e conclui, de modo abstrato, que ela “pode ser pauta”. Não orienta diretamente o profissional a aproveitar a dúvida e responder a ela no perfil; frases como “A conversa terminou. O assunto pode ficar” soam artificiais. Respeitar formalmente a fronteira do Território 1 não basta para criar um conteúdo útil. A correção proposta está no [piloto 2](02-uma-duvida-do-cliente.md), que usa o exemplo dado por Eduardo como direção, sem tratar a nova copy como aprovada.
+Eduardo rejeitou o piloto por não fazer sentido como conteúdo para o público. A avaliação anterior foi insuficiente: o texto encena uma pergunta e conclui, de modo abstrato, que ela “pode ser pauta”. Não orienta diretamente o profissional a aproveitar a dúvida e responder a ela no perfil; frases como “A conversa terminou. O assunto pode ficar” soam artificiais. Respeitar formalmente a fronteira do Território 1 não basta para criar um conteúdo útil. A correção proposta está no [piloto 2](../../editorial-strategy/pilots/02-uma-duvida-do-cliente.md), que usa o exemplo dado por Eduardo como direção, sem tratar a nova copy como aprovada.

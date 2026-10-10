@@ -13,11 +13,15 @@ Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele reg
 - [Séries recorrentes](series.md): famílias e séries aprovadas, organizadas por território proprietário.
 - [Banco de pautas](content-bank.md): pautas concretas derivadas das séries e revisadas antes do registro.
 - [Ponte editorial](production-bridge.md): qualifica pautas pelo ganho para a audiência, narrativa e evidência antes de qualquer peça solicitada.
-- [Papel dos formatos](format-roles.md): proposta operacional para vídeos curtos, carrosséis, peças estáticas, Stories e demonstrações, sem cota de publicação.
-- [Piloto 1 — A pergunta sobre o serviço](pilots/01-a-pergunta-sobre-o-servico.md): tentativa rejeitada; não usar como modelo editorial ou peça de produção.
+- [Índice de pautas](pautas.yaml): status de cada pauta do banco e Reels já produzidos a partir dela.
+- [Reel com a Lívia](reel-livia.md): único formato do conteúdo orgânico e pacote de texto de cada peça.
+- [Voz e padrão de copy](voice.md): gancho forte sem agressividade, regras de voz e estrutura de referência.
+- [Catálogo de ganchos](hooks.md): 18 técnicas de gancho e regras de uso.
 - [Piloto 2 — Uma dúvida do cliente pode virar post?](pilots/02-uma-duvida-do-cliente.md): proposta de Reel orientada pelo exemplo de Eduardo; aguarda avaliação.
 
 ## Conexões
+
+- [Reels produzidos](../reels/): peças geradas, com estado de aprovação. Os aprovados são referência de qualidade.
 
 - [Definição do produto](../o-que-e-o-pomake.md): fonte aprovada para explicar o que o Pomake faz.
 - [Direção da Lívia](../creative-direction/livia.md): papel e comportamento permanente da apresentadora; não define assuntos.

@@ -1,7 +1,7 @@
 # Papel dos formatos no plano editorial do Pomake
 
 **Estado:** proposta operacional posterior ao banco de pautas; não é regra de distribuição validada por desempenho.
-**Base:** [fundação editorial](foundation.md), [banco de pautas](content-bank.md) e [direção da Lívia](../creative-direction/livia.md).
+**Base:** [fundação editorial](../../editorial-strategy/foundation.md), [banco de pautas](../../editorial-strategy/content-bank.md) e [direção da Lívia](../../creative-direction/livia.md).
 
 O formato é escolhido depois da pauta e do argumento. Um Reel e um carrossel podem tratar da mesma pauta somente quando cumprem trabalhos diferentes; trocar de formato não cria uma pauta nova. Cada peça deve ser compreensível para quem encontra o Pomake pela primeira vez.
 

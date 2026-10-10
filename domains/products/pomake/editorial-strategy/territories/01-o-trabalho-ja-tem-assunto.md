@@ -74,6 +74,8 @@ Isso permite variedade sem recorrer diariamente a mais uma lista de ideias.
 
 ## Fronteiras
 
+> Na produção de Reels, a [regra de produção](../territories.md#regra-de-produção) prevalece: estas fronteiras classificam a pauta, mas toda peça entrega uma orientação concreta.
+
 Este território não deve:
 
 - decidir se o assunto encontrado é realmente relevante — isso pertence ao território 2;

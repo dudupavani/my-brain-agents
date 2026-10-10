@@ -1,0 +1,769 @@
+# Índice de pautas do Pomake
+#
+# Fonte das pautas: content-bank/*.md (texto completo de cada pauta).
+# Este arquivo guarda apenas a identificação, o status e os Reels produzidos.
+#
+# status:
+#   nao_avaliada      ainda não passou pela ponte editorial com as regras de 2026-10-10
+#   apta              passou na ponte editorial e pode virar Reel
+#   aguardar_material depende de material verdadeiro que ainda não existe
+#   descartada        sem situação ou ganho concreto; não usar
+#   produzida         já virou Reel (ver campo reels)
+
+pautas:
+  - id: T1-P01
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "1 — Você acabou de explicar isso"
+    titulo: "O que está incluído no serviço"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P02
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "1 — Você acabou de explicar isso"
+    titulo: "A dúvida que só apareceu depois da entrega"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P03
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "1 — Você acabou de explicar isso"
+    titulo: "A comparação que sempre volta na conversa"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P04
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "2 — Por que foi feito assim?"
+    titulo: "A alternativa considerada e deixada de lado"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P05
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "2 — Por que foi feito assim?"
+    titulo: "A ordem das etapas não foi por acaso"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P06
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "2 — Por que foi feito assim?"
+    titulo: "Uma escolha invisível no resultado final"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P07
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "3 — Antes de ficar pronto"
+    titulo: "O que precisa estar preparado antes do primeiro atendimento"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P08
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "3 — Antes de ficar pronto"
+    titulo: "A conferência no meio do trabalho"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P09
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "3 — Antes de ficar pronto"
+    titulo: "O trabalho que continua depois da entrega"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P10
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "4 — O detalhe que virou rotina"
+    titulo: "A confirmação feita antes de avançar"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P11
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "4 — O detalhe que virou rotina"
+    titulo: "O cuidado entre um atendimento e outro"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P12
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "4 — O detalhe que virou rotina"
+    titulo: "A organização que acompanha a entrega"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P13
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "5 — O que mudou no caminho"
+    titulo: "A prioridade mudou durante o trabalho"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P14
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "5 — O que mudou no caminho"
+    titulo: "Uma condição inesperada exigiu outro caminho"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P15
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "5 — O que mudou no caminho"
+    titulo: "A revisão mudou uma parte da entrega"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P16
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "6 — Isso já estava registrado"
+    titulo: "A observação escondida no orçamento"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P17
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "6 — Isso já estava registrado"
+    titulo: "As fotos que registraram uma etapa esquecida"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T1-P18
+    territorio: "1 — O trabalho já tem assunto"
+    serie: "6 — Isso já estava registrado"
+    titulo: "O mesmo pedido de alteração apareceu de novo"
+    arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P01
+    territorio: "2 — O que vale comunicar"
+    serie: "1 — Aconteceu. Mas por que contar?"
+    titulo: "O certificado e a mudança no atendimento"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P02
+    territorio: "2 — O que vale comunicar"
+    serie: "1 — Aconteceu. Mas por que contar?"
+    titulo: "Um caso que se parece com outras conversas"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P03
+    territorio: "2 — O que vale comunicar"
+    serie: "1 — Aconteceu. Mas por que contar?"
+    titulo: "A comemoração só da equipe"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P04
+    territorio: "2 — O que vale comunicar"
+    serie: "2 — O que isso oferece?"
+    titulo: "Uma pergunta que pode esclarecer"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P05
+    territorio: "2 — O que vale comunicar"
+    serie: "2 — O que isso oferece?"
+    titulo: "Uma conferência que revela cuidado"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P06
+    territorio: "2 — O que vale comunicar"
+    serie: "2 — O que isso oferece?"
+    titulo: "A diferença que ajuda a avaliar opções"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P07
+    territorio: "2 — O que vale comunicar"
+    serie: "3 — Novidade para quem?"
+    titulo: "Equipamento novo, possibilidade nova?"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P08
+    territorio: "2 — O que vale comunicar"
+    serie: "3 — Novidade para quem?"
+    titulo: "O prazo que mudou"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P09
+    territorio: "2 — O que vale comunicar"
+    serie: "3 — Novidade para quem?"
+    titulo: "A troca de sistema invisível para o cliente"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P10
+    territorio: "2 — O que vale comunicar"
+    serie: "4 — Entre dois assuntos"
+    titulo: "Foto pronta ou dúvida recorrente?"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P11
+    territorio: "2 — O que vale comunicar"
+    serie: "4 — Entre dois assuntos"
+    titulo: "Tendência do setor ou decisão real do cliente?"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P12
+    territorio: "2 — O que vale comunicar"
+    serie: "4 — Entre dois assuntos"
+    titulo: "Aniversário do negócio ou mudança na agenda?"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P13
+    territorio: "2 — O que vale comunicar"
+    serie: "5 — O público deixou uma pista"
+    titulo: "A pergunta feita antes de várias propostas"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P14
+    territorio: "2 — O que vale comunicar"
+    serie: "5 — O público deixou uma pista"
+    titulo: "Poucas reações, perguntas pertinentes"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P15
+    territorio: "2 — O que vale comunicar"
+    serie: "5 — O público deixou uma pista"
+    titulo: "Um comentário isolado e uma dúvida persistente"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P16
+    territorio: "2 — O que vale comunicar"
+    serie: "6 — Pode ficar fora do perfil"
+    titulo: "O caso que identificaria o cliente"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P17
+    territorio: "2 — O que vale comunicar"
+    serie: "6 — Pode ficar fora do perfil"
+    titulo: "Um resultado excepcional sem base para generalizar"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T2-P18
+    territorio: "2 — O que vale comunicar"
+    serie: "6 — Pode ficar fora do perfil"
+    titulo: "Repetir sem acrescentar"
+    arquivo: content-bank/02-o-filtro-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P01
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "1 — Você entrou no meio da conversa"
+    titulo: "A etapa sem a situação anterior"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P02
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "1 — Você entrou no meio da conversa"
+    titulo: "A mudança sem ponto de partida"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P03
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "1 — Você entrou no meio da conversa"
+    titulo: "O resultado sem a condição que o possibilitou"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P04
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "2 — O nome não explica"
+    titulo: "O nome do serviço não revela o que acontece"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P05
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "2 — O nome não explica"
+    titulo: "Modalidades com nomes próximos, experiências diferentes"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P06
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "2 — O nome não explica"
+    titulo: "A entrega confundida com o serviço inteiro"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P07
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "3 — Para quem esse termo é óbvio?"
+    titulo: "Uma sigla que encurtou a conversa só para a equipe"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P08
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "3 — Para quem esse termo é óbvio?"
+    titulo: "Uma palavra comum com sentido profissional específico"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P09
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "3 — Para quem esse termo é óbvio?"
+    titulo: "O termo que esconde várias etapas"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P10
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "4 — O que eu devo observar?"
+    titulo: "A diferença principal não é a mais chamativa"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P11
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "4 — O que eu devo observar?"
+    titulo: "O cuidado visível que parece detalhe"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P12
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "4 — O que eu devo observar?"
+    titulo: "Duas opções parecidas à primeira vista"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P13
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "5 — A escolha que ficou escondida"
+    titulo: "A condição que descartou uma alternativa"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P14
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "5 — A escolha que ficou escondida"
+    titulo: "O cuidado realizado que não aparece no resultado"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P15
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "5 — A escolha que ficou escondida"
+    titulo: "A escolha entre necessidades em tensão"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P16
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "6 — Tem coisa demais aqui"
+    titulo: "Várias vantagens, nenhum ponto identificável"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P17
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "6 — Tem coisa demais aqui"
+    titulo: "História, processo e resultado ao mesmo tempo"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T3-P18
+    territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
+    serie: "6 — Tem coisa demais aqui"
+    titulo: "A exceção chegou antes da referência principal"
+    arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P01
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "1 — Era só fazer um post"
+    titulo: "O aviso curto que virou uma produção"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P02
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "1 — Era só fazer um post"
+    titulo: "Serviço pronto; comunicação ainda por fazer"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P03
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "1 — Era só fazer um post"
+    titulo: "A entrega não veio com o post junto"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P04
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "2 — Agora preciso pensar em outra coisa"
+    titulo: "Do atendimento para o rascunho"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P05
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "2 — Agora preciso pensar em outra coisa"
+    titulo: "A ideia apareceu enquanto outra tarefa exigia atenção"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P06
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "2 — Agora preciso pensar em outra coisa"
+    titulo: "Voltar ao post depois de resolver uma urgência"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P07
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "3 — Uma escolha muda a outra"
+    titulo: "O texto mudou a imagem escolhida"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P08
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "3 — Uma escolha muda a outra"
+    titulo: "Uma informação a mais reabriu o formato"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P09
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "3 — Uma escolha muda a outra"
+    titulo: "A revisão voltou até o início"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P10
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "4 — Já estava quase pronto"
+    titulo: "O texto permaneceu no bloco de notas"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P11
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "4 — Já estava quase pronto"
+    titulo: "A arte pronta ainda esperava conferência"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P12
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "4 — Já estava quase pronto"
+    titulo: "Uma frase guardada não virou publicação"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P13
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "5 — Em que parte emperrou?"
+    titulo: "Três aberturas, nenhuma escolha"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P14
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "5 — Em que parte emperrou?"
+    titulo: "Muitas fotos, nenhum recorte escolhido"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P15
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "5 — Em que parte emperrou?"
+    titulo: "Explicar, anunciar ou só mostrar?"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P16
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "6 — Ficou com quem?"
+    titulo: "A imagem e o contexto ficaram separados"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P17
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "6 — Ficou com quem?"
+    titulo: "A aprovação trouxe informação nova"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T4-P18
+    territorio: "4 — O peso escondido de criar um post"
+    serie: "6 — Ficou com quem?"
+    titulo: "Houve participação, mas faltou uma versão final"
+    arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P01
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "1 — Não basta colocar o logo"
+    titulo: "O logo não organizou o restante"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P02
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "1 — Não basta colocar o logo"
+    titulo: "As cores ficaram, as imagens mudaram de universo"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P03
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "1 — Não basta colocar o logo"
+    titulo: "O logo continuou, a fala mudou"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P04
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "2 — Não precisa ser tudo igual"
+    titulo: "Aviso, celebração e oferta no mesmo molde"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P05
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "2 — Não precisa ser tudo igual"
+    titulo: "Formatos diferentes, relação preservada"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P06
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "2 — Não precisa ser tudo igual"
+    titulo: "A composição acompanhou o assunto"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P07
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "3 — Essa marca falaria assim?"
+    titulo: "Do cotidiano ao comunicado distante"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P08
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "3 — Essa marca falaria assim?"
+    titulo: "A gíria apareceu uma vez"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P09
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "3 — Essa marca falaria assim?"
+    titulo: "A chamada promocional genérica"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P10
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "4 — O jeito continua, o tom muda"
+    titulo: "Explicar e comemorar com a mesma voz"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P11
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "4 — O jeito continua, o tom muda"
+    titulo: "Um aviso mais sério sem trocar de personalidade"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P12
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "4 — O jeito continua, o tom muda"
+    titulo: "A oferta ainda soa como a marca"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P13
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "5 — Bonita, mas parece daqui?"
+    titulo: "Uma foto boa isoladamente, distante do conjunto"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P14
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "5 — Bonita, mas parece daqui?"
+    titulo: "Imagens adequadas, conjunto sem elo aparente"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P15
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "5 — Bonita, mas parece daqui?"
+    titulo: "Uma tendência visual entra e sai"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P16
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "6 — Quando o texto e o visual discordam"
+    titulo: "O texto convida a avaliar; o visual pressiona"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P17
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "6 — Quando o texto e o visual discordam"
+    titulo: "Cuidado apresentado com aparência de oferta intensa"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T5-P18
+    territorio: "5 — Uma marca com um jeito reconhecível"
+    serie: "6 — Quando o texto e o visual discordam"
+    titulo: "Um aviso cercado de celebração"
+    arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P01
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "1 — Quem faz o quê?"
+    titulo: "A decisão continua com o negócio"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P02
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "1 — Quem faz o quê?"
+    titulo: "Escolher não é escrever três vezes"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P03
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "1 — Quem faz o quê?"
+    titulo: "Revisar não é reconstruir sozinho"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P04
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "2 — Começa pelo que você quer comunicar"
+    titulo: "Um serviço contado por quem o conhece"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P05
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "2 — Começa pelo que você quer comunicar"
+    titulo: "Promoção definida, comunicação por criar"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P06
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "2 — Começa pelo que você quer comunicar"
+    titulo: "Uma novidade explicada sem começar pelo layout"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P07
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "3 — O jeito da marca entra antes do post"
+    titulo: "Uma Voz da Marca para assuntos diferentes"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P08
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "3 — O jeito da marca entra antes do post"
+    titulo: "As respostas que constroem a Voz da Marca"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P09
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "3 — O jeito da marca entra antes do post"
+    titulo: "Do que a pessoa informa à identidade verbal criada"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P10
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "4 — Três opções na mesa"
+    titulo: "Um serviço, três caminhos de texto"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P11
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "4 — Três opções na mesa"
+    titulo: "A escolha entre as três opções"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P12
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "4 — Três opções na mesa"
+    titulo: "Três opções, uma identidade verbal"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P13
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "5 — Pode pedir para ajustar"
+    titulo: "O primeiro resultado não precisa ser o último"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P14
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "5 — Pode pedir para ajustar"
+    titulo: "Pedido, antes e depois"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P15
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "5 — Pode pedir para ajustar"
+    titulo: "Aprovar continua sendo uma decisão"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P16
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "6 — Por dentro de uma criação"
+    titulo: "Da explicação às opções e ao visual"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P17
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "6 — Por dentro de uma criação"
+    titulo: "O que compõe o post pronto"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
+  - id: T6-P18
+    territorio: "6 — Publicar sem precisar fazer tudo sozinho"
+    serie: "6 — Por dentro de uma criação"
+    titulo: "Criação com escolhas da marca e ajuste"
+    arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
+    status: nao_avaliada
+    reels: []
