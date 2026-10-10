@@ -4,6 +4,7 @@
 **Pauta:** T3-P04
 **Território:** 3
 **Técnica do gancho:** 13, 2
+**Técnica do criativo:** 8, 9, 1
 
 ## Roteiro da Lívia
 
@@ -28,4 +29,4 @@ Salva esse vídeo pra lembrar disso no seu próximo post.
 
 ## Texto do criativo
 
-O nome do seu serviço não explica nada
+O erro no nome do seu serviço que afasta clientes

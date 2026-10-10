@@ -7,7 +7,10 @@ Avalie o Reel como alguém que não participou da criação. Use somente o arqui
 1. A Fala 1 usa ao menos uma técnica de `domains/products/pomake/editorial-strategy/hooks.md`, a mesma indicada em "Técnica do gancho".
 2. A Fala 1 prende a atenção nos primeiros 3 segundos e é compreensível para quem nunca viu o perfil.
 3. O gancho é forte sem ser agressivo, conforme `voice.md`.
-4. O texto do criativo é curto, legível de imediato e coerente com a Fala 1.
+4. O texto do criativo usa ao menos uma técnica de `hooks.md`, a mesma indicada em "Técnica do criativo".
+4.1. O texto do criativo abre uma pergunta em quem lê ou mostra o que está em jogo. Se for uma afirmação que se encerra sozinha, falha.
+4.2. O texto do criativo é curto, legível em uma leitura rápida e tem o mesmo argumento da Fala 1.
+4.3. O texto do criativo está no mesmo nível de força do criativo dos Reels com estado `aprovado` ou `publicado`.
 
 ## B. Promessa cumprida
 

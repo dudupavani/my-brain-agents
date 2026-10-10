@@ -58,6 +58,8 @@ Defina, em uma linha cada:
 
 Escreva 3 ganchos para a Fala 1, cada um com uma técnica diferente de `hooks.md`, respeitando as regras de uso do catálogo. Escolha o mais forte para este público e esta pauta.
 
+Faça o mesmo para o texto do criativo: 3 opções, cada uma com técnica diferente, seguindo as regras de `reel-livia.md` (seção "Texto do criativo"). Descarte toda opção que seja uma afirmação que se encerra sozinha, sem abrir curiosidade nem mostrar o que está em jogo. Escolha a mais forte.
+
 ### 4. Escrever o pacote
 
 Escreva o pacote exatamente no formato de `reel-livia.md`: roteiro da Lívia, legenda e texto do criativo.
@@ -78,6 +80,7 @@ Salve em `domains/products/pomake/reels/AAAA-MM-DD-<assunto>.md`, usando a data 
 **Pauta:** <id da pauta ou orientacao-eduardo>
 **Território:** <número de 1 a 6>
 **Técnica do gancho:** <números das técnicas usadas na Fala 1>
+**Técnica do criativo:** <números das técnicas usadas no texto do criativo>
 ```
 
 Em seguida, as seções `## Roteiro da Lívia`, `## Legenda` e `## Texto do criativo`, como em `reel-livia.md`.

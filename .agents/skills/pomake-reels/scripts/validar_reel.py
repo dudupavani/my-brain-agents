@@ -52,6 +52,8 @@ def validar(caminho):
 
     if campo(texto, "Técnica do gancho") is None:
         erros.append("Campo Técnica do gancho ausente.")
+    if campo(texto, "Técnica do criativo") is None:
+        erros.append("Campo Técnica do criativo ausente.")
 
     sec = secoes(texto)
     for nome in SECOES:

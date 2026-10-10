@@ -4,6 +4,7 @@
 **Pauta:** orientacao-eduardo
 **Território:** 1
 **Técnica do gancho:** 8, 9
+**Técnica do criativo:** 8, 1
 
 Publicado no Instagram do Pomake em 2026-10-10 e aprovado por Eduardo. É o primeiro Reel de referência de qualidade. Não foi criado a partir de uma pauta do banco; o território foi classificado depois, na construção do gerador ([Território 1](../editorial-strategy/territories/01-o-trabalho-ja-tem-assunto.md), série 5 “O que mudou no caminho”).
 
@@ -39,4 +40,4 @@ Análise feita na construção do gerador, para orientar novas peças:
 - **Fala 2:** relevância pessoal e ativação emocional (técnicas 11 e 10), com cena hipotética em segunda pessoa.
 - **Falas 3 e 4:** virada — o esforço invisível é o que prova valor.
 - **Fechamento:** orientação concreta (“conte a história”) e pedido para salvar.
-- **Texto do criativo:** viés da negatividade (técnica 8), coerente com a Fala 1.
+- **Texto do criativo:** viés da negatividade (técnica 8) com lacuna de curiosidade (técnica 1): anuncia um erro sem dizer qual é. Coerente com a Fala 1.

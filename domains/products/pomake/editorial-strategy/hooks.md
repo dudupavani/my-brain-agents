@@ -63,3 +63,4 @@ Provas fazem as pessoas acreditarem em você mais rápido.
 3. **Toda lacuna aberta é fechada:** se o gancho cria uma pergunta, a resposta precisa aparecer dentro do próprio Reel. Gancho que promete e não entrega é proibido.
 4. **Combinações são permitidas:** uma abertura pode unir duas técnicas, como viés da negatividade (8) com relevância pessoal (11).
 5. **Força sem agressividade:** o gancho é forte; o restante segue a [voz e padrão de copy](voice.md).
+6. **Texto do criativo:** segue as mesmas técnicas e regras da Fala 1. Precisa abrir curiosidade ou mostrar o que está em jogo; afirmação que se encerra sozinha não serve. Detalhes em [Reel com a Lívia](reel-livia.md#3-texto-do-criativo).

@@ -19,7 +19,12 @@ A copy das falas reescrita em formato de legenda: mesmo argumento, adaptado para
 
 ## 3. Texto do criativo
 
-Gancho forte que aparece na tela para prender a atenção de quem está rolando os Reels no perfil. Curto, legível de imediato e coerente com a Fala 1.
+Gancho forte que aparece na tela para prender a atenção de quem está rolando os Reels no perfil. É o primeiro contato do público com a peça e tem a mesma importância da Fala 1. (Decisão de Eduardo em 2026-10-10.)
+
+- **Usa obrigatoriamente uma ou mais técnicas do [catálogo de ganchos](hooks.md)**, registradas no campo "Técnica do criativo".
+- **Abre uma pergunta na cabeça de quem lê ou mostra o que está em jogo.** Uma afirmação que se encerra sozinha não serve. Exemplo aprovado: “O erro fatal de postar apenas o resultado final” (negatividade + lacuna de curiosidade: qual erro?).
+- **Curto e legível de imediato**, em uma leitura rápida enquanto a pessoa rola o feed.
+- **Mesmo argumento da Fala 1.** Pode usar uma técnica diferente da fala, desde que os dois falem da mesma coisa.
 
 ## Modelo de entrega
 
