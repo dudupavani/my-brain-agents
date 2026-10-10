@@ -7,6 +7,8 @@ description: "Gera o texto completo de um Reel orgânico do Pomake apresentado p
 
 Você coordena a criação de um Reel do Pomake. Você não escreve nem revisa o texto e não lê os documentos da estratégia: scripts preparam o material, um **redator** escreve e um **revisor** avalia. Eduardo aprova somente o texto final; não peça aprovação entre etapas.
 
+**Regra inegociável:** nada é gravado no repositório antes da aprovação de Eduardo. O Reel é escrito como rascunho fora do repositório e só entra em `domains/products/pomake/reels/`, com commit, quando Eduardo aprovar. (Decisão de Eduardo em 2026-10-10.)
+
 Esta é a única skill para Reels do Pomake. Não use outras skills de conteúdo, copy, roteiro ou Reels, nem crie ou altere skills durante a execução.
 
 Caminhos relativos à raiz do repositório. Scripts em `.agents/skills/pomake-reels/scripts/`.
@@ -32,9 +34,9 @@ Execute `git pull --ff-only`. Se não for possível atualizar sem conflito, pare
 
 Gere o briefing: `preparar.py redator --pauta <ID>` ou `preparar.py redator --territorio <N> --tema "<tema>"`.
 
-Chame o redator com: o caminho do briefing, a data de hoje (AAAA-MM-DD) e a pasta `domains/products/pomake/reels/`. O redator salva o arquivo e responde `ESCRITO: <caminho>` ou `INAPTA: <status> — <motivo>`.
+Obtenha a pasta de rascunhos com `preparar.py rascunhos`. Chame o redator com: o caminho do briefing, a data de hoje (AAAA-MM-DD) e essa pasta de rascunhos. O redator salva o rascunho e responde `ESCRITO: <caminho>` ou `INAPTA: <status> — <motivo>`.
 
-- **INAPTA em pauta do índice:** execute `registrar.py <ID> <aguardar_material|descartada>` e volte ao passo 3 com a próxima candidata. Após 3 pautas inaptas seguidas, pare e informe Eduardo do motivo de cada uma.
+- **INAPTA em pauta do índice:** não altere o índice; volte ao passo 3 com a próxima candidata. Após 3 pautas inaptas seguidas, pare e informe Eduardo do motivo de cada uma.
 - **INAPTA em `orientacao-eduardo`:** informe Eduardo do motivo e pare.
 
 ## 4. Validar
@@ -45,32 +47,27 @@ Execute `validar_reel.py <arquivo>`. Se houver ERRO, chame o redator em modo cor
 
 Gere o briefing: `preparar.py revisor <arquivo>`. Chame o revisor com o caminho do briefing e exija a resposta no formato JSON do checklist (use validação de formato da resposta, se o runtime oferecer).
 
-- **aprovado:** siga para o passo 6, mesmo que haja falhas do tipo melhoria.
+- **aprovado:** siga para o passo 6 (Entregar), mesmo que haja falhas do tipo melhoria.
 - **reprovado:** chame o redator em modo correção (mesmo briefing do redator, caminho do arquivo e todas as falhas do JSON). Ele reescreve o Reel inteiro. Depois repita os passos 4 e 5 uma única vez. Há no máximo **1 ciclo de correção**: se a segunda revisão ainda reprovar, siga para o passo 6 e, na entrega, informe Eduardo em uma linha cada falha bloqueante que restou.
 
-## 6. Registrar
+## 6. Entregar
 
-- Pauta do índice: `registrar.py <ID> produzida --reel <arquivo>`. Para `orientacao-eduardo`, não altere o índice.
-- `git pull --ff-only`, adicione somente o arquivo do Reel e `pautas.yaml`, faça commit `content(pomake): add reel <assunto>` e envie ao remoto. Só você faz commit; redator e revisor nunca fazem.
+Leia somente o rascunho final e envie a Eduardo o pacote (Roteiro da Lívia, Legenda, Texto do criativo). Não explique o processo, salvo se ele perguntar. Não grave nada no repositório: aguarde a avaliação dele.
 
-## 7. Entregar
+## Avaliação de Eduardo
 
-Leia somente o arquivo final do Reel e envie a Eduardo o pacote (Roteiro da Lívia, Legenda, Texto do criativo), seguido de uma linha com o caminho do arquivo. Não explique o processo, salvo se ele perguntar.
+**Qual rascunho:** se Eduardo não disser qual, use o rascunho mais recente da pasta de rascunhos (`preparar.py rascunhos`). Se houver mais de um e a resposta for ambígua, liste os títulos e pergunte qual, uma vez.
 
-## Retorno de Eduardo
-
-Sincronize (`git pull --ff-only`), identifique o Reel, atualize o arquivo, valide e faça commit.
-
-**Qual Reel:** se Eduardo não disser qual, use o Reel com estado `proposta` mais recente. Se houver mais de um Reel em `proposta`, liste os títulos e pergunte qual, uma vez.
-
-- **Aprovou:** `**Estado:** aprovado`.
-- **Publicou:** `**Estado:** publicado`.
-- **Rejeitou:** `**Estado:** rejeitado` e uma seção `## Avaliação de Eduardo` com o motivo nas palavras dele. Não invente motivo; se ele não disser, pergunte uma vez. Depois, atualize a pauta (exceto `orientacao-eduardo`):
-  - motivo ligado ao texto (gancho, falas, tom, legenda): `registrar.py <ID> apta`, e a pauta volta para a fila;
-  - motivo ligado ao assunto, ou segunda rejeição da mesma pauta: `registrar.py <ID> descartada`;
-  - se não ficar claro se é texto ou assunto, pergunte uma vez.
-- **Editou o texto:** substitua o pacote pela versão dele e registre, em `## Avaliação de Eduardo`, o que mudou entre a versão gerada e a versão final.
-- **Pediu ajuste:** chame o redator em modo correção com o pedido de Eduardo como falha a corrigir; depois repita os passos 4, 5 e 7.
+- **Aprovou (ou publicou):** este é o único momento em que algo é gravado.
+  1. `git pull --ff-only`.
+  2. Mova o rascunho para `domains/products/pomake/reels/` e troque o estado para `**Estado:** aprovado` (ou `publicado`, se ele disser que publicou).
+  3. Execute `validar_reel.py` no arquivo movido.
+  4. Pauta do índice: `registrar.py <ID> produzida --reel <arquivo>`. Para `orientacao-eduardo`, não altere o índice.
+  5. Adicione somente o arquivo do Reel e `pautas.yaml`, faça commit `content(pomake): add reel <assunto>` e envie ao remoto. Só você faz commit; redator e revisor nunca fazem.
+- **Editou o texto e aprovou:** substitua o pacote do rascunho pela versão dele e siga os passos de "Aprovou".
+- **Rejeitou:** apague o rascunho. Não grave nada no repositório; a pauta continua na fila.
+- **Pediu ajuste:** chame o redator em modo correção sobre o rascunho, com o pedido de Eduardo como falha a corrigir; depois repita os passos 4, 5 e 6.
+- **Já publicado e depois marcado como publicado:** se Eduardo informar que publicou um Reel que já está aprovado no repositório, troque o estado para `publicado`, valide e faça commit.
 
 ## Proibições
 
@@ -79,3 +76,4 @@ Sincronize (`git pull --ff-only`), identifique o Reel, atualize o arquivo, valid
 - Não usar como referência `domains/products/pomake/meta-ads-creative-reference.md`, `references/`, `content/` ou material de outro produto.
 - Não alterar a estratégia editorial, o catálogo de ganchos ou esta skill durante a execução.
 - Não gerar mais de um Reel por pedido, salvo pedido explícito de Eduardo.
+- Não gravar no repositório nenhum Reel, rascunho ou alteração de índice antes da aprovação de Eduardo.

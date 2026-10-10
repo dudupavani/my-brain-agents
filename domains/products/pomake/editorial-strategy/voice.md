@@ -34,4 +34,4 @@ A progressão orienta a ordem das ideias, não as palavras. Cada Reel usa frases
 
 ## Reels aprovados como referência
 
-A pasta [`../reels/`](../reels/) guarda todos os Reels produzidos. Somente os que estiverem com estado **aprovado** ou **publicado** servem como referência de qualidade.
+A pasta [`../reels/`](../reels/) guarda somente Reels aprovados ou publicados por Eduardo, e todos servem como referência de qualidade.

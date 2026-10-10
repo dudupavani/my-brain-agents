@@ -142,8 +142,8 @@ pautas:
     serie: "1 — Aconteceu. Mas por que contar?"
     titulo: "O certificado e a mudança no atendimento"
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
-    status: produzida
-    reels: [domains/products/pomake/reels/2026-10-10-o-certificado-e-a-mudanca-no-atendimento.md]
+    status: nao_avaliada
+    reels: []
   - id: T2-P02
     territorio: "2 — O que vale comunicar"
     serie: "1 — Aconteceu. Mas por que contar?"
@@ -289,8 +289,8 @@ pautas:
     serie: "2 — O nome não explica"
     titulo: "O nome do serviço não revela o que acontece"
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
-    status: produzida
-    reels: [domains/products/pomake/reels/2026-10-10-o-nome-do-servico-nao-explica.md]
+    status: nao_avaliada
+    reels: []
   - id: T3-P05
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
     serie: "2 — O nome não explica"
@@ -457,8 +457,8 @@ pautas:
     serie: "4 — Já estava quase pronto"
     titulo: "O texto permaneceu no bloco de notas"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: produzida
-    reels: [domains/products/pomake/reels/2026-10-10-o-texto-pronto-ainda-nao-virou-post.md]
+    status: nao_avaliada
+    reels: []
   - id: T4-P11
     territorio: "4 — O peso escondido de criar um post"
     serie: "4 — Já estava quase pronto"

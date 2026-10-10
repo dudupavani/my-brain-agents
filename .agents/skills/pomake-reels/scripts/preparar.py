@@ -7,6 +7,10 @@ Uso:
   python3 preparar.py redator --pauta <ID>
   python3 preparar.py redator --territorio <1-6> --tema "<tema pedido por Eduardo>"
   python3 preparar.py revisor <arquivo-do-reel.md>
+  python3 preparar.py rascunhos
+
+O Reel é escrito como rascunho fora do repositório (pasta indicada por "rascunhos") e só
+entra em domains/products/pomake/reels/ depois da aprovação de Eduardo.
 
 Os briefings são extraídos dos documentos originais da estratégia, que continuam sendo a
 única fonte. Eles são gravados em arquivos temporários, fora do repositório; o script
@@ -24,7 +28,7 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _comum import (ESTRATEGIA, POMAKE, RAIZ, ler_pautas, ler_reels,  # noqa: E402
+from _comum import (ESTRATEGIA, POMAKE, RAIZ, campo, ler_pautas, ler_reels,  # noqa: E402
                     secoes)
 
 SKILL = Path(__file__).resolve().parents[1]
@@ -170,9 +174,22 @@ def blocos_pomake(numero):
                   caminho.relative_to(RAIZ).as_posix(), sem_titulo(corpo_antes_de(caminho, "Estado e uso")))]
 
 
-def gravar(nome, partes):
+def pasta_trabalho():
     pasta = Path(os.environ.get("POMAKE_REELS_TMP", Path(tempfile.gettempdir()) / "pomake-reels"))
     pasta.mkdir(parents=True, exist_ok=True)
+    return pasta
+
+
+def cmd_rascunhos(args):
+    pasta = pasta_trabalho() / "rascunhos"
+    pasta.mkdir(parents=True, exist_ok=True)
+    print(f"RASCUNHOS: {pasta}")
+    for arquivo in sorted(pasta.glob("*.md")):
+        print(f"- {arquivo}")
+
+
+def gravar(nome, partes):
+    pasta = pasta_trabalho()
     destino = pasta / f"{nome}-{time.strftime('%Y%m%d-%H%M%S')}.md"
     conteudo = "\n\n".join(p.strip() for p in partes if p and p.strip()) + "\n"
     destino.write_text(conteudo, encoding="utf-8")
@@ -280,9 +297,11 @@ def cmd_redator(args):
 
 def cmd_revisor(args):
     caminho = Path(args.reel).resolve()
-    reel = next((r for r in ler_reels() if r["caminho"] == caminho), None)
-    if reel is None:
-        raise SystemExit(f"ERRO: Reel não encontrado em domains/products/pomake/reels/: {args.reel}")
+    if not caminho.exists():
+        raise SystemExit(f"ERRO: Reel não encontrado: {args.reel}")
+    texto = caminho.read_text(encoding="utf-8")
+    reel = {"texto": texto, "relativo": caminho.name,
+            "pauta": campo(texto, "Pauta"), "territorio": campo(texto, "Território")}
     reels = ler_reels()
     numero = reel["territorio"]
     if not numero:
@@ -327,12 +346,14 @@ def main():
     r.add_argument("--territorio", type=int, choices=range(1, 7))
     r.add_argument("--tema")
     sub.add_parser("territorios")
+    sub.add_parser("rascunhos")
     pt = sub.add_parser("pautas")
     pt.add_argument("--territorio", type=int, choices=range(1, 7), required=True)
     v = sub.add_parser("revisor")
     v.add_argument("reel")
     args = parser.parse_args()
     {"candidatas": cmd_candidatas, "territorios": cmd_territorios, "pautas": cmd_pautas,
+     "rascunhos": cmd_rascunhos,
      "redator": cmd_redator, "revisor": cmd_revisor}[args.comando](args)
 
 
