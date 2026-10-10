@@ -8,7 +8,7 @@ Não altere nenhum arquivo. Cada item é **passa** ou **falha**; não existe mei
 
 ## Tipo de falha
 
-- **Bloqueante:** impede Eduardo de usar o texto. São bloqueantes as falhas nos itens 1 a 6, 11, 12, 13, 15 e 16, e todo ERRO do validador.
+- **Bloqueante:** impede Eduardo de usar o texto. São bloqueantes as falhas nos itens 1 a 6, 11, 12, 13, 15, 16 e 17, e todo ERRO do validador.
 - **Melhoria:** o texto pode ser usado, mas ficaria melhor. São melhorias as falhas nos itens 7, 8, 9, 10 e 14.
 
 O resultado é **reprovado** somente se houver ao menos uma falha bloqueante. Só aponte falha que você consiga descrever com precisão; não procure defeito para preencher o checklist.
@@ -46,6 +46,10 @@ O resultado é **reprovado** somente se houver ao menos uma falha bloqueante. S�
 ## F. Comparação
 
 16. O argumento não repete o de nenhum Reel listado em "Outros Reels" e não repete nenhum motivo de rejeição de Eduardo.
+
+## G. Cena concreta
+
+17. Lido sem nenhum contexto, dá para saber de que situação concreta o Reel fala até a Fala 2: uma cena específica do dia a dia, com um detalhe que a pessoa consiga enxergar. Se o texto usa só termos genéricos ("etapa", "processo", "parte do trabalho", "conteúdo") sem exemplo concreto, falha.
 
 ## Formato do resultado
 

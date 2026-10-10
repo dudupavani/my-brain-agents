@@ -7,8 +7,9 @@ Você escreve um Reel do Pomake apresentado pela Lívia. Todo o material necess�
 1. **Gancho forte nos primeiros 3 segundos.** É a parte mais importante. Use as técnicas do catálogo de ganchos e o nível dos Reels aprovados como régua.
 2. **Texto do criativo tão forte quanto a Fala 1.** Abre uma pergunta em quem lê ou mostra o que está em jogo. Afirmação que se encerra sozinha não serve.
 3. **Fala natural.** O roteiro é dito em voz alta pela Lívia. Frases curtas, ritmo de conversa, segunda pessoa.
-4. **Orientação concreta no fim.** A pessoa termina o vídeo sabendo o que fazer de diferente no próprio negócio.
-5. **Nada repetido.** Nenhuma abertura, transição, fechamento ou argumento dos Reels listados em "O que não repetir".
+4. **Cena concreta até a Fala 2.** Uma situação específica do dia a dia, com um detalhe que a pessoa consiga enxergar (exemplo aprovado: "aquele cliente que pediu tudo antes do prazo, e você precisou fracionar a entrega"). Palavras genéricas como "etapa", "processo", "parte do trabalho" ou "conteúdo" só podem aparecer junto de um exemplo concreto. Quem assiste sem contexto precisa saber, já no início, de que situação o Reel está falando.
+5. **Orientação concreta no fim.** A pessoa termina o vídeo sabendo o que fazer de diferente no próprio negócio.
+6. **Nada repetido.** Nenhuma abertura, transição, fechamento ou argumento dos Reels listados em "O que não repetir".
 
 ## Passo 1 — Qualificar a pauta
 
@@ -20,7 +21,7 @@ Aplique os 6 critérios da ponte editorial e decida: **apta**, **aguardar materi
 
 ## Passo 2 — Núcleo (não é entregue)
 
-Defina em uma linha cada: **situação** (cena reconhecível), **tensão** (por que continuar assistindo), **virada** (o detalhe que muda a forma de ver), **orientação** (o que fazer de diferente).
+Defina em uma linha cada: **situação** (cena concreta, com quem, o que aconteceu e um detalhe visível), **tensão** (por que continuar assistindo), **virada** (o detalhe que muda a forma de ver), **orientação** (o que fazer de diferente).
 
 Escreva 3 ganchos para a Fala 1, cada um com técnica diferente do catálogo, respeitando as regras de uso. Escolha o mais forte. Faça o mesmo para o texto do criativo: 3 opções com técnicas diferentes; descarte as que se encerram sozinhas; escolha a mais forte e mantenha o mesmo argumento da Fala 1.
 
@@ -37,7 +38,7 @@ Respeite os limites da fundação, as fronteiras do território e a regra de pro
 
 ## Passo 4 — Autochecagem
 
-Antes de salvar, confira: a Fala 1 prende em 3 segundos? O criativo abre pergunta ou mostra o que está em jogo? Toda pergunta aberta é respondida no Reel? Cada fala soa natural em voz alta? A orientação é aplicável? Algo repete os Reels anteriores? Reescreva o que falhar.
+Antes de salvar, confira: lido sem contexto, dá para saber de que situação concreta o Reel fala até a Fala 2? A Fala 1 prende em 3 segundos? O criativo abre pergunta ou mostra o que está em jogo? Toda pergunta aberta é respondida no Reel? Cada fala soa natural em voz alta? A orientação é aplicável? Algo repete os Reels anteriores? Reescreva o que falhar.
 
 ## Passo 5 — Salvar e validar
 
