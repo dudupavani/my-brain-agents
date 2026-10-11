@@ -66,4 +66,4 @@ Mudar profissão, cenário ou formato não cria uma pauta realmente diferente qu
 
 ## Estado do aprofundamento
 
-Os seis territórios foram aprofundados, aprovados e registrados separadamente. A revisão do conjunto foi concluída e estabeleceu a regra de propriedade editorial. A próxima etapa é transformar os ramos em séries, pautas, formatos e pilotos para compor o plano estratégico de conteúdo.
+Os seis territórios foram aprofundados, aprovados e registrados separadamente. A revisão do conjunto foi concluída e estabeleceu a regra de propriedade editorial.

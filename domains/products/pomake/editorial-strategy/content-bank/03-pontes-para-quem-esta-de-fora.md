@@ -1,7 +1,6 @@
 # Banco de pautas — Pontes para quem está de fora
 
 **Território proprietário:** [Conhecer o trabalho não é saber apresentá-lo](../territories/03-conhecer-o-trabalho-nao-e-saber-apresenta-lo.md).
-**Séries de origem:** [Pontes para quem está de fora](../series/03-conhecer-o-trabalho-nao-e-saber-apresenta-lo.md).
 **Estado:** banco editorial criado e revisado; pautas candidatas a pilotos, não observações comprovadas de uma profissão.
 
 Os assuntos já foram encontrados e considerados pertinentes. Cada pauta identifica uma lacuna de compreensão; não decide se vale publicar nem ensina a escrever o post. Cenas ilustrativas exigem material real antes da produção.

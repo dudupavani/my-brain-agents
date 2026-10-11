@@ -4,7 +4,7 @@
 
 ## O que muda no motor
 
-Os territórios e as séries continuam servindo para organizar o repertório, mas seus nomes e regras não viram texto público. As entradas do [banco de pautas](content-bank.md) são matérias-primas, não roteiros, promessas de publicação ou prova de que haverá conteúdo bom. Uma pauta só fica apta a ser desenvolvida quando possui:
+Os territórios e as séries continuam servindo para organizar o repertório, mas seus nomes e regras não viram texto público. As entradas do [banco de pautas](content-bank/) são matérias-primas, não roteiros, promessas de publicação ou prova de que haverá conteúdo bom. Uma pauta só fica apta a ser desenvolvida quando possui:
 
 1. **Situação reconhecível:** quem está envolvido e o que aconteceu; não abrir com “esse caso” sem apresentar caso.
 2. **Pergunta ou tensão da pessoa:** por que alguém que nunca ouviu falar do Pomake continuaria acompanhando?

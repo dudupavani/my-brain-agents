@@ -12,13 +12,3 @@ Conhecimento durável, pesquisas, decisões, especificações e links canônicos
 ## Produção editorial
 
 - [Reels](reels/): conteúdo orgânico atual, produzido somente como Reel com a Lívia, com estado de aprovação de cada peça.
-
-## Meta Ads
-
-- [Referência criativa para Meta Ads](meta-ads-creative-reference.md): preferências expressas por Eduardo, argumentos aprovados e limites de fidelidade ao produto. Não é aprovação de todas as peças do material enviado.
-
-## Fluxo visual
-
-Pomake usa os sistemas genéricos mantidos em [`projects/extract-design/`](../../../projects/extract-design/) e [`projects/design-renderer/`](../../../projects/design-renderer/). O produto não possui regras próprias de armazenamento.
-
-Os JSONs e PNGs gerados para Pomake ficam em `generated-content/Pomake/`, seguindo [`architecture/design-post-registry.md`](../../../architecture/design-post-registry.md). Este diretório guarda somente conhecimento do produto.

@@ -1,7 +1,6 @@
 # Banco de pautas — Tudo o que aparece antes de publicar
 
 **Território proprietário:** [O peso escondido de criar um post](../territories/04-o-peso-escondido-de-criar-um-post.md).
-**Séries de origem:** [Tudo o que aparece antes de publicar](../series/04-o-peso-escondido-de-criar-um-post.md).
 **Estado:** banco editorial criado e revisado; cenas hipotéticas a confirmar antes de produzir pilotos.
 
 O foco é reconhecer trabalhos e decisões acumulados, sem diagnosticar o público, ensinar produtividade ou encaminhar cada cena para uma demonstração do Pomake.

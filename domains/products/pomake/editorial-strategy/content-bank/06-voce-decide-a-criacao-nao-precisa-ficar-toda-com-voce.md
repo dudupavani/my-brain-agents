@@ -1,7 +1,6 @@
 # Banco de pautas — Você decide; a criação não precisa ficar toda com você
 
 **Território proprietário:** [Publicar sem precisar fazer tudo sozinho](../territories/06-publicar-sem-precisar-fazer-tudo-sozinho.md).
-**Séries de origem:** [Você decide; a criação não precisa ficar toda com você](../series/06-publicar-sem-precisar-fazer-tudo-sozinho.md).
 **Estado:** banco editorial criado e revisado; demonstrações dependem de execução real do Pomake antes de virarem roteiros finais.
 **Verdade do produto:** [definição aprovada](../../o-que-e-o-pomake.md).
 

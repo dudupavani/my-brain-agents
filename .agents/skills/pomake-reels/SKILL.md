@@ -73,7 +73,7 @@ Leia somente o rascunho final e envie a Eduardo o pacote (Roteiro da Lívia, Leg
 
 - Não escrever nem reescrever o texto do Reel você mesmo quando houver redator disponível.
 - Não ler os documentos da estratégia diretamente; use os scripts.
-- Não usar como referência `domains/products/pomake/meta-ads-creative-reference.md`, `references/`, `content/` ou material de outro produto.
+- Não usar como referência `references/`, `content/` ou material de outro produto.
 - Não alterar a estratégia editorial, o catálogo de ganchos ou esta skill durante a execução.
 - Não gerar mais de um Reel por pedido, salvo pedido explícito de Eduardo.
 - Não gravar no repositório nenhum Reel, rascunho ou alteração de índice antes da aprovação de Eduardo.

@@ -1,7 +1,6 @@
 # Banco de pautas — O filtro antes de publicar
 
 **Território proprietário:** [O que vale comunicar](../territories/02-o-que-vale-comunicar.md).
-**Séries de origem:** [O filtro antes de publicar](../series/02-o-que-vale-comunicar.md).
 **Estado:** banco editorial criado e revisado; pautas candidatas a pilotos, não resultados validados no mercado.
 
 Cada caso começa com um assunto já encontrado e termina numa decisão de selecionar, priorizar ou descartar. As cenas são hipóteses ilustrativas; antes de produzir uma peça, confirmar o material indicado.

@@ -1,7 +1,6 @@
 # Banco inicial de pautas — Assuntos que aparecem durante o trabalho
 
 **Território proprietário:** [O trabalho já tem assunto](../territories/01-o-trabalho-ja-tem-assunto.md).
-**Séries de origem:** [Assuntos que aparecem durante o trabalho](../series/01-o-trabalho-ja-tem-assunto.md).
 **Estado:** banco criado, revisado e incorporado à estratégia em 2026-10-09.
 **Escopo:** três pautas para cada uma das seis séries.
 

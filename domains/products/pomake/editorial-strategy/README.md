@@ -12,8 +12,7 @@ Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele reg
 
 - [Fundação editorial](foundation.md): público, papel do perfil, promessa, limites e uso de setores.
 - [Territórios editoriais](territories.md): os seis territórios aprovados que organizam os assuntos.
-- [Séries recorrentes](series.md): famílias e séries aprovadas, organizadas por território proprietário.
-- [Banco de pautas](content-bank.md): pautas concretas derivadas das séries e revisadas antes do registro.
+- [Banco de pautas](content-bank/): texto completo de cada pauta, indexado em `pautas.yaml`.
 - [Ponte editorial](production-bridge.md): qualifica pautas pelo ganho para a audiência, narrativa e evidência antes de qualquer peça solicitada.
 - [Índice de pautas](pautas.yaml): status de cada pauta do banco e Reels já produzidos a partir dela.
 - [Reel com a Lívia](reel-livia.md): único formato do conteúdo orgânico e pacote de texto de cada peça.

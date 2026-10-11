@@ -1,7 +1,6 @@
 # Banco de pautas — Posts diferentes, a mesma marca
 
 **Território proprietário:** [Uma marca com um jeito reconhecível](../territories/05-uma-marca-com-um-jeito-reconhecivel.md).
-**Séries de origem:** [Posts diferentes, a mesma marca](../series/05-uma-marca-com-um-jeito-reconhecivel.md).
 **Estado:** banco editorial criado e revisado; pautas para testar, sem alegação de efeito comercial comprovado.
 
 Cada cena observa uma relação visual ou verbal, sem prescrever design, ensinar branding ou demonstrar o Pomake. As comparações devem usar peças reais ou exemplos claramente ilustrativos; não presumir que um estilo é superior.
