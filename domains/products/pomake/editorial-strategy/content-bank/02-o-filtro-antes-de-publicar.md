@@ -6,10 +6,11 @@
 ## Série 1 — Aconteceu. Mas por que contar?
 
 ### Pauta 1 — O certificado e a mudança no atendimento
-- **Cena:** o profissional concluiu uma formação. Só seleciona o assunto se algo que o cliente vivencia mudou de fato; o certificado sozinho é importante internamente.
-- **Contexto:** geral, quando houver mudança confirmada na prática.
-- **Resposta desejada:** distinguir conquista interna de consequência externa plausível.
-- **Material necessário:** formação concluída, procedimento anterior e atual; comprovação da mudança, sem prometer efeito.
+
+- **Situação:** você terminou um curso e postou a foto do certificado com a legenda "mais uma conquista". Quem curtiu foram colegas e família; nenhum cliente comentou.
+- **O que você perde:** você investiu tempo e dinheiro para atender melhor, e quem poderia te contratar não percebeu nada disso.
+- **A virada:** o certificado fala de você. O cliente quer ver o que muda pra ele. A melhoria aparece no seu trabalho, não no papel.
+- **O que postar:** em vez da foto do certificado, mostre no seu próprio trabalho uma coisa que você passou a fazer diferente depois do curso, com o antes e o depois. O certificado pode aparecer junto, como apoio.
 
 ### Pauta 2 — Um caso que se parece com outras conversas
 - **Cena:** uma situação de atendimento já registrada se repete em dúvidas de pessoas diferentes; o assunto ganha uma ponte plausível além daquele caso.

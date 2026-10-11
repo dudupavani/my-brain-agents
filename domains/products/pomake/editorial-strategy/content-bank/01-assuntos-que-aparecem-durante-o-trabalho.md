@@ -7,10 +7,10 @@
 
 ### Pauta 1 — O que está incluído no serviço
 
-- **Cena:** antes da contratação, o profissional explica quais partes estão incluídas e quais dependem de outra etapa ou contratação.
-- **Contexto:** geral; pode ser contextualizado para prestadores de serviços a partir de uma proposta real.
-- **Resposta desejada:** “Eu também explico os limites do meu serviço e nunca enxerguei essa conversa como possível assunto.”
-- **Material necessário:** perguntas reais, resposta normalmente dada e proposta ou descrição que confirme a informação, sem dados do cliente.
+- **Situação:** você está fechando um orçamento e o cliente pergunta, pela décima vez no mês: "isso já está incluso?". Você explica o que entra no serviço e o que é à parte, e ele fica tranquilo.
+- **O que você perde:** essa explicação, que convence o cliente na conversa, fica presa no WhatsApp. Quem chega ao seu perfil não encontra essa resposta, fica com a dúvida e compara você só pelo preço.
+- **A virada:** a pergunta que você mais responde já é um post pronto. Você só não enxerga porque virou rotina.
+- **O que postar:** pegue a explicação que você deu hoje sobre o que está incluso e poste do jeito que falou com o cliente.
 
 ### Pauta 2 — A dúvida que só apareceu depois da entrega
 

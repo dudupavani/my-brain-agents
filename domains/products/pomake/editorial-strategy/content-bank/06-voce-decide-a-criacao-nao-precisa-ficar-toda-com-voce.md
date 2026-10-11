@@ -7,10 +7,11 @@
 ## Série 1 — Quem faz o quê?
 
 ### Pauta 1 — A decisão continua com o negócio
-- **Cena:** o profissional define o assunto e os dados indispensáveis, mas não precisa escrever o texto nem montar a arte por conta própria.
-- **Contexto:** explicação da divisão do trabalho, compreensível sem conhecer o Pomake.
-- **Resposta desejada:** separar decidir o que comunicar de executar todo o post.
-- **Material necessário:** assunto verdadeiro e informações confirmadas pelo responsável; exemplo ilustrativo deve ser rotulado.
+
+- **Situação:** você sabe exatamente o que quer avisar ou mostrar do seu negócio, mas trava na hora de escrever o texto e montar a arte, e o post fica para depois.
+- **O que você perde:** o que só você sabe sobre o seu negócio não chega ao cliente, porque a parte da produção travou.
+- **A virada:** decidir o que comunicar é o seu trabalho. Escrever o texto e montar a arte não precisa ser.
+- **O que postar:** fique com a decisão (o assunto, a informação e a aprovação final) e deixe o resto da produção com outra pessoa ou com uma ferramenta.
 
 ### Pauta 2 — Escolher não é escrever três vezes
 - **Cena:** três opções de texto já foram geradas e a pessoa escolhe qual representa melhor o que deseja comunicar.

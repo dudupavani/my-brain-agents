@@ -6,10 +6,11 @@
 ## Série 1 — Você entrou no meio da conversa
 
 ### Pauta 1 — A etapa sem a situação anterior
-- **Cena:** uma etapa é mostrada, mas não se sabe o que ocorreu antes para torná-la necessária.
-- **Contexto:** geral; processos com etapas documentadas.
-- **Resposta desejada:** reconhecer que o antecedente, não um texto mais bonito, é o que falta entender.
-- **Material necessário:** etapa real e registro da situação que a antecedeu.
+
+- **Situação:** você posta a foto de uma etapa do seu trabalho, como a parede sendo raspada, a peça desmontada ou o material separado antes de começar, e quem vê não entende o que está olhando.
+- **O que você perde:** sem saber por que aquela etapa existe, o cliente acha que é demora ou enrolação, não enxerga o valor e questiona o preço.
+- **A virada:** o que dá sentido à etapa é o problema que veio antes dela. Quem está de fora só entende se souber de onde você partiu.
+- **O que postar:** na próxima foto de uma etapa, diga em uma frase qual era o problema antes e por que essa etapa resolve.
 
 ### Pauta 2 — A mudança sem ponto de partida
 - **Cena:** uma alteração aparece como melhoria, mas a condição anterior não está visível para quem vê de fora.

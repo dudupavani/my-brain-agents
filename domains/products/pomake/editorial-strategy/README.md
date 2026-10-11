@@ -19,6 +19,17 @@ Ele registra somente decisões aprovadas. Propostas em discussão não devem ser
 - [Voz e padrão de copy](voice.md): gancho forte sem agressividade, regras de voz e estrutura de referência.
 - [Catálogo de ganchos](hooks.md): 18 técnicas de gancho e regras de uso.
 
+## Formato da pauta
+
+Cada pauta é uma semente de história, escrita do ponto de vista do dono do negócio (decisão de Eduardo em 2026-10-11):
+
+- **Situação:** uma cena do dia a dia, em segunda pessoa, com um detalhe que a pessoa consiga enxergar.
+- **O que você perde:** a consequência para o negócio, como cliente, valor percebido ou tempo.
+- **A virada:** o que a pessoa não percebia e que muda a forma de ver a situação.
+- **O que postar** (territórios 1, 2, 3 e 6) ou **Por que isso importa** (territórios 4 e 5): uma orientação só, sem ensinar a fazer o post.
+
+Em 2026-10-11, só a Pauta 1 de cada território está neste formato, em teste. As demais seguem no formato anterior (Cena, Contexto, Resposta desejada) até a reescrita ser aprovada.
+
 ## Conexões
 
 - [Reels produzidos](../reels/): peças aprovadas por Eduardo, que servem de referência de qualidade, e o registro dos motivos de rejeição.

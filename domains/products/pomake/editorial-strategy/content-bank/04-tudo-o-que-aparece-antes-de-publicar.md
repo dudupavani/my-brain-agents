@@ -6,10 +6,11 @@
 ## Série 1 — Era só fazer um post
 
 ### Pauta 1 — O aviso curto que virou uma produção
-- **Cena:** uma mudança de horário parece caber numa frase, mas ainda pede confirmação, texto, imagem, arte e revisão.
-- **Contexto:** pequenos negócios com alterações de funcionamento.
-- **Resposta desejada:** reconhecer que a brevidade da informação não equivale à brevidade da criação.
-- **Material necessário:** aviso real e versões ou etapas efetivamente envolvidas; não pressupor que todo negócio percorre todas.
+
+- **Situação:** você só precisava avisar que vai fechar mais cedo na sexta. Uma frase. Aí vem a dúvida: qual foto, que texto, precisa de arte, ficou bom? Uma hora depois, o aviso ainda não foi postado.
+- **O que você perde:** o aviso sai atrasado ou nem sai, e o cliente encontra a porta fechada. Ou você posta qualquer coisa às pressas, que não parece com a sua marca.
+- **A virada:** o que pesa não é a informação, é tudo o que vem junto para ela virar post. Até um aviso pequeno pede texto, imagem e arte.
+- **Por que isso importa:** o aviso precisa sair na hora certa. Quando é a produção do post que trava, é ela que precisa ficar mais leve, não o aviso que pode esperar.
 
 ### Pauta 2 — Serviço pronto; comunicação ainda por fazer
 - **Cena:** o serviço já pode ser oferecido, mas apresentá-lo pede decisões sobre informação, texto e visual que não fizeram parte da preparação do próprio serviço.

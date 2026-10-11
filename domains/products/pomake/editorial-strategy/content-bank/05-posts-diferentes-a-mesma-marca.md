@@ -6,10 +6,11 @@
 ## Série 1 — Não basta colocar o logo
 
 ### Pauta 1 — O logo não organizou o restante
-- **Cena:** três publicações mantêm o logotipo, mas imagens, design e linguagem não apresentam relação observável.
-- **Contexto:** perfis que reutilizam a marca gráfica em peças criadas separadamente.
-- **Resposta desejada:** perceber que o logo identifica, mas não decide sozinho as demais escolhas.
-- **Material necessário:** três publicações do mesmo perfil; autorização de uso ou exemplos ilustrativos identificados.
+
+- **Situação:** você coloca o seu logo em todos os posts, mas cada um tem uma cor, um estilo de foto e um jeito de falar diferente.
+- **O que você perde:** quem rola o feed não reconhece que é você antes de ver o logo. O perfil parece de várias empresas diferentes e passa menos confiança.
+- **A virada:** o logo assina o post, mas não é ele que faz a marca ser reconhecida. O que faz é repetir as mesmas cores, o mesmo estilo de imagem e o mesmo jeito de falar.
+- **Por que isso importa:** olhe os seus últimos nove posts lado a lado. Se, tapando o logo, eles não parecem do mesmo negócio, o cliente também não vai reconhecer você.
 
 ### Pauta 2 — As cores ficaram, as imagens mudaram de universo
 - **Cena:** uma sequência preserva cores, mas alterna fotografias de atmosferas e temas visuais muito distintos.
