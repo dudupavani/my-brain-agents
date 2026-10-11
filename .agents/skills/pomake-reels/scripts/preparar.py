@@ -29,7 +29,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _comum import (ESTRATEGIA, POMAKE, RAIZ, campo, ler_pautas, ler_reels,  # noqa: E402
-                    secoes)
+                    ler_rejeicoes, secoes)
 
 SKILL = Path(__file__).resolve().parents[1]
 ESTADOS_REFERENCIA = {"aprovado", "publicado"}
@@ -121,7 +121,10 @@ def texto_da_pauta(pauta):
     m = re.search(rf"^### Pauta {numero} — .*?(?=^### |^## |\Z)", texto, re.M | re.S)
     if not m:
         raise ErroExtracao(f"ERRO: pauta {numero} não encontrada em {caminho.relative_to(RAIZ)}.")
-    return f"**Pauta:** {pauta['id']}\n**Território:** {pauta['territorio']}\n**Série:** {pauta['serie']}\n\n{m.group(0).strip()}"
+    # "Material necessário" descreve a coleta de material real, que a regra de 2026-10-10 dispensa
+    # para cena hipotética em segunda pessoa; mantido fora do briefing para não induzir "aguardar material".
+    corpo = re.sub(r"^- \*\*Material necessário:\*\*.*\n?", "", m.group(0), flags=re.M).strip()
+    return f"**Pauta:** {pauta['id']}\n**Território:** {pauta['territorio']}\n**Série:** {pauta['serie']}\n\n{corpo}"
 
 
 def exemplos_aprovados(reels, excluir=None):
@@ -139,8 +142,7 @@ def lista_nao_repetir(reels, excluir=None):
             f"  - Fala 1: {f.get('Fala 1', '—')}\n"
             f"  - Texto do criativo: {' '.join(r['secoes'].get('Texto do criativo', '—').split())}\n"
             f"  - Fechamento: {f.get('Fechamento', '—')}")
-    rejeicoes = [f"- **{r['relativo'].split('/')[-1]}:** {' '.join(r['secoes'].get('Avaliação de Eduardo', '').split())}"
-                 for r in reels if r["estado"] == "rejeitado" and r["secoes"].get("Avaliação de Eduardo")]
+    rejeicoes = [f"- {linha}" for linha in ler_rejeicoes()]
     texto = "Não repita gancho, texto do criativo, transições, frases de fechamento nem o argumento destes Reels:\n\n"
     texto += "\n".join(linhas) if linhas else "(nenhum Reel anterior)"
     texto += "\n\n### Motivos de rejeição de Eduardo (evite todos)\n\n"

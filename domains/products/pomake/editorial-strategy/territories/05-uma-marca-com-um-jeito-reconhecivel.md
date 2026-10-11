@@ -111,21 +111,6 @@ Uma pauta pertence aqui quando ajuda a responder:
 
 Se o foco é a quantidade de tarefas para criar, pertence ao território 4. Se apresenta uma alternativa para configurar e aplicar essas escolhas sem fazer tudo sozinho, pertence ao território 6.
 
-## Como este território chegará ao plano de conteúdo
-
-Seus ramos poderão originar famílias distintas, como:
-
-- comparações entre coerência e repetição;
-- situações em que cada publicação assume uma personalidade diferente;
-- análises do que permanece e do que pode mudar;
-- contrastes entre voz constante e tom adaptável;
-- imagens boas isoladamente, mas desalinhadas do conjunto;
-- casos em que texto e visual apontam para direções diferentes.
-
-Essas famílias serão transformadas em séries, pautas e formatos na construção do plano de conteúdo:
-
-> **Território → ramo narrativo → série recorrente → pauta → formato → piloto**
-
 ## Hipótese a observar
 
 O território estará cumprindo seu papel quando as pessoas começarem a:

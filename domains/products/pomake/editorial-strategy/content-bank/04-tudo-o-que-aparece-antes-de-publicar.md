@@ -1,9 +1,7 @@
 # Banco de pautas — Tudo o que aparece antes de publicar
 
 **Território proprietário:** [O peso escondido de criar um post](../territories/04-o-peso-escondido-de-criar-um-post.md).
-**Estado:** banco editorial criado e revisado; cenas hipotéticas a confirmar antes de produzir pilotos.
-
-O foco é reconhecer trabalhos e decisões acumulados, sem diagnosticar o público, ensinar produtividade ou encaminhar cada cena para uma demonstração do Pomake.
+**Estado:** repertório de pautas; o status de cada uma está em [`pautas.yaml`](../pautas.yaml). Na produção de Reels vale a [regra de produção](../territories.md#regra-de-produção).
 
 ## Série 1 — Era só fazer um post
 
@@ -124,10 +122,3 @@ O foco é reconhecer trabalhos e decisões acumulados, sem diagnosticar o públi
 - **Contexto:** pequenas equipes sem responsável exclusivo de conteúdo.
 - **Resposta desejada:** reconhecer o esforço de coordenação, não atribuir desorganização à equipe.
 - **Material necessário:** histórico anonimizado de versões e status efetivo da publicação.
-
-## Revisão aplicada
-
-- **Funções distintas:** decomposição, troca de contexto, efeito em cadeia, incompletude, gargalo e coordenação.
-- **Desempates:** série 1 enumera trabalhos escondidos; série 4 começa por uma parte já feita. Série 3 acompanha efeito de uma decisão; série 5, escolha ainda aberta. Série 6 só é proprietária quando a distribuição entre pessoas é o centro.
-- **Limites:** nenhuma pauta termina automaticamente em delegação ou produto (território 6), prescreve método de produtividade, diagnostica emoções ou promete resultado.
-- **Segurança:** cenas são possibilidades, não relatos comprovados; a produção exige artefatos ou relato de quem participou.

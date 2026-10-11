@@ -10,3 +10,5 @@ Cada arquivo é nomeado `AAAA-MM-DD-<assunto>.md`. O cabeçalho registra estado,
 - **publicado:** publicado no perfil.
 
 Todos os Reels desta pasta são referência de qualidade para os próximos.
+
+`rejeicoes.md` guarda somente o motivo de cada rejeição, nas palavras de Eduardo, nunca o texto rejeitado. O motor lê esse arquivo para não repetir os mesmos erros. Ele só existe depois da primeira rejeição com motivo.

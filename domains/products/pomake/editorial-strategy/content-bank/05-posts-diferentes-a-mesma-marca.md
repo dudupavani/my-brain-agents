@@ -1,9 +1,7 @@
 # Banco de pautas — Posts diferentes, a mesma marca
 
 **Território proprietário:** [Uma marca com um jeito reconhecível](../territories/05-uma-marca-com-um-jeito-reconhecivel.md).
-**Estado:** banco editorial criado e revisado; pautas para testar, sem alegação de efeito comercial comprovado.
-
-Cada cena observa uma relação visual ou verbal, sem prescrever design, ensinar branding ou demonstrar o Pomake. As comparações devem usar peças reais ou exemplos claramente ilustrativos; não presumir que um estilo é superior.
+**Estado:** repertório de pautas; o status de cada uma está em [`pautas.yaml`](../pautas.yaml). Na produção de Reels vale a [regra de produção](../territories.md#regra-de-produção).
 
 ## Série 1 — Não basta colocar o logo
 
@@ -124,10 +122,3 @@ Cada cena observa uma relação visual ou verbal, sem prescrever design, ensinar
 - **Contexto:** negócio que reaproveita imagens disponíveis.
 - **Resposta desejada:** notar a divergência dentro da peça, sem prever impacto no leitor.
 - **Material necessário:** aviso e imagem original, com contexto e informações sensíveis removidas.
-
-## Revisão aplicada
-
-- **Funções distintas:** limite do logo; coerência sem repetição; ruptura de voz; mudança legítima de tom; imagem versus conjunto; conflito dentro de uma peça.
-- **Desempates:** série 3 trata de ruptura da personalidade verbal, série 4 de ajuste de tom. Série 5 compara imagem com histórico; série 6 compara texto e visual da mesma peça. Série 1 examina apenas a insuficiência do logo, sem absorver análises das demais.
-- **Limites:** nenhuma pauta afirma que incoerência afasta clientes ou reduz resultados, prescreve layout/cor ou mostra configuração do Pomake.
-- **Dependência:** peças reais e autorizadas ainda precisam ser selecionadas; exemplos hipotéticos deverão ser identificados como tal.

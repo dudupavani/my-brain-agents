@@ -1,10 +1,8 @@
 # Banco de pautas — Você decide; a criação não precisa ficar toda com você
 
 **Território proprietário:** [Publicar sem precisar fazer tudo sozinho](../territories/06-publicar-sem-precisar-fazer-tudo-sozinho.md).
-**Estado:** banco editorial criado e revisado; demonstrações dependem de execução real do Pomake antes de virarem roteiros finais.
+**Estado:** repertório de pautas; o status de cada uma está em [`pautas.yaml`](../pautas.yaml). Na produção de Reels vale a [regra de produção](../territories.md#regra-de-produção).
 **Verdade do produto:** [definição aprovada](../../o-que-e-o-pomake.md).
-
-A pessoa informa o que deseja comunicar, recebe automaticamente três opções de texto orientadas pela Voz da Marca após clicar em criar, escolhe uma, gera o visual e pode solicitar ajustes por conversa. A publicação direta exige integração configurada. Não prometer rapidez, perfeição, alcance ou resultado comercial.
 
 ## Série 1 — Quem faz o quê?
 
@@ -125,12 +123,3 @@ A pessoa informa o que deseja comunicar, recebe automaticamente três opções d
 - **Contexto:** demonstração integral rara, distinta do fluxo básico por observar configurações e intervenção posterior.
 - **Resposta desejada:** identificar o que vem do negócio, o que o Pomake cria e onde a pessoa ainda decide.
 - **Material necessário:** gravação completa, configurações reais, textos e versões efetivas; só mostrar publicação direta se a integração correspondente estiver configurada.
-
-## Revisão aplicada
-
-- **Fluxo:** Voz da Marca é identidade verbal criada em passo a passo guiado por IA; três opções são textos automáticos antes da escolha e do visual, não três posts prontos.
-- **Fronteiras:** o peso da criação pertence ao território 4; o princípio de coerência, ao 5. Aqui o centro é a divisão das decisões e da execução.
-- **Pressão promocional:** as séries 1 e 2 podem explicar a categoria sem mencionar produto; demonstrações completas ficam concentradas na série 6 e não devem dominar a distribuição do perfil.
-- **Evidência:** as pautas 8–18 que exibem telas, textos, versões ou ajustes não são roteiros finais até que as capturas e execuções reais estejam disponíveis.
-- **Repetição:** a pauta 10 mostra a geração automática; a 11, a escolha humana; a 12, a relação observável entre as opções e a identidade verbal. Se a execução não sustentar essa última diferença, a pauta 12 deve ser substituída antes da produção.
-- **Limites:** sem promessa de velocidade, resultado, substituição de profissionais, publicação automática sem integração ou dispensa de revisão.

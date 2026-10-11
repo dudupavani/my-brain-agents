@@ -120,14 +120,6 @@ Uma pauta pertence aqui quando ajuda a pessoa a responder:
 
 Se ela apenas encontra acontecimentos, pertence ao território 1. Se começa a transformar o assunto em uma mensagem, pertence ao território 3.
 
-## Como este território chegará à produção
-
-O território não é o conteúdo final. Sua transformação futura seguirá esta sequência:
-
-> **Território → ramo narrativo → série recorrente → pauta → formato → piloto**
-
-Por exemplo, o ramo “Aconteceu, mas por que isso importa?” pode originar uma série que analise se acontecimentos comuns do negócio possuem ou não uma ponte clara com o público. A série e seu formato só serão definidos depois do aprofundamento dos seis territórios.
-
 ## Hipótese a observar
 
 O território estará cumprindo seu papel quando as pessoas começarem a:

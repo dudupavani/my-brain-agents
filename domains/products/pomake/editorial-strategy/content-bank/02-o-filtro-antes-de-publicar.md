@@ -1,9 +1,7 @@
 # Banco de pautas — O filtro antes de publicar
 
 **Território proprietário:** [O que vale comunicar](../territories/02-o-que-vale-comunicar.md).
-**Estado:** banco editorial criado e revisado; pautas candidatas a pilotos, não resultados validados no mercado.
-
-Cada caso começa com um assunto já encontrado e termina numa decisão de selecionar, priorizar ou descartar. As cenas são hipóteses ilustrativas; antes de produzir uma peça, confirmar o material indicado.
+**Estado:** repertório de pautas; o status de cada uma está em [`pautas.yaml`](../pautas.yaml). Na produção de Reels vale a [regra de produção](../territories.md#regra-de-produção).
 
 ## Série 1 — Aconteceu. Mas por que contar?
 
@@ -124,11 +122,3 @@ Cada caso começa com um assunto já encontrado e termina numa decisão de selec
 - **Contexto:** negócios com histórico de publicações.
 - **Resposta desejada:** perceber que recorrência sozinha não cria um episódio novo.
 - **Material necessário:** publicações anteriores e ocorrência atual para comparação.
-
-## Revisão aplicada
-
-- **Fronteiras:** as pautas recebem assuntos já encontrados e não escrevem a mensagem, portanto não substituem os territórios 1 ou 3.
-- **Séries distintas:** ponte externa; forma de valor; novidade; prioridade relativa; sinal observado; motivo específico de descarte.
-- **Variedade:** há seleção, priorização e descarte por motivos diferentes, não somente a lição “pense no público”.
-- **Segurança:** métricas e comentários são pistas, não prova de valor ou compra; fatos de cada negócio exigem confirmação antes da produção.
-- **Risco remanescente:** várias cenas são estruturais e precisarão de casos reais para se tornarem peças finais; não tratar os exemplos como depoimentos verificados.

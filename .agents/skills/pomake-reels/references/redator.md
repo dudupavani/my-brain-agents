@@ -44,7 +44,7 @@ Antes de salvar, confira: lido sem contexto, dá para saber de que situação co
 
 ## Passo 5 — Salvar e validar
 
-Salve no caminho indicado pelo coordenador, exatamente com este cabeçalho, seguido das seções `## Roteiro da Lívia`, `## Legenda` e `## Texto do criativo`:
+Salve na pasta de rascunhos indicada pelo coordenador, com o nome `AAAA-MM-DD-<assunto>.md` (data de hoje, informada pelo coordenador; assunto em 2 a 6 palavras minúsculas, sem acento, separadas por hífen, por exemplo `2026-10-11-o-certificado-e-o-atendimento.md`). Use exatamente este cabeçalho, seguido das seções `## Roteiro da Lívia`, `## Legenda` e `## Texto do criativo`:
 
 ```
 # Reel — <título curto>

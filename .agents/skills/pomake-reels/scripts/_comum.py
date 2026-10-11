@@ -8,6 +8,7 @@ POMAKE = RAIZ / "domains/products/pomake"
 ESTRATEGIA = POMAKE / "editorial-strategy"
 PAUTAS = ESTRATEGIA / "pautas.yaml"
 REELS = POMAKE / "reels"
+REJEICOES = REELS / "rejeicoes.md"
 SECOES_PACOTE = ["Roteiro da Lívia", "Legenda", "Texto do criativo"]
 
 
@@ -58,6 +59,13 @@ def falas(roteiro):
                          roteiro, re.M | re.S):
         itens[m.group(1)] = " ".join(m.group(2).split())
     return itens
+
+
+def ler_rejeicoes():
+    """Motivos de rejeição de Eduardo (uma linha cada). O texto rejeitado nunca é guardado."""
+    if not REJEICOES.exists():
+        return []
+    return [l[2:].strip() for l in REJEICOES.read_text(encoding="utf-8").split("\n") if l.startswith("- ")]
 
 
 def _momento_git(caminho):

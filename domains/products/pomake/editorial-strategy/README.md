@@ -1,12 +1,12 @@
 # Estratégia editorial do Pomake
 
-**Estado:** em construção, com decisões aprovadas registradas por tipo.
+**Estado:** decisões aprovadas.
 **Canais:** Instagram e TikTok.
 **Fonte:** decisões aprovadas explicitamente por Eduardo em 2026-10-07.
 
 Este diretório é a **única** estratégia de conteúdo do Pomake, executada exclusivamente pela skill [`pomake-reels`](../../../../.agents/skills/pomake-reels/SKILL.md). Qualquer outra estratégia, skill ou memória sobre conteúdo do Pomake perdeu validade em 2026-10-10 (decisão de Eduardo).
 
-Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele registra somente decisões aprovadas. Propostas em discussão não devem ser incorporadas como definições.
+Ele registra somente decisões aprovadas. Propostas em discussão não devem ser incorporadas como definições.
 
 ## Documentos atuais
 
@@ -21,12 +21,8 @@ Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele reg
 
 ## Conexões
 
-- [Reels produzidos](../reels/): peças geradas, com estado de aprovação. Os aprovados são referência de qualidade.
-
+- [Reels produzidos](../reels/): peças aprovadas por Eduardo, que servem de referência de qualidade, e o registro dos motivos de rejeição.
 - [Definição do produto](../o-que-e-o-pomake.md): fonte aprovada para explicar o que o Pomake faz.
-- Produções, roteiros e séries devem apontar para o território que executam, mas permanecem em documentos próprios.
-
-Quando cada território for aprofundado, seu mapa de tensões, ramos narrativos, fronteiras e hipóteses deve ficar em documento próprio, sem transformar este índice em arquivo de produção.
 
 ## Títulos usados pelo gerador
 

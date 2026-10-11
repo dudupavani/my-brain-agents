@@ -7,7 +7,7 @@ O conteúdo orgânico do Pomake é produzido somente como Reel com a Lívia, par
 
 ## 1. Roteiro da Lívia
 
-Texto para a apresentadora falar. É roteiro de fala, não texto de leitura: frases que soam naturais ditas em voz alta, no ritmo da Lívia.
+Texto para a apresentadora falar. É roteiro de fala, não texto de leitura: frases que soam naturais ditas em voz alta.
 
 **Duração:** o Reel tem no mínimo 15 segundos (decisão de Eduardo em 2026-10-10). Na prática, o roteiro completo precisa de pelo menos 40 palavras.
 

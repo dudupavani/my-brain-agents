@@ -1,10 +1,7 @@
 # Banco inicial de pautas — Assuntos que aparecem durante o trabalho
 
 **Território proprietário:** [O trabalho já tem assunto](../territories/01-o-trabalho-ja-tem-assunto.md).
-**Estado:** banco criado, revisado e incorporado à estratégia em 2026-10-09.
-**Escopo:** três pautas para cada uma das seis séries.
-
-As pautas terminam no reconhecimento de uma possível matéria-prima. Elas não concluem se o assunto deve ser publicado, não constroem a mensagem e não ensinam a produzir o post.
+**Estado:** repertório de pautas; o status de cada uma está em [`pautas.yaml`](../pautas.yaml). Na produção de Reels vale a [regra de produção](../territories.md#regra-de-produção).
 
 ## Série 1 — Você acabou de explicar isso
 
@@ -143,13 +140,3 @@ As pautas terminam no reconhecimento de uma possível matéria-prima. Elas não 
 - **Contexto:** serviços, projetos e encomendas.
 - **Resposta desejada:** “Os pedidos guardados no meu histórico podem revelar assuntos que já apareceram várias vezes.”
 - **Material necessário:** solicitações reais em mais de um atendimento, descrição dos ajustes e remoção de informações confidenciais.
-
-## Revisão aplicada antes da apresentação
-
-- **Pertencimento:** todas as pautas terminam no reconhecimento da matéria-prima; nenhuma avalia relevância, escolhe a mensagem ou ensina produção.
-- **Correção realizada:** uma pauta inicialmente baseada na tradução de termos foi substituída por “A comparação que sempre volta na conversa”, porque o recorte anterior se aproximava do Território 3.
-- **Sobreposição controlada:** conversa e registro se distinguem pela fonte dominante; decisão e mudança se distinguem entre escolha inicial e alteração do caminho; processo e detalhe se distinguem entre etapa e cuidado incorporado.
-- **Concreção:** todas possuem ocorrência e vestígio observáveis.
-- **Segurança profissional:** não há afirmação universal sobre uma profissão. Aplicações específicas dependem de material real ou validação.
-- **Variedade:** o banco percorre momentos antes, durante e depois do trabalho e usa conversas, documentos, imagens, versões, checklists, decisões e mudanças como vestígios.
-- **Limite:** nenhuma pauta foi transformada em hook, roteiro, legenda ou tutorial.

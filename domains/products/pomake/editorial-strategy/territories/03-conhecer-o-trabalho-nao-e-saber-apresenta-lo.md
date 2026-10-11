@@ -102,22 +102,6 @@ Uma pauta pertence aqui quando ajuda a responder:
 
 Se a pauta procura o assunto, pertence ao território 1. Se avalia por que alguém se importaria, pertence ao território 2. Se aborda o conjunto de tarefas necessárias para produzir a publicação, pertence ao território 4.
 
-## Como este território chegará ao plano de conteúdo
-
-Os ramos poderão originar séries sobre:
-
-- explicações que começam tarde demais;
-- conhecimentos escondidos no resultado final;
-- nomes de serviços que não explicam o que representam;
-- detalhes mostrados sem indicar o que deve ser observado;
-- tentativas de explicar tudo e não comunicar um ponto específico.
-
-O caminho continuará sendo:
-
-> **Território → ramo narrativo → série recorrente → pauta → formato → piloto**
-
-As séries e os formatos serão definidos na etapa de construção do plano de conteúdo, depois do aprofundamento dos territórios.
-
 ## Hipótese a observar
 
 O território estará cumprindo seu papel quando as pessoas começarem a:

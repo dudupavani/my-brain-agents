@@ -2,7 +2,7 @@
 
 **Estado:** critério ativo de qualificação de pautas para Reels com a Lívia. Não é autorização para criar peças; Eduardo pede cada Reel e avalia o texto final. Avaliações de pautas feitas antes de 2026-10-10 foram removidas por usarem regras de evidência anteriores; o status atual de cada pauta fica no [índice de pautas](pautas.yaml).
 
-## O que muda no motor
+## Critérios de qualificação de uma pauta
 
 Os territórios e as séries continuam servindo para organizar o repertório, mas seus nomes e regras não viram texto público. As entradas do [banco de pautas](content-bank/) são matérias-primas, não roteiros, promessas de publicação ou prova de que haverá conteúdo bom. Uma pauta só fica apta a ser desenvolvida quando possui:
 
@@ -19,6 +19,6 @@ Sem situação ou ganho, **descartar/fundir**. Sem evidência indispensável, **
 
 ## Controle de qualidade antes de qualquer publicação
 
-O primeiro quadro ou fala tem referencial compreensível para quem chegou agora? O desenvolvimento acrescenta algo além da abertura? O final entrega o ganho prometido? Soa como conversa em português brasileiro, sem falar de cima para uma pessoa experiente no próprio trabalho? Toda afirmação profissional ou do produto é verificável? A peça está suficientemente diferente das anteriores para justificar sua existência?
+A primeira fala e o texto do criativo têm referencial compreensível para quem chegou agora? O desenvolvimento acrescenta algo além da abertura? O final entrega o ganho prometido? Soa como conversa em português brasileiro, sem falar de cima para uma pessoa experiente no próprio trabalho? Toda afirmação profissional ou do produto é verificável? A peça está suficientemente diferente das anteriores para justificar sua existência?
 
 Se uma resposta for não, revisar ou não produzir. A aprovação de Eduardo é a decisão final sobre a peça; nenhuma aprovação da arquitetura implica aprovação automática da copy.

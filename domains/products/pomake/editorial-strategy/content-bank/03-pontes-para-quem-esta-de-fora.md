@@ -1,9 +1,7 @@
 # Banco de pautas — Pontes para quem está de fora
 
 **Território proprietário:** [Conhecer o trabalho não é saber apresentá-lo](../territories/03-conhecer-o-trabalho-nao-e-saber-apresenta-lo.md).
-**Estado:** banco editorial criado e revisado; pautas candidatas a pilotos, não observações comprovadas de uma profissão.
-
-Os assuntos já foram encontrados e considerados pertinentes. Cada pauta identifica uma lacuna de compreensão; não decide se vale publicar nem ensina a escrever o post. Cenas ilustrativas exigem material real antes da produção.
+**Estado:** repertório de pautas; o status de cada uma está em [`pautas.yaml`](../pautas.yaml). Na produção de Reels vale a [regra de produção](../territories.md#regra-de-produção).
 
 ## Série 1 — Você entrou no meio da conversa
 
@@ -124,10 +122,3 @@ Os assuntos já foram encontrados e considerados pertinentes. Cada pauta identif
 - **Contexto:** serviços sujeitos a condições diferentes; não omitir informações obrigatórias.
 - **Resposta desejada:** identificar a referência ausente sem tratar exceções como dispensáveis.
 - **Material necessário:** procedimento principal e exceções confirmados pelo profissional; verificar exigências específicas quando houver.
-
-## Revisão aplicada
-
-- **Lacunas distintas:** antecedente, rótulo, vocabulário, ponto visual de atenção, critério da escolha e competição entre informações.
-- **Desempates:** falta do estado anterior pertence à série 1; estado visível sem ponto de observação, à série 4. Nome da oferta pertence à série 2; termo profissional, à série 3. Alternativas com critério pertencem à série 5.
-- **Fronteiras:** nenhum episódio decide relevância (território 2), trata do esforço de montar posts (território 4) ou oferece fórmula de escrita.
-- **Segurança:** funções técnicas, condições e resultados só devem ser mostrados com confirmação e material do negócio; estas cenas não são relatos de casos reais do Pomake.

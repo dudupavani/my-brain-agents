@@ -7,7 +7,7 @@ description: "Gera o texto completo de um Reel orgânico do Pomake apresentado p
 
 Você coordena a criação de um Reel do Pomake. Você não escreve nem revisa o texto e não lê os documentos da estratégia: scripts preparam o material, um **redator** escreve e um **revisor** avalia. Eduardo aprova somente o texto final; não peça aprovação entre etapas.
 
-**Regra inegociável:** nada é gravado no repositório antes da aprovação de Eduardo. O Reel é escrito como rascunho fora do repositório e só entra em `domains/products/pomake/reels/`, com commit, quando Eduardo aprovar. (Decisão de Eduardo em 2026-10-10.)
+**Regra inegociável:** nada é gravado no repositório antes da aprovação de Eduardo. O Reel é escrito como rascunho fora do repositório e só entra em `domains/products/pomake/reels/`, com commit, quando Eduardo aprovar. Se ele rejeitar, só o motivo é registrado, nunca o texto. (Decisão de Eduardo em 2026-10-10.)
 
 Esta é a única skill para Reels do Pomake. Não use outras skills de conteúdo, copy, roteiro ou Reels, nem crie ou altere skills durante a execução.
 
@@ -34,7 +34,7 @@ Execute `git pull --ff-only`. Se não for possível atualizar sem conflito, pare
 
 Gere o briefing: `preparar.py redator --pauta <ID>` ou `preparar.py redator --territorio <N> --tema "<tema>"`.
 
-Obtenha a pasta de rascunhos com `preparar.py rascunhos`. Chame o redator com: o caminho do briefing, a data de hoje (AAAA-MM-DD) e essa pasta de rascunhos. O redator salva o rascunho e responde `ESCRITO: <caminho>` ou `INAPTA: <status> — <motivo>`.
+Obtenha a pasta de rascunhos com `preparar.py rascunhos`. Chame o redator com: o caminho do briefing, a data de hoje (AAAA-MM-DD) e essa pasta de rascunhos. O arquivo do rascunho se chama `AAAA-MM-DD-<assunto>.md`; o validador reprova outro nome. O redator salva o rascunho e responde `ESCRITO: <caminho>` ou `INAPTA: <status> — <motivo>`.
 
 - **INAPTA em pauta do índice:** não altere o índice; volte ao passo 3 com a próxima candidata. Após 3 pautas inaptas seguidas, pare e informe Eduardo do motivo de cada uma.
 - **INAPTA em `orientacao-eduardo`:** informe Eduardo do motivo e pare.
@@ -65,7 +65,7 @@ Leia somente o rascunho final e envie a Eduardo o pacote (Roteiro da Lívia, Leg
   4. Pauta do índice: `registrar.py <ID> produzida --reel <arquivo>`. Para `orientacao-eduardo`, não altere o índice.
   5. Adicione somente o arquivo do Reel e `pautas.yaml`, faça commit `content(pomake): add reel <assunto>` e envie ao remoto. Só você faz commit; redator e revisor nunca fazem.
 - **Editou o texto e aprovou:** substitua o pacote do rascunho pela versão dele e siga os passos de "Aprovou".
-- **Rejeitou:** apague o rascunho. Não grave nada no repositório; a pauta continua na fila.
+- **Rejeitou:** apague o rascunho. O texto rejeitado nunca é gravado. Se Eduardo deu o motivo, registre somente o motivo, nas palavras dele: `rejeitar.py <ID da pauta ou orientacao-eduardo> "<motivo>"`; depois adicione somente `domains/products/pomake/reels/rejeicoes.md`, faça commit `content(pomake): record reel rejection` e envie ao remoto. Se ele não deu o motivo, não pergunte e não grave nada. A pauta continua na fila; nunca altere o status dela por conta própria.
 - **Pediu ajuste:** chame o redator em modo correção sobre o rascunho, com o pedido de Eduardo como falha a corrigir; depois repita os passos 4, 5 e 6.
 - **Já publicado e depois marcado como publicado:** se Eduardo informar que publicou um Reel que já está aprovado no repositório, troque o estado para `publicado`, valide e faça commit.
 
@@ -73,7 +73,7 @@ Leia somente o rascunho final e envie a Eduardo o pacote (Roteiro da Lívia, Leg
 
 - Não escrever nem reescrever o texto do Reel você mesmo quando houver redator disponível.
 - Não ler os documentos da estratégia diretamente; use os scripts.
-- Não usar como referência `references/`, `content/` ou material de outro produto.
+- Não usar como referência as pastas `references/` e `content/` da raiz do repositório (a pasta `references/` da própria skill é permitida) nem material de outro produto.
 - Não alterar a estratégia editorial, o catálogo de ganchos ou esta skill durante a execução.
 - Não gerar mais de um Reel por pedido, salvo pedido explícito de Eduardo.
-- Não gravar no repositório nenhum Reel, rascunho ou alteração de índice antes da aprovação de Eduardo.
+- Não gravar no repositório nenhum Reel, rascunho ou alteração de índice antes da aprovação de Eduardo. A única exceção é o motivo de uma rejeição, depois que Eduardo rejeita.

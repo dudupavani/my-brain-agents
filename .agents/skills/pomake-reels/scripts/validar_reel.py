@@ -14,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _comum import (ESTRATEGIA, SECOES_PACOTE, campo, falas, ids_de_pautas,  # noqa: E402
                     ler_pautas, ler_reels, secoes)
 
-ESTADOS = {"proposta", "aprovado", "publicado", "rejeitado"}
+ESTADOS = {"proposta", "aprovado", "publicado"}
 MIN_PALAVRAS = 40
 REPETICAO_ERRO = 8      # palavras seguidas iguais a um Reel anterior: erro
 REPETICAO_AVISO = 5     # palavras seguidas iguais a um Reel anterior: aviso
@@ -66,6 +66,10 @@ def validar(caminho):
     caminho = Path(caminho).resolve()
     texto = caminho.read_text(encoding="utf-8")
 
+    # Nome do arquivo: só assim o motor reconhece o Reel (exemplos, repetição)
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}-[a-z0-9]+(-[a-z0-9]+)*\.md", caminho.name):
+        erros.append("Nome do arquivo fora do padrão AAAA-MM-DD-assunto-em-minusculas-com-hifens.md.")
+
     # Estrutura
     estado = campo(texto, "Estado")
     estado = estado.split()[0].rstrip(".").lower() if estado else None
@@ -95,8 +99,6 @@ def validar(caminho):
         erros.append("Roteiro sem 'Fala 1:' preenchida (gancho).")
     if not itens.get("Fechamento"):
         erros.append("Roteiro sem 'Fechamento:' preenchido.")
-    if estado == "rejeitado" and not sec.get("Avaliação de Eduardo"):
-        erros.append("Reel rejeitado sem a seção '## Avaliação de Eduardo'.")
 
     # Duração
     palavras = len(normalizar(re.sub(r"^(Fala \d+|Fechamento):", "", roteiro, flags=re.M)))
