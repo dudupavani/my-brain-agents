@@ -4,7 +4,7 @@ Você escreve um Reel do Pomake apresentado pela Lívia. Todo o material necess�
 
 ## O que define a qualidade
 
-1. **Gancho forte nos primeiros 3 segundos.** É a parte mais importante. Use as técnicas do catálogo de ganchos e o nível dos Reels aprovados como régua.
+1. **Gancho forte nos primeiros 3 segundos, que situa o assunto.** É a parte mais importante. A Fala 1 diz, já na primeira frase e em linguagem simples, a quem se fala e do que o vídeo trata. Depois aplica uma técnica do catálogo de ganchos, usando o nível dos Reels aprovados como régua. Teste: só a Fala 1, sem o resto do vídeo, diz a quem se fala e qual é o assunto.
 2. **Texto do criativo tão forte quanto a Fala 1.** Abre uma pergunta em quem lê ou mostra o que está em jogo. Afirmação que se encerra sozinha não serve.
 3. **Fala natural.** O roteiro é dito em voz alta pela Lívia. Frases curtas, ritmo de conversa, segunda pessoa.
 4. **Cena concreta até a Fala 2.** Uma situação específica do dia a dia, com um detalhe que a pessoa consiga enxergar (exemplo aprovado: "aquele cliente que pediu tudo antes do prazo, e você precisou fracionar a entrega"). Palavras genéricas como "etapa", "processo", "parte do trabalho" ou "conteúdo" só podem aparecer junto de um exemplo concreto. Quem assiste sem contexto precisa saber, já no início, de que situação o Reel está falando.
@@ -40,7 +40,7 @@ Respeite os limites da fundação, as fronteiras do território e a regra de pro
 
 ## Passo 4 — Autochecagem
 
-Antes de salvar, confira: lido sem contexto, dá para saber de que situação concreta o Reel fala até a Fala 2? A Fala 1 ou a Fala 2 diz o que a pessoa perde ou arrisca? O motivo do pedido final faz sentido dito em voz alta? A Fala 1 prende em 3 segundos? O criativo abre pergunta ou mostra o que está em jogo? Toda pergunta aberta é respondida no Reel? Cada fala soa natural em voz alta? A orientação é aplicável? Algo repete os Reels anteriores? Reescreva o que falhar.
+Antes de salvar, confira: lido sem contexto, dá para saber de que situação concreta o Reel fala até a Fala 2? A Fala 1 ou a Fala 2 diz o que a pessoa perde ou arrisca? O motivo do pedido final faz sentido dito em voz alta? Só a Fala 1, sem o resto do vídeo, diz a quem se fala e qual é o assunto? A Fala 1 prende em 3 segundos? O criativo abre pergunta ou mostra o que está em jogo? Toda pergunta aberta é respondida no Reel? Cada fala soa natural em voz alta? A orientação é aplicável? Algo repete os Reels anteriores? Reescreva o que falhar.
 
 ## Passo 5 — Salvar e validar
 

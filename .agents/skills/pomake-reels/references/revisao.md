@@ -15,7 +15,7 @@ O resultado é **reprovado** somente se houver ao menos uma falha bloqueante. S�
 
 ## A. Gancho e criativo
 
-1. A Fala 1 usa a técnica indicada em "Técnica do gancho", prende a atenção nos primeiros 3 segundos e é compreensível para quem nunca viu o perfil.
+1. Só a Fala 1, sem o resto do vídeo, diz a quem se fala e qual é o assunto; usa a técnica indicada em "Técnica do gancho" e prende a atenção nos primeiros 3 segundos. Se for preciso ouvir a Fala 2 para entender do que se trata, falha.
 2. O gancho é forte sem ser agressivo e está no mesmo nível de força da Fala 1 dos Reels aprovados.
 3. O texto do criativo usa a técnica indicada em "Técnica do criativo", abre uma pergunta em quem lê ou mostra o que está em jogo, e não é uma afirmação que se encerra sozinha.
 4. O texto do criativo é curto, legível em uma leitura rápida, tem o mesmo argumento da Fala 1 e está no mesmo nível de força do criativo dos Reels aprovados.
