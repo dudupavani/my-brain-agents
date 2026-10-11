@@ -277,7 +277,6 @@ def cmd_redator(args):
         bloco("Voz e padrão de copy", "editorial-strategy/voice.md", sem_titulo(ler(ESTRATEGIA / "voice.md"))),
         bloco("Formato do Reel com a Lívia", "editorial-strategy/reel-livia.md",
               sem_titulo(ler(ESTRATEGIA / "reel-livia.md"))),
-        bloco("Lívia", "creative-direction/livia.md", sem_titulo(ler(POMAKE / "creative-direction/livia.md"))),
         *blocos_exemplos(reels),
         bloco_pauta,
         blocos_territorio(numero, SECOES_TERRITORIO),

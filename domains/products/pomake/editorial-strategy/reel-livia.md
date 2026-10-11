@@ -1,7 +1,7 @@
 # Reel com a Lívia — pacote de texto
 
 **Estado:** decisões de Eduardo em 2026-10-10.
-**Base:** [voz e padrão de copy](voice.md), [catálogo de ganchos](hooks.md) e [direção da Lívia](../creative-direction/livia.md).
+**Base:** [voz e padrão de copy](voice.md), [catálogo de ganchos](hooks.md).
 
 O conteúdo orgânico do Pomake é produzido somente como Reel com a Lívia, para Instagram e TikTok. Cada Reel é entregue como um pacote com três textos. O pacote não inclui direção visual, cenário, enquadramento ou prompt de geração dos takes.
 

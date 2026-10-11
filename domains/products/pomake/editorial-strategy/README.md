@@ -25,7 +25,6 @@ Este diretório é a fonte canônica da estratégia editorial do Pomake. Ele reg
 - [Reels produzidos](../reels/): peças geradas, com estado de aprovação. Os aprovados são referência de qualidade.
 
 - [Definição do produto](../o-que-e-o-pomake.md): fonte aprovada para explicar o que o Pomake faz.
-- [Direção da Lívia](../creative-direction/livia.md): papel e comportamento permanente da apresentadora; não define assuntos.
 - Produções, roteiros e séries devem apontar para o território que executam, mas permanecem em documentos próprios.
 
 Quando cada território for aprofundado, seu mapa de tensões, ramos narrativos, fronteiras e hipóteses deve ficar em documento próprio, sem transformar este índice em arquivo de produção.
@@ -40,4 +39,4 @@ O script `.agents/skills/pomake-reels/scripts/preparar.py` extrai trechos destes
 - `production-bridge.md`: Controle de qualidade antes de qualquer publicação.
 - `content-bank/0N-*.md`: os títulos `### Pauta N — <título>`.
 - `../o-que-e-o-pomake.md`: Estado e uso (o texto antes dele é a definição usada).
-- `hooks.md`, `voice.md`, `reel-livia.md` e `../creative-direction/livia.md` são usados por inteiro.
+- `hooks.md`, `voice.md` e `reel-livia.md` são usados por inteiro.

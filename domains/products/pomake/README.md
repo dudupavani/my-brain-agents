@@ -8,7 +8,6 @@ Conhecimento durável, pesquisas, decisões, especificações e links canônicos
 - [Estratégia editorial](editorial-strategy/README.md): índice da estratégia aprovada para Instagram e TikTok.
   - [Fundação editorial](editorial-strategy/foundation.md): público, papel do perfil, promessa, limites e uso de setores.
   - [Territórios editoriais](editorial-strategy/territories.md): seis territórios aprovados.
-- [Lívia](creative-direction/livia.md): papel e comportamento permanente da personagem apresentadora.
 
 ## Produção editorial
 

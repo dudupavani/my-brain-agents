@@ -10,7 +10,7 @@
 ## Regras de voz
 
 - Português brasileiro, com palavras comuns para quem conhece o próprio negócio e não é especialista em conteúdo.
-- Falar diretamente com a pessoa, em segunda pessoa (“você”).
+- Falar diretamente com a pessoa, em segunda pessoa (“você”), de forma calorosa e confiante, sem tom de vendedora.
 - Uma ideia por Reel. Todas as falas servem ao mesmo argumento.
 - Toda peça entrega uma orientação concreta, que a pessoa consegue aplicar no próprio negócio.
 - O conteúdo não é de venda. O Pomake só é citado em Reels do Território 6, conforme os [limites da fundação](foundation.md#limites).
