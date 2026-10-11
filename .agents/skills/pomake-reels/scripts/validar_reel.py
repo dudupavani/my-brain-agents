@@ -16,6 +16,8 @@ from _comum import (ESTRATEGIA, SECOES_PACOTE, campo, falas, ids_de_pautas,  # n
 
 ESTADOS = {"proposta", "aprovado", "publicado"}
 MIN_PALAVRAS = 40
+FALA1_MIN = 12          # abaixo disso: aviso (conferir se ainda situa a quem se fala e o assunto)
+FALA1_MAX = 15          # acima disso: erro (o gancho precisa caber em 3 segundos)
 REPETICAO_ERRO = 8      # palavras seguidas iguais a um Reel anterior: erro
 REPETICAO_AVISO = 5     # palavras seguidas iguais a um Reel anterior: aviso
 EMOJI = re.compile("[\U0001F000-\U0001FAFF☀-➿️]")
@@ -99,6 +101,15 @@ def validar(caminho):
         erros.append("Roteiro sem 'Fala 1:' preenchida (gancho).")
     if not itens.get("Fechamento"):
         erros.append("Roteiro sem 'Fechamento:' preenchido.")
+
+    # Tamanho da Fala 1 (gancho de 3 segundos)
+    palavras_fala1 = len(normalizar(itens.get("Fala 1", "")))
+    if palavras_fala1 > FALA1_MAX:
+        erros.append(f"Fala 1 com {palavras_fala1} palavras; o gancho precisa caber em 3 segundos. "
+                     f"Alvo: {FALA1_MIN} a {FALA1_MAX} palavras. Reescreva a Fala 1 do zero, curta, com a técnica de gancho.")
+    elif itens.get("Fala 1") and palavras_fala1 < FALA1_MIN:
+        avisos.append(f"Fala 1 com {palavras_fala1} palavras (alvo: {FALA1_MIN} a {FALA1_MAX}). "
+                      "Confirme que ela ainda diz a quem se fala e qual é o assunto.")
 
     # Duração
     palavras = len(normalizar(re.sub(r"^(Fala \d+|Fechamento):", "", roteiro, flags=re.M)))
