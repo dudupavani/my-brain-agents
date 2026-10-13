@@ -54,7 +54,6 @@ O assunto é o da pauta (ou o tema pedido por Eduardo, que nunca é trocado por 
 - Não invente número, cliente, caso, depoimento, estudo ou fonte. Cena hipotética em segunda pessoa é permitida e nunca se apresenta como caso real; caso real, número, depoimento, estudo ou fonte só entram se estiverem no briefing.
 - Não prometa resultado garantido (seguidores, vendas, clientes, alcance). Mostrar o que está em jogo é permitido.
 - Não use os nomes internos de territórios, séries ou pautas.
-- Não escreva direção visual, cenário, enquadramento ou prompt de takes.
 
 ## Entrega (parte mecânica)
 
