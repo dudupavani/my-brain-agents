@@ -319,10 +319,10 @@ def cmd_revisor(args):
         bloco_pauta = bloco("Pauta", "pedido de Eduardo", "orientacao-eduardo (tema dado por Eduardo).")
     partes = [
         "# Briefing do revisor — Reel do Pomake\n\n"
-        "Você não participou da criação. Avalie somente com o checklist e o material abaixo.",
+        "Você não participou da criação. Avalie somente com o checklist, os critérios de escrita e o material abaixo.",
         bloco("Checklist de revisão", ".agents/skills/pomake-reels/references/revisao.md",
               sem_titulo(ler(SKILL / "references/revisao.md"))),
-        bloco("Reel em revisão", reel["relativo"], reel["texto"]),
+        bloco("Reel em revisão", reel["relativo"], pacote_do_reel({"texto": texto, "secoes": secoes(texto)})),
         *blocos_exemplos(reels, excluir=caminho),
         bloco("Catálogo de ganchos", "editorial-strategy/hooks.md", sem_titulo(ler(ESTRATEGIA / "hooks.md"))),
         bloco("Critérios de escrita (os mesmos que o redator recebeu)",
@@ -333,8 +333,6 @@ def cmd_revisor(args):
                                    "Critério para reconhecer uma pauta deste território"]),
         bloco("Fundação: limites", "editorial-strategy/foundation.md",
               extrair(ESTRATEGIA / "foundation.md", ["Limites"])),
-        bloco("Controle de qualidade da ponte editorial", "editorial-strategy/production-bridge.md",
-              extrair(ESTRATEGIA / "production-bridge.md", ["Controle de qualidade antes de qualquer publicação"])),
         *blocos_pomake(numero),
         bloco("Outros Reels (para checar repetição)", "domains/products/pomake/reels/",
               lista_nao_repetir(reels, excluir=caminho)),

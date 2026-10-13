@@ -43,7 +43,6 @@ O script `.agents/skills/pomake-reels/scripts/preparar.py` extrai trechos destes
 - `.agents/skills/pomake-reels/references/redator.md`: O que você escreve; Como um Reel prende e conduz; Limites (enviados ao revisor).
 - `territories.md`: Regra de propriedade editorial; Regra de produção; os títulos numerados dos seis territórios.
 - `territories/0N-*.md`: Situação humana; Trabalho editorial; Tese do Pomake; Fronteiras; Critério para reconhecer uma pauta deste território; no território 6, também Funcionamento confirmado relevante para este território.
-- `production-bridge.md`: Controle de qualidade antes de qualquer publicação.
 - `content-bank/0N-*.md`: os títulos `### Pauta N — <título>`.
 - `../o-que-e-o-pomake.md`: Estado e uso (o texto antes dele é a definição usada).
 - `hooks.md` é usado por inteiro.
