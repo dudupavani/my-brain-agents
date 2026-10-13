@@ -7,7 +7,7 @@
 
 - **Situação:** você só precisava avisar que vai fechar mais cedo na sexta. Uma frase. Aí vem a dúvida: qual foto, que texto, precisa de arte, ficou bom? Uma hora depois, o aviso ainda não foi postado.
 - **O que você perde:** o aviso sai atrasado ou nem sai, e o cliente encontra a porta fechada. Ou você posta qualquer coisa às pressas, que não parece com a sua marca.
-- **A virada:** o que pesa não é a informação, é tudo o que vem junto para ela virar post. Até um aviso pequeno pede texto, imagem e arte.
+- **A virada:** a informação cabia numa frase. O que tomou a hora foi todo o resto: texto, imagem e arte.
 - **O que perceber:** na próxima vez que um post simples demorar, repare onde travou: no que dizer ou em tudo o que vem junto.
 
 ### Pauta 2 — O texto esquecido no bloco de notas
@@ -28,14 +28,14 @@
 
 - **Situação:** você finalmente senta pra fazer o post. Escolhe a foto, começa o texto. Chega um cliente. Uma hora depois, você volta e não lembra o que tinha decidido.
 - **O que você perde:** você recomeça do zero, e o post, mais uma vez, fica pra amanhã.
-- **A virada:** o post não é uma tarefa só. Cada interrupção obriga você a refazer várias decisões.
+- **A virada:** um post são várias decisões em fila, e cada interrupção obriga você a refazer todas.
 - **O que perceber:** da próxima vez que um post ficar pela metade, veja quantas decisões você precisa refazer pra continuar.
 
 ### Pauta 5 — Três começos e nenhum escolhido
 
 - **Situação:** você escreveu três jeitos de começar o texto. Todos parecem bons, nenhum parece certo. Você fica indo e voltando, e o post não sai.
 - **O que você perde:** o tempo, a vontade de postar e o assunto, que vai perdendo a hora.
-- **A virada:** travar na escolha não é falta de capacidade. Escolher é mais uma tarefa escondida dentro do post.
+- **A virada:** escolher também cansa. É mais uma tarefa escondida dentro do post.
 - **O que perceber:** repare em quantas escolhas você faz antes de um post ficar pronto: texto, foto, arte, legenda.
 
 ### Pauta 6 — Um monte de fotos, nenhuma escolhida
@@ -56,7 +56,7 @@
 
 - **Situação:** você abre o Instagram, vê que o último post foi há três semanas, sente aquele peso e fecha o app.
 - **O que você perde:** quem procura o seu negócio encontra um perfil que parece abandonado.
-- **A virada:** o perfil não para por preguiça. Para porque cada post pede várias decisões que competem com o trabalho de verdade.
+- **A virada:** o perfil para porque cada post pede várias decisões, e elas competem com o trabalho de verdade.
 - **O que perceber:** pense no último post que você deixou de fazer e em qual parte ele travou.
 
 ### Pauta 9 — A foto com um, a informação com outro

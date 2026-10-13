@@ -35,14 +35,14 @@
 
 - **Situação:** todo perfil que você segue está fazendo a mesma trend. Você sente que precisa fazer também e passa a tarde tentando encaixar o seu negócio nela.
 - **O que você perde:** o tempo vai embora, e o post não fala nada que o seu cliente precise saber.
-- **A virada:** o que está na moda não é o que o seu cliente está decidindo agora.
+- **A virada:** o seu cliente está pensando no problema dele, e a trend não conversa com isso.
 - **O que fazer:** troque a trend por um assunto que o seu cliente está vivendo neste momento, como uma dúvida ou uma decisão.
 
 ### Pauta 6 — O post com poucas curtidas e muitas perguntas
 
 - **Situação:** você postou sobre um serviço e quase ninguém curtiu. Achou que tinha flopado. Mas, no direct, três pessoas perguntaram o preço.
 - **O que você perde:** se você olha só a curtida, abandona justo o assunto que fez alguém querer contratar.
-- **A virada:** curtida não é o único sinal. Pergunta no direct é um sinal mais forte.
+- **A virada:** uma pergunta no direct vale mais do que muitas curtidas: é alguém pensando em contratar.
 - **O que fazer:** volte a esse assunto em outro post, respondendo o que as pessoas perguntaram.
 
 ### Pauta 7 — O caso bom que entregaria o cliente

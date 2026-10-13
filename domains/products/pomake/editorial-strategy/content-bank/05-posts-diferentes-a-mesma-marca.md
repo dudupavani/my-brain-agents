@@ -7,7 +7,7 @@
 
 - **Situação:** você coloca o seu logo em todos os posts, mas cada um tem uma cor, um estilo de foto e um jeito de falar diferente.
 - **O que você perde:** quem rola o feed não reconhece que é você antes de ver o logo. O perfil parece de várias empresas diferentes e passa menos confiança.
-- **A virada:** o logo assina o post, mas não é ele que faz a marca ser reconhecida. O que faz é repetir as mesmas cores, o mesmo estilo de imagem e o mesmo jeito de falar.
+- **A virada:** o logo assina o post. Quem faz a marca ser reconhecida é o que se repete: as mesmas cores, o mesmo estilo de imagem, o mesmo jeito de falar.
 - **O que perceber:** olhe os seus últimos nove posts lado a lado. Se, tapando o logo, eles não parecem do mesmo negócio, o cliente também não vai reconhecer você.
 
 ### Pauta 2 — O aviso que parece comunicado de banco
@@ -21,7 +21,7 @@
 
 - **Situação:** pra manter o padrão, você usa o mesmo modelo pra tudo: a promoção, o aviso de horário e o parabéns pro cliente. Mesmo layout, mesma empolgação.
 - **O que você perde:** o aviso sério parece promoção, e o parabéns parece anúncio. Nada se destaca.
-- **A virada:** coerência não é fazer tudo igual. É manter o jeito da marca enquanto o tom acompanha o assunto.
+- **A virada:** o jeito da marca pode ficar o mesmo enquanto o tom muda com o assunto: o aviso mais sério, a promoção mais animada.
 - **O que perceber:** compare um aviso e uma promoção do seu perfil e veja se dá pra saber, de longe, qual é qual.
 
 ### Pauta 4 — A foto linda que não parece sua

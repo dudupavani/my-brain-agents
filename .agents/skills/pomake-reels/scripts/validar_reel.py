@@ -16,6 +16,8 @@ from _comum import (ESTRATEGIA, SECOES_PACOTE, campo, falas, ids_de_pautas,  # n
 
 ESTADOS = {"proposta", "aprovado", "publicado"}
 MIN_PALAVRAS = 40
+ALVO_PALAVRAS = (90, 130)  # faixa dos Reels aprovados (93 e 131 palavras)
+MAX_PALAVRAS = 140       # acima disso: erro (Reel longo demais)
 FALA1_MIN = 12          # abaixo disso: aviso (conferir se ainda situa a quem se fala e o assunto)
 FALA1_MAX = 15          # acima disso: erro (o gancho precisa caber em 3 segundos)
 REPETICAO_ERRO = 8      # palavras seguidas iguais a um Reel anterior: erro
@@ -113,6 +115,11 @@ def validar(caminho):
     palavras = len(normalizar(re.sub(r"^(Fala \d+|Fechamento):", "", roteiro, flags=re.M)))
     if palavras < MIN_PALAVRAS:
         erros.append(f"Roteiro com {palavras} palavras; o mínimo é {MIN_PALAVRAS} (Reel de no mínimo 15 segundos).")
+    elif palavras > MAX_PALAVRAS:
+        erros.append(f"Roteiro com {palavras} palavras; o máximo é {MAX_PALAVRAS}. Alvo: {ALVO_PALAVRAS[0]} a {ALVO_PALAVRAS[1]}. "
+                     "Corte as falas que a história não precisa; não espreme frases.")
+    elif not ALVO_PALAVRAS[0] <= palavras <= ALVO_PALAVRAS[1]:
+        avisos.append(f"Roteiro com {palavras} palavras (alvo: {ALVO_PALAVRAS[0]} a {ALVO_PALAVRAS[1]}).")
 
     # Legenda
     legenda = sec.get("Legenda", "")

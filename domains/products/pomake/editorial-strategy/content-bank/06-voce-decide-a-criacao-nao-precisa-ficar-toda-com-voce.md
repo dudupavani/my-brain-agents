@@ -49,5 +49,5 @@
 
 - **Situação:** você pensa em deixar alguém ou alguma ferramenta fazer os posts, mas desiste: "e se sair alguma coisa que não tem nada a ver comigo?".
 - **O que você perde:** por medo de perder o controle, você continua fazendo tudo sozinho e postando pouco.
-- **A virada:** delegar a produção não é delegar a decisão. Você continua escolhendo o assunto e aprovando antes de ir pro ar.
+- **A virada:** quem escolhe o assunto e aprova antes de ir pro ar continua sendo você, mesmo que outra pessoa ou ferramenta faça o post.
 - **O que fazer:** mantenha com você a escolha do assunto e a aprovação final. O resto pode ser feito por outra pessoa ou ferramenta.
