@@ -10,12 +10,12 @@
 - **A virada:** a pergunta que você mais responde já é um post pronto. Você só não enxerga porque virou rotina.
 - **O que fazer:** pegue a explicação que você deu hoje sobre o que está incluso e poste do jeito que falou com o cliente.
 
-### Pauta 2 — A decisão que você tomou no meio do serviço
+### Pauta 2 — "Nossa, você também faz isso?"
 
-- **Situação:** no meio do trabalho, você percebe um detalhe que ninguém tinha visto e muda o jeito de fazer. Resolve na hora, sem nem comentar. O cliente recebe tudo pronto e nunca fica sabendo.
-- **O que você perde:** justo a parte que mostra a sua experiência fica invisível. Pra quem olha de fora, você só executou o que foi pedido.
-- **A virada:** a decisão que você toma sem pensar é o que separa você de quem só segue o pedido.
-- **O que fazer:** conte a decisão de hoje: o que você percebeu e o que mudou por causa disso.
+- **Situação:** um cliente antigo vê você fazendo um serviço diferente e se surpreende: "nossa, nem sabia que você fazia isso!". Ele é cliente há anos.
+- **O que você perde:** se nem quem já te conhece sabe tudo o que você faz, quem chega pelo perfil sabe menos ainda. E contrata outra pessoa pro serviço que você também oferece.
+- **A virada:** o que você faz todo dia parece óbvio pra você. Pros outros, só existe o que eles já viram.
+- **O que fazer:** escolha o serviço que mais surpreende quando o cliente descobre e mostre ele sendo feito.
 
 ### Pauta 3 — Os minutos antes do cliente chegar
 
