@@ -5,7 +5,7 @@ description: "Cria um Reel orgânico do Pomake para a Lívia ou outra pessoa gra
 
 # Reels do Pomake
 
-Crie **um** Reel por pedido. O fluxo tem três decisões: escolher uma pauta reutilizável e um recorte ainda não contado, desenvolver esse recorte em uma história compreensível e só então adaptá-la ao tempo e à linguagem de Reel. Não transforme os campos da pauta em falas por ordem. O exemplo dela é uma possibilidade, não o único assunto que pode nascer da ideia.
+Crie **um** Reel por pedido. O fluxo tem três decisões: escolher uma pauta reutilizável e um recorte ainda não contado, desenvolver esse recorte como matéria bruta com detalhes úteis e só então transformá-lo em uma fala própria para Reels. Não transforme os campos da pauta em falas por ordem. O exemplo dela é uma possibilidade, não o único assunto que pode nascer da ideia.
 
 O pacote final é texto para gravar: roteiro falado, legenda e texto de tela. Eduardo decide se aprova. Nenhum Reel ou rascunho entra no repositório antes da aprovação dele (decisão de 2026-10-10).
 
@@ -25,7 +25,7 @@ Execute `git pull --ff-only`. Se houver conflito ou alterações locais que impe
 
 Gere o briefing com `preparar.py historia --pauta <ID>` ou `preparar.py historia --territorio <N> --tema "<tema>"`. Obtenha a pasta com `preparar.py historias`.
 
-Peça a um contador de histórias que leia **somente esse briefing** e salve `AAAA-MM-DD-<assunto>-historia.md` na pasta indicada. A resposta é `HISTORIA: <caminho>`. Ele escolhe e registra o recorte, conta o acontecimento em linguagem falada e mostra qual post nasce dele, sem escrever gancho, legenda, chamada para salvar ou roteiro final. A cena é hipotética, não uma experiência vivida pela Lívia. Se a pauta não sustentar outro recorte compreensível sem inventar fatos, escolha outra pauta ou peça a informação indispensável a Eduardo.
+Peça a um contador de histórias que leia **somente esse briefing** e salve `AAAA-MM-DD-<assunto>-historia.md` na pasta indicada. A resposta é `HISTORIA: <caminho>`. Ele escolhe e registra o recorte, desenvolve o acontecimento com ações e detalhes que o redator poderá usar e mostra qual post nasce dele, sem escrever gancho, legenda, chamada para salvar ou roteiro final. O tamanho vem do que a cena precisa, não de uma meta de palavras. A cena é hipotética, não uma experiência vivida pela Lívia. Se a pauta não sustentar outro recorte compreensível sem inventar fatos, escolha outra pauta ou peça a informação indispensável a Eduardo.
 
 Com subagentes disponíveis, use um papel separado para esta etapa. Sem subagentes, execute-a como uma etapa distinta e não antecipe as regras da adaptação.
 
@@ -33,13 +33,13 @@ Com subagentes disponíveis, use um papel separado para esta etapa. Sem subagent
 
 Gere o briefing com `preparar.py redator --pauta <ID>` ou `preparar.py redator --territorio <N> --tema "<tema>"`. Obtenha a pasta com `preparar.py rascunhos`.
 
-Peça ao adaptador que leia **o briefing e a história bruta**. A história é o insumo principal: preserve o que aconteceu e o que a pessoa precisa entender, cortando ou mudando apenas o necessário para caber num Reel. Ele escreve uma fala contínua, que funciona com a Lívia diante da câmera e legendas da fala, sem depender de imagens extras. Ele salva `AAAA-MM-DD-<assunto>.md` na pasta de rascunhos e responde `ESCRITO: <caminho>`. Não acrescente uma moral, uma consequência, uma pergunta ou um pedido final só para preencher uma fórmula.
+Peça ao redator de Reels que leia **o briefing e a história bruta**. A história é o insumo principal: ele pode reorganizá-la e reescrevê-la para abrir com uma ação reconhecível e uma tensão concreta, contar a situação com clareza e terminar com algo específico que o espectador possa fazer no próximo post. Preserve os acontecimentos e a ideia prática; não invente consequências para dar impacto. Ele escreve uma fala contínua, que funciona com a Lívia diante da câmera e legendas da fala, sem depender de imagens extras. Ele salva `AAAA-MM-DD-<assunto>.md` na pasta de rascunhos e responde `ESCRITO: <caminho>`. Pedir para salvar ou compartilhar é uma possibilidade quando ajuda a pessoa a aplicar a dica, não um fechamento obrigatório.
 
 Com subagentes disponíveis, use um papel diferente do contador de histórias. Sem subagentes, trate esta etapa como uma nova leitura da história, primeiro entendendo-a sem consultar a pauta.
 
 ## 5. Conferir e entregar
 
-Execute `validar_reel.py <arquivo>`. Corrija erros mecânicos com o adaptador, no máximo duas tentativas. Leia o roteiro **sem o briefing** como se estivesse ouvindo pela primeira vez: fica claro logo de que se trata, é possível imaginar o que a pessoa fez ou viu e o espectador sai com uma ideia de post que pode fazer? Se houver uma lacuna no texto, peça ao adaptador para recontar; se faltar uma cena na própria história, volte à etapa 3 ou escolha outra pauta. Não preencha a lacuna com uma explicação sua. A leitura de alguém que não participou da criação é a melhor verificação quando disponível; a validação automática não prova que a fala soa humana.
+Execute `validar_reel.py <arquivo>`. Corrija erros mecânicos com o redator, no máximo duas tentativas. Leia o roteiro **sem o briefing** como se estivesse ouvindo pela primeira vez: a primeira frase faz reconhecer uma situação e querer ouvir mais? Fica claro logo de que se trata, é possível imaginar o que a pessoa fez ou viu e o final convida a uma ação específica no próximo post? Se houver uma lacuna no texto, peça ao redator para recontar; se faltar uma cena na própria história, volte à etapa 3 ou escolha outra pauta. Não preencha a lacuna com uma explicação sua. A leitura de alguém que não participou da criação é a melhor verificação quando disponível; a validação automática não prova que a fala soa humana.
 
 Entregue a Eduardo somente roteiro, legenda e texto de tela. Esta conferência não é uma revisão formal nem um checklist criativo. A leitura e os testes de gravação de Eduardo orientam as próximas versões.
 
