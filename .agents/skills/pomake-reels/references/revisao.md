@@ -24,7 +24,7 @@ O resultado é **reprovado** somente se houver ao menos uma falha bloqueante.
 4. Logo no início há uma cena concreta, com um detalhe que dá para enxergar, e não um conceito.
 5. Há uma virada que muda o jeito de a pessoa ver a situação.
 6. A pessoa termina sabendo o que fazer de diferente ou, quando a pauta traz "O que perceber", o que observar no próprio negócio.
-7. Cada fala acrescenta algo novo e puxa a próxima; há uma ideia só; toda pergunta aberta pelo gancho e pelo criativo é respondida no Reel.
+7. A Fala 1 abre uma pergunta e a resposta principal só vem perto do fim; cada fala acrescenta algo novo e puxa a próxima; há uma ideia só; toda pergunta aberta pelo gancho e pelo criativo é respondida no Reel. Se o Reel explica tudo nas primeiras falas e depois só repete, falha.
 
 ## C. Escrito para o ouvido
 

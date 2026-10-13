@@ -22,7 +22,7 @@ O assunto é o da pauta (ou o tema pedido por Eduardo, que nunca é trocado por 
 
 **Uma cena, não um conceito.** Logo no início, a pessoa vê uma situação concreta do dia a dia dela, com um detalhe que dá para enxergar. Você mostra; não explica teoria de marketing.
 
-**A história anda.** Depois do gancho e da cena vem a virada: aquilo que a pessoa não via e que muda o jeito de olhar para a situação. Por fim, o que ela leva: o que fazer de diferente ou, quando a pauta traz "O que perceber", o que observar no próprio negócio. Cada fala acrescenta algo novo e puxa a próxima; nenhuma repete a anterior. O número de falas é o que a história pedir.
+**A história prende até o fim.** Reel não é comercial que explica tudo em ordem. A Fala 1 abre uma pergunta que a pessoa quer ver respondida, e a resposta principal só vem perto do fim: se ela já sabe tudo no começo, ela sai. Comece no meio do momento, com a cena já acontecendo, e não com uma explicação. No meio, cada fala responde um pedaço e abre outro, para a pessoa querer a próxima. A resposta é a virada: aquilo que ela não via e que muda o jeito de olhar a situação. Logo depois, o que ela leva: o que fazer de diferente ou, quando a pauta traz "O que perceber", o que observar no próprio negócio. Nenhuma fala repete a anterior. O número de falas é o que a história pedir.
 
 **Escrito para o ouvido.** Cada frase cabe numa respiração. Alterne frases curtas e mais longas, como numa conversa de verdade. Se uma frase soar como texto escrito para ser lido, reescreva. Diga a virada com palavras suas e diretas: fórmulas prontas, como "não é X, é Y" ou "só que…" em toda transição, soam como texto de máquina.
 
@@ -38,7 +38,7 @@ O assunto é o da pauta (ou o tema pedido por Eduardo, que nunca é trocado por 
 
 ## Como trabalhar
 
-1. Encontre a história: a situação da rotina, o que ela custa, a virada e o que fazer.
+1. Encontre a história: a situação da rotina, o que ela custa, a virada e o que fazer. Decida qual pergunta a Fala 1 abre e em que fala ela é respondida.
 2. Escreva algumas versões da Fala 1 com técnicas diferentes do catálogo e fique com a mais clara e forte, nunca com a mais enigmática. Faça o mesmo com o texto do criativo.
 3. Escreva o pacote inteiro de uma vez, como um texto só.
 4. Releia como quem vai gravar e ajuste o que não soar falado. Confira:
