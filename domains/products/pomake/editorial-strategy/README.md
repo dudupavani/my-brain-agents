@@ -28,6 +28,8 @@ Cada pauta é uma semente de história, escrita do ponto de vista do dono do neg
 - **A virada:** o que a pessoa não percebia e que muda a forma de ver a situação.
 - **O que postar** (territórios 1, 2, 3 e 6) ou **Por que isso importa** (territórios 4 e 5): uma orientação só, sem ensinar a fazer o post.
 
+A situação é um momento que qualquer negócio vive, sem depender de uma profissão; uma cena só, contada como se conta a um amigo. O título nomeia o momento, não a tese. (Método em teste desde 2026-10-13.)
+
 Em 2026-10-11, só a Pauta 1 de cada território está neste formato, em teste. As demais seguem no formato anterior (Cena, Contexto, Resposta desejada) até a reescrita ser aprovada.
 
 ## Conexões
