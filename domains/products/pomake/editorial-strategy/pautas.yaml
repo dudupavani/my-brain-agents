@@ -17,7 +17,7 @@ pautas:
     reels: []
   - id: T1-P02
     territorio: "1 — O trabalho já tem assunto"
-    titulo: ""Nossa, você também faz isso?""
+    titulo: '"Nossa, você também faz isso?"'
     arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
     status: disponivel
     reels: []
@@ -107,7 +107,7 @@ pautas:
     reels: []
   - id: T2-P08
     territorio: "2 — O que vale comunicar"
-    titulo: "O "bom dia, estamos abertos" de todo dia"
+    titulo: 'O "bom dia, estamos abertos" de todo dia'
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
     status: disponivel
     reels: []
@@ -137,7 +137,7 @@ pautas:
     reels: []
   - id: T3-P05
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
-    titulo: ""Por que demora tanto?""
+    titulo: '"Por que demora tanto?"'
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
     status: disponivel
     reels: []
@@ -291,3 +291,4 @@ pautas:
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
     status: disponivel
     reels: []
+

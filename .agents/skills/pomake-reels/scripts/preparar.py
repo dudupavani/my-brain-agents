@@ -4,9 +4,11 @@ Uso:
   python3 preparar.py candidatas [--n 5]
   python3 preparar.py territorios
   python3 preparar.py pautas --territorio <1-6>
+  python3 preparar.py historia --pauta <ID>
+  python3 preparar.py historia --territorio <1-6> --tema "<tema>"
+  python3 preparar.py historias
   python3 preparar.py redator --pauta <ID>
   python3 preparar.py redator --territorio <1-6> --tema "<tema pedido por Eduardo>"
-  python3 preparar.py revisor <arquivo-do-reel.md>
   python3 preparar.py rascunhos
 
 O Reel é escrito como rascunho fora do repositório (pasta indicada por "rascunhos") e só
@@ -37,7 +39,6 @@ STATUS_ELEGIVEIS = ["disponivel"]
 MAX_EXEMPLOS = 2
 MAX_NAO_REPETIR = 30
 
-SECOES_ESCRITA = ["O que você escreve", "Como um Reel prende e conduz", "Limites"]
 SECOES_FUNDACAO = ["Público", "Limites"]
 
 
@@ -188,6 +189,14 @@ def cmd_rascunhos(args):
         print(f"- {arquivo}")
 
 
+def cmd_historias(args):
+    pasta = pasta_trabalho() / "historias"
+    pasta.mkdir(parents=True, exist_ok=True)
+    print(f"HISTORIAS: {pasta}")
+    for arquivo in sorted(pasta.glob("*.md")):
+        print(f"- {arquivo}")
+
+
 def gravar(nome, partes):
     pasta = pasta_trabalho()
     destino = pasta / f"{nome}-{time.strftime('%Y%m%d-%H%M%S')}.md"
@@ -250,24 +259,44 @@ def cmd_pautas(args):
             print(f"{p['id']} [{p['status']}] — {p['titulo']}")
 
 
-def cmd_redator(args):
-    reels = ler_reels()
+def dados_do_assunto(args):
     if args.pauta:
         pauta = pauta_por_id(args.pauta)
         numero = pauta["territorio"].split(" ")[0]
-        bloco_pauta = bloco("Pauta", f"editorial-strategy/{pauta['arquivo']}", texto_da_pauta(pauta))
+        assunto = bloco("Pauta", f"editorial-strategy/{pauta['arquivo']}", texto_da_pauta(pauta))
     else:
         if not (args.territorio and args.tema):
-            raise SystemExit("ERRO: use --pauta <ID> ou --territorio <1-6> --tema \"...\".")
+            raise SystemExit('ERRO: use --pauta <ID> ou --territorio <1-6> --tema "<tema>".')
         numero = str(args.territorio)
-        bloco_pauta = bloco("Tema pedido por Eduardo", "pedido de Eduardo",
-                            f"**Pauta:** orientacao-eduardo\n**Território:** {numero}\n\n{args.tema}\n\n"
-                            "Não troque este tema por outro.")
+        assunto = bloco("Tema pedido por Eduardo", "pedido de Eduardo",
+                        f"**Pauta:** orientacao-eduardo\n**Território:** {numero}\n\n{args.tema}\n\n"
+                        "Não troque este tema por outro.")
+    return numero, assunto
+
+
+def cmd_historia(args):
+    numero, assunto = dados_do_assunto(args)
+    partes = [
+        "# Briefing da história bruta — Reel do Pomake",
+        bloco("Como contar a história", ".agents/skills/pomake-reels/references/historia.md",
+              sem_titulo(ler(SKILL / "references/historia.md"))),
+        assunto,
+        bloco_territorio(numero),
+        bloco("Público e limites", "editorial-strategy/foundation.md",
+              extrair(ESTRATEGIA / "foundation.md", SECOES_FUNDACAO)),
+        *blocos_pomake(numero),
+    ]
+    gravar(f"historia-{args.pauta or 'orientacao-eduardo'}", partes)
+
+
+def cmd_redator(args):
+    reels = ler_reels()
+    numero, bloco_pauta = dados_do_assunto(args)
 
     partes = [
-        "# Briefing do redator — Reel do Pomake\n\n"
-        "Primeiro, como escrever. Depois, o assunto (a pauta) e os limites. Por fim, as referências.",
-        bloco("Instruções do redator", ".agents/skills/pomake-reels/references/redator.md",
+        "# Briefing do adaptador — Reel do Pomake\n\n"
+        "Leia também a história bruta indicada pelo coordenador. Ela é o insumo principal.",
+        bloco("Instruções do adaptador", ".agents/skills/pomake-reels/references/redator.md",
               sem_titulo(ler(SKILL / "references/redator.md"))),
         bloco_pauta,
         bloco_territorio(numero),
@@ -275,49 +304,10 @@ def cmd_redator(args):
               extrair(ESTRATEGIA / "foundation.md", SECOES_FUNDACAO)),
         *blocos_pomake(numero),
         bloco("Catálogo de ganchos", "editorial-strategy/hooks.md", sem_titulo(ler(ESTRATEGIA / "hooks.md"))),
-        *blocos_exemplos(reels),
         bloco("O que não repetir", "domains/products/pomake/reels/", lista_nao_repetir(reels)),
     ]
-    nome = f"redator-{args.pauta or 'orientacao-eduardo'}"
+    nome = f"adaptador-{args.pauta or 'orientacao-eduardo'}"
     gravar(nome, partes)
-
-
-def cmd_revisor(args):
-    caminho = Path(args.reel).resolve()
-    if not caminho.exists():
-        raise SystemExit(f"ERRO: Reel não encontrado: {args.reel}")
-    texto = caminho.read_text(encoding="utf-8")
-    reel = {"texto": texto, "relativo": caminho.name,
-            "pauta": campo(texto, "Pauta"), "territorio": campo(texto, "Território")}
-    reels = ler_reels()
-    numero = reel["territorio"]
-    if not numero:
-        raise SystemExit("ERRO: o Reel não tem o campo Território.")
-    if reel["pauta"] and reel["pauta"] != "orientacao-eduardo":
-        pauta = pauta_por_id(reel["pauta"])
-        bloco_pauta = bloco("Pauta", f"editorial-strategy/{pauta['arquivo']}", texto_da_pauta(pauta))
-    else:
-        bloco_pauta = bloco("Pauta", "pedido de Eduardo", "orientacao-eduardo (tema dado por Eduardo).")
-    partes = [
-        "# Briefing do revisor — Reel do Pomake\n\n"
-        "Você não participou da criação. Avalie somente com o checklist, os critérios de escrita e o material abaixo.",
-        bloco("Checklist de revisão", ".agents/skills/pomake-reels/references/revisao.md",
-              sem_titulo(ler(SKILL / "references/revisao.md"))),
-        bloco("Reel em revisão", reel["relativo"], pacote_do_reel({"texto": texto, "secoes": secoes(texto)})),
-        *blocos_exemplos(reels, excluir=caminho),
-        bloco("Catálogo de ganchos", "editorial-strategy/hooks.md", sem_titulo(ler(ESTRATEGIA / "hooks.md"))),
-        bloco("Critérios de escrita (os mesmos que o redator recebeu)",
-              ".agents/skills/pomake-reels/references/redator.md",
-              extrair(SKILL / "references/redator.md", SECOES_ESCRITA)),
-        bloco_pauta,
-        bloco_territorio(numero),
-        bloco("Público e limites", "editorial-strategy/foundation.md",
-              extrair(ESTRATEGIA / "foundation.md", SECOES_FUNDACAO)),
-        *blocos_pomake(numero),
-        bloco("Outros Reels (para checar repetição)", "domains/products/pomake/reels/",
-              lista_nao_repetir(reels, excluir=caminho)),
-    ]
-    gravar(f"revisor-{caminho.stem}", partes)
 
 
 def main():
@@ -329,17 +319,21 @@ def main():
     r.add_argument("--pauta")
     r.add_argument("--territorio", type=int, choices=range(1, 7))
     r.add_argument("--tema")
+    h = sub.add_parser("historia")
+    h.add_argument("--pauta")
+    h.add_argument("--territorio", type=int, choices=range(1, 7))
+    h.add_argument("--tema")
     sub.add_parser("territorios")
     sub.add_parser("rascunhos")
+    sub.add_parser("historias")
     pt = sub.add_parser("pautas")
     pt.add_argument("--territorio", type=int, choices=range(1, 7), required=True)
-    v = sub.add_parser("revisor")
-    v.add_argument("reel")
     args = parser.parse_args()
     {"candidatas": cmd_candidatas, "territorios": cmd_territorios, "pautas": cmd_pautas,
-     "rascunhos": cmd_rascunhos,
-     "redator": cmd_redator, "revisor": cmd_revisor}[args.comando](args)
+     "rascunhos": cmd_rascunhos, "historias": cmd_historias,
+     "historia": cmd_historia, "redator": cmd_redator}[args.comando](args)
 
 
 if __name__ == "__main__":
     main()
+

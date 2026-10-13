@@ -32,7 +32,7 @@ def ler_pautas():
             if chave == "reels":
                 valor = re.findall(r"[^\[\],\s]+", valor)
             else:
-                valor = valor.strip('"')
+                valor = valor.strip("\"'")
             atual[chave] = valor
     return pautas
 
@@ -103,3 +103,4 @@ def ler_reels():
         })
     reels.sort(key=lambda r: (r["data"], r["momento"]))
     return reels
+

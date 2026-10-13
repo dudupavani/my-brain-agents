@@ -1,76 +1,56 @@
 ---
 name: pomake-reels
-description: "Gera o texto completo de um Reel orgânico do Pomake, gravado pela Lívia ou por outra pessoa (roteiro de fala, legenda e texto do criativo), a partir da estratégia editorial do Pomake. Use quando Eduardo pedir um Reel, um conteúdo ou um vídeo da Lívia para o perfil do Pomake, com ou sem tema. Não use para anúncios do Meta Ads, carrossel, post estático ou conteúdo pessoal do Eduardo."
+description: "Cria um Reel orgânico do Pomake para a Lívia ou outra pessoa gravar: escolhe uma pauta, conta a história em linguagem falada e a adapta para roteiro, legenda e texto de tela. Use quando Eduardo pedir conteúdo ou vídeo para o perfil do Pomake, com ou sem tema. Não use para anúncios, carrosséis, posts estáticos ou conteúdo pessoal do Eduardo."
 ---
 
 # Reels do Pomake
 
-Você coordena a criação de um Reel do Pomake. Você não escreve nem revisa o texto e não lê os documentos da estratégia: scripts preparam o material, um **redator** escreve e um **revisor** avalia. Eduardo aprova somente o texto final; não peça aprovação entre etapas.
+Crie **um** Reel por pedido. O fluxo tem três decisões: escolher a pauta, contar a história de modo compreensível e só então adaptá-la ao tempo e à linguagem de Reel. Não transforme os campos da pauta em falas por ordem. Eles são possibilidades para explorar, não uma estrutura obrigatória.
 
-**Regra inegociável:** nada é gravado no repositório antes da aprovação de Eduardo. O Reel é escrito como rascunho fora do repositório e só entra em `domains/products/pomake/reels/`, com commit, quando Eduardo aprovar. Se ele rejeitar, só o motivo é registrado, nunca o texto. (Decisão de Eduardo em 2026-10-10.)
+O pacote final é texto para gravar: roteiro falado, legenda e texto de tela. Eduardo decide se aprova. Nenhum Reel ou rascunho entra no repositório antes da aprovação dele (decisão de 2026-10-10).
 
-Esta é a única skill para Reels do Pomake. Não use outras skills de conteúdo, copy, roteiro ou Reels, nem crie ou altere skills durante a execução.
-
-Caminhos relativos à raiz do repositório. Scripts em `.agents/skills/pomake-reels/scripts/`.
-
-## Redator e revisor
-
-- **Com delegação a subagente disponível:** cada papel é um subagente separado. Envie a ele apenas o caminho do briefing e os dados indicados em cada passo. Nunca envie seu raciocínio nem o conteúdo de outro papel.
-- **Sem delegação:** execute cada papel como uma etapa separada, lendo somente o briefing daquele papel, como se fosse a primeira vez.
-
-As instruções de cada papel já estão dentro do briefing que o script gera.
+Esta é a skill de conteúdo orgânico do Pomake. Caminhos relativos à raiz do repositório; scripts em `.agents/skills/pomake-reels/scripts/`.
 
 ## 1. Sincronizar
 
-Execute `git pull --ff-only`. Se não for possível atualizar sem conflito, pare e informe Eduardo; não faça merge, rebase ou reset.
+Execute `git pull --ff-only`. Se houver conflito ou alterações locais que impeçam a atualização, pare e informe Eduardo; não faça merge, rebase nem reset.
 
-## 2. Definir a pauta
+## 2. Escolher a pauta
 
-- **Sem tema de Eduardo:** execute `python3 .agents/skills/pomake-reels/scripts/preparar.py candidatas` e use a primeira pauta da lista.
-- **Com tema de Eduardo:** execute `preparar.py territorios` e classifique o tema em um único território pela regra de propriedade. Depois execute `preparar.py pautas --territorio <N>`. Se uma pauta corresponder claramente ao tema, use o `id` dela; senão, a pauta é `orientacao-eduardo`. Nunca troque o tema por outro.
-- Só pergunte algo a Eduardo se o pedido tiver duas leituras que mudariam o Reel. Uma pergunta, uma vez.
+- Sem tema: execute `python3 .agents/skills/pomake-reels/scripts/preparar.py candidatas`. Use a primeira pauta que ainda renda uma situação clara e diferente dos Reels existentes. Uma cena que só fala em "serviço", "etapa", "cuidado" ou "cliente" sem mostrar o que alguém faz ou vê ainda é vaga. Passe à próxima pauta se faltar esse detalhe; não o invente para salvar a escolha.
+- Com tema: execute `preparar.py territorios`, classifique-o pela regra de propriedade e veja `preparar.py pautas --territorio <N>`. Use uma pauta que corresponda claramente; caso contrário, use `orientacao-eduardo`. Não substitua o tema de Eduardo.
+- Só pergunte quando duas leituras do pedido mudarem materialmente o Reel.
 
-## 3. Redator
+## 3. História bruta
 
-Gere o briefing: `preparar.py redator --pauta <ID>` ou `preparar.py redator --territorio <N> --tema "<tema>"`.
+Gere o briefing com `preparar.py historia --pauta <ID>` ou `preparar.py historia --territorio <N> --tema "<tema>"`. Obtenha a pasta com `preparar.py historias`.
 
-Obtenha a pasta de rascunhos com `preparar.py rascunhos`. Chame o redator com: o caminho do briefing, a data de hoje (AAAA-MM-DD) e essa pasta de rascunhos. O arquivo do rascunho se chama `AAAA-MM-DD-<assunto>.md`; o validador reprova outro nome. O redator só escreve: salva o rascunho e responde `ESCRITO: <caminho>`. Ele não julga a pauta; quem decide se uma pauta serve é Eduardo, ao aprovar ou rejeitar o Reel.
+Peça a um contador de histórias que leia **somente esse briefing** e salve `AAAA-MM-DD-<assunto>-historia.md` na pasta indicada. A resposta é `HISTORIA: <caminho>`. Ele deve contar o acontecimento em linguagem falada, sem escrever gancho, legenda, chamada para salvar ou roteiro final. Se a pauta não sustentar uma história compreensível sem inventar fatos, ele sinaliza isso; escolha outra pauta ou peça a informação indispensável a Eduardo.
 
-## 4. Validar
+Com subagentes disponíveis, use um papel separado para esta etapa. Sem subagentes, execute-a como uma etapa distinta e não antecipe as regras da adaptação.
 
-Execute `validar_reel.py <arquivo>`. Se houver ERRO, chame o redator em modo correção (mesmo briefing, caminho do arquivo e a saída do validador). Se o erro persistir após 2 tentativas, pare e informe Eduardo.
+## 4. Adaptar para Reel
 
-## 5. Revisor
+Gere o briefing com `preparar.py redator --pauta <ID>` ou `preparar.py redator --territorio <N> --tema "<tema>"`. Obtenha a pasta com `preparar.py rascunhos`.
 
-Gere o briefing: `preparar.py revisor <arquivo>`. Chame o revisor com o caminho do briefing e exija a resposta no formato JSON do checklist (use validação de formato da resposta, se o runtime oferecer).
+Peça ao adaptador que leia **o briefing e a história bruta**. A história é o insumo principal: preserve o que aconteceu e o que a pessoa precisa entender, cortando ou mudando apenas o necessário para caber num Reel. Ele salva `AAAA-MM-DD-<assunto>.md` na pasta de rascunhos e responde `ESCRITO: <caminho>`. Não acrescente uma moral, uma consequência, uma pergunta ou um pedido final só para preencher uma fórmula.
 
-- **aprovado:** siga para o passo 6 (Entregar), mesmo que haja falhas do tipo melhoria.
-- **reprovado:** chame o redator em modo correção (mesmo briefing do redator, caminho do arquivo e todas as falhas do JSON). Ele reescreve o Reel inteiro. Depois repita os passos 4 e 5 uma única vez. Há no máximo **1 ciclo de correção**: se a segunda revisão ainda reprovar, siga para o passo 6 e, na entrega, informe Eduardo em uma linha cada falha bloqueante que restou.
+Com subagentes disponíveis, use um papel diferente do contador de histórias. Sem subagentes, trate esta etapa como uma nova leitura da história, primeiro entendendo-a sem consultar a pauta.
 
-## 6. Entregar
+## 5. Conferir e entregar
 
-Leia somente o rascunho final e envie a Eduardo o pacote (Roteiro da Lívia, Legenda, Texto do criativo). Não explique o processo, salvo se ele perguntar. Não grave nada no repositório: aguarde a avaliação dele.
+Execute `validar_reel.py <arquivo>`. Corrija erros mecânicos com o adaptador, no máximo duas tentativas. Leia o roteiro **sem o briefing** como se estivesse ouvindo pela primeira vez: é possível imaginar o que a pessoa fez ou viu, e entender por que isso importa? Se houver uma lacuna no texto, peça ao adaptador para recontar; se faltar uma cena na própria história, volte à etapa 3 ou escolha outra pauta. Não preencha a lacuna com uma explicação sua.
+
+Entregue a Eduardo somente roteiro, legenda e texto de tela. Esta conferência não é uma revisão formal nem um checklist criativo. A leitura e os testes de gravação de Eduardo orientam as próximas versões.
 
 ## Avaliação de Eduardo
 
-**Qual rascunho:** se Eduardo não disser qual, use o rascunho mais recente da pasta de rascunhos (`preparar.py rascunhos`). Se houver mais de um e a resposta for ambígua, liste os títulos e pergunte qual, uma vez.
+Se ele pedir ajuste, passe o comentário e a história bruta ao adaptador; quando o problema for a própria história, volte à etapa 3. Depois valide e entregue de novo. Se não identificar qual rascunho ele avaliou, use o mais recente; se houver ambiguidade real, pergunte uma vez.
 
-- **Aprovou (ou publicou):** este é o único momento em que algo é gravado.
-  1. `git pull --ff-only`.
-  2. Mova o rascunho para `domains/products/pomake/reels/` e troque o estado para `**Estado:** aprovado` (ou `publicado`, se ele disser que publicou).
-  3. Execute `validar_reel.py` no arquivo movido.
-  4. Pauta do índice: `registrar.py <ID> produzida --reel <arquivo>`. Para `orientacao-eduardo`, não altere o índice.
-  5. Adicione somente o arquivo do Reel e `pautas.yaml`, faça commit `content(pomake): add reel <assunto>` e envie ao remoto. Só você faz commit; redator e revisor nunca fazem.
-- **Editou o texto e aprovou:** substitua o pacote do rascunho pela versão dele e siga os passos de "Aprovou".
-- **Rejeitou:** apague o rascunho. O texto rejeitado nunca é gravado. Se Eduardo deu o motivo, registre somente o motivo, nas palavras dele: `rejeitar.py <ID da pauta ou orientacao-eduardo> "<motivo>"`; depois adicione somente `domains/products/pomake/reels/rejeicoes.md`, faça commit `content(pomake): record reel rejection` e envie ao remoto. Se ele não deu o motivo, não pergunte e não grave nada. A pauta continua na fila; nunca altere o status dela por conta própria.
-- **Pediu ajuste:** chame o redator em modo correção sobre o rascunho, com o pedido de Eduardo como falha a corrigir; depois repita os passos 4, 5 e 6.
-- **Já publicado e depois marcado como publicado:** se Eduardo informar que publicou um Reel que já está aprovado no repositório, troque o estado para `publicado`, valide e faça commit.
+- **Aprovou ou publicou:** `git pull --ff-only`; mova o rascunho para `domains/products/pomake/reels/`; mude `**Estado:**` para `aprovado` ou `publicado`; valide. Para pauta do banco, execute `registrar.py <ID> produzida --reel <arquivo>`. Adicione só o Reel e, quando alterado, `pautas.yaml`; faça commit `content(pomake): add reel <assunto>` e envie ao remoto.
+- **Editou e aprovou:** substitua o pacote pela versão de Eduardo antes de seguir o passo anterior.
+- **Rejeitou:** apague os rascunhos da história e do Reel. Se ele deu o motivo, registre somente suas palavras com `rejeitar.py <ID|orientacao-eduardo> "<motivo>"`, faça commit apenas de `rejeicoes.md` e envie ao remoto. Sem motivo, não grave nada e não pergunte. A pauta permanece disponível.
+- **Marcado como publicado depois da aprovação:** atualize o estado do Reel, valide e faça commit.
 
-## Proibições
+Não use textos rejeitados como exemplos. Não altere estratégia, banco de pautas ou esta skill enquanto estiver produzindo um Reel. Não grave história, briefing ou rascunho no repositório.
 
-- Não escrever nem reescrever o texto do Reel você mesmo quando houver redator disponível.
-- Não ler os documentos da estratégia diretamente; use os scripts.
-- Não usar como referência as pastas `references/` e `content/` da raiz do repositório (a pasta `references/` da própria skill é permitida) nem material de outro produto.
-- Não alterar a estratégia editorial, o catálogo de ganchos ou esta skill durante a execução.
-- Não gerar mais de um Reel por pedido, salvo pedido explícito de Eduardo.
-- Não gravar no repositório nenhum Reel, rascunho ou alteração de índice antes da aprovação de Eduardo. A única exceção é o motivo de uma rejeição, depois que Eduardo rejeita.

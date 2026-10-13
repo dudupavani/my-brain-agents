@@ -9,6 +9,7 @@ Cada arquivo é nomeado `AAAA-MM-DD-<assunto>.md`. O cabeçalho registra estado,
 - **aprovado:** aprovado por Eduardo;
 - **publicado:** publicado no perfil.
 
-Todos os Reels desta pasta são referência de qualidade para os próximos.
+Os Reels desta pasta registram o que foi aprovado e ajudam a evitar repetição. Não trate a redação deles como modelo de fala natural: a compreensão do público precisa ser observada nos vídeos gravados.
 
 `rejeicoes.md` guarda somente o motivo de cada rejeição, nas palavras de Eduardo, nunca o texto rejeitado. O motor lê esse arquivo para não repetir os mesmos erros. Ele só existe depois da primeira rejeição com motivo.
+

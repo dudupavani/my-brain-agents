@@ -15,15 +15,11 @@ from _comum import (ESTRATEGIA, SECOES_PACOTE, campo, falas, ids_de_pautas,  # n
                     ler_reels, secoes)
 
 ESTADOS = {"proposta", "aprovado", "publicado"}
-MIN_PALAVRAS = 40
-ALVO_PALAVRAS = (40, 65)   # Reel de dica: 15 a 25 segundos (decisão de Eduardo em 2026-10-13)
-MAX_PALAVRAS = 70         # acima disso: erro em rascunho (Reels aprovados antes da regra não são barrados)
-FALA1_MIN = 12          # abaixo disso: aviso (conferir se ainda situa a quem se fala e o assunto)
-FALA1_MAX = 15          # acima disso: erro (o gancho precisa caber em 3 segundos)
+ALVO_PALAVRAS = (35, 75)  # estimativa; a leitura em voz alta decide se cabe em 15–25 s
+MAX_PALAVRAS = 90         # acima disso, a adaptação ainda não cortou o suficiente
 REPETICAO_ERRO = 8      # palavras seguidas iguais a um Reel anterior: erro
 REPETICAO_AVISO = 5     # palavras seguidas iguais a um Reel anterior: aviso
 EMOJI = re.compile("[\U0001F000-\U0001FAFF☀-➿️]")
-PEDIDO = re.compile(r"\b(salv|guard|envi|mand|compartilh|repass|encaminh)\w*", re.I)
 TERMOS_COMERCIAIS = ["preço", "r$", "compre", "assine", "assinatura", "teste grátis",
                      "link na bio", "cupom", "desconto"]
 
@@ -102,24 +98,14 @@ def validar(caminho):
     if not itens.get("Fechamento"):
         erros.append("Roteiro sem 'Fechamento:' preenchido.")
 
-    # Tamanho da Fala 1 (gancho de 3 segundos)
-    palavras_fala1 = len(normalizar(itens.get("Fala 1", "")))
-    if palavras_fala1 > FALA1_MAX:
-        erros.append(f"Fala 1 com {palavras_fala1} palavras; o gancho precisa caber em 3 segundos. "
-                     f"Alvo: {FALA1_MIN} a {FALA1_MAX} palavras. Reescreva a Fala 1 do zero, curta, com a técnica de gancho.")
-    elif itens.get("Fala 1") and palavras_fala1 < FALA1_MIN:
-        avisos.append(f"Fala 1 com {palavras_fala1} palavras (alvo: {FALA1_MIN} a {FALA1_MAX}). "
-                      "Confirme que ela ainda diz a quem se fala e qual é o assunto.")
-
-    # Duração
+    # Duração estimada; o teste de fala prevalece sobre a contagem.
     palavras = len(normalizar(re.sub(r"^(Fala \d+|Fechamento):", "", roteiro, flags=re.M)))
-    if palavras < MIN_PALAVRAS:
-        erros.append(f"Roteiro com {palavras} palavras; o mínimo é {MIN_PALAVRAS} (Reel de no mínimo 15 segundos).")
+    if not palavras:
+        erros.append("Roteiro sem fala.")
     elif estado == "proposta" and palavras > MAX_PALAVRAS:
-        erros.append(f"Roteiro com {palavras} palavras; o máximo é {MAX_PALAVRAS}. Alvo: {ALVO_PALAVRAS[0]} a {ALVO_PALAVRAS[1]}. "
-                     "Corte as falas que a história não precisa; não espreme frases.")
+        erros.append(f"Roteiro com {palavras} palavras; corte antes de gravar ou confirme uma duração maior com Eduardo.")
     elif estado == "proposta" and not ALVO_PALAVRAS[0] <= palavras <= ALVO_PALAVRAS[1]:
-        avisos.append(f"Roteiro com {palavras} palavras (alvo: {ALVO_PALAVRAS[0]} a {ALVO_PALAVRAS[1]}).")
+        avisos.append(f"Roteiro com {palavras} palavras; confira a duração falando em voz alta.")
 
     # Legenda
     legenda = sec.get("Legenda", "")
@@ -131,13 +117,6 @@ def validar(caminho):
     inicio_legenda = normalizar(re.split(r"(?<=[.?!])\s", legenda.strip(), maxsplit=1)[0]) if legenda.strip() else []
     if fala1 and inicio_legenda and (inicio_legenda == fala1 or " ".join(fala1) in " ".join(inicio_legenda)):
         avisos.append("A legenda começa repetindo a Fala 1. A legenda deve adaptar o argumento, não copiar a fala.")
-
-    # Pedido final
-    if itens.get("Fechamento") and not PEDIDO.search(itens["Fechamento"]):
-        erros.append("Fechamento sem pedido ao público (salvar ou enviar a alguém).")
-    ultimo_paragrafo = [p for p in legenda.strip().split("\n") if p.strip()][-1:] if legenda.strip() else []
-    if ultimo_paragrafo and not PEDIDO.search(ultimo_paragrafo[0]):
-        erros.append("A legenda não termina com pedido ao público (salvar ou enviar a alguém).")
 
     # Pomake e tom comercial
     pacote = texto_do_pacote(sec)
@@ -186,3 +165,4 @@ if __name__ == "__main__":
     if erros:
         sys.exit(1)
     print("OK")
+
