@@ -294,8 +294,6 @@ def cmd_redator(args):
         *extra_tema,
         bloco("Fundação: público, promessa e limites", "editorial-strategy/foundation.md",
               extrair(ESTRATEGIA / "foundation.md", SECOES_FUNDACAO)),
-        bloco("Ponte editorial (qualificação da pauta)", "editorial-strategy/production-bridge.md",
-              sem_titulo(ler(ESTRATEGIA / "production-bridge.md"))),
         *blocos_pomake(numero),
         bloco("O que não repetir", "domains/products/pomake/reels/", lista_nao_repetir(reels)),
     ]

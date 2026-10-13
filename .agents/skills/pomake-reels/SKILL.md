@@ -26,7 +26,7 @@ Execute `git pull --ff-only`. Se não for possível atualizar sem conflito, pare
 
 ## 2. Definir a pauta
 
-- **Sem tema de Eduardo:** execute `python3 .agents/skills/pomake-reels/scripts/preparar.py candidatas` e use as pautas na ordem listada.
+- **Sem tema de Eduardo:** execute `python3 .agents/skills/pomake-reels/scripts/preparar.py candidatas` e use a primeira pauta da lista.
 - **Com tema de Eduardo:** execute `preparar.py territorios` e classifique o tema em um único território pela regra de propriedade. Depois execute `preparar.py pautas --territorio <N>`. Se uma pauta corresponder claramente ao tema, use o `id` dela; senão, a pauta é `orientacao-eduardo`. Nunca troque o tema por outro.
 - Só pergunte algo a Eduardo se o pedido tiver duas leituras que mudariam o Reel. Uma pergunta, uma vez.
 
@@ -34,10 +34,7 @@ Execute `git pull --ff-only`. Se não for possível atualizar sem conflito, pare
 
 Gere o briefing: `preparar.py redator --pauta <ID>` ou `preparar.py redator --territorio <N> --tema "<tema>"`.
 
-Obtenha a pasta de rascunhos com `preparar.py rascunhos`. Chame o redator com: o caminho do briefing, a data de hoje (AAAA-MM-DD) e essa pasta de rascunhos. O arquivo do rascunho se chama `AAAA-MM-DD-<assunto>.md`; o validador reprova outro nome. O redator salva o rascunho e responde `ESCRITO: <caminho>` ou `INAPTA: <status> — <motivo>`.
-
-- **INAPTA em pauta do índice:** não altere o índice; volte ao passo 3 com a próxima candidata. Após 3 pautas inaptas seguidas, pare e informe Eduardo do motivo de cada uma.
-- **INAPTA em `orientacao-eduardo`:** informe Eduardo do motivo e pare.
+Obtenha a pasta de rascunhos com `preparar.py rascunhos`. Chame o redator com: o caminho do briefing, a data de hoje (AAAA-MM-DD) e essa pasta de rascunhos. O arquivo do rascunho se chama `AAAA-MM-DD-<assunto>.md`; o validador reprova outro nome. O redator só escreve: salva o rascunho e responde `ESCRITO: <caminho>`. Ele não julga a pauta; quem decide se uma pauta serve é Eduardo, ao aprovar ou rejeitar o Reel.
 
 ## 4. Validar
 
