@@ -1,6 +1,6 @@
 ---
 name: pomake-reels
-description: "Gera o texto completo de um Reel orgânico do Pomake apresentado pela Lívia (roteiro de fala, legenda e texto do criativo), a partir da estratégia editorial do Pomake. Use quando Eduardo pedir um Reel, um conteúdo ou um vídeo da Lívia para o perfil do Pomake, com ou sem tema. Não use para anúncios do Meta Ads, carrossel, post estático ou conteúdo pessoal do Eduardo."
+description: "Gera o texto completo de um Reel orgânico do Pomake, gravado pela Lívia ou por outra pessoa (roteiro de fala, legenda e texto do criativo), a partir da estratégia editorial do Pomake. Use quando Eduardo pedir um Reel, um conteúdo ou um vídeo da Lívia para o perfil do Pomake, com ou sem tema. Não use para anúncios do Meta Ads, carrossel, post estático ou conteúdo pessoal do Eduardo."
 ---
 
 # Reels do Pomake
