@@ -78,6 +78,8 @@ def validar(caminho):
         erros.append("Campo Pauta ausente.")
     elif pauta != "orientacao-eduardo" and pauta not in ids_de_pautas():
         erros.append(f"Pauta '{pauta}' não existe em pautas.yaml.")
+    if estado == "proposta" and not campo(texto, "Recorte"):
+        erros.append("Campo Recorte ausente; registre a cena ou dúvida específica deste Reel.")
 
     territorio = campo(texto, "Território")
     if territorio is None or not re.fullmatch(r"[1-6]", territorio):

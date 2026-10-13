@@ -4,291 +4,290 @@
 # Este arquivo guarda apenas a identificação, o status e os Reels produzidos.
 #
 # status:
-#   disponivel  pode virar Reel
-#   produzida   já virou Reel (ver campo reels)
-#   descartada  Eduardo decidiu não usar
+#   ativa      pode render vários Reels (ver campo reels)
+#   arquivada  Eduardo decidiu não usar por enquanto
 
 pautas:
   - id: T1-P01
     territorio: "1 — O trabalho já tem assunto"
     titulo: "O que está incluído no serviço"
     arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T1-P02
     territorio: "1 — O trabalho já tem assunto"
     titulo: '"Nossa, você também faz isso?"'
     arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T1-P03
     territorio: "1 — O trabalho já tem assunto"
     titulo: "Os minutos antes do cliente chegar"
     arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T1-P04
     territorio: "1 — O trabalho já tem assunto"
     titulo: "A conferência que evitou o erro"
     arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T1-P05
     territorio: "1 — O trabalho já tem assunto"
     titulo: "O ajuste que todo cliente pede"
     arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T1-P06
     territorio: "1 — O trabalho já tem assunto"
     titulo: "As fotos esquecidas na galeria"
     arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T1-P07
     territorio: "1 — O trabalho já tem assunto"
     titulo: "A mensagem depois da entrega"
     arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T1-P08
     territorio: "1 — O trabalho já tem assunto"
     titulo: "A dica que você dá na saída"
     arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T1-P09
     territorio: "1 — O trabalho já tem assunto"
     titulo: "O elogio que ficou no WhatsApp"
     arquivo: content-bank/01-assuntos-que-aparecem-durante-o-trabalho.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T2-P01
     territorio: "2 — O que vale comunicar"
     titulo: "O certificado e a mudança no atendimento"
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
-    status: produzida
+    status: ativa
     reels: [domains/products/pomake/reels/2026-10-11-o-certificado-e-o-cliente.md]
   - id: T2-P02
     territorio: "2 — O que vale comunicar"
     titulo: "O equipamento novo que chegou"
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T2-P03
     territorio: "2 — O que vale comunicar"
     titulo: "O prazo que mudou"
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T2-P04
     territorio: "2 — O que vale comunicar"
     titulo: "A foto bonita e a dúvida de sempre"
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T2-P05
     territorio: "2 — O que vale comunicar"
     titulo: "A trend que todo mundo está fazendo"
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T2-P06
     territorio: "2 — O que vale comunicar"
     titulo: "O post com poucas curtidas e muitas perguntas"
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T2-P07
     territorio: "2 — O que vale comunicar"
     titulo: "O caso bom que entregaria o cliente"
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T2-P08
     territorio: "2 — O que vale comunicar"
     titulo: 'O "bom dia, estamos abertos" de todo dia'
     arquivo: content-bank/02-o-filtro-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T3-P01
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
     titulo: "O story do trabalho pela metade"
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T3-P02
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
     titulo: "O nome do serviço que não diz nada"
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T3-P03
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
     titulo: "A palavra que só você entende"
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T3-P04
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
     titulo: "O antes e depois que o cliente olha errado"
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T3-P05
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
     titulo: '"Por que demora tanto?"'
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T3-P06
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
     titulo: "Os dois serviços que parecem iguais"
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T3-P07
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
     titulo: "A explicação que começa pelo meio"
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T3-P08
     territorio: "3 — Conhecer o trabalho não é saber apresentá-lo"
     titulo: "Dez vantagens num post só"
     arquivo: content-bank/03-pontes-para-quem-esta-de-fora.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T4-P01
     territorio: "4 — O peso escondido de criar um post"
     titulo: "O aviso curto que virou uma produção"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T4-P02
     territorio: "4 — O peso escondido de criar um post"
     titulo: "O texto esquecido no bloco de notas"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T4-P03
     territorio: "4 — O peso escondido de criar um post"
     titulo: "A ideia que apareceu no meio do atendimento"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T4-P04
     territorio: "4 — O peso escondido de criar um post"
     titulo: "O post interrompido pelo cliente"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T4-P05
     territorio: "4 — O peso escondido de criar um post"
     titulo: "Três começos e nenhum escolhido"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T4-P06
     territorio: "4 — O peso escondido de criar um post"
     titulo: "Um monte de fotos, nenhuma escolhida"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T4-P07
     territorio: "4 — O peso escondido de criar um post"
     titulo: "A arte pronta esperando uma confirmação"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T4-P08
     territorio: "4 — O peso escondido de criar um post"
     titulo: "O perfil parado há três semanas"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T4-P09
     territorio: "4 — O peso escondido de criar um post"
     titulo: "A foto com um, a informação com outro"
     arquivo: content-bank/04-tudo-o-que-aparece-antes-de-publicar.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T5-P01
     territorio: "5 — Uma marca com um jeito reconhecível"
     titulo: "O logo não organizou o restante"
     arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T5-P02
     territorio: "5 — Uma marca com um jeito reconhecível"
     titulo: "O aviso que parece comunicado de banco"
     arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T5-P03
     territorio: "5 — Uma marca com um jeito reconhecível"
     titulo: "Promoção, aviso e parabéns no mesmo molde"
     arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T5-P04
     territorio: "5 — Uma marca com um jeito reconhecível"
     titulo: "A foto linda que não parece sua"
     arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T5-P05
     territorio: "5 — Uma marca com um jeito reconhecível"
     titulo: "A promoção que grita"
     arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T5-P06
     territorio: "5 — Uma marca com um jeito reconhecível"
     titulo: "O aviso sério com cara de festa"
     arquivo: content-bank/05-posts-diferentes-a-mesma-marca.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T6-P01
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     titulo: "A decisão continua com o negócio"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T6-P02
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     titulo: "Reescrever a legenda pela terceira vez"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T6-P03
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     titulo: "Começar pelo que você quer dizer"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T6-P04
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     titulo: "O primeiro resultado não ficou do seu jeito"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T6-P05
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     titulo: "Cada post fala de um jeito"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T6-P06
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     titulo: "A promoção decidida em cinco minutos"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: disponivel
+    status: ativa
     reels: []
   - id: T6-P07
     territorio: "6 — Publicar sem precisar fazer tudo sozinho"
     titulo: "Medo de perder o controle do que vai pro ar"
     arquivo: content-bank/06-voce-decide-a-criacao-nao-precisa-ficar-toda-com-voce.md
-    status: disponivel
+    status: ativa
     reels: []
 

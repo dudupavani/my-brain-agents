@@ -9,7 +9,7 @@ Este diretório é a **única** estratégia de conteúdo do Pomake, executada ex
 
 - [Fundação editorial](foundation.md): público, papel do perfil, promessa e limites.
 - [Territórios editoriais](territories.md): os seis territórios, a regra de propriedade e a regra de produção.
-- [Banco de pautas](content-bank/): uma pauta por situação, por território.
+- [Banco de pautas](content-bank/): ideias reutilizáveis, com um exemplo de recorte em cada uma.
 - [Índice de pautas](pautas.yaml): status de cada pauta e Reels produzidos a partir dela.
 - [Catálogo de ganchos](hooks.md): 18 técnicas de gancho e regras de uso.
 
@@ -17,19 +17,20 @@ O conteúdo passa por pauta, [história bruta](../../../../.agents/skills/pomake
 
 ## Formato da pauta
 
-Cada pauta é uma semente de história, escrita do ponto de vista do dono do negócio. O banco mantém os territórios e os IDs já usados, mas cada entrada precisa fornecer dois insumos claros:
+Cada pauta guarda uma **ideia reutilizável**. Ela pode render vários Reels quando há novas perguntas, cenas e ações para o espectador, sem repetir o argumento com outra profissão. O banco mantém os territórios e os IDs já usados. Cada entrada fornece três insumos:
 
-- **Cena possível:** uma pessoa de uma profissão ou negócio identificável fazendo algo que o espectador consiga visualizar. É um exemplo hipotético, nunca apresentado como caso real.
-- **Ideia de post:** o conteúdo específico que essa pessoa poderia publicar a partir da cena. A Lívia pode convidar quem assiste a encontrar um equivalente na própria rotina.
+- **O que a Lívia conta:** a ligação entre uma situação reconhecível e uma ideia útil. É a mensagem central da pauta, ainda sem falas prontas.
+- **Exemplo de recorte:** uma pessoa de uma profissão ou negócio identificável fazendo algo que o espectador consiga visualizar. É uma possibilidade hipotética, nunca apresentada como caso real.
+- **Post possível nesse recorte:** o conteúdo específico que essa pessoa poderia publicar a partir do exemplo. Outro recorte da mesma pauta precisa ter sua própria cena e ação concreta.
 
-A cena não precisa representar todas as profissões ao mesmo tempo. Um exemplo específico pode fazer a pessoa de outra área reconhecer a situação equivalente. O título nomeia o momento, não uma tese sobre resultados. Uma pauta nova só entra se a cena for compreensível sem ver imagens adicionais, se a ideia de post for executável e se não repetir o argumento de outra.
+A cena não precisa representar todas as profissões ao mesmo tempo. Um exemplo específico pode fazer a pessoa de outra área reconhecer a situação equivalente. O título nomeia a ideia, não um roteiro único. Antes de reutilizar uma pauta, consulte os Reels ligados a ela em `pautas.yaml` e escolha um recorte cuja cena, dúvida e ação prática acrescentem algo. Trocar apenas a profissão ou as palavras não cria outro Reel. Uma pauta nova só entra se sua ideia central for distinta das existentes.
 
 Não use perda de clientes, reação do público, ganho de tempo ou resultado como conclusão automática. Só afirme o que a cena mostra ou o que uma fonte fornecida por Eduardo comprova. Se a pauta não se sustentar como história curta e compreensível, reescreva a pauta antes de produzir o Reel.
 
 ## Como acrescentar uma pauta
 
 1. Escreva a pauta no arquivo do território, em `content-bank/`, com o próximo número.
-2. Acrescente a entrada em `pautas.yaml` com `status: disponivel`.
+2. Acrescente a entrada em `pautas.yaml` com `status: ativa`. O campo `reels` guarda todos os Reels aprovados da pauta; publicar um não a encerra. Use `arquivada` somente por decisão editorial explícita.
 
 ## Títulos usados pelo gerador
 

@@ -5,7 +5,7 @@ description: "Cria um Reel orgânico do Pomake para a Lívia ou outra pessoa gra
 
 # Reels do Pomake
 
-Crie **um** Reel por pedido. O fluxo tem três decisões: escolher a pauta, contar a história de modo compreensível e só então adaptá-la ao tempo e à linguagem de Reel. Não transforme os campos da pauta em falas por ordem. Eles são possibilidades para explorar, não uma estrutura obrigatória.
+Crie **um** Reel por pedido. O fluxo tem três decisões: escolher uma pauta reutilizável e um recorte ainda não contado, desenvolver esse recorte em uma história compreensível e só então adaptá-la ao tempo e à linguagem de Reel. Não transforme os campos da pauta em falas por ordem. O exemplo dela é uma possibilidade, não o único assunto que pode nascer da ideia.
 
 O pacote final é texto para gravar: roteiro falado, legenda e texto de tela. Eduardo decide se aprova. Nenhum Reel ou rascunho entra no repositório antes da aprovação dele (decisão de 2026-10-10).
 
@@ -17,7 +17,7 @@ Execute `git pull --ff-only`. Se houver conflito ou alterações locais que impe
 
 ## 2. Escolher a pauta
 
-- Sem tema: execute `python3 .agents/skills/pomake-reels/scripts/preparar.py candidatas`. Use a primeira pauta que ofereça uma situação clara, uma ideia de post executável e um argumento diferente dos Reels existentes. A cena pode escolher uma profissão específica; não precisa representar todas ao mesmo tempo. Se a pauta for vaga, escolha outra ou reescreva a pauta antes de produzir.
+- Sem tema: execute `python3 .agents/skills/pomake-reels/scripts/preparar.py candidatas`. Use uma pauta ativa que permita um recorte concreto, uma ideia de post executável e um argumento diferente dos Reels existentes. Uma pauta já usada continua disponível. Consulte os recortes anteriores dela antes de escolher outra cena; trocar só a profissão ou as palavras não basta.
 - Com tema: execute `preparar.py territorios`, classifique-o pela regra de propriedade e veja `preparar.py pautas --territorio <N>`. Use uma pauta que corresponda claramente; caso contrário, use `orientacao-eduardo`. Não substitua o tema de Eduardo.
 - Só pergunte quando duas leituras do pedido mudarem materialmente o Reel.
 
@@ -25,7 +25,7 @@ Execute `git pull --ff-only`. Se houver conflito ou alterações locais que impe
 
 Gere o briefing com `preparar.py historia --pauta <ID>` ou `preparar.py historia --territorio <N> --tema "<tema>"`. Obtenha a pasta com `preparar.py historias`.
 
-Peça a um contador de histórias que leia **somente esse briefing** e salve `AAAA-MM-DD-<assunto>-historia.md` na pasta indicada. A resposta é `HISTORIA: <caminho>`. Ele deve contar o acontecimento em linguagem falada, sem escrever gancho, legenda, chamada para salvar ou roteiro final. A cena da pauta é hipotética, não uma experiência vivida pela Lívia. Se a pauta não sustentar uma história compreensível sem inventar fatos, ele sinaliza isso; escolha outra pauta ou peça a informação indispensável a Eduardo.
+Peça a um contador de histórias que leia **somente esse briefing** e salve `AAAA-MM-DD-<assunto>-historia.md` na pasta indicada. A resposta é `HISTORIA: <caminho>`. Ele escolhe e registra o recorte, conta o acontecimento em linguagem falada e mostra qual post nasce dele, sem escrever gancho, legenda, chamada para salvar ou roteiro final. A cena é hipotética, não uma experiência vivida pela Lívia. Se a pauta não sustentar outro recorte compreensível sem inventar fatos, escolha outra pauta ou peça a informação indispensável a Eduardo.
 
 Com subagentes disponíveis, use um papel separado para esta etapa. Sem subagentes, execute-a como uma etapa distinta e não antecipe as regras da adaptação.
 
@@ -47,9 +47,9 @@ Entregue a Eduardo somente roteiro, legenda e texto de tela. Esta conferência n
 
 Se ele pedir ajuste, passe o comentário e a história bruta ao adaptador; quando o problema for a própria história, volte à etapa 3. Depois valide e entregue de novo. Se não identificar qual rascunho ele avaliou, use o mais recente; se houver ambiguidade real, pergunte uma vez.
 
-- **Aprovou ou publicou:** `git pull --ff-only`; mova o rascunho para `domains/products/pomake/reels/`; mude `**Estado:**` para `aprovado` ou `publicado`; valide. Para pauta do banco, execute `registrar.py <ID> produzida --reel <arquivo>`. Adicione só o Reel e, quando alterado, `pautas.yaml`; faça commit `content(pomake): add reel <assunto>` e envie ao remoto.
+- **Aprovou ou publicou:** `git pull --ff-only`; mova o rascunho para `domains/products/pomake/reels/`; mude `**Estado:**` para `aprovado` ou `publicado`; valide. Para pauta do banco, execute `registrar.py <ID> --reel <arquivo>`. O Reel entra na lista da pauta, que continua ativa para outros recortes. Adicione só o Reel e, quando alterado, `pautas.yaml`; faça commit `content(pomake): add reel <assunto>` e envie ao remoto.
 - **Editou e aprovou:** substitua o pacote pela versão de Eduardo antes de seguir o passo anterior.
-- **Rejeitou:** apague os rascunhos da história e do Reel. Se ele deu o motivo, registre somente suas palavras com `rejeitar.py <ID|orientacao-eduardo> "<motivo>"`, faça commit apenas de `rejeicoes.md` e envie ao remoto. Sem motivo, não grave nada e não pergunte. A pauta permanece disponível.
+- **Rejeitou:** apague os rascunhos da história e do Reel. Se ele deu o motivo, registre somente suas palavras com `rejeitar.py <ID|orientacao-eduardo> "<motivo>"`, faça commit apenas de `rejeicoes.md` e envie ao remoto. Sem motivo, não grave nada e não pergunte. A pauta permanece ativa.
 - **Marcado como publicado depois da aprovação:** atualize o estado do Reel, valide e faça commit.
 
 Não use textos rejeitados como exemplos. Não altere estratégia, banco de pautas ou esta skill enquanto estiver produzindo um Reel. Não grave história, briefing ou rascunho no repositório.

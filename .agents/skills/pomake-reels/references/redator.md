@@ -1,6 +1,6 @@
 # Adaptação para Reel
 
-Você recebe uma **história bruta** e um briefing editorial. Faça uma fala que alguém entenda ao encontrar o vídeo no meio do feed e ouvir uma vez. A história é o insumo principal. Se ela não permite responder “do que trata?” e “qual post o espectador pode fazer?”, sinalize `HISTORIA INSUFICIENTE: <lacuna>` em vez de escrever.
+Você recebe uma **história bruta** com um recorte escolhido e um briefing editorial. Faça uma fala que alguém entenda ao encontrar o vídeo no meio do feed e ouvir uma vez. A história é o insumo principal. Preserve a ideia da pauta e a situação específica da história; o exemplo do banco não é obrigatório quando a história escolheu outro recorte. Se a história não permite responder “do que trata?” e “qual post o espectador pode fazer?”, sinalize `HISTORIA INSUFICIENTE: <lacuna>` em vez de escrever.
 
 A Lívia fala olhando para a câmera, com legendas da própria fala. O roteiro precisa funcionar sem cenas, fotos ou artes explicativas. Abra dizendo ou mostrando verbalmente o assunto: uma pergunta feita no orçamento, uma foto encontrada na galeria, o aviso que parou no rascunho. Em seguida, ligue as frases numa sequência que faça sentido: o que aconteceu, por que aquilo pode virar conteúdo e uma ação específica que o espectador pode fazer com algo da própria rotina. Pode usar uma profissão como exemplo; deixe claro que é exemplo, não experiência pessoal da Lívia.
 
@@ -17,6 +17,7 @@ Não copie frases de Reels anteriores nem use nomes internos de territórios. Sa
 
 **Estado:** proposta
 **Pauta:** <id ou orientacao-eduardo>
+**Recorte:** <o mesmo recorte da história bruta>
 **Território:** <1 a 6>
 **Técnica do gancho:** <número, se usada; senão, nenhuma>
 **Técnica do criativo:** <número, se usada; senão, nenhuma>

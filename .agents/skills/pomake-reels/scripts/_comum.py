@@ -97,6 +97,7 @@ def ler_reels():
             "texto": texto,
             "estado": (campo(texto, "Estado") or "").split()[0].rstrip(".").lower() if campo(texto, "Estado") else "",
             "pauta": campo(texto, "Pauta"),
+            "recorte": campo(texto, "Recorte"),
             "territorio": campo(texto, "Território"),
             "secoes": sec,
             "falas": falas(sec.get("Roteiro da Lívia", "")),

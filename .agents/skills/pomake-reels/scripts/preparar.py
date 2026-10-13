@@ -34,7 +34,7 @@ from _comum import (ESTRATEGIA, POMAKE, RAIZ, ler_pautas,  # noqa: E402
                     ler_reels, ler_rejeicoes, secoes)
 
 SKILL = Path(__file__).resolve().parents[1]
-STATUS_ELEGIVEIS = ["disponivel"]
+STATUS_ELEGIVEIS = ["ativa"]
 MAX_NAO_REPETIR = 30
 
 SECOES_FUNDACAO = ["Público", "Limites"]
@@ -113,6 +113,22 @@ def texto_da_pauta(pauta):
         raise ErroExtracao(f"ERRO: pauta {numero} não encontrada em {caminho.relative_to(RAIZ)}.")
     corpo = m.group(0).strip().split("\n", 1)[1].strip()
     return f"**Pauta:** {pauta['id']}\n**Título:** {pauta['titulo']}\n**Território:** {pauta['territorio']}\n\n{corpo}"
+
+
+def recortes_anteriores(pauta_id, reels):
+    """Mostra o conteúdo já produzido com a mesma ideia antes de escolher outro recorte."""
+    anteriores = [r for r in reels if r["pauta"] == pauta_id]
+    if not anteriores:
+        return "(esta pauta ainda não tem Reel aprovado)"
+    linhas = []
+    for r in anteriores:
+        roteiro = re.sub(r"^(Fala \d+|Fechamento):\s*", "",
+                         r["secoes"].get("Roteiro da Lívia", "").strip(), flags=re.M)
+        frases = re.split(r"(?<=[.?!])\s+", roteiro)
+        recorte = r.get("recorte") or (frases[0] if frases else "—")
+        final = r["falas"].get("Fechamento") or (frases[-1] if frases else "—")
+        linhas.append(f"- **{r['relativo']}**\n  - Recorte: {recorte}\n  - Final: {final}")
+    return "Escolha outra cena, dúvida e ação prática. Mudar apenas a profissão não basta.\n\n" + "\n".join(linhas)
 
 
 def lista_nao_repetir(reels, excluir=None):
@@ -197,7 +213,7 @@ def cmd_candidatas(args):
 
     def chave(p):
         t = p["territorio"].split(" ")[0]
-        return (STATUS_ELEGIVEIS.index(p["status"]), contagem.get(t, 0), p["id"][:2], p["id"])
+        return (len(p.get("reels", [])), contagem.get(t, 0), p["id"])
 
     elegiveis.sort(key=chave)
     escolhidas, territorios = [], []
@@ -218,7 +234,8 @@ def cmd_candidatas(args):
         return
     print(f"Território do Reel mais recente: {ultimo or '—'}. Use as pautas nesta ordem:\n")
     for i, p in enumerate(escolhidas, 1):
-        print(f"{i}. {p['id']} [{p['status']}] — {p['titulo']} (território {p['territorio']})")
+        usos = len(p.get("reels", []))
+        print(f"{i}. {p['id']} [{p['status']}, {usos} Reel(s)] — {p['titulo']} (território {p['territorio']})")
 
 
 def cmd_territorios(args):
@@ -235,7 +252,7 @@ def cmd_pautas(args):
     """Títulos e status das pautas de um território, para encontrar a que corresponde a um tema."""
     for p in ler_pautas():
         if p["territorio"].split(" ")[0] == str(args.territorio):
-            print(f"{p['id']} [{p['status']}] — {p['titulo']}")
+            print(f"{p['id']} [{p['status']}, {len(p.get('reels', []))} Reel(s)] — {p['titulo']}")
 
 
 def dados_do_assunto(args):
@@ -255,11 +272,14 @@ def dados_do_assunto(args):
 
 def cmd_historia(args):
     numero, assunto = dados_do_assunto(args)
+    reels = ler_reels()
     partes = [
         "# Briefing da história bruta — Reel do Pomake",
         bloco("Como contar a história", ".agents/skills/pomake-reels/references/historia.md",
               sem_titulo(ler(SKILL / "references/historia.md"))),
         assunto,
+        *([bloco("Recortes já usados nesta pauta", "domains/products/pomake/reels/",
+                 recortes_anteriores(args.pauta, reels))] if args.pauta else []),
         bloco_territorio(numero),
         bloco("Público e limites", "editorial-strategy/foundation.md",
               extrair(ESTRATEGIA / "foundation.md", SECOES_FUNDACAO)),
@@ -278,6 +298,8 @@ def cmd_redator(args):
         bloco("Instruções do adaptador", ".agents/skills/pomake-reels/references/redator.md",
               sem_titulo(ler(SKILL / "references/redator.md"))),
         bloco_pauta,
+        *([bloco("Recortes já usados nesta pauta", "domains/products/pomake/reels/",
+                 recortes_anteriores(args.pauta, reels))] if args.pauta else []),
         bloco_territorio(numero),
         bloco("Público e limites", "editorial-strategy/foundation.md",
               extrair(ESTRATEGIA / "foundation.md", SECOES_FUNDACAO)),
