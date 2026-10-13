@@ -1,125 +1,60 @@
-# Banco de pautas — O filtro antes de publicar
+# Pautas — Território 2: O que vale comunicar
 
-**Território proprietário:** [O que vale comunicar](../territories/02-o-que-vale-comunicar.md).
-**Estado:** repertório de pautas; o status de cada uma está em [`pautas.yaml`](../pautas.yaml). Na produção de Reels vale a [regra de produção](../territories.md#regra-de-produção).
-
-## Série 1 — Aconteceu. Mas por que contar?
+**Território:** 2 — O que vale comunicar
+**Formato:** semente de história (ver [README](../README.md#formato-da-pauta)).
 
 ### Pauta 1 — O certificado e a mudança no atendimento
 
 - **Situação:** você terminou um curso e postou a foto do certificado com a legenda "mais uma conquista". Quem curtiu foram colegas e família; nenhum cliente comentou.
 - **O que você perde:** você investiu tempo e dinheiro para atender melhor, e quem poderia te contratar não percebeu nada disso.
 - **A virada:** o certificado fala de você. O cliente quer ver o que muda pra ele. A melhoria aparece no seu trabalho, não no papel.
-- **O que postar:** em vez da foto do certificado, mostre no seu próprio trabalho uma coisa que você passou a fazer diferente depois do curso, com o antes e o depois. O certificado pode aparecer junto, como apoio.
+- **O que fazer:** em vez da foto do certificado, mostre no seu próprio trabalho uma coisa que você passou a fazer diferente depois do curso, com o antes e o depois. O certificado pode aparecer junto, como apoio.
 
-### Pauta 2 — Um caso que se parece com outras conversas
-- **Cena:** uma situação de atendimento já registrada se repete em dúvidas de pessoas diferentes; o assunto ganha uma ponte plausível além daquele caso.
-- **Contexto:** serviços em geral.
-- **Resposta desejada:** considerar o assunto sem transformar o caso individual em regra.
-- **Material necessário:** registros anonimizados de ocorrências independentes; permissão para qualquer elemento identificável.
+### Pauta 2 — O equipamento novo que chegou
 
-### Pauta 3 — A comemoração só da equipe
-- **Cena:** a equipe celebra uma meta interna; não há mudança para quem a acompanha. O acontecimento pode ficar fora do perfil sem perder importância para quem participou.
-- **Contexto:** pequenas equipes.
-- **Resposta desejada:** aceitar que importância interna não obriga publicação.
-- **Material necessário:** descrição do marco e checagem de possíveis consequências externas; nenhuma presumida.
+- **Situação:** chegou o equipamento novo que você esperava há meses. Você tira foto da caixa, posta "chegou!" e recebe meia dúzia de parabéns de quem já te conhece.
+- **O que você perde:** pra quem pode te contratar, é só uma caixa. Ele não sabe o que muda no serviço que vai receber.
+- **A virada:** novidade do negócio só vira assunto quando muda alguma coisa pro cliente: mais rápido, mais opção, melhor acabamento.
+- **O que fazer:** em vez da caixa, mostre o que o cliente ganha com o equipamento novo.
 
-## Série 2 — O que isso oferece?
+### Pauta 3 — O prazo que mudou
 
-### Pauta 4 — Uma pergunta que pode esclarecer
-- **Cena:** a dúvida já encontrada é sobre o que está incluído em um serviço; selecioná-la pode desfazer uma confusão que surgiu antes da contratação.
-- **Contexto:** prestadores de serviços.
-- **Resposta desejada:** reconhecer o valor de esclarecimento, sem começar a redigir a resposta.
-- **Material necessário:** perguntas reais e descrição vigente do serviço.
+- **Situação:** você passou a pedir mais antecedência nas encomendas. Avisou quem perguntou no WhatsApp. No perfil, continua tudo como antes.
+- **O que você perde:** o cliente novo faz o pedido em cima da hora, você não consegue atender e ele vai embora frustrado.
+- **A virada:** uma mudança que afeta o pedido do cliente vale mais do que qualquer foto bonita da semana.
+- **O que fazer:** poste a mudança e diga, numa frase, o que o cliente precisa fazer diferente.
 
-### Pauta 5 — Uma conferência que revela cuidado
-- **Cena:** a revisão anterior à entrega já foi identificada; o assunto é selecionado porque mostra um cuidado que não aparece no resultado final.
-- **Contexto:** serviços e encomendas com conferência efetiva.
-- **Resposta desejada:** reconhecer o valor de revelar o trabalho, sem alegar garantia de qualidade.
-- **Material necessário:** registro real da conferência, com dados removidos.
+### Pauta 4 — A foto bonita e a dúvida de sempre
 
-### Pauta 6 — A diferença que ajuda a avaliar opções
-- **Cena:** duas modalidades já conhecidas são confundidas. A diferença factual entre elas pode ajudar alguém a avaliar qual atende sua situação.
-- **Contexto:** negócios com opções efetivamente distintas.
-- **Resposta desejada:** priorizar um assunto que oferece critérios, não uma escolha universal.
-- **Material necessário:** descrições vigentes, diferença verificável e perguntas recebidas.
+- **Situação:** você tem uma foto linda do trabalho pronta pra postar. Ao mesmo tempo, três clientes perguntaram a mesma coisa essa semana. Você posta a foto.
+- **O que você perde:** a foto ganha curtidas, e a dúvida continua travando quem está quase contratando.
+- **A virada:** o post que ajuda o cliente a decidir vale mais do que o post que só é bonito.
+- **O que fazer:** quando estiver entre os dois, responda a dúvida primeiro. A foto pode ir junto.
 
-## Série 3 — Novidade para quem?
+### Pauta 5 — A trend que todo mundo está fazendo
 
-### Pauta 7 — Equipamento novo, possibilidade nova?
-- **Cena:** uma aquisição interna só vira assunto se permitir uma opção real que antes não estava disponível; caso contrário, fica como notícia interna.
-- **Contexto:** negócios com equipamento relacionado à oferta.
-- **Resposta desejada:** avaliar a mudança oferecida, não o brilho da compra.
-- **Material necessário:** opção anterior e atual comprovadas; disponibilidade efetiva.
+- **Situação:** todo perfil que você segue está fazendo a mesma trend. Você sente que precisa fazer também e passa a tarde tentando encaixar o seu negócio nela.
+- **O que você perde:** o tempo vai embora, e o post não fala nada que o seu cliente precise saber.
+- **A virada:** o que está na moda não é o que o seu cliente está decidindo agora.
+- **O que fazer:** troque a trend por um assunto que o seu cliente está vivendo neste momento, como uma dúvida ou uma decisão.
 
-### Pauta 8 — O prazo que mudou
-- **Cena:** o prazo de entrega foi alterado e pode afetar quando uma pessoa precisa fazer seu pedido; a atualização é selecionada por essa consequência.
-- **Contexto:** serviços e encomendas.
-- **Resposta desejada:** reconhecer mudanças operacionais úteis para o planejamento de quem contrata.
-- **Material necessário:** prazo anterior, prazo atual, data de vigência e condições confirmadas.
+### Pauta 6 — O post com poucas curtidas e muitas perguntas
 
-### Pauta 9 — A troca de sistema invisível para o cliente
-- **Cena:** a equipe migrou sua ferramenta interna, sem alterar opções, atendimento, disponibilidade ou funcionamento percebido; a pauta é descartada nesse recorte.
-- **Contexto:** pequenas equipes.
-- **Resposta desejada:** separar notícia interna de atualização útil.
-- **Material necessário:** descrição da migração e conferência de que nada relevante mudou externamente.
+- **Situação:** você postou sobre um serviço e quase ninguém curtiu. Achou que tinha flopado. Mas, no direct, três pessoas perguntaram o preço.
+- **O que você perde:** se você olha só a curtida, abandona justo o assunto que fez alguém querer contratar.
+- **A virada:** curtida não é o único sinal. Pergunta no direct é um sinal mais forte.
+- **O que fazer:** volte a esse assunto em outro post, respondendo o que as pessoas perguntaram.
 
-## Série 4 — Entre dois assuntos
+### Pauta 7 — O caso bom que entregaria o cliente
 
-### Pauta 10 — Foto pronta ou dúvida recorrente?
-- **Cena:** há uma foto da equipe e uma pergunta repetida por pessoas interessadas. A pergunta recebe prioridade se oferecer esclarecimento que a foto não oferece.
-- **Contexto:** geral.
-- **Resposta desejada:** não confundir facilidade de produzir com razão para comunicar.
-- **Material necessário:** foto existente, registros da pergunta e descrição do serviço em vigor.
+- **Situação:** você resolveu um caso difícil e quer muito contar. Mas, com os detalhes, todo mundo da cidade saberia de quem você está falando.
+- **O que você perde:** se posta assim, arrisca a confiança do cliente. Se não posta, perde uma história que mostra o seu trabalho.
+- **A virada:** dá pra contar o problema e a solução sem mostrar quem é.
+- **O que fazer:** conte o caso sem nome, sem foto e sem nenhum detalhe que identifique a pessoa.
 
-### Pauta 11 — Tendência do setor ou decisão real do cliente?
-- **Cena:** um tema popular disputa espaço com uma decisão que pessoas atendidas estão enfrentando. Sem ligação demonstrada da tendência ao negócio, a decisão real é priorizada.
-- **Contexto:** geral, sem comentar regras ou tendências setoriais não verificadas.
-- **Resposta desejada:** priorizar o que tem base na rotina, não apenas popularidade.
-- **Material necessário:** registros anonimizados da decisão e contexto verificado da tendência caso seja citada.
+### Pauta 8 — O "bom dia, estamos abertos" de todo dia
 
-### Pauta 12 — Aniversário do negócio ou mudança na agenda?
-- **Cena:** o marco interno e a nova disponibilidade são assuntos possíveis; a atualização recebe prioridade se alterar o planejamento de quem pretende contratar.
-- **Contexto:** autônomos e pequenas equipes com agenda confirmada.
-- **Resposta desejada:** comparar razões concretas de atenção, não determinar que aniversários nunca importam.
-- **Material necessário:** data do marco e condições vigentes da agenda.
-
-## Série 5 — O público deixou uma pista
-
-### Pauta 13 — A pergunta feita antes de várias propostas
-- **Cena:** a mesma dúvida aparece em conversas independentes antes da proposta; o assunto ganha prioridade como hipótese, não promessa de desempenho.
-- **Contexto:** serviços com conversa comercial.
-- **Resposta desejada:** usar recorrência observada como pista limitada.
-- **Material necessário:** registros anonimizados de perguntas equivalentes em atendimentos distintos.
-
-### Pauta 14 — Poucas reações, perguntas pertinentes
-- **Cena:** um conteúdo anterior recebeu poucas reações visíveis, mas motivou dúvidas específicas de pessoas que consideram o serviço; o tema merece outro teste.
-- **Contexto:** negócios com retorno por mensagem ou atendimento.
-- **Resposta desejada:** não reduzir interesse a curtidas nem inferir compra.
-- **Material necessário:** publicação anterior e retornos efetivos, anonimizados.
-
-### Pauta 15 — Um comentário isolado e uma dúvida persistente
-- **Cena:** uma sugestão pontual disputa prioridade com uma confusão repetida em atendimentos; a recorrência dá mais base para testar a segunda.
-- **Contexto:** geral.
-- **Resposta desejada:** diferenciar sinal isolado de padrão observado.
-- **Material necessário:** comentário original e registros de dúvidas de pessoas distintas.
-
-## Série 6 — Pode ficar fora do perfil
-
-### Pauta 16 — O caso que identificaria o cliente
-- **Cena:** uma situação parece interessante, mas seus detalhes permitiriam reconhecer alguém mesmo sem nome; esse caso fica fora do perfil.
-- **Contexto:** serviços com confidencialidade ou informações sensíveis.
-- **Resposta desejada:** aceitar a proteção do cliente como razão suficiente para descartar.
-- **Material necessário:** revisão interna de elementos identificáveis e autorizações; não reproduzir o caso sensível na peça.
-
-### Pauta 17 — Um resultado excepcional sem base para generalizar
-- **Cena:** um caso isolado exigiria prometer que o resultado se repetirá ou atribuí-lo ao serviço sem sustentação; descarta-se esse recorte.
-- **Contexto:** serviços com resultados sujeitos a variáveis.
-- **Resposta desejada:** reconhecer o limite entre relatar um caso e fazer uma promessa.
-- **Material necessário:** registros do caso e condições conhecidas; se o claim não puder ser sustentado, não usá-lo.
-
-### Pauta 18 — Repetir sem acrescentar
-- **Cena:** o assunto reaparece no trabalho, mas já foi comunicado e não trouxe mudança, dúvida nova nem outro ponto relevante; a repetição é descartada por enquanto.
-- **Contexto:** negócios com histórico de publicações.
-- **Resposta desejada:** perceber que recorrência sozinha não cria um episódio novo.
-- **Material necessário:** publicações anteriores e ocorrência atual para comparação.
+- **Situação:** pra não deixar o perfil parado, você posta todo dia um "bom dia, estamos abertos". Quase ninguém reage, mas você sente que pelo menos postou.
+- **O que você perde:** o perfil fica ativo, mas não diz nada que ajude o cliente a escolher você.
+- **A virada:** postar por obrigação ocupa o lugar de um assunto que poderia ajudar alguém.
+- **O que fazer:** troque o "bom dia" por uma informação que o cliente usa: um horário diferente, uma novidade, a resposta de uma dúvida.

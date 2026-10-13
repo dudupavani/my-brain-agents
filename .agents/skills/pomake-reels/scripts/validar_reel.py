@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _comum import (ESTRATEGIA, SECOES_PACOTE, campo, falas, ids_de_pautas,  # noqa: E402
-                    ler_pautas, ler_reels, secoes)
+                    ler_reels, secoes)
 
 ESTADOS = {"proposta", "aprovado", "publicado"}
 MIN_PALAVRAS = 40
@@ -55,11 +55,9 @@ def maior_trecho_comum(a, b):
 def nomes_internos():
     nomes = set()
     for linha in (ESTRATEGIA / "territories.md").read_text(encoding="utf-8").split("\n"):
-        m = re.match(r"^## \d\. \[(.+?)\]", linha)
+        m = re.match(r"^## \d\. (.+)$", linha)
         if m:
-            nomes.add(m.group(1))
-    for p in ler_pautas():
-        nomes.add(re.sub(r"^\d+ — ", "", p.get("serie", "")))
+            nomes.add(m.group(1).strip())
     return {n for n in nomes if len(normalizar(n)) >= 3}
 
 

@@ -1,142 +1,67 @@
-# Banco inicial de pautas — Assuntos que aparecem durante o trabalho
+# Pautas — Território 1: O trabalho já tem assunto
 
-**Território proprietário:** [O trabalho já tem assunto](../territories/01-o-trabalho-ja-tem-assunto.md).
-**Estado:** repertório de pautas; o status de cada uma está em [`pautas.yaml`](../pautas.yaml). Na produção de Reels vale a [regra de produção](../territories.md#regra-de-produção).
-
-## Série 1 — Você acabou de explicar isso
+**Território:** 1 — O trabalho já tem assunto
+**Formato:** semente de história (ver [README](../README.md#formato-da-pauta)).
 
 ### Pauta 1 — O que está incluído no serviço
 
 - **Situação:** você está fechando um orçamento e o cliente pergunta, pela décima vez no mês: "isso já está incluso?". Você explica o que entra no serviço e o que é à parte, e ele fica tranquilo.
 - **O que você perde:** essa explicação, que convence o cliente na conversa, fica presa no WhatsApp. Quem chega ao seu perfil não encontra essa resposta, fica com a dúvida e compara você só pelo preço.
 - **A virada:** a pergunta que você mais responde já é um post pronto. Você só não enxerga porque virou rotina.
-- **O que postar:** pegue a explicação que você deu hoje sobre o que está incluso e poste do jeito que falou com o cliente.
+- **O que fazer:** pegue a explicação que você deu hoje sobre o que está incluso e poste do jeito que falou com o cliente.
 
-### Pauta 2 — A dúvida que só apareceu depois da entrega
+### Pauta 2 — A decisão que você tomou no meio do serviço
 
-- **Cena:** depois de receber o produto ou serviço, o cliente pergunta o que acontece em seguida, como acessar algo ou se ainda existe outra etapa.
-- **Contexto:** geral.
-- **Resposta desejada:** “As perguntas posteriores à entrega também revelam explicações que já fazem parte do meu trabalho.”
-- **Material necessário:** registro anonimizado do atendimento e orientação efetivamente enviada.
+- **Situação:** no meio do trabalho, você percebe um detalhe que ninguém tinha visto e muda o jeito de fazer. Resolve na hora, sem nem comentar. O cliente recebe tudo pronto e nunca fica sabendo.
+- **O que você perde:** justo a parte que mostra a sua experiência fica invisível. Pra quem olha de fora, você só executou o que foi pedido.
+- **A virada:** a decisão que você toma sem pensar é o que separa você de quem só segue o pedido.
+- **O que fazer:** conte a decisão de hoje: o que você percebeu e o que mudou por causa disso.
 
-### Pauta 3 — A comparação que sempre volta na conversa
+### Pauta 3 — Os minutos antes do cliente chegar
 
-- **Cena:** clientes diferentes perguntam repetidamente qual é a diferença entre duas opções oferecidas pelo negócio.
-- **Contexto:** geral; pode ser contextualizado para comércio ou serviços depois de confirmar uma comparação real.
-- **Resposta desejada:** “Essa comparação recorrente já é uma pista de assunto, mesmo antes de eu decidir se vou publicá-la.”
-- **Material necessário:** perguntas reais recebidas e identificação das opções comparadas, sem ainda desenvolver a explicação.
+- **Situação:** antes do primeiro atendimento do dia, você arruma o espaço, separa o material, confere a agenda. Quando o cliente chega, está tudo no lugar, como se fosse natural.
+- **O que você perde:** o cliente só vê a hora marcada. O cuidado que vem antes não aparece, e parece que o serviço começa quando ele entra.
+- **A virada:** o que você faz antes de o cliente chegar também é serviço. Só que ninguém está olhando.
+- **O que fazer:** mostre o seu preparo antes do primeiro atendimento e diga pra que ele serve.
 
-## Série 2 — Por que foi feito assim?
+### Pauta 4 — A conferência que evitou o erro
 
-### Pauta 4 — A alternativa considerada e deixada de lado
+- **Situação:** antes de entregar, você confere de novo o nome, a medida, a data. Acha um detalhe errado, corrige, e entrega como se nada tivesse acontecido.
+- **O que você perde:** o erro que não aconteceu não aparece. O cliente acha que deu certo por sorte, não pelo seu cuidado.
+- **A virada:** o problema que você evita é invisível, a não ser que você conte.
+- **O que fazer:** conte o que você sempre confere antes de entregar e por quê.
 
-- **Cena:** duas formas de conduzir um trabalho eram possíveis, mas uma foi descartada quando uma condição concreta ficou clara.
-- **Contexto:** geral.
-- **Resposta desejada:** “Eu mostro apenas o caminho escolhido, mas as alternativas consideradas também fazem parte do trabalho.”
-- **Material necessário:** alternativas realmente consideradas, condição que diferenciou os caminhos e registro da decisão.
+### Pauta 5 — O ajuste que todo cliente pede
 
-### Pauta 5 — A ordem das etapas não foi por acaso
+- **Situação:** você entrega a primeira versão e o cliente pede o mesmo ajuste que o anterior pediu. E o outro antes dele também.
+- **O que você perde:** você explica e refaz a mesma coisa toda vez, e o próximo cliente chega sem saber.
+- **A virada:** o ajuste que todo mundo pede mostra o que o seu cliente mais valoriza. Isso é assunto.
+- **O que fazer:** poste qual é o ajuste mais pedido e o que ele diz sobre o que o cliente espera.
 
-- **Cena:** uma atividade precisou acontecer antes de outra porque havia uma dependência de informação, aprovação ou material.
-- **Contexto:** geral.
-- **Resposta desejada:** “A sequência que sigo contém decisões que podem passar despercebidas.”
-- **Material necessário:** sequência real, dependência entre as etapas e cronograma, checklist ou conversa que a confirme.
+### Pauta 6 — As fotos esquecidas na galeria
 
-### Pauta 6 — Uma escolha invisível no resultado final
+- **Situação:** procurando uma foto no celular, você passa por dezenas de registros do seu trabalho: etapas, bastidores, o antes de vários serviços. Nada disso foi postado.
+- **O que você perde:** o registro do seu trabalho fica guardado na galeria enquanto você acha que não tem o que postar.
+- **A virada:** a galeria do seu celular já é um arquivo de assuntos.
+- **O que fazer:** escolha uma foto antiga de uma etapa e conte o que estava acontecendo naquele dia.
 
-- **Cena:** a entrega pronta não mostra uma escolha anterior que definiu organização, formato, acabamento ou apresentação.
-- **Contexto:** projetos, serviços e produtos sob encomenda.
-- **Resposta desejada:** “Algumas decisões importantes desaparecem dentro do resultado pronto.”
-- **Material necessário:** versões, rascunhos, opções ou registros anteriores e o motivo efetivamente considerado.
+### Pauta 7 — A mensagem depois da entrega
 
-## Série 3 — Antes de ficar pronto
+- **Situação:** dois dias depois de entregar, você manda uma mensagem pro cliente perguntando se deu tudo certo. Ele agradece, surpreso.
+- **O que você perde:** só esse cliente sabe que você acompanha depois. Quem ainda vai contratar não faz ideia.
+- **A virada:** o que você faz depois da entrega é um diferencial que quase ninguém mostra.
+- **O que fazer:** conte como você acompanha o cliente depois que o serviço termina.
 
-### Pauta 7 — O que precisa estar preparado antes do primeiro atendimento
+### Pauta 8 — A dica que você dá na saída
 
-- **Cena:** antes de receber o cliente, o profissional organiza informações, materiais, espaço ou acessos necessários para começar.
-- **Contexto:** geral; uma aplicação profissional específica exige observar a preparação real daquela atividade.
-- **Resposta desejada:** “Meu trabalho começa antes do momento que o cliente enxerga.”
-- **Material necessário:** rotina real de preparação e registros próprios que não exponham informações sensíveis.
+- **Situação:** todo cliente, quando vai embora, ouve a mesma orientação sua: como cuidar, o que evitar, quando voltar. Você fala no automático.
+- **O que você perde:** essa dica, que ajuda de verdade, só chega a quem já é cliente.
+- **A virada:** a orientação que você dá de graça na saída é um dos posts mais úteis que você pode fazer.
+- **O que fazer:** grave a dica que você dá a todo cliente, do jeito que você fala na saída.
 
-### Pauta 8 — A conferência no meio do trabalho
+### Pauta 9 — O elogio que ficou no WhatsApp
 
-- **Cena:** a execução é interrompida em um ponto determinado para verificar se pode avançar como previsto.
-- **Contexto:** geral.
-- **Resposta desejada:** “O acompanhamento durante a execução também produz possíveis assuntos.”
-- **Material necessário:** momento real da conferência, item observado e checklist, anotação ou imagem de processo.
-
-### Pauta 9 — O trabalho que continua depois da entrega
-
-- **Cena:** depois de entregar, a pessoa ou equipe confirma o recebimento, organiza documentos, acompanha uma pendência ou verifica a próxima etapa combinada.
-- **Contexto:** serviços em geral.
-- **Resposta desejada:** “A entrega não é necessariamente o último momento que existe para observar no meu processo.”
-- **Material necessário:** procedimento posterior real e mensagem ou documento de acompanhamento.
-
-## Série 4 — O detalhe que virou rotina
-
-### Pauta 10 — A confirmação feita antes de avançar
-
-- **Cena:** antes de uma etapa, o profissional confirma automaticamente um nome, data, medida, quantidade ou outra informação recebida.
-- **Contexto:** geral; não afirmar que uma conferência específica é obrigatória em determinada profissão sem fonte.
-- **Resposta desejada:** “Tenho verificações incorporadas à rotina que já nem percebo como parte do meu conhecimento.”
-- **Material necessário:** exemplo real, momento da confirmação e registro utilizado no trabalho.
-
-### Pauta 11 — O cuidado entre um atendimento e outro
-
-- **Cena:** no intervalo entre trabalhos, a pessoa reorganiza o espaço, repõe materiais, restaura configurações ou prepara novamente os recursos utilizados.
-- **Contexto:** atendimento presencial ou execução em sequência; a rotina específica deve ser validada antes de contextualizar por profissão.
-- **Resposta desejada:** “Há cuidados entre os momentos visíveis do trabalho que se tornaram automáticos para mim.”
-- **Material necessário:** sequência real de preparação e registro visual próprio, sem alegações técnicas não sustentadas.
-
-### Pauta 12 — A organização que acompanha a entrega
-
-- **Cena:** antes de entregar, arquivos, peças, itens ou orientações são identificados para que o cliente reconheça cada parte recebida.
-- **Contexto:** serviços, projetos e produtos com mais de um componente.
-- **Resposta desejada:** “A forma como organizo a entrega contém detalhes que deixaram de chamar minha atenção.”
-- **Material necessário:** exemplo real de entrega organizada e versão anonimizada do material.
-
-## Série 5 — O que mudou no caminho
-
-### Pauta 13 — A prioridade mudou durante o trabalho
-
-- **Cena:** uma nova conversa mostrou que determinada parte precisava vir antes das demais, alterando a ordem prevista.
-- **Contexto:** geral.
-- **Resposta desejada:** “As mudanças de prioridade também fazem parte da história real de um trabalho.”
-- **Material necessário:** plano inicial, informação que provocou a mudança e sequência adotada depois.
-
-### Pauta 14 — Uma condição inesperada exigiu outro caminho
-
-- **Cena:** durante a execução, surgiu uma condição diferente daquela considerada no planejamento e o caminho precisou ser adaptado.
-- **Contexto:** serviços e projetos.
-- **Resposta desejada:** “Os imprevistos que alteram a execução podem ser reconhecidos como matéria-prima sem virar feitos extraordinários.”
-- **Material necessário:** condição inicialmente conhecida, condição encontrada e registro do ajuste, sem atribuir culpa sem comprovação.
-
-### Pauta 15 — A revisão mudou uma parte da entrega
-
-- **Cena:** ao revisar, o profissional encontrou uma diferença, ausência ou inconsistência e corrigiu uma parte antes da versão final.
-- **Contexto:** geral.
-- **Resposta desejada:** “Uma revisão também registra transformações concretas no trabalho.”
-- **Material necessário:** versão anterior e posterior, item identificado e registro da correção, sem conteúdo confidencial.
-
-## Série 6 — Isso já estava registrado
-
-### Pauta 16 — A observação escondida no orçamento
-
-- **Cena:** uma linha do orçamento explica uma condição, responsabilidade ou etapa que costuma aparecer nas negociações.
-- **Contexto:** prestação de serviços.
-- **Resposta desejada:** “Meus documentos comerciais já guardam explicações surgidas da experiência real.”
-- **Material necessário:** trecho verdadeiro de orçamento ou proposta, motivo de a observação existir e versão anonimizada.
-
-### Pauta 17 — As fotos que registraram uma etapa esquecida
-
-- **Cena:** ao consultar imagens antigas, o profissional encontra uma etapa intermediária que não aparece na entrega final.
-- **Contexto:** trabalhos com registro visual de processo.
-- **Resposta desejada:** “Meu arquivo de fotos guarda mais do que resultados; também contém momentos do processo.”
-- **Material necessário:** sequência real de imagens, identificação do momento e autorização quando houver pessoas ou espaços identificáveis.
-
-### Pauta 18 — O mesmo pedido de alteração apareceu de novo
-
-- **Cena:** ao consultar históricos, o profissional percebe que clientes diferentes solicitaram ajustes semelhantes.
-- **Contexto:** serviços, projetos e encomendas.
-- **Resposta desejada:** “Os pedidos guardados no meu histórico podem revelar assuntos que já apareceram várias vezes.”
-- **Material necessário:** solicitações reais em mais de um atendimento, descrição dos ajustes e remoção de informações confidenciais.
+- **Situação:** um cliente manda uma mensagem agradecendo, contando como ficou feliz com o resultado. Você responde "obrigado!" e a conversa some no meio das outras.
+- **O que você perde:** a prova mais forte do seu trabalho, dita por quem contratou, fica escondida num chat.
+- **A virada:** o que o cliente diz de você convence mais do que qualquer coisa que você diga sobre si.
+- **O que fazer:** peça licença ao cliente e poste a mensagem dele, contando o que você fez naquele serviço.

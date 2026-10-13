@@ -33,15 +33,12 @@ from _comum import (ESTRATEGIA, POMAKE, RAIZ, SECOES_PACOTE, campo, ler_pautas, 
 
 SKILL = Path(__file__).resolve().parents[1]
 ESTADOS_REFERENCIA = {"aprovado", "publicado"}
-STATUS_ELEGIVEIS = ["apta", "nao_avaliada"]
+STATUS_ELEGIVEIS = ["disponivel"]
 MAX_EXEMPLOS = 2
 MAX_NAO_REPETIR = 30
 
-SECOES_TERRITORIO = ["Situação humana", "Trabalho editorial", "Tese do Pomake", "Fronteiras",
-                     "Critério para reconhecer uma pauta deste território"]
-SECAO_T6 = "Funcionamento confirmado relevante para este território"
 SECOES_ESCRITA = ["O que você escreve", "Como um Reel prende e conduz", "Limites"]
-SECOES_FUNDACAO = ["Público", "Papel do perfil", "Promessa editorial", "Limites"]
+SECOES_FUNDACAO = ["Público", "Limites"]
 
 
 class ErroExtracao(SystemExit):
@@ -83,13 +80,6 @@ def sem_titulo(texto):
     return "\n".join(linhas).strip()
 
 
-def arquivo_territorio(numero):
-    achados = sorted((ESTRATEGIA / "territories").glob(f"0{numero}-*.md"))
-    if len(achados) != 1:
-        raise ErroExtracao(f"ERRO: arquivo do território {numero} não encontrado.")
-    return achados[0]
-
-
 def rebaixar_titulos(texto):
     """Rebaixa os títulos do conteúdo incorporado em um nível, sem tocar em blocos de código,
     para que só os blocos do briefing fiquem no nível '##'."""
@@ -115,17 +105,15 @@ def pauta_por_id(pauta_id):
 
 
 def texto_da_pauta(pauta):
-    """Extrai do banco somente a série e a pauta indicadas."""
+    """Extrai do banco somente a pauta indicada."""
     caminho = ESTRATEGIA / pauta["arquivo"]
     texto = ler(caminho)
     numero = int(pauta["id"].split("-P")[1])
     m = re.search(rf"^### Pauta {numero} — .*?(?=^### |^## |\Z)", texto, re.M | re.S)
     if not m:
         raise ErroExtracao(f"ERRO: pauta {numero} não encontrada em {caminho.relative_to(RAIZ)}.")
-    # "Material necessário" descreve a coleta de material real, que a regra de 2026-10-10 dispensa
-    # para cena hipotética em segunda pessoa; mantido fora do briefing para não induzir "aguardar material".
-    corpo = re.sub(r"^- \*\*Material necessário:\*\*.*\n?", "", m.group(0), flags=re.M).strip()
-    return f"**Pauta:** {pauta['id']}\n**Território:** {pauta['territorio']}\n**Série:** {pauta['serie']}\n\n{corpo}"
+    corpo = m.group(0).strip().split("\n", 1)[1].strip()
+    return f"**Pauta:** {pauta['id']}\n**Título:** {pauta['titulo']}\n**Território:** {pauta['territorio']}\n\n{corpo}"
 
 
 def exemplos_aprovados(reels, excluir=None):
@@ -169,13 +157,13 @@ def pacote_do_reel(reel):
     return "\n\n".join([titulo, "\n".join(tecnicas), *textos])
 
 
-def blocos_territorio(numero, secoes_desejadas):
-    caminho = arquivo_territorio(numero)
-    titulos = list(secoes_desejadas)
-    if str(numero) == "6" and SECAO_T6 not in titulos:
-        titulos.append(SECAO_T6)
-    return bloco(f"Território {numero} — essencial", caminho.relative_to(RAIZ).as_posix(),
-                 extrair(caminho, titulos, prefixo=True))
+def bloco_territorio(numero):
+    """Só o resumo do território: do que fala e como o Reel termina."""
+    sec = secoes(ler(ESTRATEGIA / "territories.md"))
+    chave = next((t for t in sec if t.startswith(f"{numero}. ")), None)
+    if chave is None:
+        raise ErroExtracao(f"ERRO: território {numero} não encontrado em territories.md.")
+    return bloco(f"Território {chave}", "editorial-strategy/territories.md", sec[chave])
 
 
 def blocos_pomake(numero):
@@ -242,16 +230,15 @@ def cmd_candidatas(args):
         return
     print(f"Território do Reel mais recente: {ultimo or '—'}. Use as pautas nesta ordem:\n")
     for i, p in enumerate(escolhidas, 1):
-        print(f"{i}. {p['id']} [{p['status']}] — {p['titulo']} (território {p['territorio']}; série {p['serie']})")
+        print(f"{i}. {p['id']} [{p['status']}] — {p['titulo']} (território {p['territorio']})")
 
 
 def cmd_territorios(args):
     """Resumo dos 6 territórios e da regra de propriedade, para classificar um tema de Eduardo."""
     sec = secoes(ler(ESTRATEGIA / "territories.md"))
     for titulo, corpo in sec.items():
-        m = re.match(r"(\d)\. \[(.+?)\]", titulo)
-        if m:
-            print(f"{m.group(1)}. {m.group(2)}: {corpo.split(chr(10)+chr(10))[0].strip()}")
+        if re.match(r"\d\. ", titulo):
+            print(f"{titulo}: {corpo.split(chr(10))[0].replace('**Do que fala:** ', '').strip()}")
     print()
     print(extrair(ESTRATEGIA / "territories.md", ["Regra de propriedade editorial"]))
 
@@ -269,7 +256,6 @@ def cmd_redator(args):
         pauta = pauta_por_id(args.pauta)
         numero = pauta["territorio"].split(" ")[0]
         bloco_pauta = bloco("Pauta", f"editorial-strategy/{pauta['arquivo']}", texto_da_pauta(pauta))
-        extra_tema = []
     else:
         if not (args.territorio and args.tema):
             raise SystemExit("ERRO: use --pauta <ID> ou --territorio <1-6> --tema \"...\".")
@@ -277,24 +263,19 @@ def cmd_redator(args):
         bloco_pauta = bloco("Tema pedido por Eduardo", "pedido de Eduardo",
                             f"**Pauta:** orientacao-eduardo\n**Território:** {numero}\n\n{args.tema}\n\n"
                             "Não troque este tema por outro.")
-        extra_tema = [bloco("Territórios e regra de propriedade", "editorial-strategy/territories.md",
-                            extrair(ESTRATEGIA / "territories.md", ["Regra de propriedade editorial"]))]
 
     partes = [
         "# Briefing do redator — Reel do Pomake\n\n"
-        "Leia na ordem. As primeiras seções definem a qualidade; as seguintes definem o assunto e os limites.",
+        "Primeiro, como escrever. Depois, o assunto (a pauta) e os limites. Por fim, as referências.",
         bloco("Instruções do redator", ".agents/skills/pomake-reels/references/redator.md",
               sem_titulo(ler(SKILL / "references/redator.md"))),
-        bloco("Catálogo de ganchos", "editorial-strategy/hooks.md", sem_titulo(ler(ESTRATEGIA / "hooks.md"))),
-        *blocos_exemplos(reels),
         bloco_pauta,
-        blocos_territorio(numero, SECOES_TERRITORIO),
-        bloco("Regra de produção", "editorial-strategy/territories.md",
-              extrair(ESTRATEGIA / "territories.md", ["Regra de produção"])),
-        *extra_tema,
-        bloco("Fundação: público, promessa e limites", "editorial-strategy/foundation.md",
+        bloco_territorio(numero),
+        bloco("Público e limites", "editorial-strategy/foundation.md",
               extrair(ESTRATEGIA / "foundation.md", SECOES_FUNDACAO)),
         *blocos_pomake(numero),
+        bloco("Catálogo de ganchos", "editorial-strategy/hooks.md", sem_titulo(ler(ESTRATEGIA / "hooks.md"))),
+        *blocos_exemplos(reels),
         bloco("O que não repetir", "domains/products/pomake/reels/", lista_nao_repetir(reels)),
     ]
     nome = f"redator-{args.pauta or 'orientacao-eduardo'}"
@@ -329,10 +310,9 @@ def cmd_revisor(args):
               ".agents/skills/pomake-reels/references/redator.md",
               extrair(SKILL / "references/redator.md", SECOES_ESCRITA)),
         bloco_pauta,
-        blocos_territorio(numero, ["Trabalho editorial", "Fronteiras",
-                                   "Critério para reconhecer uma pauta deste território"]),
-        bloco("Fundação: limites", "editorial-strategy/foundation.md",
-              extrair(ESTRATEGIA / "foundation.md", ["Limites"])),
+        bloco_territorio(numero),
+        bloco("Público e limites", "editorial-strategy/foundation.md",
+              extrair(ESTRATEGIA / "foundation.md", SECOES_FUNDACAO)),
         *blocos_pomake(numero),
         bloco("Outros Reels (para checar repetição)", "domains/products/pomake/reels/",
               lista_nao_repetir(reels, excluir=caminho)),

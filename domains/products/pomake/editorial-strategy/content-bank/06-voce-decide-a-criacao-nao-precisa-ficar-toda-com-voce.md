@@ -1,126 +1,53 @@
-# Banco de pautas — Você decide; a criação não precisa ficar toda com você
+# Pautas — Território 6: Publicar sem precisar fazer tudo sozinho
 
-**Território proprietário:** [Publicar sem precisar fazer tudo sozinho](../territories/06-publicar-sem-precisar-fazer-tudo-sozinho.md).
-**Estado:** repertório de pautas; o status de cada uma está em [`pautas.yaml`](../pautas.yaml). Na produção de Reels vale a [regra de produção](../territories.md#regra-de-produção).
-**Verdade do produto:** [definição aprovada](../../o-que-e-o-pomake.md).
-
-## Série 1 — Quem faz o quê?
+**Território:** 6 — Publicar sem precisar fazer tudo sozinho
+**Formato:** semente de história (ver [README](../README.md#formato-da-pauta)). Único território em que o Pomake pode ser citado, só com funções confirmadas em [O que é o Pomake](../../o-que-e-o-pomake.md).
 
 ### Pauta 1 — A decisão continua com o negócio
 
 - **Situação:** você sabe exatamente o que quer avisar ou mostrar do seu negócio, mas trava na hora de escrever o texto e montar a arte, e o post fica para depois.
 - **O que você perde:** o que só você sabe sobre o seu negócio não chega ao cliente, porque a parte da produção travou.
 - **A virada:** decidir o que comunicar é o seu trabalho. Escrever o texto e montar a arte não precisa ser.
-- **O que postar:** fique com a decisão (o assunto, a informação e a aprovação final) e deixe o resto da produção com outra pessoa ou com uma ferramenta.
+- **O que fazer:** fique com a decisão (o assunto, a informação e a aprovação final) e deixe o resto da produção com outra pessoa ou com uma ferramenta.
 
-### Pauta 2 — Escolher não é escrever três vezes
-- **Cena:** três opções de texto já foram geradas e a pessoa escolhe qual representa melhor o que deseja comunicar.
-- **Contexto:** papel humano na criação; pode usar uma demonstração real.
-- **Resposta desejada:** entender que escolha e revisão permanecem com a pessoa, sem exigir redação das opções.
-- **Material necessário:** três opções efetivamente geradas para o mesmo assunto e decisão confirmada.
+### Pauta 2 — Reescrever a legenda pela terceira vez
 
-### Pauta 3 — Revisar não é reconstruir sozinho
-- **Cena:** diante do resultado inicial, a pessoa indica uma mudança por conversa e avalia o que foi produzido depois.
-- **Contexto:** categoria com exemplo de ajuste real.
-- **Resposta desejada:** perceber que manter a palavra final não obriga refazer toda a peça manualmente.
-- **Material necessário:** versão inicial, pedido real e versão posterior; não antecipar o resultado.
+- **Situação:** você escreve a legenda, apaga, escreve de novo, apaga de novo. Na terceira tentativa, posta qualquer uma, cansado.
+- **O que você perde:** a energia vai toda em escrever, e não sobra cabeça pra pensar se aquilo é o que você queria dizer.
+- **A virada:** escolher entre boas opções é muito mais leve do que escrever do zero. No Pomake, você conta o assunto e recebe três opções de texto pra escolher.
+- **O que fazer:** guarde a sua energia pra escolher e ajustar, não pra escrever cada versão sozinho.
 
-## Série 2 — Começa pelo que você quer comunicar
+### Pauta 3 — Começar pelo que você quer dizer
 
-### Pauta 4 — Um serviço contado por quem o conhece
-- **Cena:** a pessoa explica qual serviço deseja apresentar e informa fatos sobre a oferta; isso é o ponto de partida da criação.
-- **Contexto:** prestação de serviços, sem fingir profissão específica.
-- **Resposta desejada:** entender que não precisa começar dominando design ou comandos de IA.
-- **Material necessário:** descrição real do serviço e, para demonstrar produto, criação efetiva a partir dela.
+- **Situação:** você quer anunciar um serviço novo. Abre um aplicativo de design, vê a tela em branco, um monte de modelos e ferramentas, e fecha.
+- **O que você perde:** o serviço novo fica sem anúncio porque o começo parecia difícil demais.
+- **A virada:** o post pode começar pelo que você quer dizer, não pela tela de design. É assim que funciona no Pomake: você explica o serviço como explicaria pra um cliente, e ele cria a arte, o texto e a legenda.
+- **O que fazer:** antes de abrir qualquer ferramenta, escreva em duas frases o que você quer que o cliente saiba.
 
-### Pauta 5 — Promoção definida, comunicação por criar
-- **Cena:** condições, produto e período já foram decididos pelo negócio; a criação parte dessas informações.
-- **Contexto:** comércio ou serviço com promoção verdadeira.
-- **Resposta desejada:** distinguir decidir uma oferta de escrever e montar sua divulgação.
-- **Material necessário:** condições oficiais e resultado real, conferindo datas, valores e restrições antes de mostrar.
+### Pauta 4 — O primeiro resultado não ficou do seu jeito
 
-### Pauta 6 — Uma novidade explicada sem começar pelo layout
-- **Cena:** o negócio descreve uma novidade confirmada e a criação do post começa por essa explicação, não por uma tela de design vazia.
-- **Contexto:** produto ou serviço novo apenas quando efetivamente existente.
-- **Resposta desejada:** ver o conhecimento do negócio como entrada, não um prompt elaborado.
-- **Material necessário:** explicação original, opções geradas e visual real caso mostrados.
+- **Situação:** o post ficou quase bom, mas o texto está longo e a cor não combina. Você pensa em refazer tudo do começo.
+- **O que você perde:** o tempo de fazer tudo de novo, por causa de dois detalhes.
+- **A virada:** ajustar é diferente de recomeçar. No Pomake, você pede a mudança por conversa, como pediria a alguém: "deixa o texto mais curto".
+- **O que fazer:** quando algo não ficar do seu jeito, aponte só o que precisa mudar, em vez de refazer o post inteiro.
 
-## Série 3 — O jeito da marca entra antes do post
+### Pauta 5 — Cada post fala de um jeito
 
-### Pauta 7 — Uma Voz da Marca para assuntos diferentes
-- **Cena:** dois assuntos são criados depois do mesmo passo a passo guiado que estabeleceu a identidade verbal do negócio.
-- **Contexto:** recurso explicado para público frio como o jeito da marca falar, não apenas um texto.
-- **Resposta desejada:** entender a diferença entre identidade verbal e texto de uma publicação.
-- **Material necessário:** Voz da Marca efetivamente criada e textos de dois assuntos; não alegar reconhecimento pelo público.
+- **Situação:** num dia você escreve animado, no outro, sério, no outro, todo formal. Depende do seu humor e de quanto tempo você tem.
+- **O que você perde:** o cliente não reconhece um jeito seu de falar, e a marca parece mudar de pessoa a cada post.
+- **A virada:** o jeito de falar da marca pode ser definido uma vez e seguir em todos os posts. No Pomake, isso se chama Voz da Marca: você responde perguntas sobre o seu negócio e ela orienta os textos seguintes.
+- **O que fazer:** decida uma vez como o seu negócio fala e use isso como guia em todo post.
 
-### Pauta 8 — As respostas que constroem a Voz da Marca
-- **Cena:** a pessoa responde perguntas do fluxo guiado sobre seu negócio, posicionamento e jeito de se comunicar.
-- **Contexto:** bastidor concreto do produto.
-- **Resposta desejada:** entender que a pessoa conhece o negócio e participa da construção, enquanto a IA conduz o passo a passo.
-- **Material necessário:** captura verdadeira das etapas e respostas autorizadas; não inventar perguntas literais.
+### Pauta 6 — A promoção decidida em cinco minutos
 
-### Pauta 9 — Do que a pessoa informa à identidade verbal criada
-- **Cena:** mostra-se a diferença entre as respostas fornecidas e a Voz da Marca produzida ao fim do fluxo.
-- **Contexto:** explicação da participação humana e do produto.
-- **Resposta desejada:** compreender que Voz da Marca não é lista isolada de adjetivos nem campo simples de tom.
-- **Material necessário:** execução real do fluxo e resultado autorizado; ocultar informações sensíveis.
+- **Situação:** você decidiu a promoção em cinco minutos: o produto, o preço, até quando vale. Fazer o post dessa promoção levou a noite inteira.
+- **O que você perde:** a parte mais importante, decidir a oferta, foi rápida. A noite foi embora em texto e arte.
+- **A virada:** a decisão é sua e já estava pronta. A produção é outra tarefa, e ela pode ficar com outra pessoa ou ferramenta.
+- **O que fazer:** na próxima promoção, separe o que é decisão sua do que é produção do post, e veja o que dá pra deixar com alguém ou com uma ferramenta.
 
-## Série 4 — Três opções na mesa
+### Pauta 7 — Medo de perder o controle do que vai pro ar
 
-### Pauta 10 — Um serviço, três caminhos de texto
-- **Cena:** ao informar um serviço e clicar em criar, a pessoa recebe automaticamente três opções orientadas pela mesma Voz da Marca.
-- **Contexto:** demonstração parcial do produto.
-- **Resposta desejada:** entender o que são as três opções, sem confundi-las com três posts completos.
-- **Material necessário:** captura da mesma geração, informações do serviço e textos efetivos.
-
-### Pauta 11 — A escolha entre as três opções
-- **Cena:** diante de três alternativas reais, o responsável escolhe a que prefere levar para a geração do visual.
-- **Contexto:** decisão humana, não aula para encontrar um texto perfeito.
-- **Resposta desejada:** perceber que a ferramenta abre caminhos, mas não decide pela marca.
-- **Material necessário:** três textos efetivos e motivo da escolha confirmado pelo responsável.
-
-### Pauta 12 — Três opções, uma identidade verbal
-- **Cena:** as três opções de texto geradas para um mesmo assunto tomam caminhos diferentes, mas foram orientadas pela Voz da Marca criada no fluxo guiado.
-- **Contexto:** demonstração pontual da relação entre variedade de texto e identidade verbal, não aula sobre voz e tom.
-- **Resposta desejada:** perceber que as opções não são três personalidades de marca nem três posts prontos.
-- **Material necessário:** três textos da mesma geração, Voz da Marca efetivamente criada e comparação limitada a características observáveis; não prometer diferenças ou coerência que a execução não mostre.
-
-## Série 5 — Pode pedir para ajustar
-
-### Pauta 13 — O primeiro resultado não precisa ser o último
-- **Cena:** após gerar o visual, a pessoa aponta um ponto concreto a mudar por conversa e avalia a nova versão.
-- **Contexto:** demonstração de controle, sem garantir qualquer tipo de edição.
-- **Resposta desejada:** entender que pode pedir ajustes antes de aprovar.
-- **Material necessário:** versão inicial, pedido exato e resultado efetivo.
-
-### Pauta 14 — Pedido, antes e depois
-- **Cena:** mostram-se lado a lado a primeira versão, o pedido por conversa e a versão alterada; só se descreve a diferença observada.
-- **Contexto:** prova de um ajuste específico realizado.
-- **Resposta desejada:** relacionar o pedido ao que mudou, sem inferir que todos os pedidos serão atendidos do mesmo modo.
-- **Material necessário:** capturas integrais de antes, conversa e depois; autorização para exibição.
-
-### Pauta 15 — Aprovar continua sendo uma decisão
-- **Cena:** a pessoa revisa informações e visual após um ajuste e decide se aprova ou se pede outra alteração.
-- **Contexto:** controle humano no produto.
-- **Resposta desejada:** distinguir assistência na criação de ausência de revisão.
-- **Material necessário:** sequência de versões e decisão verdadeira do responsável; não presumir limite de revisões.
-
-## Série 6 — Por dentro de uma criação
-
-### Pauta 16 — Da explicação às opções e ao visual
-- **Cena:** mostra-se o percurso real: informar assunto, clicar em criar, receber três opções, escolher uma e gerar visual.
-- **Contexto:** demonstração integral ocasional para público que nunca ouviu falar do Pomake.
-- **Resposta desejada:** compreender o fluxo sem atribuir automação total.
-- **Material necessário:** gravação real e contínua das etapas, opções e resultado; não simular interface.
-
-### Pauta 17 — O que compõe o post pronto
-- **Cena:** uma criação concluída é observada em três componentes: arte, texto que aparece nela e legenda que acompanha a publicação.
-- **Contexto:** explicação concreta da entrega.
-- **Resposta desejada:** compreender que o resultado não é só uma imagem ou uma legenda.
-- **Material necessário:** post real completo; sem integração configurada, terminar em post pronto para publicar.
-
-### Pauta 18 — Criação com escolhas da marca e ajuste
-- **Cena:** assunto real, três textos, escolha, visual com configurações visuais existentes, pedido de ajuste e versão aprovada.
-- **Contexto:** demonstração integral rara, distinta do fluxo básico por observar configurações e intervenção posterior.
-- **Resposta desejada:** identificar o que vem do negócio, o que o Pomake cria e onde a pessoa ainda decide.
-- **Material necessário:** gravação completa, configurações reais, textos e versões efetivas; só mostrar publicação direta se a integração correspondente estiver configurada.
+- **Situação:** você pensa em deixar alguém ou alguma ferramenta fazer os posts, mas desiste: "e se sair alguma coisa que não tem nada a ver comigo?".
+- **O que você perde:** por medo de perder o controle, você continua fazendo tudo sozinho e postando pouco.
+- **A virada:** delegar a produção não é delegar a decisão. Você continua escolhendo o assunto e aprovando antes de ir pro ar.
+- **O que fazer:** mantenha com você a escolha do assunto e a aprovação final. O resto pode ser feito por outra pessoa ou ferramenta.

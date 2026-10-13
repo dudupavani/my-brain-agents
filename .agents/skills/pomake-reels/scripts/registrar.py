@@ -1,7 +1,7 @@
 """Atualiza o status de uma pauta em pautas.yaml e, opcionalmente, liga um Reel a ela.
 
 Uso: python3 registrar.py <id-da-pauta> <status> [--reel <arquivo-do-reel.md>]
-Status: nao_avaliada | apta | aguardar_material | descartada | produzida
+Status: disponivel | produzida | descartada
 """
 import re
 import sys
@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _comum import PAUTAS, RAIZ  # noqa: E402
 
-STATUS = {"nao_avaliada", "apta", "aguardar_material", "descartada", "produzida"}
+STATUS = {"disponivel", "produzida", "descartada"}
 
 
 def registrar(pauta_id, status, reel=None):

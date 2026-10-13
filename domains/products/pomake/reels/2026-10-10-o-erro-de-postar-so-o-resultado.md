@@ -6,7 +6,7 @@
 **Técnica do gancho:** 8, 9
 **Técnica do criativo:** 8, 1
 
-Publicado no Instagram do Pomake em 2026-10-10 e aprovado por Eduardo. É o primeiro Reel de referência de qualidade. Não foi criado a partir de uma pauta do banco; o território foi classificado depois, na construção do gerador ([Território 1](../editorial-strategy/territories/01-o-trabalho-ja-tem-assunto.md), série 5 “O que mudou no caminho”).
+Publicado no Instagram do Pomake em 2026-10-10 e aprovado por Eduardo. É o primeiro Reel de referência de qualidade. Não foi criado a partir de uma pauta do banco; o território foi classificado depois, na construção do gerador ([Território 1](../editorial-strategy/territories.md#1-o-trabalho-já-tem-assunto)).
 
 ## Roteiro da Lívia
 

@@ -1,69 +1,55 @@
 # Territórios editoriais do Pomake
 
-**Estado:** seis territórios aprovados por Eduardo em 2026-10-07.
+**Estado:** seis territórios aprovados por Eduardo em 2026-10-07; texto condensado em 2026-10-13 para servir à produção.
 **Base:** [fundação editorial](foundation.md).
 
-## 1. [O trabalho já tem assunto](territories/01-o-trabalho-ja-tem-assunto.md)
+Os territórios organizam de onde vêm as pautas e garantem variedade ao longo dos meses. Os nomes são internos: nunca aparecem no texto do Reel.
 
-Ajuda a pessoa a reconhecer acontecimentos, dúvidas, decisões, serviços e entregas da rotina como possíveis matérias-primas para conteúdo.
+## 1. O trabalho já tem assunto
 
-**Aprofundamento:** aprovado e definido.
+**Do que fala:** o que acontece na rotina do trabalho (a pergunta que o cliente repete, a explicação dada no WhatsApp, a decisão tomada no meio do serviço) já é assunto para postar. Não é preciso inventar uma ideia do zero.
+**O Reel termina com:** um assunto da própria rotina que a pessoa pode postar.
 
-## 2. [O que vale comunicar](territories/02-o-que-vale-comunicar.md)
+## 2. O que vale comunicar
 
-Ajuda a diferenciar aquilo que apenas aconteceu daquilo que pode ser relevante, interessante ou esclarecedor para quem acompanha o negócio.
+**Do que fala:** nem tudo o que acontece merece virar post. Vale o que importa para quem pode contratar, não só para quem trabalha no negócio (o certificado, a comemoração da equipe, o equipamento novo, o prazo que mudou).
+**O Reel termina com:** como escolher o que postar pensando em quem vai ver.
 
-**Aprofundamento:** aprovado e definido.
+## 3. Conhecer o trabalho não é saber apresentá-lo
 
-## 3. [Conhecer o trabalho não é saber apresentá-lo](territories/03-conhecer-o-trabalho-nao-e-saber-apresenta-lo.md)
+**Do que fala:** quem domina o próprio trabalho esquece que o cliente não tem o contexto: o "antes", o nome do serviço, o termo técnico, a etapa que parece bagunça.
+**O Reel termina com:** o que acrescentar para quem está de fora entender.
 
-Explora a distância entre dominar uma profissão e conseguir explicar, mostrar ou colocar esse conhecimento em palavras para as redes.
+## 4. O peso escondido de criar um post
 
-**Aprofundamento:** aprovado e definido.
+**Do que fala:** "fazer um post" parece uma tarefa só e vira várias: assunto, texto, foto, arte, revisão. Por isso o post de uma frase leva uma hora, o rascunho fica no bloco de notas e o perfil fica parado.
+**O Reel termina com:** algo que a pessoa percebe ou confere no próprio jeito de postar, sem ensinar a fazer o post.
 
-## 4. [O peso escondido de criar um post](territories/04-o-peso-escondido-de-criar-um-post.md)
+## 5. Uma marca com um jeito reconhecível
 
-Torna visível a soma de tarefas envolvidas: encontrar assunto, escrever, escolher imagem, montar a arte e avaliar se o resultado representa a marca. Também comporta adiamento, frustração e a preocupação recorrente com o perfil parado.
+**Do que fala:** o cliente reconhece a marca pelo que se repete (cores, estilo de imagem, jeito de falar), não só pelo logo. Coerência não é fazer tudo igual.
+**O Reel termina com:** algo que a pessoa confere no próprio perfil, sem aula de design.
 
-**Aprofundamento:** aprovado e definido.
+## 6. Publicar sem precisar fazer tudo sozinho
 
-## 5. [Uma marca com um jeito reconhecível](territories/05-uma-marca-com-um-jeito-reconhecivel.md)
-
-Aborda a dificuldade de manter coerência entre textos, imagens, cores, estilo visual e jeito de falar, sem transformar o perfil em aula de design.
-
-**Aprofundamento:** aprovado e definido.
-
-## 6. [Publicar sem precisar fazer tudo sozinho](territories/06-publicar-sem-precisar-fazer-tudo-sozinho.md)
-
-Apresenta outras formas de sair de uma ideia e chegar a um post pronto. É o território em que podem entrar quebra de crenças, demonstrações e o Pomake trabalhando, sem transformar todo conteúdo em propaganda.
-
-**Aprofundamento:** aprovado e definido.
+**Do que fala:** decidir o que comunicar é trabalho do dono do negócio; escrever o texto e montar a arte não precisa ser. É o único território em que o Pomake pode ser citado, só com as funções confirmadas em [O que é o Pomake](../o-que-e-o-pomake.md) e sem tom de anúncio.
+**O Reel termina com:** o que a pessoa mantém com ela e o que pode deixar com outra pessoa ou ferramenta.
 
 ## Regra de propriedade editorial
 
-Cada série e cada pauta devem ter **um único território proprietário**, definido pelo trabalho editorial dominante que realizam. Outros territórios podem aparecer como apoio, mas não devem disputar a função principal do conteúdo.
+Cada pauta tem um único território, definido pelo trabalho principal que faz:
 
-Para arbitrar casos próximos:
+- o território 1 encontra o assunto na rotina;
+- o território 2 decide se ele merece ser comunicado;
+- o território 3 mostra o que quem está de fora precisa saber para entender;
+- o território 4 torna visível o trabalho escondido em criar um post;
+- o território 5 trata da continuidade visual e verbal entre os posts;
+- o território 6 mostra outra divisão da criação, incluindo o Pomake quando fizer sentido.
 
-- o território 1 encontra a possível matéria-prima;
-- o território 2 decide se ela merece ser comunicada;
-- o território 3 define o que precisa ser compreendido por quem está de fora;
-- o território 4 torna reconhecível a carga operacional da criação;
-- o território 5 trata da continuidade visual e verbal entre publicações;
-- o território 6 apresenta uma divisão diferente da execução, incluindo demonstrações do Pomake quando pertinente.
-
-Mudar profissão, cenário ou formato não cria uma pauta realmente diferente quando o argumento e o trabalho editorial permanecem iguais.
+Mudar profissão, cenário ou formato não cria uma pauta diferente quando o argumento é o mesmo.
 
 ## Regra de produção
 
-**Decisão de Eduardo em 2026-10-10.** Esta regra prevalece sobre as fronteiras descritas em cada território quando houver conflito.
-
-- O território define **de onde vem o assunto** e qual é o argumento central da peça. Ele não define onde a peça termina.
-- Todo Reel entrega à audiência uma orientação concreta e utilizável, mesmo quando o território trata de reconhecimento. Terminar apenas em "isso pode ser assunto" não é suficiente.
-- As fronteiras de cada território continuam valendo para classificar pautas e evitar que duas peças façam o mesmo trabalho editorial.
-- A proibição de ensinar ferramentas (Canva, prompts, edição, montagem de arte) continua valendo.
-- O Pomake só é citado em Reels do Território 6, sem tom de anúncio, conforme os [limites da fundação](foundation.md#limites).
-
-## Estado do aprofundamento
-
-Os seis territórios foram aprofundados, aprovados e registrados separadamente. A revisão do conjunto foi concluída e estabeleceu a regra de propriedade editorial.
+- Todo Reel termina com algo concreto para a pessoa levar: nos territórios 1, 2, 3 e 6, o que fazer de diferente; nos territórios 4 e 5, o que perceber ou conferir no próprio negócio. (Decisão de Eduardo em 2026-10-10; o fim dos territórios 4 e 5 segue o formato de pauta de 2026-10-11.)
+- Não ensinar ferramentas (Canva, prompts, edição, montagem de arte).
+- O Pomake só é citado no território 6, conforme os [limites da fundação](foundation.md#limites).

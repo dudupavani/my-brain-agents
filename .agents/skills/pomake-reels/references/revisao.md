@@ -23,7 +23,7 @@ O resultado é **reprovado** somente se houver ao menos uma falha bloqueante.
 
 4. Logo no início há uma cena concreta, com um detalhe que dá para enxergar, e não um conceito.
 5. Há uma virada que muda o jeito de a pessoa ver a situação.
-6. A pessoa termina sabendo o que fazer de diferente no próprio negócio.
+6. A pessoa termina sabendo o que fazer de diferente ou, quando a pauta traz "O que perceber", o que observar no próprio negócio.
 7. Cada fala acrescenta algo novo e puxa a próxima; há uma ideia só; toda pergunta aberta pelo gancho e pelo criativo é respondida no Reel.
 
 ## C. Escrito para o ouvido
@@ -34,7 +34,7 @@ O resultado é **reprovado** somente se houver ao menos uma falha bloqueante.
 ## D. Verdade e limites
 
 10. Não há número, cliente, caso, depoimento, estudo ou fonte inventados. Cenas hipotéticas estão em segunda pessoa e não se apresentam como reais.
-11. Respeita a fundação, as fronteiras do território e a regra de produção: sem promessa de resultado garantido, sem ensinar design, texto, fotografia ou ferramentas, sem nome interno de território ou série.
+11. Respeita o bloco "Público e limites" e o território: sem promessa de resultado garantido, sem ensinar design, texto, fotografia ou ferramentas, sem nome interno de território ou série.
 12. No território 6: o Pomake aparece sem preço, oferta, convite direto ou chamada de compra, e apenas com funções confirmadas em "O que é o Pomake".
 13. O argumento não repete o de nenhum Reel listado em "Outros Reels" nem cai em nenhum motivo de rejeição de Eduardo.
 

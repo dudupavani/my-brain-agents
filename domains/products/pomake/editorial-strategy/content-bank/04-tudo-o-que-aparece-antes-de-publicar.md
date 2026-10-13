@@ -1,125 +1,67 @@
-# Banco de pautas — Tudo o que aparece antes de publicar
+# Pautas — Território 4: O peso escondido de criar um post
 
-**Território proprietário:** [O peso escondido de criar um post](../territories/04-o-peso-escondido-de-criar-um-post.md).
-**Estado:** repertório de pautas; o status de cada uma está em [`pautas.yaml`](../pautas.yaml). Na produção de Reels vale a [regra de produção](../territories.md#regra-de-produção).
-
-## Série 1 — Era só fazer um post
+**Território:** 4 — O peso escondido de criar um post
+**Formato:** semente de história (ver [README](../README.md#formato-da-pauta)).
 
 ### Pauta 1 — O aviso curto que virou uma produção
 
 - **Situação:** você só precisava avisar que vai fechar mais cedo na sexta. Uma frase. Aí vem a dúvida: qual foto, que texto, precisa de arte, ficou bom? Uma hora depois, o aviso ainda não foi postado.
 - **O que você perde:** o aviso sai atrasado ou nem sai, e o cliente encontra a porta fechada. Ou você posta qualquer coisa às pressas, que não parece com a sua marca.
 - **A virada:** o que pesa não é a informação, é tudo o que vem junto para ela virar post. Até um aviso pequeno pede texto, imagem e arte.
-- **Por que isso importa:** o aviso precisa sair na hora certa. Quando é a produção do post que trava, é ela que precisa ficar mais leve, não o aviso que pode esperar.
+- **O que perceber:** na próxima vez que um post simples demorar, repare onde travou: no que dizer ou em tudo o que vem junto.
 
-### Pauta 2 — Serviço pronto; comunicação ainda por fazer
-- **Cena:** o serviço já pode ser oferecido, mas apresentá-lo pede decisões sobre informação, texto e visual que não fizeram parte da preparação do próprio serviço.
-- **Contexto:** autônomos ou equipes com uma oferta nova real.
-- **Resposta desejada:** separar criar ou prestar o serviço de criar a publicação sobre ele.
-- **Material necessário:** descrição da oferta e vestígios do processo de comunicação.
+### Pauta 2 — O texto esquecido no bloco de notas
 
-### Pauta 3 — A entrega não veio com o post junto
-- **Cena:** ao concluir um trabalho, ainda é preciso selecionar o que pode ser mostrado, resguardar dados e montar a comunicação.
-- **Contexto:** serviços e projetos com entregas reais.
-- **Resposta desejada:** notar que divulgar uma entrega abre um segundo trabalho.
-- **Material necessário:** entrega autorizada ou anonimizada e rascunhos do post; sem dados do cliente.
+- **Situação:** você escreveu o texto de um post há semanas. Ficou bom. Está lá no bloco de notas até hoje, porque faltou a foto, faltou a arte, faltou tempo.
+- **O que você perde:** um assunto pronto que nunca chega ao cliente, e a sensação de que você não consegue postar.
+- **A virada:** o texto era só uma parte. O post parou em tudo o que vinha depois dele.
+- **O que perceber:** abra o seu bloco de notas e conte quantos posts estão parados esperando foto ou arte.
 
-## Série 2 — Agora preciso pensar em outra coisa
+### Pauta 3 — A ideia que apareceu no meio do atendimento
 
-### Pauta 4 — Do atendimento para o rascunho
-- **Cena:** ao terminar um atendimento, a pessoa tenta narrar a situação a alguém que não estava presente; precisa mudar do raciocínio de execução para o de apresentação.
-- **Contexto:** trabalho com atendimento.
-- **Resposta desejada:** reconhecer uma troca de tarefa, sem atribuir incapacidade ao profissional.
-- **Material necessário:** anotação ou rascunho real, com contexto do atendimento anonimizado.
+- **Situação:** atendendo um cliente, você pensa: "isso dava um post". À noite, sentado pra postar, você não lembra direito o que era nem por que parecia bom.
+- **O que você perde:** a ideia boa some entre o momento em que aparece e a hora de postar.
+- **A virada:** o assunto aparece no meio do trabalho, mas o post só começa muito depois. Nesse caminho, a ideia se perde.
+- **O que perceber:** repare quantas ideias de post você já teve essa semana e quantas chegaram a sair.
 
-### Pauta 5 — A ideia apareceu enquanto outra tarefa exigia atenção
-- **Cena:** algo parece comunicável durante a execução; uma anotação breve feita naquele momento perde parte do contexto quando retomada.
-- **Contexto:** rotina de produção ou atendimento.
-- **Resposta desejada:** reconhecer o desencontro entre o momento da ideia e o momento de desenvolvê-la.
-- **Material necessário:** anotação original e lembrança confirmada da situação; não inventar a fala da pessoa.
+### Pauta 4 — O post interrompido pelo cliente
 
-### Pauta 6 — Voltar ao post depois de resolver uma urgência
-- **Cena:** a criação é interrompida por uma demanda do negócio; ao retornar, é preciso recuperar decisões que estavam em andamento.
-- **Contexto:** autônomos ou equipes sem pessoa dedicada à comunicação.
-- **Resposta desejada:** notar que retomar não é necessariamente continuar de onde se parou.
-- **Material necessário:** versões do rascunho e relato verificável da interrupção.
+- **Situação:** você finalmente senta pra fazer o post. Escolhe a foto, começa o texto. Chega um cliente. Uma hora depois, você volta e não lembra o que tinha decidido.
+- **O que você perde:** você recomeça do zero, e o post, mais uma vez, fica pra amanhã.
+- **A virada:** o post não é uma tarefa só. Cada interrupção obriga você a refazer várias decisões.
+- **O que perceber:** da próxima vez que um post ficar pela metade, veja quantas decisões você precisa refazer pra continuar.
 
-## Série 3 — Uma escolha muda a outra
+### Pauta 5 — Três começos e nenhum escolhido
 
-### Pauta 7 — O texto mudou a imagem escolhida
-- **Cena:** uma imagem foi separada antes de o texto tomar forma; a mensagem final dá destaque a outro aspecto e a escolha visual precisa ser reaberta.
-- **Contexto:** publicação sobre produto ou serviço com imagens próprias.
-- **Resposta desejada:** perceber dependência entre texto e imagem, sem receber aula de composição.
-- **Material necessário:** texto e imagem inicialmente considerados e alternativa posterior.
+- **Situação:** você escreveu três jeitos de começar o texto. Todos parecem bons, nenhum parece certo. Você fica indo e voltando, e o post não sai.
+- **O que você perde:** o tempo, a vontade de postar e o assunto, que vai perdendo a hora.
+- **A virada:** travar na escolha não é falta de capacidade. Escolher é mais uma tarefa escondida dentro do post.
+- **O que perceber:** repare em quantas escolhas você faz antes de um post ficar pronto: texto, foto, arte, legenda.
 
-### Pauta 8 — Uma informação a mais reabriu o formato
-- **Cena:** um aviso pensado como peça curta recebe um dado indispensável; texto, espaço visual e formato precisam ser reconsiderados.
-- **Contexto:** comunicados operacionais com informação confirmada.
-- **Resposta desejada:** notar o efeito em cadeia de uma alteração pequena.
-- **Material necessário:** rascunho anterior, dado acrescentado e versão revista.
+### Pauta 6 — Um monte de fotos, nenhuma escolhida
 
-### Pauta 9 — A revisão voltou até o início
-- **Cena:** na conferência final, o destaque principal não corresponde ao que o negócio precisava comunicar, reabrindo decisões já tomadas.
-- **Contexto:** criação individual ou de pequena equipe.
-- **Resposta desejada:** reconhecer que revisão pode mexer no conjunto, não só corrigir uma palavra.
-- **Material necessário:** versões anterior e posterior e motivo real da revisão.
+- **Situação:** a galeria está cheia de fotos boas do trabalho. Você abre, passa uma por uma, acha todas meio boas e fecha sem postar nenhuma.
+- **O que você perde:** o problema não é falta de foto, e mesmo assim o perfil continua parado.
+- **A virada:** escolher a foto é uma decisão a mais, escondida dentro de "fazer um post".
+- **O que perceber:** veja quanto tempo você leva só pra escolher a imagem do próximo post.
 
-## Série 4 — Já estava quase pronto
+### Pauta 7 — A arte pronta esperando uma confirmação
 
-### Pauta 10 — O texto permaneceu no bloco de notas
-- **Cena:** a pessoa escreveu uma parte, mas o rascunho não ganhou visual nem revisão final.
-- **Contexto:** quem cuida do perfil enquanto toca o negócio.
-- **Resposta desejada:** reconhecer uma etapa concluída e outras ainda abertas, sem culpa.
-- **Material necessário:** rascunho real e status da publicação.
+- **Situação:** a arte da promoção está pronta. Só falta confirmar a data com o fornecedor. Dois dias depois, ela ainda está esperando.
+- **O que você perde:** a promoção perde a hora, ou sai com informação errada.
+- **A virada:** o post também depende de informação que não está com você.
+- **O que perceber:** antes de começar o próximo post, veja se você já tem todas as informações que ele precisa.
 
-### Pauta 11 — A arte pronta ainda esperava conferência
-- **Cena:** a peça visual foi montada, mas uma data ou condição específica ainda precisa ser confirmada antes de publicar.
-- **Contexto:** avisos ou ofertas com condições variáveis.
-- **Resposta desejada:** diferenciar aparência de conclusão efetiva.
-- **Material necessário:** arte e informação pendente confirmadas; não publicar condições não verificadas.
+### Pauta 8 — O perfil parado há três semanas
 
-### Pauta 12 — Uma frase guardada não virou publicação
-- **Cena:** uma frase registra o tema durante o trabalho, mas não guarda todo o contexto necessário para uma peça completa.
-- **Contexto:** autônomos que fazem anotações rápidas.
-- **Resposta desejada:** perceber que capturar a ideia foi só uma parte do caminho.
-- **Material necessário:** anotação original e eventuais tentativas posteriores.
+- **Situação:** você abre o Instagram, vê que o último post foi há três semanas, sente aquele peso e fecha o app.
+- **O que você perde:** quem procura o seu negócio encontra um perfil que parece abandonado.
+- **A virada:** o perfil não para por preguiça. Para porque cada post pede várias decisões que competem com o trabalho de verdade.
+- **O que perceber:** pense no último post que você deixou de fazer e em qual parte ele travou.
 
-## Série 5 — Em que parte emperrou?
+### Pauta 9 — A foto com um, a informação com outro
 
-### Pauta 13 — Três aberturas, nenhuma escolha
-- **Cena:** existem três inícios de texto para um assunto definido e nenhum foi assumido como caminho final.
-- **Contexto:** criação individual de um post.
-- **Resposta desejada:** localizar uma escolha aberta, sem chamar isso de bloqueio psicológico.
-- **Material necessário:** rascunhos reais com alternativas.
-
-### Pauta 14 — Muitas fotos, nenhum recorte escolhido
-- **Cena:** o arquivo tem várias imagens utilizáveis que destacam aspectos diferentes do trabalho; a decisão sobre o que mostrar ainda não foi tomada.
-- **Contexto:** negócios com acervo visual próprio.
-- **Resposta desejada:** reconhecer um gargalo localizado, não uma falta total de material.
-- **Material necessário:** imagens realmente consideradas e a pauta que ficou parada.
-
-### Pauta 15 — Explicar, anunciar ou só mostrar?
-- **Cena:** o mesmo serviço permite três abordagens, mas a escolha do papel da publicação não se fecha; texto e formato continuam pendentes.
-- **Contexto:** serviços e produtos com mais de um recorte possível.
-- **Resposta desejada:** identificar uma decisão central ainda aberta, sem ensinar estratégia de marketing.
-- **Material necessário:** abordagens de rascunho que evidenciem a dúvida.
-
-## Série 6 — Ficou com quem?
-
-### Pauta 16 — A imagem e o contexto ficaram separados
-- **Cena:** uma pessoa tem o registro visual, outra realizou o trabalho e quem publica ainda precisa reuni-los.
-- **Contexto:** pequenas equipes; não generalizar para quem trabalha sozinho.
-- **Resposta desejada:** reconhecer a coordenação invisível exigida para concluir um post.
-- **Material necessário:** trocas internas anonimizadas e materiais reais.
-
-### Pauta 17 — A aprovação trouxe informação nova
-- **Cena:** uma versão chega para aprovação e recebe um dado que não havia sido compartilhado; o material precisa voltar à criação.
-- **Contexto:** equipes com revisão por outra pessoa.
-- **Resposta desejada:** perceber que a aprovação também pode reabrir trabalho, sem procurar culpados.
-- **Material necessário:** versões e comentário real, resguardando dados internos.
-
-### Pauta 18 — Houve participação, mas faltou uma versão final
-- **Cena:** fotos, texto e observações estão em conversas e arquivos diferentes; ninguém reuniu uma versão considerada pronta.
-- **Contexto:** pequenas equipes sem responsável exclusivo de conteúdo.
-- **Resposta desejada:** reconhecer o esforço de coordenação, não atribuir desorganização à equipe.
-- **Material necessário:** histórico anonimizado de versões e status efetivo da publicação.
+- **Situação:** a foto do serviço está no celular de quem fez o trabalho. Os detalhes estão com você. Quem cuida do Instagram está esperando os dois.
+- **O que você perde:** o post não sai, e ninguém se sente responsável por isso.
+- **A virada:** quando o post depende de três pessoas e não tem dono, ele não sai.
+- **O que perceber:** veja quem, no seu negócio, é responsável por juntar tudo antes de postar.

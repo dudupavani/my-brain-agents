@@ -2,21 +2,17 @@
 
 **Estado:** decisões aprovadas.
 **Canais:** Instagram e TikTok.
-**Fonte:** decisões aprovadas explicitamente por Eduardo em 2026-10-07.
+**Fonte:** decisões aprovadas explicitamente por Eduardo em 2026-10-07 e 2026-10-10.
 
 ## Público
 
-Profissionais autônomos e pequenas equipes que precisam divulgar o próprio trabalho, mas não possuem uma pessoa dedicada à criação de conteúdo.
-
-A referência inicial vai de quem trabalha sozinho a empresas com equipes em torno de 10 a 15 pessoas. Esse tamanho descreve o contexto discutido e não funciona como limite rígido do produto ou do conteúdo.
+Profissionais autônomos e pequenas equipes que precisam divulgar o próprio trabalho, mas não têm uma pessoa dedicada a criar conteúdo. Vai de quem trabalha sozinho a negócios com equipes em torno de 10 a 15 pessoas, como referência e não como limite.
 
 O público é definido pela situação em comum, não por uma profissão específica.
 
 ## Papel do perfil
 
-Ajudar quem cuida do próprio negócio a reconhecer o que pode comunicar e a lidar com a tarefa de divulgar o trabalho nas redes.
-
-O perfil não deve virar curso de marketing, design ou produção de conteúdo. Também não deve transformar toda pauta em propaganda do Pomake.
+Ajudar quem cuida do próprio negócio a reconhecer o que pode comunicar e a lidar com a tarefa de divulgar o trabalho nas redes. O perfil não vira curso de marketing, design ou produção de conteúdo, nem propaganda do Pomake.
 
 ## Promessa editorial
 
@@ -25,24 +21,11 @@ O perfil não deve virar curso de marketing, design ou produção de conteúdo. 
 ## Limites
 
 - Não prometer resultado garantido: seguidores, vendas, clientes, alcance, autoridade ou frequência.
-- É permitido mostrar o que está em jogo, como o risco de perder clientes ou de o valor do trabalho não ser percebido, desde que apresentado como consequência plausível, nunca como garantia ou com números inventados. (Decisão de Eduardo em 2026-10-10.)
-- O conteúdo orgânico não é de venda. O Pomake só pode ser citado em Reels do Território 6, [Publicar sem precisar fazer tudo sozinho](territories/06-publicar-sem-precisar-fazer-tudo-sozinho.md). Nos territórios 1 a 5 ele não é citado. Mesmo no Território 6, o Reel não é anúncio: sem preço, sem oferta e sem chamada de compra; continua entregando orientação útil a quem nunca usar o produto; e descreve somente funções confirmadas em [O que é o Pomake](../o-que-e-o-pomake.md). (Decisões de Eduardo em 2026-10-10.)
+- É permitido mostrar o que está em jogo, como o risco de perder clientes ou de o valor do trabalho não ser percebido, desde que como consequência plausível, nunca como garantia ou com números inventados. (Decisão de Eduardo em 2026-10-10.)
+- O conteúdo orgânico não é de venda. O Pomake só pode ser citado em Reels do território 6. Mesmo nele, o Reel não é anúncio: sem preço, sem oferta e sem chamada de compra; continua útil a quem nunca usar o produto; e descreve somente funções confirmadas em [O que é o Pomake](../o-que-e-o-pomake.md). (Decisões de Eduardo em 2026-10-10.)
 - Não ensinar Canva, prompts, edição ou montagem de arte como solução para o público executar.
 - Não reduzir o público a uma profissão específica.
 
-## Linguagem e criação
-
-- Falar sempre em português brasileiro, com palavras comuns para quem conhece o próprio negócio, mas não é especialista em criação de conteúdo. Explicar termos inevitáveis sem infantilizar a pessoa.
-- Escrever como uma conversa com a audiência: cada conteúdo deve oferecer uma ideia, orientação, esclarecimento ou observação útil por si só; os nomes internos de territórios e séries não são a fala do post.
-- O estilo de escrita dos Reels está nas [instruções do redator](../../../../.agents/skills/pomake-reels/references/redator.md); as técnicas de gancho, no [catálogo de ganchos](hooks.md).
-- Criar conteúdo somente quando Eduardo pedir. O trabalho de estratégia não autoriza produção por iniciativa própria.
-
 ## Formato
 
-O conteúdo orgânico do Pomake é produzido somente como Reel, para Instagram e TikTok, gravado pela Lívia ou por outra pessoa. O pacote de cada peça (roteiro, legenda e texto do criativo) está definido nas [instruções do redator](../../../../.agents/skills/pomake-reels/references/redator.md). (Decisão de Eduardo em 2026-10-10.)
-
-## Uso de profissões e setores
-
-A comunicação pode combinar assuntos gerais com exemplos contextualizados para profissões e setores específicos.
-
-Profissões e setores não são territórios editoriais. Eles funcionam como aplicações concretas dos territórios aprovados, quando houver base suficiente para representar aquela rotina sem inventar fatos.
+O conteúdo orgânico do Pomake é produzido somente como Reel, para Instagram e TikTok, gravado pela Lívia ou por outra pessoa. O pacote de cada peça (roteiro, legenda e texto do criativo) e o estilo de escrita estão nas [instruções do redator](../../../../.agents/skills/pomake-reels/references/redator.md). Criar conteúdo somente quando Eduardo pedir. (Decisão de Eduardo em 2026-10-10.)
