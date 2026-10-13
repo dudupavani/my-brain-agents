@@ -22,14 +22,14 @@ O resultado é **reprovado** somente se houver ao menos uma falha bloqueante.
 ## B. História
 
 4. Logo no início há uma cena concreta, com um detalhe que dá para enxergar, e não um conceito.
-5. Há uma virada que muda o jeito de a pessoa ver a situação.
+5. Há uma virada que muda o jeito de a pessoa ver a situação, e o clima muda com ela: do incômodo da cena para o alívio de enxergar a saída.
 6. A pessoa termina sabendo o que fazer de diferente ou, quando a pauta traz "O que perceber", o que observar no próprio negócio.
 7. A Fala 1 abre uma pergunta e a resposta principal só vem perto do fim; cada fala acrescenta algo novo e puxa a próxima; há uma ideia só; toda pergunta aberta pelo gancho e pelo criativo é respondida no Reel. Se o Reel explica tudo nas primeiras falas e depois só repete, falha.
 
 ## C. Escrito para o ouvido
 
 8. Soa como uma pessoa falando: português brasileiro do dia a dia, segunda pessoa, ritmo de conversa, frases que cabem numa respiração. Nenhum trecho soa como artigo, aula ou anúncio.
-9. O pedido final é curto e natural, ligado a um momento real da vida da pessoa, e é do tipo certo: salvar para dica de como agir; enviar a alguém para reflexão ou quebra de crença.
+9. O fechamento é um pedido só (sem outra ação junto), curto e natural, ligado a um momento real da vida da pessoa, e do tipo certo: salvar para dica de como agir; enviar a alguém para reflexão ou quebra de crença.
 
 ## D. Verdade e limites
 

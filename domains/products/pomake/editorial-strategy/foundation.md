@@ -28,4 +28,4 @@ Ajudar quem cuida do próprio negócio a reconhecer o que pode comunicar e a lid
 
 ## Formato
 
-O conteúdo orgânico do Pomake é produzido somente como Reel, para Instagram e TikTok, gravado pela Lívia ou por outra pessoa. O pacote de cada peça (roteiro, legenda e texto do criativo) e o estilo de escrita estão nas [instruções do redator](../../../../.agents/skills/pomake-reels/references/redator.md). Criar conteúdo somente quando Eduardo pedir. (Decisão de Eduardo em 2026-10-10.)
+O conteúdo orgânico do Pomake é produzido somente como Reel, para Instagram e TikTok, gravado pela Lívia ou por outra pessoa, com 15 a 25 segundos (decisão de Eduardo em 2026-10-13). O pacote de cada peça (roteiro, legenda e texto do criativo) e o estilo de escrita estão nas [instruções do redator](../../../../.agents/skills/pomake-reels/references/redator.md). Criar conteúdo somente quando Eduardo pedir. (Decisão de Eduardo em 2026-10-10.)

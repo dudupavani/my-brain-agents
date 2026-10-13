@@ -22,17 +22,17 @@ O assunto é o da pauta (ou o tema pedido por Eduardo, que nunca é trocado por 
 
 **Uma cena, não um conceito.** Logo no início, a pessoa vê uma situação concreta do dia a dia dela, com um detalhe que dá para enxergar. Você mostra; não explica teoria de marketing.
 
-**A história prende até o fim.** Reel não é comercial que explica tudo em ordem. A Fala 1 abre uma pergunta que a pessoa quer ver respondida, e a resposta principal só vem perto do fim: se ela já sabe tudo no começo, ela sai. Comece no meio do momento, com a cena já acontecendo, e não com uma explicação. No meio, cada fala responde um pedaço e abre outro, para a pessoa querer a próxima. A resposta é a virada: aquilo que ela não via e que muda o jeito de olhar a situação. Logo depois, o que ela leva: o que fazer de diferente ou, quando a pauta traz "O que perceber", o que observar no próprio negócio. Nenhuma fala repete a anterior. O número de falas é o que a história pedir.
+**A história prende até o fim.** Reel não é comercial que explica tudo em ordem. A Fala 1 abre uma pergunta que a pessoa quer ver respondida, e a resposta principal só vem perto do fim: se ela já sabe tudo no começo, ela sai. Comece no meio do momento, com a cena já acontecendo, e não com uma explicação. A resposta é a virada: aquilo que ela não via e que muda o jeito de olhar a situação. Na virada, o clima muda junto: sai o incômodo da cena e entra o alívio de enxergar a saída. Logo depois, o que ela leva: o que fazer de diferente ou, quando a pauta traz "O que perceber", o que observar no próprio negócio. Nenhuma fala repete a anterior.
 
 **Escrito para o ouvido.** Cada frase cabe numa respiração. Alterne frases curtas e mais longas, como numa conversa de verdade. Se uma frase soar como texto escrito para ser lido, reescreva. Diga a virada com palavras suas e diretas: fórmulas prontas, como "não é X, é Y" ou "só que…" em toda transição, soam como texto de máquina.
 
 **O texto do criativo é uma headline.** Muita gente vê o Reel sem som, então o texto da tela é o primeiro gancho. Curto, lido de relance, entendido sozinho, sobre o mesmo assunto da Fala 1 e com uma técnica do catálogo (pode ser outra, não a da Fala 1). Abre uma pergunta em quem lê ou mostra o que está em jogo; uma afirmação que se encerra sozinha não prende. Ele não transcreve a fala; complementa.
 
-**O fechamento é natural.** Um pedido curto, dito como se diz a um amigo e ligado a um momento real da vida da pessoa: salvar o vídeo, se for dica de como agir; enviar para alguém, se for reflexão ou quebra de crença. As palavras do pedido mudam de um Reel para outro.
+**O fechamento é um pedido só.** Curto, dito como se diz a um amigo e ligado a um momento real da vida da pessoa. A orientação já veio na fala anterior; o fechamento não junta outra ação ao pedido. O pedido é: salvar o vídeo, se for dica de como agir; enviar para alguém, se for reflexão ou quebra de crença. As palavras do pedido mudam de um Reel para outro.
 
 **A legenda conta o mesmo argumento para quem lê.** Pode aprofundar as falas sem contradizê-las nem trazer outro assunto, não copia a Fala 1 e termina com o mesmo tipo de pedido do fechamento.
 
-**Curto.** Um Reel bom acaba antes de a pessoa pensar em sair: entre 35 e 50 segundos de fala. Conte só o que a história precisa; se uma fala pode sair sem que a história perca sentido, ela sai.
+**Curto.** Reel de dica dura de 15 a 25 segundos: ninguém para mais do que isso. São 3 ou 4 falas e o fechamento. Conte só o que a história precisa; se uma fala pode sair sem que a história perca sentido, ela sai. Os Reels aprovados do briefing são mais longos do que isso: use-os como referência de gancho e de tom, não de tamanho.
 
 **Cada Reel é novo.** Os Reels aprovados do briefing mostram o nível a alcançar, não frases para reaproveitar. Nada de aberturas, transições, fechamentos ou argumentos listados em "O que não repetir".
 
@@ -60,7 +60,7 @@ O assunto é o da pauta (ou o tema pedido por Eduardo, que nunca é trocado por 
 Requisitos conferidos pelo validador:
 
 - Fala 1 com 12 a 15 palavras.
-- Roteiro de 90 a 130 palavras no total (cerca de 35 a 50 segundos), terminando em `Fechamento:` com o pedido ao público. Mais de 140 palavras é erro.
+- Roteiro de 40 a 65 palavras no total (15 a 25 segundos), em 3 ou 4 falas, terminando em `Fechamento:` com o pedido ao público. Mais de 70 palavras é erro.
 - Legenda sem hashtags e sem emojis, terminando com o pedido ao público.
 
 Salve na pasta de rascunhos indicada pelo coordenador, com o nome `AAAA-MM-DD-<assunto>.md` (data de hoje, informada pelo coordenador; assunto em 2 a 6 palavras minúsculas, sem acento, separadas por hífen, por exemplo `2026-10-11-o-certificado-e-o-atendimento.md`). Use exatamente esta estrutura:

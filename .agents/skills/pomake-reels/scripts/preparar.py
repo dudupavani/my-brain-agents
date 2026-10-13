@@ -144,7 +144,7 @@ def blocos_exemplos(reels, excluir=None):
     if not exemplos:
         return [bloco("Reels aprovados (referência de nível)", "domains/products/pomake/reels/",
                       "(nenhum Reel aprovado ainda)")]
-    return [bloco(f"Reel aprovado {i} (referência de nível, não de molde)", r["relativo"], pacote_do_reel(r))
+    return [bloco(f"Reel aprovado {i} (referência de gancho e tom; mais longo que o formato atual)", r["relativo"], pacote_do_reel(r))
             for i, r in enumerate(exemplos, 1)]
 
 
