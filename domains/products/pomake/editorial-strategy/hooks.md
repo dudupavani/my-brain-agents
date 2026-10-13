@@ -59,8 +59,8 @@ Provas fazem as pessoas acreditarem em você mais rápido.
 ## Regras de uso no Pomake
 
 1. **Evidência obrigatória:** especificidade (14), prova social (15) e autoridade (16) só podem ser usadas com dado, fonte ou caso verdadeiro e disponível. Sem isso, escolher outra técnica. Nunca inventar número, estudo, cliente ou resultado.
-2. **Técnicas visuais:** quebra de padrão (4) e efeito Von Restorff (7) dependem de imagem. Como o gerador escreve apenas texto, só usá-las quando o efeito puder ser criado pela fala da Lívia ou pelo texto do criativo.
+2. **Técnicas visuais:** quebra de padrão (4) e efeito Von Restorff (7) dependem de imagem. Como o gerador escreve apenas texto, só usá-las quando o efeito puder ser criado pela fala ou pelo texto do criativo.
 3. **Toda lacuna aberta é fechada:** se o gancho cria uma pergunta, a resposta precisa aparecer dentro do próprio Reel. Gancho que promete e não entrega é proibido.
 4. **Combinações são permitidas:** uma abertura pode unir duas técnicas, como viés da negatividade (8) com relevância pessoal (11).
-5. **Força sem agressividade:** o gancho é forte; o restante segue a [voz e padrão de copy](voice.md).
-6. **Texto do criativo:** segue as mesmas técnicas e regras da Fala 1. Precisa abrir curiosidade ou mostrar o que está em jogo; afirmação que se encerra sozinha não serve. Detalhes em [Reel com a Lívia](reel-livia.md#3-texto-do-criativo).
+5. **Força sem agressividade:** o gancho é forte; o restante do Reel tem tom de conversa.
+6. **Texto do criativo:** segue as mesmas técnicas e regras da Fala 1. Precisa abrir curiosidade ou mostrar o que está em jogo; afirmação que se encerra sozinha não serve.

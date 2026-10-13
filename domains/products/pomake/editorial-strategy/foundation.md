@@ -34,12 +34,12 @@ O perfil não deve virar curso de marketing, design ou produção de conteúdo. 
 
 - Falar sempre em português brasileiro, com palavras comuns para quem conhece o próprio negócio, mas não é especialista em criação de conteúdo. Explicar termos inevitáveis sem infantilizar a pessoa.
 - Escrever como uma conversa com a audiência: cada conteúdo deve oferecer uma ideia, orientação, esclarecimento ou observação útil por si só; os nomes internos de territórios e séries não são a fala do post.
-- A voz, os ganchos e o padrão de copy estão em [voz e padrão de copy](voice.md) e no [catálogo de ganchos](hooks.md).
+- O estilo de escrita dos Reels está nas [instruções do redator](../../../../.agents/skills/pomake-reels/references/redator.md); as técnicas de gancho, no [catálogo de ganchos](hooks.md).
 - Criar conteúdo somente quando Eduardo pedir. O trabalho de estratégia não autoriza produção por iniciativa própria.
 
 ## Formato
 
-O conteúdo orgânico do Pomake é produzido somente como Reel com a Lívia, para Instagram e TikTok. O pacote de cada peça está definido em [Reel com a Lívia](reel-livia.md). (Decisão de Eduardo em 2026-10-10.)
+O conteúdo orgânico do Pomake é produzido somente como Reel, para Instagram e TikTok, gravado pela Lívia ou por outra pessoa. O pacote de cada peça (roteiro, legenda e texto do criativo) está definido nas [instruções do redator](../../../../.agents/skills/pomake-reels/references/redator.md). (Decisão de Eduardo em 2026-10-10.)
 
 ## Uso de profissões e setores
 

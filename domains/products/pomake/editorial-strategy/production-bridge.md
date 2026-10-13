@@ -12,7 +12,7 @@ Os territórios e as séries continuam servindo para organizar o repertório, ma
 4. **Evidência ou natureza do exemplo:** fato confirmado, demonstração real ou cena ilustrativa explicitamente tratada como tal. Não criar cliente, resultado, fala, profissão técnica ou tela falsa.
    - **Cena hipotética em segunda pessoa é permitida** (decisão de Eduardo em 2026-10-10): situação que a audiência reconhece na própria rotina, como “sabe aquele cliente que pediu tudo antes do prazo?”. Ela não é apresentada como caso real, depoimento ou dado.
    - Caso real, número, depoimento, estudo ou citação de fonte continuam exigindo material verdadeiro e disponível.
-5. **Movimento narrativo:** situação → detalhe que muda a compreensão → resposta ou desfecho. Não é uma fórmula de duração nem a copy do post. O formato é sempre o [Reel com a Lívia](reel-livia.md).
+5. **Movimento narrativo:** situação → detalhe que muda a compreensão → resposta ou desfecho. Não é uma fórmula de duração nem a copy do post. O formato é sempre Reel.
 6. **Teste de leitura fria:** ler sem o brief e sem legenda explicativa. Se não se entende quem, o que, por que e o ganho, voltar à pauta.
 
 Sem situação ou ganho, **descartar/fundir**. Sem evidência indispensável, **aguardar material**; quando a pauta funcionar com cena hipotética em segunda pessoa, ela não depende de material. Só então, e somente por pedido de Eduardo, escrever o Reel.

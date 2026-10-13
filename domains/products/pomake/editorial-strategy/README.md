@@ -15,9 +15,9 @@ Ele registra somente decisões aprovadas. Propostas em discussão não devem ser
 - [Banco de pautas](content-bank/): texto completo de cada pauta, indexado em `pautas.yaml`.
 - [Ponte editorial](production-bridge.md): qualifica pautas pelo ganho para a audiência, narrativa e evidência antes de qualquer peça solicitada.
 - [Índice de pautas](pautas.yaml): status de cada pauta do banco e Reels já produzidos a partir dela.
-- [Reel com a Lívia](reel-livia.md): único formato do conteúdo orgânico e pacote de texto de cada peça.
-- [Voz e padrão de copy](voice.md): gancho forte sem agressividade, regras de voz e estrutura de referência.
 - [Catálogo de ganchos](hooks.md): 18 técnicas de gancho e regras de uso.
+
+O formato do Reel e o estilo de escrita ficam nas [instruções do redator](../../../../.agents/skills/pomake-reels/references/redator.md), fonte única para o texto.
 
 ## Formato da pauta
 
@@ -39,10 +39,11 @@ Em 2026-10-11, só a Pauta 1 de cada território está neste formato, em teste. 
 
 O script `.agents/skills/pomake-reels/scripts/preparar.py` extrai trechos destes documentos pelos títulos de seção abaixo. Renomear ou remover um deles faz o gerador parar com erro até o script ser atualizado.
 
-- `foundation.md`: Público; Papel do perfil; Promessa editorial; Limites; Linguagem e criação.
+- `foundation.md`: Público; Papel do perfil; Promessa editorial; Limites.
+- `.agents/skills/pomake-reels/references/redator.md`: O que você escreve; Como um Reel prende e conduz; Limites (enviados ao revisor).
 - `territories.md`: Regra de propriedade editorial; Regra de produção; os títulos numerados dos seis territórios.
 - `territories/0N-*.md`: Situação humana; Trabalho editorial; Tese do Pomake; Fronteiras; Critério para reconhecer uma pauta deste território; no território 6, também Funcionamento confirmado relevante para este território.
 - `production-bridge.md`: Controle de qualidade antes de qualquer publicação.
 - `content-bank/0N-*.md`: os títulos `### Pauta N — <título>`.
 - `../o-que-e-o-pomake.md`: Estado e uso (o texto antes dele é a definição usada).
-- `hooks.md`, `voice.md` e `reel-livia.md` são usados por inteiro.
+- `hooks.md` é usado por inteiro.

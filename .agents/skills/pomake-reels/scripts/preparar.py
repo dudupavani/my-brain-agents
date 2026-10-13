@@ -40,7 +40,8 @@ MAX_NAO_REPETIR = 30
 SECOES_TERRITORIO = ["Situação humana", "Trabalho editorial", "Tese do Pomake", "Fronteiras",
                      "Critério para reconhecer uma pauta deste território"]
 SECAO_T6 = "Funcionamento confirmado relevante para este território"
-SECOES_FUNDACAO = ["Público", "Papel do perfil", "Promessa editorial", "Limites", "Linguagem e criação"]
+SECOES_ESCRITA = ["O que você escreve", "Como um Reel prende e conduz", "Limites"]
+SECOES_FUNDACAO = ["Público", "Papel do perfil", "Promessa editorial", "Limites"]
 
 
 class ErroExtracao(SystemExit):
@@ -285,9 +286,6 @@ def cmd_redator(args):
         bloco("Instruções do redator", ".agents/skills/pomake-reels/references/redator.md",
               sem_titulo(ler(SKILL / "references/redator.md"))),
         bloco("Catálogo de ganchos", "editorial-strategy/hooks.md", sem_titulo(ler(ESTRATEGIA / "hooks.md"))),
-        bloco("Voz e padrão de copy", "editorial-strategy/voice.md", sem_titulo(ler(ESTRATEGIA / "voice.md"))),
-        bloco("Formato do Reel com a Lívia", "editorial-strategy/reel-livia.md",
-              sem_titulo(ler(ESTRATEGIA / "reel-livia.md"))),
         *blocos_exemplos(reels),
         bloco_pauta,
         blocos_territorio(numero, SECOES_TERRITORIO),
@@ -329,14 +327,14 @@ def cmd_revisor(args):
         bloco("Reel em revisão", reel["relativo"], reel["texto"]),
         *blocos_exemplos(reels, excluir=caminho),
         bloco("Catálogo de ganchos", "editorial-strategy/hooks.md", sem_titulo(ler(ESTRATEGIA / "hooks.md"))),
-        bloco("Voz e padrão de copy", "editorial-strategy/voice.md", sem_titulo(ler(ESTRATEGIA / "voice.md"))),
-        bloco("Formato do Reel com a Lívia", "editorial-strategy/reel-livia.md",
-              sem_titulo(ler(ESTRATEGIA / "reel-livia.md"))),
+        bloco("Critérios de escrita (os mesmos que o redator recebeu)",
+              ".agents/skills/pomake-reels/references/redator.md",
+              extrair(SKILL / "references/redator.md", SECOES_ESCRITA)),
         bloco_pauta,
         blocos_territorio(numero, ["Trabalho editorial", "Fronteiras",
                                    "Critério para reconhecer uma pauta deste território"]),
-        bloco("Fundação: limites e linguagem", "editorial-strategy/foundation.md",
-              extrair(ESTRATEGIA / "foundation.md", ["Limites", "Linguagem e criação"])),
+        bloco("Fundação: limites", "editorial-strategy/foundation.md",
+              extrair(ESTRATEGIA / "foundation.md", ["Limites"])),
         bloco("Controle de qualidade da ponte editorial", "editorial-strategy/production-bridge.md",
               extrair(ESTRATEGIA / "production-bridge.md", ["Controle de qualidade antes de qualquer publicação"])),
         *blocos_pomake(numero),
