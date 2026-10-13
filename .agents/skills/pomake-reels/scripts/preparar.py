@@ -28,8 +28,8 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _comum import (ESTRATEGIA, POMAKE, RAIZ, campo, ler_pautas, ler_reels,  # noqa: E402
-                    ler_rejeicoes, secoes)
+from _comum import (ESTRATEGIA, POMAKE, RAIZ, SECOES_PACOTE, campo, ler_pautas,  # noqa: E402
+                    ler_reels, ler_rejeicoes, secoes)
 
 SKILL = Path(__file__).resolve().parents[1]
 ESTADOS_REFERENCIA = {"aprovado", "publicado"}
@@ -155,8 +155,17 @@ def blocos_exemplos(reels, excluir=None):
     if not exemplos:
         return [bloco("Reels aprovados (referência de nível)", "domains/products/pomake/reels/",
                       "(nenhum Reel aprovado ainda)")]
-    return [bloco(f"Reel aprovado {i} (referência de nível, não de molde)", r["relativo"], r["texto"])
+    return [bloco(f"Reel aprovado {i} (referência de nível, não de molde)", r["relativo"], pacote_do_reel(r))
             for i, r in enumerate(exemplos, 1)]
+
+
+def pacote_do_reel(reel):
+    """Só o que foi aprovado: título, técnicas e os três textos. Notas e análises internas ficam de fora."""
+    titulo = "**Título:** " + reel["texto"].strip().split("\n")[0].lstrip("# ").removeprefix("Reel — ")
+    tecnicas = [f"**{nome}:** {campo(reel['texto'], nome)}" for nome in ("Técnica do gancho", "Técnica do criativo")
+                if campo(reel["texto"], nome)]
+    textos = [f"## {nome}\n\n{reel['secoes'].get(nome, '').strip()}" for nome in SECOES_PACOTE]
+    return "\n\n".join([titulo, "\n".join(tecnicas), *textos])
 
 
 def blocos_territorio(numero, secoes_desejadas):
