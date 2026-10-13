@@ -17,16 +17,14 @@ O conteúdo passa por pauta, [história bruta](../../../../.agents/skills/pomake
 
 ## Formato da pauta
 
-Cada pauta é uma semente de história, escrita do ponto de vista do dono do negócio (decisão de Eduardo em 2026-10-11). Os quatro campos abaixo são hipóteses para explorar, não falas prontas nem uma sequência obrigatória no vídeo:
+Cada pauta é uma semente de história, escrita do ponto de vista do dono do negócio. O banco mantém os territórios e os IDs já usados, mas cada entrada precisa fornecer dois insumos claros:
 
-- **Situação:** uma cena do dia a dia, em segunda pessoa, com um detalhe que a pessoa consiga enxergar.
-- **O que você perde:** a consequência para o negócio, como cliente, valor percebido ou tempo.
-- **A virada:** o que a pessoa não percebia e que muda a forma de ver a situação.
-- **O que fazer** (territórios 1, 2, 3 e 6) ou **O que perceber** (territórios 4 e 5): uma orientação só, sem ensinar a fazer o post.
+- **Cena possível:** uma pessoa de uma profissão ou negócio identificável fazendo algo que o espectador consiga visualizar. É um exemplo hipotético, nunca apresentado como caso real.
+- **Ideia de post:** o conteúdo específico que essa pessoa poderia publicar a partir da cena. A Lívia pode convidar quem assiste a encontrar um equivalente na própria rotina.
 
-A situação deve poder ser reconhecida sem exigir que todo o público tenha a mesma profissão. Isso não exige uma cena genérica: um objeto, uma ação ou uma fala concreta ajudam a pessoa a visualizar o momento. Quando a pauta depende de um trabalho específico, use-o como exemplo hipotético claro, sem apresentá-lo como caso real. O título nomeia o momento, não a tese. Uma pauta nova só entra se não repetir o argumento de outra. (Método aplicado a todo o banco em 2026-10-13.)
+A cena não precisa representar todas as profissões ao mesmo tempo. Um exemplo específico pode fazer a pessoa de outra área reconhecer a situação equivalente. O título nomeia o momento, não uma tese sobre resultados. Uma pauta nova só entra se a cena for compreensível sem ver imagens adicionais, se a ideia de post for executável e se não repetir o argumento de outra.
 
-O banco existente contém cenas hipotéticas. Afirmações como "o cliente passa direto" ou "o perfil perde confiança" indicam uma consequência possível, não um comportamento observado ou garantido. Quem conta a história pode descartá-las quando não decorrerem claramente da cena. Não atribua resultados reais a clientes sem evidência. Se uma pauta não se sustentar como história curta e compreensível, escolha outra em vez de forçar uma virada.
+Não use perda de clientes, reação do público, ganho de tempo ou resultado como conclusão automática. Só afirme o que a cena mostra ou o que uma fonte fornecida por Eduardo comprova. Se a pauta não se sustentar como história curta e compreensível, reescreva a pauta antes de produzir o Reel.
 
 ## Como acrescentar uma pauta
 

@@ -30,13 +30,11 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _comum import (ESTRATEGIA, POMAKE, RAIZ, SECOES_PACOTE, campo, ler_pautas,  # noqa: E402
+from _comum import (ESTRATEGIA, POMAKE, RAIZ, ler_pautas,  # noqa: E402
                     ler_reels, ler_rejeicoes, secoes)
 
 SKILL = Path(__file__).resolve().parents[1]
-ESTADOS_REFERENCIA = {"aprovado", "publicado"}
 STATUS_ELEGIVEIS = ["disponivel"]
-MAX_EXEMPLOS = 2
 MAX_NAO_REPETIR = 30
 
 SECOES_FUNDACAO = ["Público", "Limites"]
@@ -117,45 +115,26 @@ def texto_da_pauta(pauta):
     return f"**Pauta:** {pauta['id']}\n**Título:** {pauta['titulo']}\n**Território:** {pauta['territorio']}\n\n{corpo}"
 
 
-def exemplos_aprovados(reels, excluir=None):
-    refs = [r for r in reels if r["estado"] in ESTADOS_REFERENCIA and r["caminho"] != excluir]
-    return refs[-MAX_EXEMPLOS:]
-
-
 def lista_nao_repetir(reels, excluir=None):
     linhas = []
     outros = [r for r in reels if r["caminho"] != excluir][-MAX_NAO_REPETIR:]
     for r in outros:
         f = r["falas"]
+        roteiro = r["secoes"].get("Roteiro da Lívia", "").strip()
+        frases = re.split(r"(?<=[.?!])\s+", roteiro)
+        abertura = f.get("Fala 1") or (frases[0] if frases else "—")
+        final = f.get("Fechamento") or (frases[-1] if frases else "—")
         linhas.append(
             f"- **{r['relativo'].split('/')[-1]}** ({r['estado']}, território {r['territorio']})\n"
-            f"  - Fala 1: {f.get('Fala 1', '—')}\n"
+            f"  - Abertura: {abertura}\n"
             f"  - Texto do criativo: {' '.join(r['secoes'].get('Texto do criativo', '—').split())}\n"
-            f"  - Fechamento: {f.get('Fechamento', '—')}")
+            f"  - Final: {final}")
     rejeicoes = [f"- {linha}" for linha in ler_rejeicoes()]
     texto = "Não repita gancho, texto do criativo, transições, frases de fechamento nem o argumento destes Reels:\n\n"
     texto += "\n".join(linhas) if linhas else "(nenhum Reel anterior)"
     texto += "\n\n### Motivos de rejeição de Eduardo (evite todos)\n\n"
     texto += "\n".join(rejeicoes) if rejeicoes else "(nenhuma rejeição registrada)"
     return texto
-
-
-def blocos_exemplos(reels, excluir=None):
-    exemplos = exemplos_aprovados(reels, excluir)
-    if not exemplos:
-        return [bloco("Reels aprovados (referência de nível)", "domains/products/pomake/reels/",
-                      "(nenhum Reel aprovado ainda)")]
-    return [bloco(f"Reel aprovado {i} (referência de gancho e tom; mais longo que o formato atual)", r["relativo"], pacote_do_reel(r))
-            for i, r in enumerate(exemplos, 1)]
-
-
-def pacote_do_reel(reel):
-    """Só o que foi aprovado: título, técnicas e os três textos. Notas e análises internas ficam de fora."""
-    titulo = "**Título:** " + reel["texto"].strip().split("\n")[0].lstrip("# ").removeprefix("Reel — ")
-    tecnicas = [f"**{nome}:** {campo(reel['texto'], nome)}" for nome in ("Técnica do gancho", "Técnica do criativo")
-                if campo(reel["texto"], nome)]
-    textos = [f"## {nome}\n\n{reel['secoes'].get(nome, '').strip()}" for nome in SECOES_PACOTE]
-    return "\n\n".join([titulo, "\n".join(tecnicas), *textos])
 
 
 def bloco_territorio(numero):

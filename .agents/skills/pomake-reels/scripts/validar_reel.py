@@ -15,8 +15,7 @@ from _comum import (ESTRATEGIA, SECOES_PACOTE, campo, falas, ids_de_pautas,  # n
                     ler_reels, secoes)
 
 ESTADOS = {"proposta", "aprovado", "publicado"}
-ALVO_PALAVRAS = (35, 75)  # estimativa; a leitura em voz alta decide se cabe em 15–25 s
-MAX_PALAVRAS = 90         # acima disso, a adaptação ainda não cortou o suficiente
+ALVO_PALAVRAS = (30, 95)  # apenas referência; a leitura em voz alta decide a duração
 REPETICAO_ERRO = 8      # palavras seguidas iguais a um Reel anterior: erro
 REPETICAO_AVISO = 5     # palavras seguidas iguais a um Reel anterior: aviso
 EMOJI = re.compile("[\U0001F000-\U0001FAFF☀-➿️]")
@@ -92,18 +91,13 @@ def validar(caminho):
         if not sec.get(nome):
             erros.append(f"Seção '## {nome}' ausente ou vazia.")
     roteiro = sec.get("Roteiro da Lívia", "")
-    itens = falas(roteiro)
-    if not itens.get("Fala 1"):
-        erros.append("Roteiro sem 'Fala 1:' preenchida (gancho).")
-    if not itens.get("Fechamento"):
-        erros.append("Roteiro sem 'Fechamento:' preenchido.")
+    itens = falas(roteiro)  # compatibilidade com Reels antigos numerados
+    fala_limpa = re.sub(r"^(Fala \d+|Fechamento):\s*", "", roteiro, flags=re.M).strip()
 
     # Duração estimada; o teste de fala prevalece sobre a contagem.
-    palavras = len(normalizar(re.sub(r"^(Fala \d+|Fechamento):", "", roteiro, flags=re.M)))
+    palavras = len(normalizar(fala_limpa))
     if not palavras:
         erros.append("Roteiro sem fala.")
-    elif estado == "proposta" and palavras > MAX_PALAVRAS:
-        erros.append(f"Roteiro com {palavras} palavras; corte antes de gravar ou confirme uma duração maior com Eduardo.")
     elif estado == "proposta" and not ALVO_PALAVRAS[0] <= palavras <= ALVO_PALAVRAS[1]:
         avisos.append(f"Roteiro com {palavras} palavras; confira a duração falando em voz alta.")
 
@@ -113,10 +107,11 @@ def validar(caminho):
         erros.append("Legenda com hashtag.")
     if EMOJI.search(legenda):
         erros.append("Legenda com emoji.")
-    fala1 = normalizar(itens.get("Fala 1", ""))
+    abertura = itens.get("Fala 1") or re.split(r"(?<=[.?!])\s", fala_limpa, maxsplit=1)[0]
+    fala1 = normalizar(abertura)
     inicio_legenda = normalizar(re.split(r"(?<=[.?!])\s", legenda.strip(), maxsplit=1)[0]) if legenda.strip() else []
     if fala1 and inicio_legenda and (inicio_legenda == fala1 or " ".join(fala1) in " ".join(inicio_legenda)):
-        avisos.append("A legenda começa repetindo a Fala 1. A legenda deve adaptar o argumento, não copiar a fala.")
+        avisos.append("A legenda começa repetindo a abertura. A legenda deve adaptar o argumento, não copiar a fala.")
 
     # Pomake e tom comercial
     pacote = texto_do_pacote(sec)

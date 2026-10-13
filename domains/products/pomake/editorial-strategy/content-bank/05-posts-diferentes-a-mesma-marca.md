@@ -1,46 +1,35 @@
 # Pautas — Território 5: Uma marca com um jeito reconhecível
 
 **Território:** 5 — Uma marca com um jeito reconhecível
-**Formato:** semente de história (ver [README](../README.md#formato-da-pauta)).
+**Formato:** [cena possível e ideia de post](../README.md#formato-da-pauta). Todos os exemplos são hipotéticos.
 
 ### Pauta 1 — O logo não organizou o restante
 
-- **Situação:** você coloca o seu logo em todos os posts, mas cada um tem uma cor, um estilo de foto e um jeito de falar diferente.
-- **O que você perde:** quem rola o feed não reconhece que é você antes de ver o logo. O perfil parece de várias empresas diferentes e passa menos confiança.
-- **A virada:** o logo assina o post. Quem faz a marca ser reconhecida é o que se repete: as mesmas cores, o mesmo estilo de imagem, o mesmo jeito de falar.
-- **O que perceber:** olhe os seus últimos nove posts lado a lado. Se, tapando o logo, eles não parecem do mesmo negócio, o cliente também não vai reconhecer você.
+- **Cena possível:** uma arquiteta abre os últimos posts do escritório: um mostra uma obra, outro um aviso de horário, outro um projeto. Todos têm o logo, mas cada texto parece escrito por uma empresa diferente.
+- **Ideia de post:** pegar uma pergunta recorrente sobre um projeto e respondê-la no jeito em que o escritório realmente conversa com clientes. O logo não substitui uma voz reconhecível.
 
 ### Pauta 2 — O aviso que parece comunicado de banco
 
-- **Situação:** no dia a dia, você fala com o cliente como quem conversa. Mas, no post do feriado, escreveu: "Informamos aos nossos estimados clientes que…".
-- **O que você perde:** o cliente estranha. Parece outra empresa falando, e a proximidade que você construiu some naquele post.
-- **A virada:** o jeito de falar também é marca. Quando ele muda sem motivo, a marca muda junto.
-- **O que perceber:** leia o seu último aviso em voz alta e veja se soa como você falando com um cliente.
+- **Cena possível:** uma cabeleireira diz “sexta vou fechar às quatro, tá?” a uma cliente. No Instagram, começa a escrever “Informamos aos nossos estimados clientes...”.
+- **Ideia de post:** publicar o aviso com as palavras que usaria no atendimento, incluindo o dia e o horário corretos.
 
 ### Pauta 3 — Promoção, aviso e parabéns no mesmo molde
 
-- **Situação:** pra manter o padrão, você usa o mesmo modelo pra tudo: a promoção, o aviso de horário e o parabéns pro cliente. Mesmo layout, mesma empolgação.
-- **O que você perde:** o aviso sério parece promoção, e o parabéns parece anúncio. Nada se destaca.
-- **A virada:** o jeito da marca pode ficar o mesmo enquanto o tom muda com o assunto: o aviso mais sério, a promoção mais animada.
-- **O que perceber:** compare um aviso e uma promoção do seu perfil e veja se dá pra saber, de longe, qual é qual.
+- **Cena possível:** uma loja coloca promoção, horário de feriado e agradecimento a clientes no mesmo modelo cheio de exclamações. Quem vê precisa ler tudo para descobrir qual é o assunto.
+- **Ideia de post:** no próximo aviso, deixar a informação principal visível e dizê-la no tom habitual da loja. Uma promoção pode ter outro ritmo sem parecer outra marca.
 
 ### Pauta 4 — A foto linda que não parece sua
 
-- **Situação:** você achou uma imagem linda na internet e usou no post. Ficou bonita, mas não tem nada a ver com as outras fotos do seu perfil.
-- **O que você perde:** o post destoa, e o cliente não reconhece aquele lugar como o seu negócio.
-- **A virada:** uma imagem bonita sozinha não ajuda se ela não parece com o resto da sua marca.
-- **O que perceber:** coloque essa imagem ao lado dos seus últimos posts e veja se parece do mesmo lugar.
+- **Cena possível:** uma oficina escolhe uma foto impecável de uma garagem que não é a sua, enquanto no celular há uma foto clara da própria bancada de trabalho.
+- **Ideia de post:** mostrar um detalhe real do espaço ou do processo e explicar o que acontece ali. Não usar uma imagem de outra empresa como se fosse do negócio.
 
 ### Pauta 5 — A promoção que grita
 
-- **Situação:** o seu perfil é calmo, com fotos claras e um jeito tranquilo de falar. Aí vem a promoção: fundo vermelho, setas, "ÚLTIMAS HORAS!!!".
-- **O que você perde:** a promoção parece de outra loja, e o cliente fiel estranha o tom.
-- **A virada:** dá pra ser mais direto numa oferta sem trocar de personalidade.
-- **O que perceber:** veja se a sua última promoção ainda tem as cores e o jeito de falar dos outros posts.
+- **Cena possível:** o perfil de uma pequena floricultura costuma mostrar arranjos com explicações calmas; a próxima promoção aparece com “ÚLTIMAS HORAS!!!” e setas vermelhas.
+- **Ideia de post:** dizer diretamente quais arranjos entram na oferta, até quando e como pedir, mantendo o jeito de falar que os clientes já conhecem.
 
 ### Pauta 6 — O aviso sério com cara de festa
 
-- **Situação:** você precisa avisar que o preço mudou. Escreve um texto cuidadoso, mas usa uma imagem colorida, com cara de comemoração.
-- **O que você perde:** o cliente lê a imagem antes do texto e não entende se é boa notícia ou não.
-- **A virada:** quando imagem e texto dizem coisas diferentes, o cliente acredita na imagem.
-- **O que perceber:** no próximo aviso, veja se a imagem e o texto estão dizendo a mesma coisa.
+- **Cena possível:** uma clínica precisa avisar sobre mudança de preço e quase publica o texto sobre um fundo que usa para comemorações.
+- **Ideia de post:** explicar o que muda, a partir de quando e onde tirar dúvidas, com texto e imagem que transmitam o mesmo assunto. Não apresentar mudança de preço como celebração.
+

@@ -17,7 +17,7 @@ Execute `git pull --ff-only`. Se houver conflito ou alterações locais que impe
 
 ## 2. Escolher a pauta
 
-- Sem tema: execute `python3 .agents/skills/pomake-reels/scripts/preparar.py candidatas`. Use a primeira pauta que ainda renda uma situação clara e diferente dos Reels existentes. Uma cena que só fala em "serviço", "etapa", "cuidado" ou "cliente" sem mostrar o que alguém faz ou vê ainda é vaga. Passe à próxima pauta se faltar esse detalhe; não o invente para salvar a escolha.
+- Sem tema: execute `python3 .agents/skills/pomake-reels/scripts/preparar.py candidatas`. Use a primeira pauta que ofereça uma situação clara, uma ideia de post executável e um argumento diferente dos Reels existentes. A cena pode escolher uma profissão específica; não precisa representar todas ao mesmo tempo. Se a pauta for vaga, escolha outra ou reescreva a pauta antes de produzir.
 - Com tema: execute `preparar.py territorios`, classifique-o pela regra de propriedade e veja `preparar.py pautas --territorio <N>`. Use uma pauta que corresponda claramente; caso contrário, use `orientacao-eduardo`. Não substitua o tema de Eduardo.
 - Só pergunte quando duas leituras do pedido mudarem materialmente o Reel.
 
@@ -25,7 +25,7 @@ Execute `git pull --ff-only`. Se houver conflito ou alterações locais que impe
 
 Gere o briefing com `preparar.py historia --pauta <ID>` ou `preparar.py historia --territorio <N> --tema "<tema>"`. Obtenha a pasta com `preparar.py historias`.
 
-Peça a um contador de histórias que leia **somente esse briefing** e salve `AAAA-MM-DD-<assunto>-historia.md` na pasta indicada. A resposta é `HISTORIA: <caminho>`. Ele deve contar o acontecimento em linguagem falada, sem escrever gancho, legenda, chamada para salvar ou roteiro final. Se a pauta não sustentar uma história compreensível sem inventar fatos, ele sinaliza isso; escolha outra pauta ou peça a informação indispensável a Eduardo.
+Peça a um contador de histórias que leia **somente esse briefing** e salve `AAAA-MM-DD-<assunto>-historia.md` na pasta indicada. A resposta é `HISTORIA: <caminho>`. Ele deve contar o acontecimento em linguagem falada, sem escrever gancho, legenda, chamada para salvar ou roteiro final. A cena da pauta é hipotética, não uma experiência vivida pela Lívia. Se a pauta não sustentar uma história compreensível sem inventar fatos, ele sinaliza isso; escolha outra pauta ou peça a informação indispensável a Eduardo.
 
 Com subagentes disponíveis, use um papel separado para esta etapa. Sem subagentes, execute-a como uma etapa distinta e não antecipe as regras da adaptação.
 
@@ -33,13 +33,13 @@ Com subagentes disponíveis, use um papel separado para esta etapa. Sem subagent
 
 Gere o briefing com `preparar.py redator --pauta <ID>` ou `preparar.py redator --territorio <N> --tema "<tema>"`. Obtenha a pasta com `preparar.py rascunhos`.
 
-Peça ao adaptador que leia **o briefing e a história bruta**. A história é o insumo principal: preserve o que aconteceu e o que a pessoa precisa entender, cortando ou mudando apenas o necessário para caber num Reel. Ele salva `AAAA-MM-DD-<assunto>.md` na pasta de rascunhos e responde `ESCRITO: <caminho>`. Não acrescente uma moral, uma consequência, uma pergunta ou um pedido final só para preencher uma fórmula.
+Peça ao adaptador que leia **o briefing e a história bruta**. A história é o insumo principal: preserve o que aconteceu e o que a pessoa precisa entender, cortando ou mudando apenas o necessário para caber num Reel. Ele escreve uma fala contínua, que funciona com a Lívia diante da câmera e legendas da fala, sem depender de imagens extras. Ele salva `AAAA-MM-DD-<assunto>.md` na pasta de rascunhos e responde `ESCRITO: <caminho>`. Não acrescente uma moral, uma consequência, uma pergunta ou um pedido final só para preencher uma fórmula.
 
 Com subagentes disponíveis, use um papel diferente do contador de histórias. Sem subagentes, trate esta etapa como uma nova leitura da história, primeiro entendendo-a sem consultar a pauta.
 
 ## 5. Conferir e entregar
 
-Execute `validar_reel.py <arquivo>`. Corrija erros mecânicos com o adaptador, no máximo duas tentativas. Leia o roteiro **sem o briefing** como se estivesse ouvindo pela primeira vez: é possível imaginar o que a pessoa fez ou viu, e entender por que isso importa? Se houver uma lacuna no texto, peça ao adaptador para recontar; se faltar uma cena na própria história, volte à etapa 3 ou escolha outra pauta. Não preencha a lacuna com uma explicação sua.
+Execute `validar_reel.py <arquivo>`. Corrija erros mecânicos com o adaptador, no máximo duas tentativas. Leia o roteiro **sem o briefing** como se estivesse ouvindo pela primeira vez: fica claro logo de que se trata, é possível imaginar o que a pessoa fez ou viu e o espectador sai com uma ideia de post que pode fazer? Se houver uma lacuna no texto, peça ao adaptador para recontar; se faltar uma cena na própria história, volte à etapa 3 ou escolha outra pauta. Não preencha a lacuna com uma explicação sua. A leitura de alguém que não participou da criação é a melhor verificação quando disponível; a validação automática não prova que a fala soa humana.
 
 Entregue a Eduardo somente roteiro, legenda e texto de tela. Esta conferência não é uma revisão formal nem um checklist criativo. A leitura e os testes de gravação de Eduardo orientam as próximas versões.
 

@@ -1,67 +1,50 @@
 # Pautas — Território 1: O trabalho já tem assunto
 
 **Território:** 1 — O trabalho já tem assunto
-**Formato:** semente de história (ver [README](../README.md#formato-da-pauta)).
+**Formato:** [cena possível e ideia de post](../README.md#formato-da-pauta). Todos os exemplos são hipotéticos.
 
 ### Pauta 1 — O que está incluído no serviço
 
-- **Situação:** você está fechando um orçamento e o cliente pergunta, pela décima vez no mês: "isso já está incluso?". Você explica o que entra no serviço e o que é à parte, e ele fica tranquilo.
-- **O que você perde:** essa explicação, que convence o cliente na conversa, fica presa no WhatsApp. Quem chega ao seu perfil não encontra essa resposta, fica com a dúvida e compara você só pelo preço.
-- **A virada:** a pergunta que você mais responde já é um post pronto. Você só não enxerga porque virou rotina.
-- **O que fazer:** pegue a explicação que você deu hoje sobre o que está incluso e poste do jeito que falou com o cliente.
+- **Cena possível:** uma cliente pede orçamento a uma confeiteira e pergunta pelo WhatsApp: “A entrega está incluída?”. A confeiteira responde explicando o que entra no pedido e o que é cobrado à parte.
+- **Ideia de post:** escolher uma dúvida que apareceu num orçamento hoje e respondê-la publicamente, com os itens incluídos e os opcionais do próprio serviço.
 
 ### Pauta 2 — "Nossa, você também faz isso?"
 
-- **Situação:** um cliente antigo vê você fazendo um serviço diferente e se surpreende: "nossa, nem sabia que você fazia isso!". Ele é cliente há anos.
-- **O que você perde:** se nem quem já te conhece sabe tudo o que você faz, quem chega pelo perfil sabe menos ainda. E contrata outra pessoa pro serviço que você também oferece.
-- **A virada:** o que você faz todo dia parece óbvio pra você. Pros outros, só existe o que eles já viram.
-- **O que fazer:** escolha o serviço que mais surpreende quando o cliente descobre e mostre ele sendo feito.
+- **Cena possível:** uma cliente que sempre encomenda bolos vê a confeiteira preparando doces para uma festa e pergunta: “Você também faz isso?”.
+- **Ideia de post:** mostrar um serviço que clientes antigos ainda perguntam se o negócio oferece, dizendo para quem ele serve e como pedir informações.
 
 ### Pauta 3 — Os minutos antes do cliente chegar
 
-- **Situação:** antes do primeiro atendimento do dia, você arruma o espaço, separa o material, confere a agenda. Quando o cliente chega, está tudo no lugar, como se fosse natural.
-- **O que você perde:** o cliente só vê a hora marcada. O cuidado que vem antes não aparece, e parece que o serviço começa quando ele entra.
-- **A virada:** o que você faz antes de o cliente chegar também é serviço. Só que ninguém está olhando.
-- **O que fazer:** mostre o seu preparo antes do primeiro atendimento e diga pra que ele serve.
+- **Cena possível:** antes de abrir a oficina, o mecânico confere as ordens do dia, separa as peças recebidas e organiza a bancada. Quando o primeiro carro chega, essa preparação já terminou.
+- **Ideia de post:** mostrar uma tarefa real que acontece antes do atendimento e explicar em uma frase para que ela serve.
 
 ### Pauta 4 — A conferência que evitou o erro
 
-- **Situação:** antes de entregar, você confere de novo o nome, a medida, a data. Acha um detalhe errado, corrige, e entrega como se nada tivesse acontecido.
-- **O que você perde:** o erro que não aconteceu não aparece. O cliente acha que deu certo por sorte, não pelo seu cuidado.
-- **A virada:** o problema que você evita é invisível, a não ser que você conte.
-- **O que fazer:** conte o que você sempre confere antes de entregar e por quê.
+- **Cena possível:** uma costureira põe a peça pronta sobre a mesa e confere medida, botão e zíper antes de chamar a cliente.
+- **Ideia de post:** mostrar uma conferência que faz parte da entrega do próprio negócio e dizer o que ela verifica. Não inventar um erro que ocorreu nem prometer resultado sem falhas.
 
 ### Pauta 5 — O ajuste que todo cliente pede
 
-- **Situação:** você entrega a primeira versão e o cliente pede o mesmo ajuste que o anterior pediu. E o outro antes dele também.
-- **O que você perde:** você explica e refaz a mesma coisa toda vez, e o próximo cliente chega sem saber.
-- **A virada:** o ajuste que todo mundo pede mostra o que o seu cliente mais valoriza. Isso é assunto.
-- **O que fazer:** poste qual é o ajuste mais pedido e o que ele diz sobre o que o cliente espera.
+- **Cena possível:** uma fotógrafa ouve mais uma vez “dá para receber algumas fotos em tamanho para imprimir?” ao entregar uma galeria digital.
+- **Ideia de post:** escolher um ajuste que clientes realmente pedem e explicar quando ele pode ser solicitado e o que muda na entrega.
 
 ### Pauta 6 — As fotos esquecidas na galeria
 
-- **Situação:** procurando uma foto no celular, você passa por dezenas de registros do seu trabalho: etapas, bastidores, o antes de vários serviços. Nada disso foi postado.
-- **O que você perde:** o registro do seu trabalho fica guardado na galeria enquanto você acha que não tem o que postar.
-- **A virada:** a galeria do seu celular já é um arquivo de assuntos.
-- **O que fazer:** escolha uma foto antiga de uma etapa e conte o que estava acontecendo naquele dia.
+- **Cena possível:** uma arquiteta procura a foto de um ambiente pronto e encontra no celular a imagem da planta riscada durante uma reunião.
+- **Ideia de post:** escolher uma foto antiga de bastidor e contar o que estava sendo decidido naquele momento. Não apresentar a imagem como caso de cliente sem autorização.
 
 ### Pauta 7 — A mensagem depois da entrega
 
-- **Situação:** dois dias depois de entregar, você manda uma mensagem pro cliente perguntando se deu tudo certo. Ele agradece, surpreso.
-- **O que você perde:** só esse cliente sabe que você acompanha depois. Quem ainda vai contratar não faz ideia.
-- **A virada:** o que você faz depois da entrega é um diferencial que quase ninguém mostra.
-- **O que fazer:** conte como você acompanha o cliente depois que o serviço termina.
+- **Cena possível:** depois de instalar um armário, um profissional manda mensagem perguntando se as portas estão abrindo bem e se ficou alguma dúvida sobre o uso.
+- **Ideia de post:** explicar como o negócio acompanha o cliente depois da entrega, usando um exemplo sem expor conversa privada.
 
 ### Pauta 8 — A dica que você dá na saída
 
-- **Situação:** todo cliente, quando vai embora, ouve a mesma orientação sua: como cuidar, o que evitar, quando voltar. Você fala no automático.
-- **O que você perde:** essa dica, que ajuda de verdade, só chega a quem já é cliente.
-- **A virada:** a orientação que você dá de graça na saída é um dos posts mais úteis que você pode fazer.
-- **O que fazer:** grave a dica que você dá a todo cliente, do jeito que você fala na saída.
+- **Cena possível:** ao entregar uma peça de roupa ajustada, a costureira repete uma orientação de cuidado que costuma dar pessoalmente.
+- **Ideia de post:** publicar uma orientação que o profissional já dá aos clientes, nas palavras que costuma usar. A dica técnica deve vir do próprio profissional, nunca ser inventada pelo roteirista.
 
 ### Pauta 9 — O elogio que ficou no WhatsApp
 
-- **Situação:** um cliente manda uma mensagem agradecendo, contando como ficou feliz com o resultado. Você responde "obrigado!" e a conversa some no meio das outras.
-- **O que você perde:** a prova mais forte do seu trabalho, dita por quem contratou, fica escondida num chat.
-- **A virada:** o que o cliente diz de você convence mais do que qualquer coisa que você diga sobre si.
-- **O que fazer:** peça licença ao cliente e poste a mensagem dele, contando o que você fez naquele serviço.
+- **Cena possível:** uma cliente manda uma mensagem agradecendo por um serviço concluído; o profissional lê, responde e deixa a conversa arquivada.
+- **Ideia de post:** com autorização da cliente, mostrar o comentário junto do contexto do serviço. Sem autorização, falar apenas do tipo de pergunta ou retorno que recebe, sem fingir um depoimento real.
+
