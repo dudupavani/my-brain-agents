@@ -2,7 +2,7 @@
 
 O Pomake é uma ferramenta que cria posts para divulgar seu negócio nas redes sociais. Você conta o que quer comunicar, como um produto, um serviço ou uma promoção, e ele transforma essa ideia em um post pronto: cria o texto, a fotografia, a arte e a legenda que acompanha a publicação.
 
-Você pode configurar cores, enviar a fonte da marca, escolher um tema fotográfico para a sua área de atuação e selecionar um modelo de design ou gerar um modelo por prompt. Também pode criar a **Voz da Marca**, nome dado no Pomake à identidade verbal do negócio. Essa voz é construída em um passo a passo guiado pela inteligência artificial: você responde perguntas sobre o negócio, o posicionamento e a maneira de se comunicar e, ao final, a Voz da Marca fica criada para orientar os textos futuros.
+Você pode configurar cores, fonte, tema fotográfico e estilo de design. Para isso, pode enviar a fonte da marca, escolher um tema fotográfico para a sua área de atuação e selecionar um modelo de design ou gerar um modelo por prompt. Também pode criar a **Voz da Marca**, nome dado no Pomake à identidade verbal do negócio. Essa voz é construída em um passo a passo guiado pela inteligência artificial: você responde perguntas sobre o negócio, o posicionamento e a maneira de se comunicar e, ao final, a Voz da Marca fica criada para orientar os textos futuros.
 
 Na criação de um post, depois de informar o que deseja comunicar e clicar em criar, o Pomake gera automaticamente três opções de texto seguindo a Voz da Marca, sem exigir prompts ou o pedido individual de cada opção. Você escolhe uma delas, gera o visual e, se quiser mudar alguma coisa, pode pedir ajustes por conversa.
 
