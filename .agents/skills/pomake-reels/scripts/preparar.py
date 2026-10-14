@@ -9,6 +9,8 @@ Uso:
   python3 preparar.py historias
   python3 preparar.py redator --pauta <ID>
   python3 preparar.py redator --territorio <1-6> --tema "<tema pedido por Eduardo>"
+  python3 preparar.py materias
+  python3 preparar.py adaptador
   python3 preparar.py rascunhos
 
 O Reel é escrito como rascunho fora do repositório (pasta indicada por "rascunhos") e só
@@ -160,6 +162,14 @@ def cmd_rascunhos(args):
         print(f"- {arquivo}")
 
 
+def cmd_materias(args):
+    pasta = pasta_trabalho() / "materias"
+    pasta.mkdir(parents=True, exist_ok=True)
+    print(f"MATERIAS: {pasta}")
+    for arquivo in sorted(pasta.glob("*.md")):
+        print(f"- {arquivo}")
+
+
 def cmd_historias(args):
     pasta = pasta_trabalho() / "historias"
     pasta.mkdir(parents=True, exist_ok=True)
@@ -274,7 +284,7 @@ def cmd_redator(args):
         direcao = bloco_pauta
 
     partes = [
-        "# Briefing do redator — Reel do Pomake\n\n"
+        "# Briefing do redator — matéria do Pomake\n\n"
         "Leia também a história bruta indicada pelo coordenador. Ela é o insumo principal.",
         bloco("Instruções do redator", ".agents/skills/pomake-reels/references/redator.md",
               sem_titulo(ler(SKILL / "references/redator.md"))),
@@ -286,6 +296,18 @@ def cmd_redator(args):
     ]
     nome = f"redator-{args.pauta or 'orientacao-eduardo'}"
     gravar(nome, partes)
+
+
+def cmd_adaptador(args):
+    partes = [
+        "# Briefing do adaptador — fala para Reels do Pomake\n\n"
+        "Leia também a matéria indicada pelo coordenador. Ela é o único insumo de conteúdo.",
+        bloco("Instruções do adaptador", ".agents/skills/pomake-reels/references/adaptador.md",
+              sem_titulo(ler(SKILL / "references/adaptador.md"))),
+        bloco("Limites", "editorial-strategy/foundation.md",
+              extrair(ESTRATEGIA / "foundation.md", ["Limites"])),
+    ]
+    gravar("adaptador", partes)
 
 
 def main():
@@ -302,14 +324,17 @@ def main():
     h.add_argument("--territorio", type=int, choices=range(1, 7))
     h.add_argument("--tema")
     sub.add_parser("territorios")
+    sub.add_parser("materias")
+    sub.add_parser("adaptador")
     sub.add_parser("rascunhos")
     sub.add_parser("historias")
     pt = sub.add_parser("pautas")
     pt.add_argument("--territorio", type=int, choices=range(1, 7), required=True)
     args = parser.parse_args()
     {"candidatas": cmd_candidatas, "territorios": cmd_territorios, "pautas": cmd_pautas,
-     "rascunhos": cmd_rascunhos, "historias": cmd_historias,
-     "historia": cmd_historia, "redator": cmd_redator}[args.comando](args)
+     "rascunhos": cmd_rascunhos, "materias": cmd_materias, "historias": cmd_historias,
+     "historia": cmd_historia, "redator": cmd_redator,
+     "adaptador": cmd_adaptador}[args.comando](args)
 
 
 if __name__ == "__main__":
