@@ -84,10 +84,6 @@ def validar(caminho):
     territorio = campo(texto, "Território")
     if territorio is None or not re.fullmatch(r"[1-6]", territorio):
         erros.append("Campo Território ausente ou fora de 1 a 6.")
-    for nome in ("Técnica do gancho", "Técnica do criativo"):
-        if campo(texto, nome) is None:
-            erros.append(f"Campo {nome} ausente.")
-
     sec = secoes(texto)
     for nome in SECOES_PACOTE:
         if not sec.get(nome):

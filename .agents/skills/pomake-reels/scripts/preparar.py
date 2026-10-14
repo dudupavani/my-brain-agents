@@ -31,12 +31,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _comum import (ESTRATEGIA, POMAKE, RAIZ, ler_pautas,  # noqa: E402
-                    ler_reels, ler_rejeicoes, secoes)
+                    ler_reels, secoes)
 
 SKILL = Path(__file__).resolve().parents[1]
 STATUS_ELEGIVEIS = ["ativa"]
-MAX_NAO_REPETIR = 30
-
 SECOES_FUNDACAO = ["Público", "Limites"]
 
 
@@ -129,28 +127,6 @@ def recortes_anteriores(pauta_id, reels):
         final = r["falas"].get("Fechamento") or (frases[-1] if frases else "—")
         linhas.append(f"- **{r['relativo']}**\n  - Recorte: {recorte}\n  - Final: {final}")
     return "Escolha outra cena, dúvida e ação prática. Mudar apenas a profissão não basta.\n\n" + "\n".join(linhas)
-
-
-def lista_nao_repetir(reels, excluir=None):
-    linhas = []
-    outros = [r for r in reels if r["caminho"] != excluir][-MAX_NAO_REPETIR:]
-    for r in outros:
-        f = r["falas"]
-        roteiro = r["secoes"].get("Roteiro da Lívia", "").strip()
-        frases = re.split(r"(?<=[.?!])\s+", roteiro)
-        abertura = f.get("Fala 1") or (frases[0] if frases else "—")
-        final = f.get("Fechamento") or (frases[-1] if frases else "—")
-        linhas.append(
-            f"- **{r['relativo'].split('/')[-1]}** ({r['estado']}, território {r['territorio']})\n"
-            f"  - Abertura: {abertura}\n"
-            f"  - Texto do criativo: {' '.join(r['secoes'].get('Texto do criativo', '—').split())}\n"
-            f"  - Final: {final}")
-    rejeicoes = [f"- {linha}" for linha in ler_rejeicoes()]
-    texto = "Não repita gancho, texto do criativo, transições, frases de fechamento nem o argumento destes Reels:\n\n"
-    texto += "\n".join(linhas) if linhas else "(nenhum Reel anterior)"
-    texto += "\n\n### Motivos de rejeição de Eduardo (evite todos)\n\n"
-    texto += "\n".join(rejeicoes) if rejeicoes else "(nenhuma rejeição registrada)"
-    return texto
 
 
 def bloco_territorio(numero):
@@ -289,25 +265,26 @@ def cmd_historia(args):
 
 
 def cmd_redator(args):
-    reels = ler_reels()
     numero, bloco_pauta = dados_do_assunto(args)
+    if args.pauta:
+        pauta = pauta_por_id(args.pauta)
+        direcao = bloco("Assunto", f"editorial-strategy/{pauta['arquivo']}",
+                       f"**Pauta:** {pauta['id']}\n**Título:** {pauta['titulo']}")
+    else:
+        direcao = bloco_pauta
 
     partes = [
-        "# Briefing do adaptador — Reel do Pomake\n\n"
+        "# Briefing do redator — Reel do Pomake\n\n"
         "Leia também a história bruta indicada pelo coordenador. Ela é o insumo principal.",
-        bloco("Instruções do adaptador", ".agents/skills/pomake-reels/references/redator.md",
+        bloco("Instruções do redator", ".agents/skills/pomake-reels/references/redator.md",
               sem_titulo(ler(SKILL / "references/redator.md"))),
-        bloco_pauta,
-        *([bloco("Recortes já usados nesta pauta", "domains/products/pomake/reels/",
-                 recortes_anteriores(args.pauta, reels))] if args.pauta else []),
+        direcao,
         bloco_territorio(numero),
-        bloco("Público e limites", "editorial-strategy/foundation.md",
-              extrair(ESTRATEGIA / "foundation.md", SECOES_FUNDACAO)),
+        bloco("Limites", "editorial-strategy/foundation.md",
+              extrair(ESTRATEGIA / "foundation.md", ["Limites"])),
         *blocos_pomake(numero),
-        bloco("Catálogo de ganchos", "editorial-strategy/hooks.md", sem_titulo(ler(ESTRATEGIA / "hooks.md"))),
-        bloco("O que não repetir", "domains/products/pomake/reels/", lista_nao_repetir(reels)),
     ]
-    nome = f"adaptador-{args.pauta or 'orientacao-eduardo'}"
+    nome = f"redator-{args.pauta or 'orientacao-eduardo'}"
     gravar(nome, partes)
 
 

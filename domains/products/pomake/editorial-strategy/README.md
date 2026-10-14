@@ -11,7 +11,7 @@ Este diretório é a **única** estratégia de conteúdo do Pomake, executada ex
 - [Territórios editoriais](territories.md): os seis territórios, a regra de propriedade e a regra de produção.
 - [Banco de pautas](content-bank/): ideias reutilizáveis, com um exemplo de recorte em cada uma.
 - [Índice de pautas](pautas.yaml): status de cada pauta e Reels produzidos a partir dela.
-- [Catálogo de ganchos](hooks.md): 18 técnicas de gancho e regras de uso.
+- [Catálogo de ganchos](hooks.md): consulta editorial opcional; não entra no briefing do redator.
 
 O conteúdo passa por pauta, [história bruta](../../../../.agents/skills/pomake-reels/references/historia.md) e [adaptação para Reel](../../../../.agents/skills/pomake-reels/references/redator.md). A história precisa ser compreensível antes de receber gancho, duração e texto de tela.
 
@@ -40,7 +40,7 @@ O script `.agents/skills/pomake-reels/scripts/preparar.py` extrai trechos destes
 - `territories.md`: os títulos numerados dos seis territórios (`## N. Nome`) e Regra de propriedade editorial.
 - `content-bank/0N-*.md`: os títulos `### Pauta N — <título>`.
 - `../o-que-e-o-pomake.md`: Estado e uso (o texto antes dele é a definição usada no território 6).
-- `hooks.md` é usado por inteiro.
+- `hooks.md` pode ser consultado separadamente, mas não entra no briefing do redator.
 - `.agents/skills/pomake-reels/references/historia.md`: instruções da história bruta.
 - `.agents/skills/pomake-reels/references/redator.md`: instruções da adaptação para Reel.
 
