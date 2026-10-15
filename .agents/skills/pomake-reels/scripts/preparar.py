@@ -304,8 +304,6 @@ def cmd_adaptador(args):
         "Leia também a matéria indicada pelo coordenador. Ela é o único insumo de conteúdo.",
         bloco("Instruções do adaptador", ".agents/skills/pomake-reels/references/adaptador.md",
               sem_titulo(ler(SKILL / "references/adaptador.md"))),
-        bloco("Limites", "editorial-strategy/foundation.md",
-              extrair(ESTRATEGIA / "foundation.md", ["Limites"])),
     ]
     gravar("adaptador", partes)
 
