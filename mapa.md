@@ -20,6 +20,7 @@ Use este mapa para descobrir onde ler e onde registrar uma entrega. A identidade
 - Marca e estratégia editorial: `references/brand/` e `references/editorial/`
 - Entradas recebidas de outro agente: `inbox/personal-content/`
 - Skill de carrossel ponta a ponta: `.agents/skills/instagram-carousel/`
+- Skill de roteiro de Reels por pauta (motor de pautas): `.agents/skills/motor-de-pautas/`
 
 ### Interseção compartilhada
 
