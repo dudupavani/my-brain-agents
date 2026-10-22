@@ -81,7 +81,7 @@ Se você enrola, a pessoa sai. Na dúvida, use menos slides.
 
 ### 4. Escrever pela função de cada slide
 
-Antes de escrever, leia [os moldes](references/moldes.md). Eles mostram a mecânica de cada função em forma de lacunas. São padrões, não textos para copiar.
+Antes de escrever, leia [os exemplos aprovados](references/exemplos.md) e [os moldes](references/moldes.md). Os exemplos mostram o tom, o corte e o ritmo que Eduardo aprova, e são a referência principal de como o texto deve soar. Os moldes mostram a mecânica de cada função em forma de lacunas. Nenhum dos dois é texto para copiar.
 
 A sequência segue uma espinha: **preparar → tensionar → recompensar**.
 
