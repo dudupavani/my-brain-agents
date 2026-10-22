@@ -16,7 +16,7 @@ Antes de criar ou alterar um item, leia:
 4. `references/editorial/content-rules.md` quando o item for notícia, novidade de IA ou ideia relacionada a produto;
 5. a skill correspondente em `.agents/skills/`.
 
-Para pedidos de carrossel, use `.agents/skills/instagram-carousel/SKILL.md` como workflow único da entrada aos PNGs finais.
+Para pedidos de carrossel, use `.agents/skills/motor-de-carrossel/SKILL.md`. Ela entrega somente o texto dos slides; a arte é feita pelo Eduardo.
 
 ## Pacotes
 
@@ -32,12 +32,9 @@ Cada conteúdo vive em `content/items/<id>/`. Não mova a pasta para indicar ava
 
 Nos novos itens, use `owner: personal-content` até `in_review`. A partir de `in_review`, use `owner: eduardo`. Pacotes experimentais antigos podem manter proprietários legados até serem retomados.
 
-A quantidade de slides para o feed é 6 ou 7, salvo autorização explícita do Eduardo. O formato final do carrossel é 1080 × 1350 pixels, em retrato 4:5, para o feed.
-
 ## Persistência
 
 - Uma solicitação clara de conteúdo final cria ou atualiza um pacote sem exigir a frase “prepare para o Codex”.
 - Análise, conversa e brainstorm permanecem na conversa, salvo pedido explícito para registrar.
-- “Crie ou faça um carrossel” autoriza o fluxo completo até `in_review`, incluindo assets, renderização e QA, sem aprovação intermediária.
-- Se Eduardo pedir somente estrutura, roteiro ou copy, encerre em `ready_for_design` e não produza imagens.
+- Pedido de carrossel entrega o texto dos slides pela skill `motor-de-carrossel`; não produza imagens.
 - Não altere `approved` ou `published` sem ação do Eduardo.

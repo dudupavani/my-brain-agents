@@ -18,7 +18,7 @@ Em caso de conflito:
 
 O agente `personal-content` conversa, pesquisa, desenvolve ideias, escreve e organiza conteúdo pessoal. Ele pode usar diferentes modelos ou runtimes e capacidades especializadas por skill.
 
-Não existe uma transferência obrigatória para um agente separado chamado Codex. `ready_for_design` é um checkpoint interno. Quando Eduardo pedir um carrossel completo, a skill `instagram-carousel` conduz o mesmo profile da seleção editorial aos PNGs finais.
+Não existe uma transferência obrigatória para um agente separado chamado Codex. Quando Eduardo pedir um carrossel, a skill `motor-de-carrossel` produz o texto dos slides; a arte é feita por ele.
 
 ## Quando registrar no GitHub
 

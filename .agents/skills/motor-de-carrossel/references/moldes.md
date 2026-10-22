@@ -15,7 +15,9 @@ Padrões extraídos de carrosséis que performaram, escritos como lacunas. A mec
 | Como [resultado desejado] sem [sacrifício que o público espera]. | Promessa que remove a objeção principal. |
 | Parei de [hábito comum do público]. [Consequência surpreendente]. | Confissão que contraria o comportamento padrão. |
 
-A capa fala com quem tem o problema, não sobre o tema. Gancho negativo (erro, perda, risco) costuma parar mais que gancho positivo.
+A capa fala com quem tem o problema, não sobre o tema. Gancho negativo (erro, perda, risco) costuma parar mais que gancho positivo, desde que o tom do perfil permita.
+
+Os moldes "[ação inesperada] — de propósito" e "Parei de [hábito]" pressupõem uma experiência vivida. Use-os só quando a fonte ou o perfil sustentarem essa experiência; nunca invente um relato em primeira pessoa.
 
 ## Slide 2 — a aposta
 

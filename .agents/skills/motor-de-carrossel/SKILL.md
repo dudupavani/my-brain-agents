@@ -22,9 +22,16 @@ O perfil define **para quem** se escreve, e é isso que decide o que conta como 
 - um produto → leia a pasta `domains/products/<produto>/`.
 - Se o perfil não tiver claros estes quatro pontos — **público**, **crença ou dor que esse público tem hoje**, **tom** e **ação desejada no final** — pergunte os que faltarem antes de escrever. Nunca invente o público ou o tom de um produto.
 
+## Quem decide o quê
+
+- **Este método decide a estrutura:** tese, formato, função de cada slide, sequência e crítico.
+- **O perfil decide o tom e os limites:** como se fala, o que não se promete, que tipo de ação se pede no final.
+
+Quando os dois entrarem em conflito, o perfil vence. Exemplo: se o perfil pede autoridade e proíbe tom de guru ou vendedor, a capa continua abrindo uma lacuna, mas sem sensacionalismo, e o final pede salvar ou opinar em vez de prometer brinde.
+
 ## Regra que não se negocia: tensão sim, invenção não
 
-Fatos, números, nomes, exemplos e resultados vêm da fonte. A tese é um **recorte da fonte com tensão**, não uma opinião nova colada por cima. Não escreva experiência em primeira pessoa que a fonte ou o perfil não sustentem. Se a fonte não tem nenhum ponto com tensão para aquele público, diga isso a Eduardo em vez de forçar.
+Fatos, números, nomes, exemplos, consequências e resultados vêm da fonte. A tese é um **recorte da fonte com tensão**, não uma opinião nova colada por cima. Não escreva experiência em primeira pessoa que a fonte ou o perfil não sustentem. Se a fonte não tem nenhum ponto com tensão para aquele público, diga isso a Eduardo em vez de forçar.
 
 ## Processo
 
@@ -46,6 +53,12 @@ Geradores fracos resumem a fonte na ordem em que ela foi escrita. Aqui se garimp
 Escolha o átomo com mais tensão **para o público do perfil** e escreva a tese neste formato:
 
 > O público acha **X**. Na verdade é **Y**. E isso custa **Z**.
+
+De onde vem cada parte:
+
+- **X** vem do perfil: é a crença ou a dor que o público tem hoje.
+- **Y** e **Z** vêm da fonte. Se a fonte não diz o que se perde ou se ganha, não invente o Z.
+- Em notícia, a tensão costuma estar na própria mudança: o que era de um jeito e passou a ser de outro, e por que isso importa para esse público. Use essa tensão; não acrescente uma leitura que a fonte não sustenta.
 
 Teste da tese: o público discordaria, se surpreenderia ou se sentiria pego no flagra? Se todo mundo concordaria sem pensar, a tese está fraca; escolha outro átomo.
 
@@ -72,7 +85,8 @@ Antes de escrever, leia [os moldes](references/moldes.md). Eles mostram a mecân
 
 A sequência segue uma espinha: **preparar → tensionar → recompensar**.
 
-- **Slide 1 — capa (abertura fria).** Joga a pessoa dentro do assunto; não apresenta o assunto. Fala com quem sofre o problema ("você"), é específica (um número, uma situação reconhecível, uma consequência) e abre uma lacuna sem entregar a resposta.
+- **Slide 1 — capa (abertura fria).** Joga a pessoa dentro do assunto; não apresenta o assunto. Fala com quem sofre o problema ("você"), é específica (um número, uma situação reconhecível, uma consequência) e abre uma lacuna sem entregar a resposta. Cabe em uma ou duas linhas curtas: capa longa não para o scroll.
+  A capa é o que mais pesa no resultado, então não aceite a primeira versão. Escreva internamente **três capas de tipos diferentes** (por exemplo: erro, espelho e contraste), aplique a cada uma o teste da capa do crítico e use só a mais forte. Entregue apenas a vencedora.
 - **Slide 2 — a aposta.** Prova que vale continuar: mostra o motivo do problema ou o que está em jogo e espelha algo que o público pensa e não admite. **Não fecha a lacuna ainda.** Não exagere a promessa: o resto do carrossel tem que conseguir cumpri-la.
 - **Miolo — a entrega com tensão.** Cada slide responde a pergunta que o anterior deixou e abre a próxima. Aqui se entrega de verdade o que a capa prometeu, sem guardar o melhor.
 - **A virada (penúltimo ou antepenúltimo).** Muda o problema que a pessoa *acha* que tem para o problema *real*. É o slide mais afiado do conjunto: a frase que alguém printaria.

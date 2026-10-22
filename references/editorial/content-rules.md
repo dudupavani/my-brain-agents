@@ -58,4 +58,4 @@ Antes de escrever a copy, identifique o formato central da fonte e mantenha-o re
 
 ## Autonomia e passagem de etapa
 
-Quando Eduardo pedir somente estrutura, roteiro ou copy a partir de uma entrada utilizável, o agente deve avançar até `ready_for_design`. Quando pedir um carrossel, deve usar a skill `instagram-carousel` e seguir até `in_review`, incluindo imagens e PNGs finais. Não peça aprovação intermediária; só interrompa diante de bloqueio factual, técnico ou de uma escolha que mude materialmente o conteúdo.
+Quando Eduardo pedir um carrossel, use a skill `motor-de-carrossel`, que entrega somente o texto dos slides. Não peça aprovação intermediária; só interrompa diante de bloqueio factual, técnico ou de uma escolha que mude materialmente o conteúdo.
