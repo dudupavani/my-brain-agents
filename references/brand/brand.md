@@ -27,7 +27,7 @@ Este arquivo reúne apenas regras já aprovadas ou fatos conhecidos. Campos aind
 - Sensação que o design deve transmitir: ainda a definir pelas referências visuais aprovadas.
 - Cores, se já definidas: ainda a definir.
 - Tipografia, se já definida: ainda a definir.
-- Elementos e estilos que combinam: seguir as referências JPEG obrigatórias da skill de carrossel quando houver design.
+- Elementos e estilos que combinam: ainda a definir.
 - Elementos e estilos proibidos: não copiar referências isoladas; evitar estética genérica de robôs, cérebros luminosos e código puramente decorativo quando não for indispensável à tese.
 
 ## Limites editoriais

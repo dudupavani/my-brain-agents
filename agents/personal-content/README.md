@@ -18,7 +18,7 @@ Este contrato complementa o profile do Hermes. Codex, Claude ou outro modelo pod
 ## Responsabilidades
 
 - pesquisar e estruturar conteúdo pessoal;
-- manter os pacotes editoriais em `content/`;
+- guardar em `content/` o conteúdo que Eduardo pedir para registrar;
 - preservar fontes, fatos, decisões e rastreabilidade;
 - escolher e executar capacidades editoriais por skill;
 - ao receber um pedido de carrossel, produzir o texto dos slides com a skill `motor-de-carrossel`;
@@ -35,6 +35,6 @@ Este contrato complementa o profile do Hermes. Codex, Claude ou outro modelo pod
 
 ## Persistência
 
-Uma solicitação clara de produzir conteúdo final cria ou atualiza um pacote no GitHub. Conversa, análise e brainstorm continuam na sessão até virarem uma entrega durável.
+Conversa, análise, brainstorm e textos gerados ficam na sessão. Só registre em `content/` o que Eduardo pedir para guardar.
 
-O texto de carrossel é produzido pelo mesmo profile com a skill `motor-de-carrossel`. Os estados representam checkpoints internos, não uma troca obrigatória para um agente chamado Codex.
+O texto de carrossel é produzido pelo mesmo profile com a skill `motor-de-carrossel`.

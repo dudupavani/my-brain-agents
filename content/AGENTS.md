@@ -1,6 +1,6 @@
 # Instruções do domínio de conteúdo pessoal
 
-Este diretório é a fonte canônica dos conteúdos pessoais produzidos para Eduardo.
+Este diretório é o lugar canônico do conteúdo pessoal do Eduardo que ele pedir para guardar.
 
 ## Responsável
 
@@ -8,33 +8,16 @@ O agente lógico `personal-content` conduz o fluxo. Codex, Claude ou outro model
 
 ## Leitura obrigatória
 
-Antes de criar ou alterar um item, leia:
+Antes de criar conteúdo, leia:
 
 1. `agents/personal-content/README.md`;
 2. `references/brand/brand.md`;
 3. `references/editorial/content-system.md`;
-4. `references/editorial/content-rules.md` quando o item for notícia, novidade de IA ou ideia relacionada a produto;
-5. a skill correspondente em `.agents/skills/`.
+4. a skill correspondente em `.agents/skills/`.
 
 Para pedidos de carrossel, use `.agents/skills/motor-de-carrossel/SKILL.md`. Ela entrega somente o texto dos slides; a arte é feita pelo Eduardo.
 
-## Pacotes
-
-Cada conteúdo vive em `content/items/<id>/`. Não mova a pasta para indicar avanço.
-
-- `draft`: pesquisa ou copy em elaboração;
-- `ready_for_design`: copy final e pronta para a capacidade visual;
-- `in_production`: produção visual em andamento;
-- `in_review`: entrega final aguardando Eduardo;
-- `approved`: aprovado por Eduardo;
-- `published`: publicado;
-- `blocked`: falta fonte, decisão ou acesso.
-
-Nos novos itens, use `owner: personal-content` até `in_review`. A partir de `in_review`, use `owner: eduardo`. Pacotes experimentais antigos podem manter proprietários legados até serem retomados.
-
 ## Persistência
 
-- Uma solicitação clara de conteúdo final cria ou atualiza um pacote sem exigir a frase “prepare para o Codex”.
-- Análise, conversa e brainstorm permanecem na conversa, salvo pedido explícito para registrar.
-- Pedido de carrossel entrega o texto dos slides pela skill `motor-de-carrossel`; não produza imagens.
-- Não altere `approved` ou `published` sem ação do Eduardo.
+- O texto gerado fica na conversa. Só registre algo neste diretório quando Eduardo pedir para guardar.
+- Não produza imagens nem arte.

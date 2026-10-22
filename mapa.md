@@ -65,7 +65,7 @@ generated-content/          JSONs e PNGs gerados pelos sistemas de design
 | Código-fonte de software | Repositório próprio do software; registre aqui apenas contexto e link |
 | Ideia enviada de produtos para conteúdo | `inbox/personal-content/` com link para a origem |
 | Ideia enviada de conteúdo para produtos | `inbox/products/` com link para a origem |
-| Pacote de conteúdo pessoal | `content/items/<id>/` |
+| Conteúdo pessoal guardado a pedido do Eduardo | `content/` |
 | Identidade e regras editoriais | `references/brand/` e `references/editorial/` |
 | Procedimento recorrente e compartilhável | `.agents/skills/<nome>/` |
 | Código do Extract Design | `projects/extract-design/` |

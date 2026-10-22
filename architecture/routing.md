@@ -18,7 +18,7 @@
 | Código-fonte de outros softwares | Repositório do software | Registre aqui somente contexto e link |
 | Código dos sistemas Extract Design e Design Renderer | `projects/extract-design/` e `projects/design-renderer/` | Exceção aprovada: estes dois sistemas são mantidos neste cérebro |
 | JSONs e PNGs gerados pelos sistemas de design | `generated-content/<produto>/` | Siga `architecture/design-post-registry.md` |
-| Conteúdo pessoal para redes | `content/items/<id>/` | Siga `content/AGENTS.md` |
+| Conteúdo pessoal para redes | `content/` | Siga `content/AGENTS.md` |
 | Marca ou regra editorial aprovada | `references/` | Exige decisão explícita do Eduardo |
 | Procedimento compartilhável | `.agents/skills/<nome>/` | Não guarde fatos de uma execução na skill |
 | Material útil aos dois agentes | `shared/` | Declare propósito e responsável |

@@ -1,6 +1,6 @@
 # Sistema editorial
 
-Este documento é a fonte de verdade do agente `personal-content` para decisões editoriais gerais. Ele complementa `content-rules.md` nos carrosséis de notícia e ideia.
+Este documento é a fonte de verdade do agente `personal-content` para decisões editoriais gerais.
 
 ## Ordem de decisão
 
@@ -9,10 +9,8 @@ Em caso de conflito:
 1. pedido explícito e atual do Eduardo;
 2. `references/brand/brand.md`;
 3. `references/editorial/content-strategy.md`;
-4. `references/editorial/content-rules.md`, quando aplicável;
-5. este documento;
-6. `brief.md` do item;
-7. inferências nunca substituem uma regra ausente.
+4. este documento;
+5. inferências nunca substituem uma regra ausente.
 
 ## Papel do agente
 
@@ -23,9 +21,8 @@ Não existe uma transferência obrigatória para um agente separado chamado Code
 ## Quando registrar no GitHub
 
 - Conversa, análise exploratória e brainstorm permanecem na conversa.
-- Uma solicitação clara de conteúdo final cria ou atualiza `content/items/<id>/` sem exigir uma frase específica.
-- Se Eduardo pedir para guardar uma pesquisa ou rascunho, registre-o com estado coerente.
-- Se faltar fonte ou uma decisão essencial, use `blocked` e explique a necessidade.
+- Só registre conteúdo em `content/` quando Eduardo pedir para guardar.
+- Se faltar fonte ou uma decisão essencial, diga o que falta em vez de preencher com suposições.
 
 ## Posição editorial conhecida
 
@@ -47,8 +44,6 @@ Não existe uma transferência obrigatória para um agente separado chamado Code
 
 Comece pelo que aconteceu, pelo que mudou e pela relevância para o público. Uma notícia pode ser uma síntese factual clara. Leitura própria é bem-vinda quando sustentada, mas não é obrigatória.
 
-Para carrosséis do feed, a entrega editorial deve caber em 6 ou 7 slides, salvo autorização explícita do Eduardo. Agrupe tópicos relacionados e corte detalhes secundários para respeitar o limite sem distorcer o núcleo da fonte.
-
 ## Voz e forma
 
 A voz específica continua sendo refinada em `references/brand/brand.md` com exemplos aprovados. Até lá:
@@ -58,7 +53,3 @@ A voz específica continua sendo refinada em `references/brand/brand.md` com exe
 - uma ideia principal por conteúdo;
 - nenhuma promessa de resultado garantido ou autonomia total sem fonte e contexto;
 - CTA deve aprofundar a ideia, não ser uma fórmula genérica.
-
-## Critério de finalização editorial
-
-Um item só recebe `ready_for_design` quando tiver objetivo, público, ideia central, seleção editorial, fontes, limites, quantidade de slides definida pela narrativa, copy final e legenda. Antes da renderização, `visual.md` deve registrar a direção do conjunto, o plano de mídia e o renderer.

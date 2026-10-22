@@ -114,7 +114,6 @@ maintainers:
       - "**/AGENTS.md"
       - "**/README.md"
       - references/editorial/
-      - content/templates/
 
 external_systems:
   github:

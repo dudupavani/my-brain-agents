@@ -34,7 +34,6 @@ O Codex Desktop, quando Eduardo pedir trabalho sobre este repositório, atua com
 - O Hermes já funciona, já acessa o GitHub e permanece fora do escopo técnico deste repositório.
 - Há um único repositório com dois cérebros lógicos, `products` e `personal-content`; não existe masterbrain.
 - O texto de carrossel é feito pela skill `.agents/skills/motor-de-carrossel/`. Ela entrega somente o texto dos slides; a arte é feita pelo Eduardo.
-- Pacotes antigos em `content/items/` são experimentos preservados e não definem regras automaticamente.
 - Identidade verbal continua evoluindo por testes reais; não invente definições ainda ausentes em `references/brand/brand.md`.
 
 ## Como colaborar com Eduardo
